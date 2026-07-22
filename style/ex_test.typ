@@ -449,27 +449,27 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
 }
 
 // Môi trường itemize
-#let itemize(content) = {
+#let itemize(body) = {
   parbreak()
   set list(marker: ([--], [+]), indent: 1em)
   block(above: 1em, below: 1em)[
-    #content
+    #body
   ]
   parbreak()
 }
 
 // Môi trường enumerate
-#let enumerate(content) = {
+#let enumerate(body) = {
   parbreak()
   set enum(numbering: "a1.", indent: 1em)
   block(above: 1em, below: 1em)[
-    #content
+    #body
   ]
   parbreak()
 }
 
 // Lệnh bổ sung cho listEX, itemchoice
-// Duyệt đệ quy để lấy nội dung từng mục "+ ..." trong content
+// Duyệt đệ quy để lấy nội dung từng mục "+ ..." trong body
 #let extract-items(body) = {
   if body.func() == enum.item {
     (body.body,)
@@ -578,16 +578,6 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
 #let immini(text_content, image_content) = {
   let cell1 = context {
     let titleStyle = current_theorem_imminiF.get().f
-    let fulllabel = if in_chc_state.get() {
-      current_chc_full_label.get()
-    } else {
-      current_theorem_full_label.get()
-    }
-    let shortlabel = if in_chc_state.get() {
-      current_chc_short_label.get()
-    } else {
-      current_theorem_short_label.get()
-    }
     let label = if in_chc_state.get() {
       current_chc_label.get()
     } else {
@@ -603,6 +593,8 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
     } else {
       current_theorem_title.get()
     }
+    let fulllabel = label + " " + str(count) + if title != none { " (" + title + ")" } + "."
+    let shortlabel = label + " " + str(count) + "."
     let prefix = if type(titleStyle) == function {
       titleStyle(
         fulllabel: fulllabel,
@@ -632,16 +624,6 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
 #let imminiL(text_content, image_content) = {
   let cell2 = context {
     let titleStyle = current_theorem_imminiF.get().f
-    let fulllabel = if in_chc_state.get() {
-      current_chc_full_label.get()
-    } else {
-      current_theorem_full_label.get()
-    }
-    let shortlabel = if in_chc_state.get() {
-      current_chc_short_label.get()
-    } else {
-      current_theorem_short_label.get()
-    }
     let label = if in_chc_state.get() {
       current_chc_label.get()
     } else {
@@ -657,6 +639,8 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
     } else {
       current_theorem_title.get()
     }
+    let fulllabel = label + " " + str(count) + if title != none { " (" + title + ")" } + "."
+    let shortlabel = label + " " + str(count) + "."
     let prefix = if type(titleStyle) == function {
       titleStyle(
         fulllabel: fulllabel,
@@ -707,7 +691,7 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
 }
 
 // loigiai: tự quyết định hiển thị ngay hay "gửi ra ngoài"
-#let loigiai(content) = context {
+#let loigiai(body) = context {
   parbreak()
   let name = current_theorem_name.get()
   let show_ans = state(name + "_show_ans").get()
@@ -715,19 +699,19 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
   let colnum = state(name + "_show_ans_dotline_colnum").get()
   if in_theorem_state.get() or in_chc_state.get() {
     if show_ans != none and show_ans {
-      loigiai_state.update(content)
+      loigiai_state.update(body)
     }
   } else {
     align(center)[#loigiaiEX.get()]
     if show_ans_dotline != none and show_ans_dotline {
       layout(size => {
-        let content_size = measure(content, width: size.width)
+        let body_size = measure(body, width: size.width)
         let socot_final = if colnum != none { colnum } else { 1 }
-        let n = calc.max(calc.ceil(content_size.height / par.leading.to-absolute() / 2), 1)
+        let n = calc.max(calc.ceil(body_size.height / par.leading.to-absolute() / 2), 1)
         dotlineEX(n, socot: socot_final)
       })
     } else {
-      content
+      body
     }
   }
   parbreak()
