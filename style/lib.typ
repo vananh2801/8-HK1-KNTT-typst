@@ -444,7 +444,7 @@
       ]
       #box(width: auto, fill: red.darken(40%), radius: 4pt, inset: 4pt)[
         #set text(fill: white, font: "JetBrains Mono", size: 10pt, weight: "semibold")
-        Phương pháp
+        #label
       ]
     ],
   )
@@ -468,6 +468,15 @@
 #let phuongphap = createTheoremEx(
   "phuongphap",
   "Phương pháp",
+  boxF: phuongphapBox,
+  contentF: phuongphapContentF,
+  imminiF: phuongphapImminiF,
+)
+
+// Quy tắc
+#let quytac = createTheoremEx(
+  "quytac",
+  "Quy tắc",
   boxF: phuongphapBox,
   contentF: phuongphapContentF,
   imminiF: phuongphapImminiF,
