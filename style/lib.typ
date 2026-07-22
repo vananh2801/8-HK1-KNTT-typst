@@ -109,6 +109,8 @@
     counter("bt_count").update(0)
     counter("btrl_count").update(0)
     counter("ex_count").update(0)
+    counter("phuongphap_count").update(0)
+    counter("quytac_count").update(0)
     current_chapter_title.update(it.body)
     current_section_title.update(none)
   }
@@ -146,6 +148,8 @@
     counter("bt_count").update(0)
     counter("btrl_count").update(0)
     counter("ex_count").update(0)
+    counter("phuongphap_count").update(0)
+    counter("quytac_count").update(0)
     current_section_title.update(it.body)
   }
 
