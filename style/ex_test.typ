@@ -781,6 +781,7 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
       ]
     }
   }
+  immini_at_start_state.update(false)
   in_chc_state.update(false)
   context {
     if loigiai_state.get() != none {
@@ -871,6 +872,7 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
       ]
     }
     in_theorem_state.update(false)
+    immini_at_start_state.update(false)
     context {
       if loigiai_state.get() != none {
         loigiai[#loigiai_state.get()]
