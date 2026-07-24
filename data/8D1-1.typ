@@ -7,13 +7,13 @@
 
 #subsubsection[Đơn thức và đơn thức thu gọn]
 
-#dn(tieude: "Khái niệm đơn thức")[
+#dn(tieude: "Đơn thức")[
   _Đơn thức_ là _biểu thức đại số chỉ gồm một số hoặc một biến_, hoặc có dạng tích của những số và biến.
 ]
 
 #vd[
   Tìm đơn thức trong các biểu thức sau:
-  #listEX(socot: 4)[
+  #listEX[
     + $-x 6 y$;
     + $x + 2 y$;
     + $0","3 x y x^2$;
@@ -40,14 +40,14 @@
   #cacbuoc()[
     + Sử dụng tính chất giao hoán của phép nhân để sắp xếp các thừa số là số vào một nhóm, các thừa số cùng biến vào một nhóm.
     + Thực hiện phép nhân trong các nhóm.
-    + Viết kết quả cuối cùng
+    + Viết kết quả cuối cùng.
   ]
 ]
 
 #vd()[
   Thu gọn đơn thức $A=2x y(-3)x^2z$. Xác định hệ số, phần biến của đơn thức thu gọn.
   #loigiai()[
-    #dotlineEX(2)
+    #dotlineEX(3)
   ]
 ]
 
@@ -105,31 +105,12 @@
 #subsection()[Bài tập tự luận]
 
 #bt()[
-  Chỉ ra các đơn thức, đa thức trong các biểu thức sau:
-  #align(center)[
-    $-3$; $quad$ $2z$; $quad$ $1/3 x y + 1$; $quad$ $-10x^2 y z$; $quad$ $4/(x y)$; $quad$ $5x - z/2$; $quad$ $1 + 1/y$.
-  ]
-]
-
-#bt()[
   Thu gọn các đơn thức sau. Chỉ ra hệ số, phần biến và bậc của mỗi đơn thức.
   #listEX()[
     + $5x y x$;
     + $-x y z 2/3 y$;
     + $-2x^2(-1/6)x$.
   ]
-]
-
-#bt()[
-  Thu gọn và tìm bậc của mỗi đa thức sau:
-  #listEX()[
-    + $M = x - 3 - 4y + 2x - y$;
-    + $N = -x^2 t + 13t^3 + x t^2 + 5t^3 - 4$.
-  ]
-]
-
-#bt()[
-  Tính giá trị của đa thức $P = 3x y^2 - 6x y + 8x z + x y^2 - 10x z$ tại $x = -3$; $y = -1/2$; $z = 3$.
 ]
 
 #bt()[
@@ -140,7 +121,7 @@
     #cetz.canvas(length: 1.1cm, {
       import cetz.draw: *
       // Cài đặt nét vẽ bo tròn giống line cap=round
-      set-style(stroke: (cap: "round", join: "round"))
+      set-style(stroke: (cap: "round"), mark: (fill: black))
       // Tô màu nền (tương đương \fill[orange!30])
       line(
         (0, 0),
@@ -164,8 +145,8 @@
       // anchor: "west" đặt node ở phía đông (tương đương right)
       // anchor: "north-west" đặt node ở phía đông nam (tương đương below right)
       content((1.5, 0), [$3x$], anchor: "north", padding: 5pt)
-      content((4, 2), [$2x$], anchor: "west", padding: 5pt)
-      content((3.5, 0.5), [$4x$], anchor: "north-west", padding: 5pt)
+      content((4, 2), [$2y$], anchor: "west", padding: 5pt)
+      content((3.5, 0.5), [$4z$], anchor: "north-west", padding: 5pt)
     })
   ]
 ]
@@ -182,16 +163,6 @@
     + $9x^2 y z$;
     + $15","5$;
     + $1 - 5/9 x^3$.
-  ]
-]
-
-#bt()[
-  Cho các biểu thức sau:
-  $ a b^2 - pi r^2; (4 pi r^3)/3; p/(2 pi); 2x - 1/y; 0; -1/sqrt(3); x^3 + 2x^2 - x + 4. $
-  Trong các biểu thức trên, hãy chỉ ra:
-  #listEX()[
-    + Các đơn thức.
-    + Các đa thức và số hạng tử của chúng.
   ]
 ]
 
@@ -228,7 +199,7 @@
       content((2, 3), [$4x$], anchor: "south", padding: 5pt)
       content((0, 1.5), [$h$], anchor: "east", padding: 5pt)
       content((1, 1.5), [$x$], anchor: "west", padding: 2pt)
-      content((2, 1), [$2x$], anchor: "south", padding: 5pt)
+      content((2, 1), [$2x$], anchor: "north", padding: 5pt)
     })
   ]
 ]
@@ -264,7 +235,7 @@
 
 #bt()[
   #listEX()[
-    + Cho biết phần hệ số, phần biến và bậc của mỗi đơn thức sau: $2,5x^2 y; 0,25x^2 y^2$;
+    + Cho biết phần hệ số, phần biến và bậc của mỗi đơn thức sau: $2","5x^2 y; 0","25x^2 y^2$;
     + Tính giá trị của mỗi đơn thức trên tại $x=1$ và $y=-1$.
   ]
 ]
