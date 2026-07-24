@@ -270,86 +270,72 @@
   math.cases(..parts.pos(), delim: "[")
 }
 
-#let dnBox(body) = {
-  block(
-    stroke: (left: 3pt + red.darken(30%)),
-    width: 100%,
-    radius: 0pt,
-    inset: (left: 1em, right: 1em, top: 0.5em, bottom: 0.5em),
-    outset: (left: -3pt),
-    breakable: true,
-  )[#body]
-}
-
-#let dlBox(body) = {
-  block(
-    width: 100%,
-    radius: 6pt,
-    inset: 1em,
-    stroke: 1pt + red.darken(30%),
-    breakable: true,
-  )[#body]
-}
-
-#let tcBox(body) = {
-  block(
-    width: 100%,
-    radius: 6pt,
-    inset: 1em,
-    stroke: 1pt + red.darken(30%),
-    breakable: true,
-  )[#body]
-}
-
-#let vdBox(body) = {
-  block(
-    width: 100%,
-    radius: 6pt,
-    inset: 1em,
-    fill: blue.lighten(90%),
-    stroke: 0pt + black,
-    breakable: true,
-  )[#body]
-}
-
-#let btBox(body) = {
+// Lý thuyết
+#let lythuyetContentF(body, fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
+  #let chapter_count = context { counter(heading).get().at(0) }
+  #let section_count = context { counter(heading).get().at(01) }
+  #grid(
+    columns: (auto, auto),
+    column-gutter: 1fr,
+    align: top + left,
+    [
+      // In đậm Tiêu đề
+      #box(width: auto, radius: 4pt, inset: (top: 4pt, bottom: 4pt))[
+        #set text(fill: black, size: 12pt, weight: "bold")
+        #title
+      ]
+    ],
+    [
+      #h(1em)
+      #box(width: auto, fill: red.lighten(80%), radius: 4pt, inset: 4pt)[
+        #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "semibold")
+        #chapter_count.#section_count.#count
+      ]
+      #box(width: auto)[
+        #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "bold")
+        |
+      ]
+      #box(width: auto, fill: blue.lighten(80%), radius: 4pt, inset: 4pt)[
+        #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "semibold")
+        #label
+      ]
+    ],
+  )
+  #parbreak()
+  // Xuất nội dung
+  #body
+]
+#let lythuyetImminiF(fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
+  #strong[#shortlabel]
+]
+#let lythuyetBoxF(body) = {
   block(
     width: 100%,
     radius: 6pt,
     inset: 1em,
-    fill: blue.lighten(90%),
-    stroke: 0pt + black,
+    fill: white,
+    stroke: 0.7pt + black,
     breakable: true,
   )[#body]
 }
 
-#let exBox(body) = {
+// Bài tập
+#let baitapBoxF(body) = {
   block(
     width: 100%,
     radius: 6pt,
     inset: 1em,
-    fill: blue.lighten(90%),
-    stroke: 0pt + black,
+    fill: red.lighten(90%),
+    stroke: none,
     breakable: true,
   )[#body]
 }
 
-#let btrlBox(body) = {
-  block(
-    width: 100%,
-    radius: 6pt,
-    inset: 1em,
-    fill: blue.lighten(90%),
-    stroke: 0pt + black,
-    breakable: true,
-  )[#body]
-}
-
-#let questionImminiF(fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
+#let baitapImminiF(fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
   #strong[#shortlabel]
 ]
 
-#let questionContentF(body, fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
+#let baitapContentF(body, fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
   // In đậm Tiêu đề
   #strong[#shortlabel]
   // Xuất nội dung
@@ -372,18 +358,23 @@
 #let dn = createTheoremEx(
   "dn",
   "Định nghĩa",
-  boxF: dnBox,
+  boxF: lythuyetBoxF,
+  contentF: lythuyetContentF,
+  imminiF: lythuyetImminiF,
 )
 #let dl = createTheoremEx(
   "dl",
   "Định lý",
-  boxF: dlBox,
-  contentF: dlcontentF,
+  boxF: lythuyetBoxF,
+  contentF: lythuyetContentF,
+  imminiF: lythuyetImminiF,
 )
 #let tc = createTheoremEx(
   "tc",
   "Tính chất",
-  boxF: tcBox,
+  boxF: lythuyetBoxF,
+  contentF: lythuyetContentF,
+  imminiF: lythuyetImminiF,
 )
 #let luuy = createTheoremEx(
   "luuy",
@@ -398,90 +389,42 @@
 #let vd = createTheoremEx(
   "vd",
   "Ví dụ",
-  boxF: vdBox,
-  contentF: questionContentF,
-  imminiF: questionImminiF,
+  boxF: baitapBoxF,
+  contentF: baitapContentF,
+  imminiF: baitapImminiF,
 )
 #let btrl = createTheoremEx(
   "btrl",
   "Bài",
-  contentF: questionContentF,
-  imminiF: questionImminiF,
+  contentF: baitapContentF,
+  imminiF: baitapImminiF,
 )
 #let ex = createTheoremEx(
   "ex",
   "Câu",
-  contentF: questionContentF,
-  imminiF: questionImminiF,
+  contentF: baitapContentF,
+  imminiF: baitapImminiF,
 )
 #let bt = createTheoremEx(
   "bt",
   "Bài",
-  contentF: questionContentF,
-  imminiF: questionImminiF,
+  contentF: baitapContentF,
+  imminiF: baitapImminiF,
 )
 
-// Phương pháp
-#let phuongphapContentF(body, fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
-  #let chapter_count = context { counter(heading).get().at(0) }
-  #let section_count = context { counter(heading).get().at(01) }
-  #grid(
-    columns: (auto, auto),
-    column-gutter: 1fr,
-    align: top + left,
-    [
-      // In đậm Tiêu đề
-      #box(width: auto, radius: 4pt, inset: (top: 4pt, bottom: 4pt))[
-        #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "bold")
-        #title
-      ]
-    ],
-    [
-      #h(1em)
-      #box(width: auto, fill: red.darken(20%), radius: 4pt, inset: 4pt)[
-        #set text(fill: white, font: "JetBrains Mono", size: 10pt, weight: "semibold")
-        #chapter_count.#section_count.#count
-      ]
-      #box(width: auto)[
-        #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "bold")
-        |
-      ]
-      #box(width: auto, fill: red.darken(40%), radius: 4pt, inset: 4pt)[
-        #set text(fill: white, font: "JetBrains Mono", size: 10pt, weight: "semibold")
-        #label
-      ]
-    ],
-  )
-  #parbreak()
-  // Xuất nội dung
-  #body
-]
-#let phuongphapImminiF(fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
-  #strong[#shortlabel]
-]
-#let phuongphapBox(body) = {
-  block(
-    width: 100%,
-    radius: 6pt,
-    inset: 1em,
-    fill: white,
-    stroke: 1pt + black,
-    breakable: true,
-  )[#body]
-}
 #let phuongphap = createTheoremEx(
   "phuongphap",
   "Phương pháp",
-  boxF: phuongphapBox,
-  contentF: phuongphapContentF,
-  imminiF: phuongphapImminiF,
+  boxF: lythuyetBoxF,
+  contentF: lythuyetContentF,
+  imminiF: lythuyetImminiF,
 )
 
 // Quy tắc
 #let quytac = createTheoremEx(
   "quytac",
   "Quy tắc",
-  boxF: phuongphapBox,
-  contentF: phuongphapContentF,
-  imminiF: phuongphapImminiF,
+  boxF: lythuyetBoxF,
+  contentF: lythuyetContentF,
+  imminiF: lythuyetImminiF,
 )
