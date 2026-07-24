@@ -272,6 +272,7 @@
 
 // Lý thuyết
 #let lythuyetContentF(body, fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
+  #immini_at_start_state.update(false)
   #let chapter_count = context { counter(heading).get().at(0) }
   #let section_count = context { counter(heading).get().at(01) }
   #grid(
