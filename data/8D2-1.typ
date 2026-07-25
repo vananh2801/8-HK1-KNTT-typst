@@ -184,9 +184,11 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có các _hằng đẳng thức
     Một mảnh vườn hình vuông có cạnh $10$ m được mở rộng cả hai cạnh thêm $x$ (m) như hình bên. Viết biểu thức (dạng đa thức thu gọn) biểu thị diện tích mảnh vườn sau khi mở rộng.
   ][
     #import "@preview/cetz:0.5.2"
-    #cetz.canvas(length: 0.8cm, {
+    #set text(size: 10pt)
+    #cetz.canvas(length: 0.6cm, {
       import cetz.draw: *
-      set-style(stroke: (cap: "round"), mark: (fill: black))
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
       rect((0, 0), (5, 5), fill: orange.lighten(70%))
       rect((0, 0), (2, 2), fill: white)
       line((0, 0), (0, 2), mark: (start: ">", end: ">"), stroke: 1pt)

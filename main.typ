@@ -28,6 +28,15 @@
 #include "data/8D2-1.typ"
 #include "data/8D2-2.typ"
 
+// Chương 3
+#counter(heading).update((2,))
+#chapter()[Tứ giác]
+#include "data/8H3-1.typ"
+#include "data/8H3-2.typ"
+#include "data/8H3-3.typ"
+#include "data/8H3-4.typ"
+#include "data/8H3-5.typ"
+
 // Chương 6
 #counter(heading).update((5,))
 #chapter()[Phân thức đại số]
@@ -35,9 +44,9 @@
 #include "data/8D6-2.typ"
 #include "data/8D6-3.typ"
 #include "data/8D6-4.typ"
-#counter(heading).update((9,))
 
 // Chương 10
+#counter(heading).update((9,))
 #chapter()[Một số hình khối trong thực tiễn]
 #include "data/8H10-1.typ"
 #include "data/8H10-2.typ"

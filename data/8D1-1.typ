@@ -118,8 +118,11 @@
     Viết biểu thức biểu thị thể tích $V$ và diện tích xung quanh $S$ của hình hộp chữ nhật trong hình bên. Tính giá trị của $V$, $S$ khi $x = 4$ cm, $y = 2$ cm và $z = 1$ cm.
   ][
     #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
     #cetz.canvas(length: 1.1cm, {
       import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
       // Cài đặt nét vẽ bo tròn giống line cap=round
       set-style(stroke: (cap: "round"), mark: (fill: black))
       // Tô màu nền (tương đương \fill[orange!30])
@@ -175,8 +178,11 @@
     ]
   ][
     #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
     #cetz.canvas(length: 0.8cm, {
       import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
       // Cài đặt nét vẽ (line cap=join tương đương với join: "miter" hoặc "round")
       set-style(stroke: (join: "miter"))
       // Vẽ bức tường hình thang và tô màu nền nâu nhạt
