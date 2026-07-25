@@ -593,8 +593,8 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
     } else {
       current_theorem_title.get()
     }
-    let fulllabel = label + " " + str(count) + if title != none { " (" + title + ")" } + "."
-    let shortlabel = label + " " + str(count) + "."
+    let fulllabel = label + if count != 0 { " " + str(count) } + if title != none { " (" + title + ")" } + "."
+    let shortlabel = label + if count != 0 { " " + str(count) } + "."
     let prefix = if type(titleStyle) == function {
       titleStyle(
         fulllabel: fulllabel,
@@ -639,8 +639,8 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
     } else {
       current_theorem_title.get()
     }
-    let fulllabel = label + " " + str(count) + if title != none { " (" + title + ")" } + "."
-    let shortlabel = label + " " + str(count) + "."
+    let fulllabel = label + if count != 0 { " " + str(count) } + if title != none { " (" + title + ")" } + "."
+    let shortlabel = label + if count != 0 { " " + str(count) } + "."
     let prefix = if type(titleStyle) == function {
       titleStyle(
         fulllabel: fulllabel,
