@@ -37,6 +37,20 @@
 #include "data/8H3-4.typ"
 #include "data/8H3-5.typ"
 
+// Chương 4
+#counter(heading).update((3,))
+#chapter()[Định lý Thalès]
+#include "data/8H4-1.typ"
+#include "data/8H4-2.typ"
+#include "data/8H4-3.typ"
+
+// Chương 5
+#counter(heading).update((4,))
+#chapter()[Dữ lịêu và biểu đồ]
+#include "data/8T5-1.typ"
+#include "data/8T5-2.typ"
+#include "data/8T5-3.typ"
+
 // Chương 6
 #counter(heading).update((5,))
 #chapter()[Phân thức đại số]
