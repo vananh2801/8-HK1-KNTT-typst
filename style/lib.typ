@@ -58,15 +58,17 @@
 
   // Cấu hình để math mode luôn hiện ở display style giốn \displaystyle trên latex
   show math.equation: it => {
-    math.display(it)
+    box[#math.display(it)]
   }
 
-  show math.frac: it => {
-    math.display(it)
-  }
+  // Cấu hình dấu tam giác đồng dạng
+  show math.tilde.rev: it => math.class("relation", scale(x: -100%)[∾])
 
-  show math.sum: it => {
-    math.display(it)
+  // Cấu hình kí hiệu gốc
+  set math.accent(size: 100% + 4pt)
+
+  show math.accent: it => {
+    box(inset: (left: 0.5pt, right: 0.5pt))[#it]
   }
 
   // Cấu hình bộ đếm của tiêu đề
