@@ -49,7 +49,7 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
 ]
 
 #vd()[
-  Áp dụng hằng đẳng thức để phân tích đa thức $9y^2+6y x+x^2$ thành nhân tử.
+  Viết $9y^2+6y x+x^2$ dưới dạng bình phương của một tổng.
   #loigiai()[
     #dotlineEX(2)
   ]
@@ -80,7 +80,7 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
 ]
 
 #vd()[
-  Áp dụng hằng đẳng thức để phân tích đa thức $16a^2-8a b+b^2$ thành nhân tử.
+  Viết $16a^2-8a b+b^2$ dưới dạng bình phương của một hiệu.
   #loigiai()[
     #dotlineEX(2)
   ]
@@ -108,7 +108,7 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
 ]
 
 #vd()[
-  Áp dụng hằng đẳng thức để phân tích đa thức $x^2-9$ thành nhân tử.
+  Viết $x^2-9$ dưới dạng tích.
   #loigiai()[
     #dotlineEX(2)
   ]
@@ -136,7 +136,7 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
 ]
 
 #vd()[
-  Áp dụng hằng đẳng thức để phân tích đa thức $x^3+9x^2y+27x y^2+27y^3$ thành nhân tử.
+  Viết $x^3+9x^2y+27x y^2+27y^3$ dưới dạng lập phương của một tổng.
   #loigiai()[
     #dotlineEX(2)
   ]
@@ -171,7 +171,7 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
 ]
 
 #vd()[
-  Áp dụng hằng đẳng thức để phân tích đa thức $27-27x+9x^2-x^3$ thành nhân tử.
+  Viết $27-27x+9x^2-x^3$ dưới dạng lập phương của một hiệu.
   #loigiai()[
     #dotlineEX(2)
   ]
@@ -195,7 +195,7 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
 ]
 
 #vd()[
-  Áp dụng hằng đẳng thức để phân tích đa thức $27x^3+8$ thành nhân tử.
+  Viết $27x^3+8$ dưới dạng tích.
   #loigiai()[
     #dotlineEX(2)
   ]
@@ -219,7 +219,7 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
 ]
 
 #vd()[
-  Áp dụng hằng đẳng thức để phân tích đa thức $x^3-8$ thành nhân tử.
+  Viết $x^3-8$ dưới dạng tích.
   #loigiai()[
     #dotlineEX(2)
   ]

@@ -17,7 +17,7 @@
 
 #vd()[
   Biểu thức nào dưới đây là đa thức? Hãy chỉ rõ các hạng tử của mỗi đa thức ấy.
-  $ 3x y^2-1; quad x+1/x); quad sqrt(2)x+sqrt(3)y; quad x+sqrt(x y)+y. $
+  $ 3x y^2-1; quad x+1/x; quad sqrt(2)x+sqrt(3)y; quad x+sqrt(x y)+y. $
   #loigiai()[
     #dotlineEX(5)
   ]

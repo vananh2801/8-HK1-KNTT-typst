@@ -164,7 +164,7 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
 ]
 
 #bt()[
-  Tìm đa thức $B$ biết: $B - (7x^3 - 4x^2 y - 1/2) = (2x^3 - 1/2 x^2 y - 7/2)$.
+  Tìm đa thức $B$ biết: $B - (7x^3 - 4x^2 y - 1/2) = 2x^3 - 1/2 x^2 y - 7/2$.
 ]
 
 #bt()[
