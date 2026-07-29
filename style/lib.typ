@@ -65,10 +65,10 @@
   show math.tilde.rev: it => math.class("relation", scale(x: -100%)[∾])
 
   // Cấu hình kí hiệu gốc
-  set math.accent(size: 100% + 4pt)
+  set math.accent(size: 100% + 5pt)
 
   show math.accent: it => {
-    box(inset: (left: 0.5pt, right: 0.5pt))[#it]
+    box(inset: (left: 1pt, right: 1pt))[#it]
   }
 
   // Cấu hình bộ đếm của tiêu đề
