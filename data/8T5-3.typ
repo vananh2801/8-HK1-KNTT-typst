@@ -65,10 +65,10 @@
             #box(fill: white, inset: 2pt)[
               #if arr_wrong_value != none {
                 let value = arr_wrong_value.at(i + 1) - arr_wrong_value.at(i)
-                [#value %]
+                [#value%]
               } else {
                 let value = arr_value.at(i + 1) - arr_value.at(i)
-                [#value %]
+                [#value%]
               }
             ]
           ],

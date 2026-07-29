@@ -74,7 +74,7 @@
 ]
 
 #bt()[
-  Một cửa hàng ngày thứ nhất bán được nhiều hơn ngày thứ hai 560kg gạo. Tính số gạo cửa hàng bán được trong ngày thứ nhất, biết rằng nếu ngày thứ nhất bán được thêm 60kg gạo thì sẽ gấp 1,5 lần ngày thứ hai.
+  Một cửa hàng ngày thứ nhất bán được nhiều hơn ngày thứ hai 560 kg gạo. Tính số gạo cửa hàng bán được trong ngày thứ nhất, biết rằng nếu ngày thứ nhất bán được thêm 60 kg gạo thì sẽ gấp 1,5 lần ngày thứ hai.
 ]
 
 #bt()[
@@ -90,5 +90,5 @@
 ]
 
 #bt()[
-  Một lọ dung dịch chứa 12% muối. Nếu pha thêm 350g nước vào lọ thì được một dung dịch 5% muối. Tính khối lượng dung dịch trong lọ lúc đầu.
+  Một lọ dung dịch chứa 12% muối. Nếu pha thêm 350 g nước vào lọ thì được một dung dịch 5% muối. Tính khối lượng dung dịch trong lọ lúc đầu.
 ]

@@ -267,7 +267,7 @@
 #subsection()[Bài tập tự luận]
 
 #bt()[
-  Cho tam giác $A C E$ nhọn. Trên đoạn $A C$ lấy điểm $B$, trên đoạn $A E$ lấy điểm $D$ sao cho $B D \/\/ C E$. Biết $A B=5$ cm, $B C=6$ cm, $A D=7,5$ cm. Tính $D E$.
+  Cho tam giác $A C E$ nhọn. Trên đoạn $A C$ lấy điểm $B$, trên đoạn $A E$ lấy điểm $D$ sao cho $B D \/\/ C E$. Biết $A B=5$ cm, $B C=6$ cm, $A D=7","5$ cm. Tính $D E$.
 ]
 
 #bt()[
@@ -291,7 +291,7 @@
 ]
 
 #bt()[
-  Cho tam giác $M N K$ trên đoạn $M N$ lấy điểm $E$, trên đoạn $N K$ lấy điểm $F$ sao cho $E F \/\/ M K$. Biết $N E=5$ cm, $M N=7,5$ cm, $F K=2$ cm. Tính $N F$.
+  Cho tam giác $M N K$ trên đoạn $M N$ lấy điểm $E$, trên đoạn $N K$ lấy điểm $F$ sao cho $E F \/\/ M K$. Biết $N E=5$ cm, $M N=7","5$ cm, $F K=2$ cm. Tính $N F$.
 ]
 
 #bt()[
@@ -433,7 +433,7 @@
 ]
 
 #bt()[
-  Cho tam giác $A B C$ có $D E \/\/ B C$. Biết $B C=7,5$ cm; $D E=3$ cm; $A D=2$ cm. Tính $D B$?
+  Cho tam giác $A B C$ có $D E \/\/ B C$. Biết $B C=7","5$ cm; $D E=3$ cm; $A D=2$ cm. Tính $D B$?
 ]
 
 #bt()[
@@ -503,7 +503,7 @@
 ]
 
 #bt()[
-  Cho $hat(x A y)$ nhọn. Trên $A x$ có $A B=7,5$ cm, $A D=5$ cm. Trên tia $A y$ có $A E=2$ cm, $E C=1$ cm ($E$ nằm giữa $A$ và $C$). Tính $(A E)/(A C)$ và chứng minh: $D E \/\/ B C$.
+  Cho $hat(x A y)$ nhọn. Trên $A x$ có $A B=7","5$ cm, $A D=5$ cm. Trên tia $A y$ có $A E=2$ cm, $E C=1$ cm ($E$ nằm giữa $A$ và $C$). Tính $(A E)/(A C)$ và chứng minh: $D E \/\/ B C$.
 ]
 
 #bt()[

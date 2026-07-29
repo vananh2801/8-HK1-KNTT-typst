@@ -206,7 +206,7 @@
 ]
 
 #bt()[
-  Cho tam giác $A B C$ vuông ở $A$ có đường trung tuyến $A M$. Biết $A B = 6$cm; $A C = 8$cm. Tính độ dài các đoạn $B C$, $A M$.
+  Cho tam giác $A B C$ vuông ở $A$ có đường trung tuyến $A M$. Biết $A B = 6$ cm; $A C = 8$ cm. Tính độ dài các đoạn $B C$, $A M$.
 ]
 
 #bt()[
@@ -218,7 +218,7 @@
   #listEX()[
     + Chứng minh: tứ giác $A H C D$ là hình chữ nhật;
     + Tứ giác $A D H B$ là hình gì? Vì sao?;
-    + Cho $B C = 6$cm, $A H = 4$cm. Tính diện tích tứ giác $A H C D$.
+    + Cho $B C = 6$ cm, $A H = 4$ cm. Tính diện tích tứ giác $A H C D$.
   ]
 ]
 
@@ -240,14 +240,14 @@
     + Tứ giác $A B K H$ là hình gì? Vì sao?;
     + Chứng minh: $D H = C K$;
     + Gọi $E$ là điểm đối xứng với $D$ qua $H$. Chứng minh: $A B C E$ là hình bình hành;
-    + Tính diện tích tứ giác $A B C D$, biết $A B = 6$cm, $A H = 4$cm và $D H = 3$cm.
+    + Tính diện tích tứ giác $A B C D$, biết $A B = 6$ cm, $A H = 4$ cm và $D H = 3$ cm.
   ]
 ]
 
 #bt()[
   Cho tam giác $A B C$ vuông tại $A$. Gọi $D$, $E$, $F$ lần lượt là trung điểm của ba cạnh $A B$, $B C$, $A C$.
   #listEX()[
-    + Tính độ dài $B C$, $A E$. Biết $A B = 12$cm, $A C = 16$cm;
+    + Tính độ dài $B C$, $A E$. Biết $A B = 12$ cm, $A C = 16$ cm;
     + Chứng minh: tam giác $A E B$ cân tại $E$ và tứ giác $A D E F$ là hình chữ nhật;
     + Chứng minh: tứ giác $B E F D$ là hình bình hành.
   ]
@@ -266,7 +266,7 @@
   Cho tam giác $A B E$ vuông tại $A$ ($A B < A E$), đường trung tuyến $A M$. Gọi $C$ là điểm đối xứng với $A$ qua $M$.
   #listEX()[
     + Tứ giác $A B C E$ là hình gì? Vì sao?;
-    + Cho $A M = 5$cm, $B C = 8$cm. Tính diện tích tứ giác $A B C E$.
+    + Cho $A M = 5$ cm, $B C = 8$ cm. Tính diện tích tứ giác $A B C E$.
   ]
 ]
 
@@ -311,7 +311,7 @@
 ]
 
 #bt()[
-  Cho hình thang vuông $A B C D$ có $hat(A) = hat(D) = 90°$; $A B = 10$cm; $A D = 12$cm; $C D = 15$cm. Lấy điểm $E$ trên cạnh $C D$ sao cho $B E$ song song với $A D$.
+  Cho hình thang vuông $A B C D$ có $hat(A) = hat(D) = 90°$; $A B = 10$ cm; $A D = 12$ cm; $C D = 15$ cm. Lấy điểm $E$ trên cạnh $C D$ sao cho $B E$ song song với $A D$.
   #listEX()[
     + Chứng minh: tứ giác $A B E D$ là hình chữ nhật;
     + Tính độ dài các đoạn thẳng $B E$, $D E$, $E C$, $B C$.
@@ -319,7 +319,7 @@
 ]
 
 #bt()[
-  Cho hình thang vuông $A B C D$ có $hat(A) = hat(D) = 90°$; $A B = 10$cm; $C D = 18$cm; $B C = 17$cm. Kẻ $B E$ vuông góc với $C D$ ở $E$.
+  Cho hình thang vuông $A B C D$ có $hat(A) = hat(D) = 90°$; $A B = 10$ cm; $C D = 18$ cm; $B C = 17$ cm. Kẻ $B E$ vuông góc với $C D$ ở $E$.
   #listEX()[
     + Chứng minh: tứ giác $A B E D$ là hình chữ nhật;
     + Tính độ dài các đoạn thẳng $D E$; $E C$; $B E$; $A D$.
@@ -344,7 +344,7 @@
 ]
 
 #bt()[
-  Cho tam giác $A B C$ vuông tại $A$ có $A B = 6$cm, $A C = 8$cm. Gọi $M$ là trung điểm của $B C$.
+  Cho tam giác $A B C$ vuông tại $A$ có $A B = 6$ cm, $A C = 8$ cm. Gọi $M$ là trung điểm của $B C$.
   #listEX()[
     + Tính độ dài $A M$;
     + Kẻ $M D$ vuông góc với $A B$ tại $D$, $M E$ vuông góc với $A C$ tại $E$. Chứng minh: tứ giác $A D M E$ là hình chữ nhật;
@@ -381,7 +381,7 @@
   Cho tam giác $A B C$ cân ở $A$ có đường cao $A H$. Vẽ tia $A x \/\/ B C$ và tia $C y \/\/ A H$ sao cho $A x$ cắt $C y$ ở $D$.
   #listEX()[
     + Chứng minh: tứ giác $A D C H$ là hình chữ nhật;
-    + Gọi $N$ là giao điểm của $A C$ và $D H$, biết $A B = 8$cm. Tính độ dài $N H$.
+    + Gọi $N$ là giao điểm của $A C$ và $D H$, biết $A B = 8$ cm. Tính độ dài $N H$.
   ]
 ]
 
@@ -394,11 +394,11 @@
 ]
 
 #bt()[
-  Cho tam giác $A B C$ vuông ở $A$ có $A B = 3$cm; $A C = 4$cm. $M$ là trung điểm của $B C$. Tính $B C$; $A M$.
+  Cho tam giác $A B C$ vuông ở $A$ có $A B = 3$ cm; $A C = 4$ cm. $M$ là trung điểm của $B C$. Tính $B C$; $A M$.
 ]
 
 #bt()[
-  Cho tam giác $A B C$ vuông ở $A$, có $A B = 6$cm; $A C = 8$cm. $M$ là trung điểm của $B C$.
+  Cho tam giác $A B C$ vuông ở $A$, có $A B = 6$ cm; $A C = 8$ cm. $M$ là trung điểm của $B C$.
   #listEX()[
     + Tính $B C$;
     + Kẻ $M H \/\/ A C$ ($H in A B$), $M K \/\/ A B$ ($K in A C$). Tứ giác $A H M K$ là hình gì?
@@ -406,7 +406,7 @@
 ]
 
 #bt()[
-  Cho tam giác $A B C$ có $A B = 6$cm; $A C = 8$cm; $B C = 10$cm. $D$ là trung điểm của $B C$. Kẻ $D H perp A B$ ở $H$, $D K perp A C$ ở $K$.
+  Cho tam giác $A B C$ có $A B = 6$ cm; $A C = 8$ cm; $B C = 10$ cm. $D$ là trung điểm của $B C$. Kẻ $D H perp A B$ ở $H$, $D K perp A C$ ở $K$.
   #listEX()[
     + Tính $A D$;
     + Chứng minh: tứ giác $A H D K$ là hình chữ nhật;
@@ -423,7 +423,7 @@
 ]
 
 #bt()[
-  Cho hình thang vuông $M N P Q$ có $hat(M) = hat(Q) = 90°$; $M N = 16$cm; $N P = 17$cm; $P Q = 24$cm. Kẻ $N E$ vuông góc $P Q$ tại $E$.
+  Cho hình thang vuông $M N P Q$ có $hat(M) = hat(Q) = 90°$; $M N = 16$ cm; $N P = 17$ cm; $P Q = 24$ cm. Kẻ $N E$ vuông góc $P Q$ tại $E$.
   #listEX()[
     + Định dạng tứ giác $M N E Q$;
     + Tính $Q E$; $E P$; $M Q$;
@@ -454,7 +454,7 @@
   #listEX()[
     + Chứng minh: $A B = M E$;
     + Chứng minh: $A M C E$ là hình chữ nhật;
-    + Cho $A B = 16$cm. Tính $M C$; $A M$ và $S_(A M C E)$.
+    + Cho $A B = 16$ cm. Tính $M C$; $A M$ và $S_(A M C E)$.
   ]
 ]
 
@@ -485,7 +485,7 @@
   Cho hình chữ nhật $A B C D$ ($A B > A D$). Gọi $E$, $F$ lần lượt là trung điểm của $D C$ và $A B$.
   #listEX()[
     + Chứng minh: tứ giác $A D E F$ là hình chữ nhật;
-    + Biết $D C = 14$cm, $A D = 5$cm. Tính diện tích hình chữ nhật $A D E F$;
+    + Biết $D C = 14$ cm, $A D = 5$ cm. Tính diện tích hình chữ nhật $A D E F$;
     + Chứng minh: tứ giác $A E C F$ là hình bình hành;
     + Vẽ $E H perp F C$ tại $H$. Gọi $Q$, $K$ lần lượt là trung điểm của $F B$ và $H C$. Từ $K$, vẽ đường thẳng song song với $D C$, đường thẳng này cắt $A E$ tại $G$. Chứng minh: tứ giác $G H K E$ là hình bình hành;
     + Chứng minh: $Q K perp E K$. (gợi ý: gọi thêm $I$ là giao điểm của $G K$ và $E H$)

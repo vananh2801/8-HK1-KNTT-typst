@@ -302,7 +302,7 @@
 ]
 
 #bt()[
-  Cho tứ giác $A B C D$ có: $A B = 6$cm; $B C = 4$cm; $C D = 6$cm; $A D = 4$cm. Chứng minh: tứ giác $A B C D$ là hình bình hành.
+  Cho tứ giác $A B C D$ có: $A B = 6$ cm; $B C = 4$ cm; $C D = 6$ cm; $A D = 4$ cm. Chứng minh: tứ giác $A B C D$ là hình bình hành.
 ]
 
 #bt()[
@@ -318,12 +318,12 @@
   #listEX()[
     + Chứng minh: $D H = C K$;
     + Gọi $N$ là điểm đối xứng với $D$ qua $H$. Chứng minh: $A B C N$ là hình bình hành;
-    + Tính diện tích tứ giác $A B C D$, biết $A B = 6$cm, $A H = 4$cm và $D H = 3$cm.
+    + Tính diện tích tứ giác $A B C D$, biết $A B = 6$ cm, $A H = 4$ cm và $D H = 3$ cm.
   ]
 ]
 
 #bt()[
-  Cho tam giác $A B C$ vuông tại $A$ có $A C = 5$cm, $B C = 13$cm. Gọi $E$ là trung điểm của cạnh $A B$, $D$ là điểm đối xứng với $C$ qua $E$.
+  Cho tam giác $A B C$ vuông tại $A$ có $A C = 5$ cm, $B C = 13$ cm. Gọi $E$ là trung điểm của cạnh $A B$, $D$ là điểm đối xứng với $C$ qua $E$.
   #listEX()[
     + Tứ giác $A D B C$ là hình gì? Vì sao?;
     + Trên $B C$ lấy điểm $F$ sao cho $E F \/\/ A C$. Chứng minh: $E F perp A B$;
@@ -332,7 +332,7 @@
 ]
 
 #bt()[
-  Cho tứ giác $A B C D$ có: $A B = 5$cm; $A B + B C = 12$cm; $B C + C D = 12$cm; $C D + A D = 12$cm. Chứng minh: tứ giác $A B C D$ là hình bình hành.
+  Cho tứ giác $A B C D$ có: $A B = 5$ cm; $A B + B C = 12$ cm; $B C + C D = 12$ cm; $C D + A D = 12$ cm. Chứng minh: tứ giác $A B C D$ là hình bình hành.
 ]
 
 #bt()[
@@ -544,7 +544,7 @@
 ]
 
 #bt()[
-  Cho $A E = 12$cm, $B D = 18$cm. Tính $S_(A B C D)$. Cho hình bình hành $A B C D$. Gọi $O$ là giao điểm hai đường thẳng $A C$ và $B D$. Qua điểm $O$, vẽ đường thẳng $a$ cắt hai đường thẳng $A D$, $B C$ lần lượt tại $E$, $F$. Qua $O$ vẽ đường thẳng $b$ cắt hai cạnh $A B$, $C D$ lần lượt tại $M$, $N$. Chứng minh:
+  Cho $A E = 12$ cm, $B D = 18$ cm. Tính $S_(A B C D)$. Cho hình bình hành $A B C D$. Gọi $O$ là giao điểm hai đường thẳng $A C$ và $B D$. Qua điểm $O$, vẽ đường thẳng $a$ cắt hai đường thẳng $A D$, $B C$ lần lượt tại $E$, $F$. Qua $O$ vẽ đường thẳng $b$ cắt hai cạnh $A B$, $C D$ lần lượt tại $M$, $N$. Chứng minh:
   #listEX()[
     + $triangle O A M = triangle O C N$ và $O$ là trung điểm của $M N$;
     + Tứ giác $E M F N$ là hình bình hành.

@@ -285,15 +285,15 @@
 #bt()[
   Một xe khách khởi hành từ bến xe phía Nam bưu điện thành phố Đà Nẵng để đi vào thành phố Nha Trang với tốc độ $45$ km/h.
   #listEX()[
-    + Cho biết bến xe cách bưu điện thành phố Đà Nẵng $5$km. Sau $x$ giờ, xe khách cách bưu điện thành phố Đà Nẵng $y$ km. Tính $y$ theo $x$.
+    + Cho biết bến xe cách bưu điện thành phố Đà Nẵng $5$ km. Sau $x$ giờ, xe khách cách bưu điện thành phố Đà Nẵng $y$ km. Tính $y$ theo $x$.
     + Tìm hệ số góc của đường thẳng là đồ thị của hàm số $y$ vừa tìm được.
   ]
 ]
 
 #bt()[
-  Một người bắt đầu mở một vòi nước vào một cái bể đã chứa sẵn $4 m^3$ nước, mỗi giờ chảy được $1 m^3$.
+  Một người bắt đầu mở một vòi nước vào một cái bể đã chứa sẵn $4$ m$""^3$ nước, mỗi giờ chảy được $1$ m$""^3$.
   #listEX()[
-    + Tính thể tích $y$ $(m^3)$ của nước có trong bể sau $x$ giờ.
+    + Tính thể tích $y$ (m$""^3$) của nước có trong bể sau $x$ giờ.
     + Vẽ đồ thị của hàm số $y$ theo biến số $x$.
   ]
 ]

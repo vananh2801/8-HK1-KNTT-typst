@@ -532,7 +532,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có $O$ là giao điểm của hai đường chéo.
   #listEX()[
-    + Tính $A B$ khi biết $O A = 4$cm và $O B = 3$cm;
+    + Tính $A B$ khi biết $O A = 4$ cm và $O B = 3$ cm;
     + Tính $hat(B A D)$ khi biết $hat(B A O) = 32 degree$.
   ]
 ]
@@ -540,17 +540,17 @@
 #bt()[
   Cho hình thoi $M N P Q$ có $I$ là giao điểm của hai đường chéo.
   #listEX()[
-    + Tính $M P$ khi biết $M N = 10$dm, $I N = 6$dm;
+    + Tính $M P$ khi biết $M N = 10$ dm, $I N = 6$ dm;
     + Tính $hat(I M N)$ khi biết $hat(M N P) = 128 degree$.
   ]
 ]
 
 #bt()[
-  Cho hình thoi $A B C D$ có hai đường chéo $A C$ và $B D$ cắt nhau tại $O$. Biết rằng: $A C = 8$cm và $B D = 6$cm. Tính độ dài các đoạn thẳng $O A$, $O B$, $A B$.
+  Cho hình thoi $A B C D$ có hai đường chéo $A C$ và $B D$ cắt nhau tại $O$. Biết rằng: $A C = 8$ cm và $B D = 6$ cm. Tính độ dài các đoạn thẳng $O A$, $O B$, $A B$.
 ]
 
 #bt()[
-  Cho hình thoi $A B C D$ có $A C = 12$cm, $B D = 16$cm.
+  Cho hình thoi $A B C D$ có $A C = 12$ cm, $B D = 16$ cm.
   #listEX()[
     + Tính diện tích hình thoi $A B C D$;
     + Tính độ dài các cạnh của hình thoi $A B C D$.
@@ -558,7 +558,7 @@
 ]
 
 #bt()[
-  Cho hình thoi $A B C D$ có $A B = 15$cm, $B D = 24$cm.
+  Cho hình thoi $A B C D$ có $A B = 15$ cm, $B D = 24$ cm.
   #listEX()[
     + Tính độ dài $A C$;
     + Tính diện tích hình thoi $A B C D$.
@@ -566,7 +566,7 @@
 ]
 
 #bt()[
-  Cho hình thoi $A B C D$ có $A B = B D = 10$cm.
+  Cho hình thoi $A B C D$ có $A B = B D = 10$ cm.
   #listEX()[
     + $triangle A B D$ là tam giác gì? Vì sao?;
     + Tính số đo các góc của hình thoi $A B C D$;
@@ -576,7 +576,7 @@
 ]
 
 #bt()[
-  Cho hình thoi $A B C D$ có diện tích bằng $120$ $"cm"^2$ và $A C = 10$cm.
+  Cho hình thoi $A B C D$ có diện tích bằng $120$ $"cm"^2$ và $A C = 10$ cm.
   #listEX()[
     + Tính độ dài $B D$;
     + Tính chu vi của hình thoi $A B C D$.
@@ -584,7 +584,7 @@
 ]
 
 #bt()[
-  Cho hình thoi $A B C D$ có diện tích bằng $50 sqrt(3)$ $"cm"^2$ và $A C = 10$cm.
+  Cho hình thoi $A B C D$ có diện tích bằng $50 sqrt(3)$ $"cm"^2$ và $A C = 10$ cm.
   #listEX()[
     + Tính độ dài $B D$ và $A B$;
     + Tính số đo các góc của hình thoi $A B C D$.
@@ -592,7 +592,7 @@
 ]
 
 #bt()[
-  Một tứ giác có chu vi là $52$cm và một đường chéo là $24$cm. Tìm độ dài của mỗi cạnh và đường chéo còn lại nếu biết hai đường chéo vuông góc tại trung điểm của mỗi đường.
+  Một tứ giác có chu vi là $52$ cm và một đường chéo là $24$ cm. Tìm độ dài của mỗi cạnh và đường chéo còn lại nếu biết hai đường chéo vuông góc tại trung điểm của mỗi đường.
 ]
 
 #bt()[
@@ -665,13 +665,13 @@
   #listEX()[
     + Chứng minh: $triangle A B D$ đều;
     + Gọi $O$ là giao điểm của $A C$ và $B D$. Chứng minh: $O A^2 = 3/4 A B^2$;
-    + Biết chu vi của hình thoi $A B C D$ là $8$cm. Tính độ dài đường chéo $B D$; $A C$;
+    + Biết chu vi của hình thoi $A B C D$ là $8$ cm. Tính độ dài đường chéo $B D$; $A C$;
     + Tính diện tích hình thoi $A B C D$.
   ]
 ]
 
 #bt()[
-  Cho hình thoi $A B C D$ có chu vi là $8$cm và $A C = 2 sqrt(3)$cm.
+  Cho hình thoi $A B C D$ có chu vi là $8$ cm và $A C = 2 sqrt(3)$ cm.
   #listEX()[
     + Tính độ dài $B D$;
     + Tính số đo các góc của hình thoi $A B C D$.
@@ -679,11 +679,11 @@
 ]
 
 #bt()[
-  Cho hình thoi $A B C D$ có chu vi là $8$cm và $A B = B D$. Tính độ dài đường cao của hình thoi.
+  Cho hình thoi $A B C D$ có chu vi là $8$ cm và $A B = B D$. Tính độ dài đường cao của hình thoi.
 ]
 
 #bt()[
-  Cho hình thoi $A B C D$ có chu vi là $24$cm. Đường cao $A H = 3$cm ($H in$ đoạn $B C$). Tính các góc của hình thoi.
+  Cho hình thoi $A B C D$ có chu vi là $24$ cm. Đường cao $A H = 3$ cm ($H in$ đoạn $B C$). Tính các góc của hình thoi.
 ]
 
 #bt()[
@@ -896,7 +896,7 @@
   Cho hình chữ nhật $A B C D$. Gọi $M$ và $N$ lần lượt là trung điểm của các cạnh $A B$ và $C D$.
   #listEX()[
     + Chứng minh: tứ giác $A M N D$ là hình chữ nhật;
-    + Tính diện tích của hình chữ nhật $A M N D$ biết $A D = 4$cm và $A B = 6$cm;
+    + Tính diện tích của hình chữ nhật $A M N D$ biết $A D = 4$ cm và $A B = 6$ cm;
     + Gọi $I$ là giao điểm của $A N$ và $D M$, $K$ là giao điểm của $B N$ và $M C$. Chứng minh: tứ giác $M I N K$ là hình thoi;
     + Tìm điều kiện của hình chữ nhật $A B C D$ để tứ giác $M I N K$ là hình vuông.
   ]

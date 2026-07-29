@@ -271,7 +271,7 @@
 ]
 
 #bt()[
-  Viết công thức tính thời gian di chuyển $t$ (giờ) của một ô tô chuyển động trên quãng đường dài 120km với vận tốc không đổi $v$ (km/h). Thời gian di chuyển $t$ có phải là một hàm số của vận tốc $v$ không? Tính giá trị của $t$ khi $v = 40$ (km/h).
+  Viết công thức tính thời gian di chuyển $t$ (giờ) của một ô tô chuyển động trên quãng đường dài 120 km với vận tốc không đổi $v$ (km/h). Thời gian di chuyển $t$ có phải là một hàm số của vận tốc $v$ không? Tính giá trị của $t$ khi $v = 40$ (km/h).
 ]
 
 #bt()[

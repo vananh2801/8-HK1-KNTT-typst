@@ -190,10 +190,10 @@
                 #box(fill: white, inset: 3pt)[
                   #if arr_wrong_value != none {
                     let value = arr_wrong_value.at(i + 1) - arr_wrong_value.at(i)
-                    [#value %]
+                    [#value%]
                   } else {
                     let value = arr_value.at(i + 1) - arr_value.at(i)
-                    [? %]
+                    [?%]
                   }
                 ]
               ],
@@ -681,7 +681,7 @@
               O.at(0) + calc.sin(90deg - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2) * R / 2,
             ),
             [
-              #box(fill: white, inset: 3pt)[? %]
+              #box(fill: white, inset: 3pt)[?%]
             ],
           )
         }

@@ -172,7 +172,7 @@
 ]
 
 #bt()[
-  Cho tam giác $A B C$ có $A B=5$cm, $A C=7$cm, $B C=9$cm. Kéo dài $A B$ lấy điểm $D$ sao cho $B D=B A$. Kéo dài $A C$ lấy điểm $E$ sao cho $C E=C A$. Kéo dài đường trung tuyến $A M$ của tam giác $A B C$ lấy $M I=M A$. Chứng minh:
+  Cho tam giác $A B C$ có $A B=5$ cm, $A C=7$ cm, $B C=9$ cm. Kéo dài $A B$ lấy điểm $D$ sao cho $B D=B A$. Kéo dài $A C$ lấy điểm $E$ sao cho $C E=C A$. Kéo dài đường trung tuyến $A M$ của tam giác $A B C$ lấy $M I=M A$. Chứng minh:
   #listEX()[
     + Tính độ dài các cạnh tam giác $A D E$;
     + $D I \/\/ B C$;
@@ -181,7 +181,7 @@
 ]
 
 #bt()[
-  Cho tam giác $M N P$ có $M N=4$cm, $M P=6$cm, $N P=8$cm. Kéo dài $M N$ lấy điểm $I$ sao cho $N I=N M$, kéo dài $M P$ lấy điểm $K$ sao cho $P K=P M$, kéo dài đường trung tuyến $M O$ của tam giác $M N P$ lấy $O S=O M$.
+  Cho tam giác $M N P$ có $M N=4$ cm, $M P=6$ cm, $N P=8$ cm. Kéo dài $M N$ lấy điểm $I$ sao cho $N I=N M$, kéo dài $M P$ lấy điểm $K$ sao cho $P K=P M$, kéo dài đường trung tuyến $M O$ của tam giác $M N P$ lấy $O S=O M$.
   #listEX()[
     + Tính độ dài các cạnh của tam giác $M I K$;
     + Chứng minh ba điểm $I$, $S$, $K$ thẳng hàng.
@@ -230,7 +230,7 @@
   #listEX()[
     + Chứng minh: $E K$ là đường trung bình của tam giác $A B C$;
     + Đường thẳng $E K$ cắt $A H$ tại $I$. Chứng minh: $I$ là trung điểm của $A H$;
-    + Biết $B C=10$cm. Tính $E K$.
+    + Biết $B C=10$ cm. Tính $E K$.
   ]
 ]
 
@@ -238,6 +238,6 @@
   Cho hình thang $A B C D$ ($A B \/\/ C D$). Qua trung điểm $M$ của $A D$ vẽ đường thẳng song song với $A B$ cắt $A C$ tại $N$ và $B C$ tại $K$.
   #listEX()[
     + Chứng minh: $N$ là trung điểm của $A C$ và $K$ là trung điểm của $B C$;
-    + Cho $A B=1/2 D C$ và $D C=20$cm. Tính độ dài $A B$, $M N$, $N K$, $M K$.
+    + Cho $A B=1/2 D C$ và $D C=20$ cm. Tính độ dài $A B$, $M N$, $N K$, $M K$.
   ]
 ]

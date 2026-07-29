@@ -495,7 +495,7 @@
 ]
 
 #bt()[
-  Cho hình thang $A B C D$ có đáy nhỏ $B C$ bằng $4$cm. Qua $B$ vẽ đường thẳng song song với $C D$ cắt $A D$ ở $E$. Biết chu vi tam giác $A B E$ bằng $12$cm.
+  Cho hình thang $A B C D$ có đáy nhỏ $B C$ bằng $4$ cm. Qua $B$ vẽ đường thẳng song song với $C D$ cắt $A D$ ở $E$. Biết chu vi tam giác $A B E$ bằng $12$ cm.
   #listEX()[
     + Chứng minh: $B C = E D$; $B E = C D$;
     + Tính chu vi hình thang $A B C D$.
@@ -511,7 +511,7 @@
 ]
 
 #bt()[
-  Cho hình thang $A B C D$ ($A B \/\/ C D$) có $A B = 4$cm; $C D = 8$cm và $S_(A B C D) = 30$ $"cm"^2$. Tính chiều cao $A H$ của hình thang.
+  Cho hình thang $A B C D$ ($A B \/\/ C D$) có $A B = 4$ cm; $C D = 8$ cm và $S_(A B C D) = 30$ $"cm"^2$. Tính chiều cao $A H$ của hình thang.
 ]
 
 #bt()[
@@ -589,7 +589,7 @@
   #listEX()[
     + Chứng minh: $hat(B C D) = 2 hat(B D C)$ và $hat(B C D) = 60°$;
     + Gọi $T$ là giao điểm của $C B$ và $D A$. Chứng minh: tam giác $T C D$ đều;
-    + Tính chu vi của hình thang $A B C D$, biết $B C = 8$cm.
+    + Tính chu vi của hình thang $A B C D$, biết $B C = 8$ cm.
   ]
 ]
 
@@ -661,11 +661,11 @@
 ]
 
 #bt()[
-  Cho hình thang $A B C D$ ($A B \/\/ C D$) có $C D = 50,8$cm, $A B = 1/4 C D$ và $S_(A B C D) = 635$ $"cm"^2$. Tính chiều cao của hình thang $A B C D$.
+  Cho hình thang $A B C D$ ($A B \/\/ C D$) có $C D = 50","8$ cm, $A B = 1/4 C D$ và $S_(A B C D) = 635$ $"cm"^2$. Tính chiều cao của hình thang $A B C D$.
 ]
 
 #bt()[
-  Cho hình thang $A B C D$ ($A B \/\/ C D$) có chiều cao $A H = 15,2$cm; $A B - C D = 7,3$cm và $S_(A B C D) = 336,68$ $"cm"^2$. Tính:
+  Cho hình thang $A B C D$ ($A B \/\/ C D$) có chiều cao $A H = 15","2$ cm; $A B - C D = 7","3$ cm và $S_(A B C D) = 336","68$ $"cm"^2$. Tính:
   #listEX()[
     + Tổng $A B + C D$;
     + Độ dài $A B$, $C D$.
@@ -673,7 +673,7 @@
 ]
 
 #bt()[
-  Hình thang $A B C D$ ($A B \/\/ C D$) có $A B = 7$cm, $C D = 10$cm, $A D = 8$cm và $hat(D) = 30°$. Kẻ $A H$ vuông góc $C D$ ở $H$, kéo dài $A H$ lấy $E$ sao cho $H E = H A$.
+  Hình thang $A B C D$ ($A B \/\/ C D$) có $A B = 7$ cm, $C D = 10$ cm, $A D = 8$ cm và $hat(D) = 30°$. Kẻ $A H$ vuông góc $C D$ ở $H$, kéo dài $A H$ lấy $E$ sao cho $H E = H A$.
   #listEX()[
     + Chứng minh: $triangle A D E$ đều;
     + Tính $A H$, $S_(A D E)$ và $S_(A B C D)$.
@@ -681,7 +681,7 @@
 ]
 
 #bt()[
-  Cho hình thang $A B C D$ ($A D \/\/ B C$, $A D < B C$). Kẻ $D E \/\/ A B$, $D H perp B C$ ($E$, $H$ thuộc $B C$). Biết $A D = 5$cm, $D H = 4$cm và $S_(C D E) = 6$ $"cm"^2$.
+  Cho hình thang $A B C D$ ($A D \/\/ B C$, $A D < B C$). Kẻ $D E \/\/ A B$, $D H perp B C$ ($E$, $H$ thuộc $B C$). Biết $A D = 5$ cm, $D H = 4$ cm và $S_(C D E) = 6$ $"cm"^2$.
   #listEX()[
     + Tính $E C$;
     + Chứng minh: $triangle A B E = triangle E D A$;
@@ -724,7 +724,7 @@
 ]
 
 #bt()[
-  Cho hình thang cân $A B C D$ ($A B \/\/ C D$) có $hat(D) = 60°$, $A B = 15$cm và $C D = 49$cm. Qua $B$ vẽ đường thẳng song song với $A D$ cắt $C D$ tại $E$.
+  Cho hình thang cân $A B C D$ ($A B \/\/ C D$) có $hat(D) = 60°$, $A B = 15$ cm và $C D = 49$ cm. Qua $B$ vẽ đường thẳng song song với $A D$ cắt $C D$ tại $E$.
   #listEX()[
     + Chứng minh: $triangle B C E$ đều;
     + Tính $E C$ và chu vi hình thang $A B C D$;

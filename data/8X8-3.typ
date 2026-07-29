@@ -199,11 +199,11 @@ Xác suất thực nghiệm có thể sử dụng để đưa ra dự báo số 
 ]
 
 #bt()[
-  Ở một trang trại nuôi gà, người ta nhận thấy xác suất một quả trứng gà có cân nặng trên 42g là $0","4$. Hãy ước lượng xem trong một lô 2000 quả trứng gà của trang trại có khoảng bao nhiêu quả trứng có cân nặng trên 42g.
+  Ở một trang trại nuôi gà, người ta nhận thấy xác suất một quả trứng gà có cân nặng trên 42 g là $0","4$. Hãy ước lượng xem trong một lô 2000 quả trứng gà của trang trại có khoảng bao nhiêu quả trứng có cân nặng trên 42 g.
 ]
 
 #bt()[
-  Ở một trang trại nuôi chim cút, người ta nhận thấy xác suất một quả trứng cút có cân nặng dưới 9g là $0","45$. Hãy ước lượng xem trong một lô 3000 quả trứng cút của trang trại có khoảng bao nhiêu quả trứng có cân nặng dưới 9g.
+  Ở một trang trại nuôi chim cút, người ta nhận thấy xác suất một quả trứng cút có cân nặng dưới 9 g là $0","45$. Hãy ước lượng xem trong một lô 3000 quả trứng cút của trang trại có khoảng bao nhiêu quả trứng có cân nặng dưới 9 g.
 ]
 
 #bt()[

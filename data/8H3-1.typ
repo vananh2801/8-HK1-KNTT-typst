@@ -506,5 +506,5 @@
 ]
 
 #bt()[
-  Tứ giác $A B C D$ có chu vi $66$cm. Tính độ dài $A C$, biết chu vi tam giác $A B C$ bằng $56$cm, chu vi tam giác $A C D$ bằng $60$cm.
+  Tứ giác $A B C D$ có chu vi $66$ cm. Tính độ dài $A C$, biết chu vi tam giác $A B C$ bằng $56$ cm, chu vi tam giác $A C D$ bằng $60$ cm.
 ]
