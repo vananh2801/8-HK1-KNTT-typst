@@ -1,6 +1,6 @@
 #set page(
   paper: "a4",
-  margin: (top: 2cm, left: 3cm, right: 2cm, bottom: 2cm),
+  margin: (top: 2cm, left: 3cm, right: 3cm, bottom: 2cm),
   numbering: none,
 )
 
@@ -28,7 +28,7 @@
 
 #align(center)[
   #set text(font: "Varela Round", size: 16pt)
-  Phan Văn Anh
+  // Tác giả
 ]
 
 #v(2fr)
