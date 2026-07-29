@@ -7,7 +7,7 @@
   // Cấu hình trang in
   set page(
     paper: "a4",
-    margin: (top: 1.5cm, left: 2cm, right: 1.5cm, bottom: 1.5cm),
+    margin: (top: 1.5cm, left: 1.75cm, right: 1.75cm, bottom: 1.5cm),
     numbering: "1",
     footer: context {
       let page_num = counter(page).get().first()
