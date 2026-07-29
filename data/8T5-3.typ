@@ -106,8 +106,8 @@
       let col-w = 0.5 // Độ rộng cột
       let x = (O.at(0) + W + 1, 0)
       let y = (0, O.at(0) + H + 1)
-      line(O, x, mark: (end: ">"))
-      line(O, y, mark: (end: ">"))
+      line(O, x, mark: (end: "stealth"))
+      line(O, y, mark: (end: "stealth"))
       content(x, anchor: "north-east", [*Xã*]) // Tên trục Ox
       content(y, anchor: "north-east", [*Số máy cày*]) // Tên trục Oy
       let arr_color = (
@@ -169,8 +169,8 @@
       let col-w = 0.6 // Độ rộng cột
       let x = (O.at(0) + W + 1, 0)
       let y = (0, O.at(0) + H + 1)
-      line(O, x, mark: (end: ">"))
-      line(O, y, mark: (end: ">"))
+      line(O, x, mark: (end: "stealth"))
+      line(O, y, mark: (end: "stealth"))
       content(x, anchor: "north-east", [*Loại đồng hồ*]) // Tên trục Ox
       content(y, anchor: "north-east", [*Số lượng*]) // Tên trục Oy
       let arr_color = (

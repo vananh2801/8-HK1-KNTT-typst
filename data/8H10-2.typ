@@ -57,25 +57,25 @@
     right-angle(O, S, B, radius: 0.2, label: none)
     right-angle(H, S, B, radius: 0.2, label: none)
     // Đỉnh
-    line((S.at(0) + 1.3, S.at(1) + 0), (S.at(0) + 0.2, S.at(1) + 0), mark: (end: ">"))
+    line((S.at(0) + 1.3, S.at(1) + 0), (S.at(0) + 0.2, S.at(1) + 0), mark: (end: "stealth"))
     content((S.at(0) + 1.4, S.at(1) + 0), [Đỉnh], anchor: "west")
     // Đường cao
-    line((S.at(0) + 1.3, S.at(1) - 1), (S.at(0) + 0.05, S.at(1) - 2), mark: (end: ">"))
+    line((S.at(0) + 1.3, S.at(1) - 1), (S.at(0) + 0.05, S.at(1) - 2), mark: (end: "stealth"))
     content((S.at(0) + 1.4, S.at(1) - 1), [Đường cao], anchor: "west")
     // Mặt bên
-    line((S.at(0) + 2.5, S.at(1) - 2), (S.at(0) + 1, S.at(1) - 2), mark: (end: ">"))
+    line((S.at(0) + 2.5, S.at(1) - 2), (S.at(0) + 1, S.at(1) - 2), mark: (end: "stealth"))
     content((S.at(0) + 2.6, S.at(1) - 2), [Mặt bên], anchor: "west")
     // Trung đoạn
-    line((S.at(0) - 1.5, S.at(1) - 2), (S.at(0) - 1, S.at(1) - 2.6), mark: (end: ">"))
+    line((S.at(0) - 1.5, S.at(1) - 2), (S.at(0) - 1, S.at(1) - 2.6), mark: (end: "stealth"))
     content((S.at(0) - 1.6, S.at(1) - 2), [Trung đoạn], anchor: "east")
     // Cạnh đáy
-    line((S.at(0) + 2.0, S.at(1) - 5.5), (S.at(0) + 1.4, S.at(1) - 4.4), mark: (end: ">"))
+    line((S.at(0) + 2.0, S.at(1) - 5.5), (S.at(0) + 1.4, S.at(1) - 4.4), mark: (end: "stealth"))
     content((S.at(0) + 2.1, S.at(1) - 5.5), [Cạnh đáy], anchor: "west")
     // Cạnh bên
-    line((S.at(0) - 1.5, S.at(1) - 1), (S.at(0) - 1, S.at(1) - 1.6), mark: (end: ">"))
+    line((S.at(0) - 1.5, S.at(1) - 1), (S.at(0) - 1, S.at(1) - 1.6), mark: (end: "stealth"))
     content((S.at(0) - 1.6, S.at(1) - 1), [Cạnh bên], anchor: "east")
     // Mặt đáy
-    line((S.at(0), S.at(1) - 5.4), (S.at(0), S.at(1) - 4.4), mark: (end: ">"))
+    line((S.at(0), S.at(1) - 5.4), (S.at(0), S.at(1) - 4.4), mark: (end: "stealth"))
     content((S.at(0), S.at(1) - 5.5), [Mặt đáy], anchor: "north")
   })
 ]

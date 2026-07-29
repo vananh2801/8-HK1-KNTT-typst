@@ -249,7 +249,7 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
       set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
       rect((0, 0), (4, 4), fill: orange.lighten(70%))
       rect((1, 1), (3, 3), fill: white)
-      line((2, 0), (2, 1), mark: (start: ">", end: ">"), stroke: 1pt)
+      line((2, 0), (2, 1), mark: (start: "stealth", end: "stealth"), stroke: 1pt)
       content((2, 0.5), [$1","2$ m], anchor: "south", padding: 5pt, angle: -90deg)
     })
   ]

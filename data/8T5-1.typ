@@ -415,8 +415,8 @@
       let col-w = 0.5 // Độ rộng cột
       let x = (O.at(0) + W + 1, 0)
       let y = (0, O.at(0) + H + 1)
-      line(O, x, mark: (end: ">"))
-      line(O, y, mark: (end: ">"))
+      line(O, x, mark: (end: "stealth"))
+      line(O, y, mark: (end: "stealth"))
       content(x, anchor: "north-east", [*Kho*]) // Tên trục Ox
       content(y, anchor: "north-east", [*Tấn*]) // Tên trục Oy
       let arr_color = (

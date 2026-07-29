@@ -141,7 +141,7 @@ Trong thực tế, ta thường gặp các hành động, thực nghiệm mà k�
           ],
         )
       }
-      line((O), (rel: (110deg, R / 2), to: O), mark: (end: ">"), stroke: 5pt + black)
+      line((O), (rel: (110deg, R / 2), to: O), mark: (end: "stealth"), stroke: 5pt + black)
     })
   ]
 ]
