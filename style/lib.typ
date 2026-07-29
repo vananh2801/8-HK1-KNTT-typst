@@ -122,21 +122,23 @@
     pagebreak(weak: true)
     block(above: 1.5em, below: 1em, width: 100%, radius: 8pt, inset: 12pt, stroke: 1pt + red)[
       #set text(size: 12pt, weight: "bold")
-      #grid(
-        columns: (auto, auto),
-        gutter: 5pt,
-        rect(
-          fill: red.lighten(80%),
-          inset: 5pt,
-          radius: 5pt,
-        )[ Chương #numbering("I", counter(heading).get().first()) ],
-        rect(
-          fill: blue.lighten(90%),
-          inset: 5pt,
-          radius: 5pt,
-        )[ Bài #counter(heading).get().last() ],
-      )
-      #v(1em)
+      #box(
+        fill: red.lighten(80%),
+        inset: 5pt,
+        radius: 5pt,
+      )[
+        #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "semibold")
+        Chương #numbering("I", counter(heading).get().first())
+      ]
+      #h(0.2em)
+      #box(
+        fill: blue.lighten(90%),
+        inset: 5pt,
+        radius: 5pt,
+      )[
+        #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "semibold")
+        Bài #counter(heading).get().last()
+      ]
       #align(center)[
         #set text(size: 14pt, weight: "bold")
         #upper(it.body)

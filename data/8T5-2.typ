@@ -98,7 +98,7 @@
             // Màu
             blue.lighten(40%),
             orange.lighten(40%),
-            green.lighten(40%),
+            green.lighten(20%),
             yellow.lighten(40%),
             red.lighten(40%),
           )
@@ -154,7 +154,7 @@
             // Màu
             blue.lighten(40%),
             orange.lighten(40%),
-            green.lighten(40%),
+            green.lighten(20%),
             yellow.lighten(40%),
             red.lighten(40%),
             gray.lighten(40%),
@@ -238,7 +238,7 @@
         // Màu
         blue.lighten(40%),
         orange.lighten(40%),
-        green.lighten(40%),
+        green.lighten(20%),
         yellow.lighten(40%),
         red.lighten(40%),
       )
@@ -362,7 +362,7 @@
         // Màu
         blue.lighten(40%),
         orange.lighten(40%),
-        green.lighten(40%),
+        green.lighten(20%),
         yellow.lighten(40%),
         red.lighten(40%),
       )
@@ -500,7 +500,7 @@
         // Màu
         blue.lighten(40%),
         orange.lighten(40%),
-        green.lighten(40%),
+        green.lighten(20%),
         yellow.lighten(40%),
         red.lighten(40%),
       )
@@ -608,7 +608,7 @@
           // Màu
           blue.lighten(40%),
           orange.lighten(40%),
-          green.lighten(40%),
+          green.lighten(20%),
           yellow.lighten(40%),
           red.lighten(40%),
         )
@@ -657,7 +657,7 @@
           // Màu
           blue.lighten(40%),
           orange.lighten(40%),
-          green.lighten(40%),
+          green.lighten(20%),
           yellow.lighten(40%),
           red.lighten(40%),
         )
