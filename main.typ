@@ -1,3 +1,13 @@
+#page(margin: 0pt, header: none, footer: none)[
+  #image(
+    "cover.pdf",
+    width: 100%,
+    height: 100%,
+    fit: "stretch", // Hoặc "contain" tùy thuộc tỷ lệ file của bạn
+    page: 1, // Số trang cần lấy từ file PDF (mặc định là trang 1)
+  )
+]
+
 #import "style/lib.typ": *
 #show: appearance
 #show: tableofcontens
@@ -58,6 +68,30 @@
 #include "data/8D6-2.typ"
 #include "data/8D6-3.typ"
 #include "data/8D6-4.typ"
+
+// Chương 7
+#counter(heading).update((6,))
+#chapter()[Phương trình bậc nhất và hàm số bậc nhất]
+#include "data/8D7-1.typ"
+#include "data/8D7-2.typ"
+#include "data/8D7-3.typ"
+#include "data/8D7-4.typ"
+#include "data/8D7-5.typ"
+
+// Chương 8
+#counter(heading).update((7,))
+#chapter()[Mở đầu về tính xác suất của biến cố]
+#include "data/8X8-1.typ"
+#include "data/8X8-2.typ"
+#include "data/8X8-3.typ"
+
+// Chương 9
+#counter(heading).update((8,))
+#chapter()[Tam giác đồng dạng]
+#include "data/8H9-1.typ"
+#include "data/8H9-2.typ"
+#include "data/8H9-3.typ"
+#include "data/8H9-4.typ"
 
 // Chương 10
 #counter(heading).update((9,))
