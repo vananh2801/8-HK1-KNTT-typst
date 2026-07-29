@@ -24,16 +24,16 @@
 
 #dn(tieude: "Đoạn thẳng tỉ lệ")[
   Hai đoạn thẳng $A B$ và $C D$ gọi là tỉ lệ với hai đoạn thẳng $A'B'$ và $C'D'$ nếu có tỉ lệ thức:
-  $ frac(A B, C D)=frac(A'B', C'D')" hay "frac(A B, A'B')=frac(C D, C'D'). $
+  $ (A B)/(C D)=(A'B')/(C'D')" hay "(A B)/(A'B')=(C D)/(C'D'). $
 ]
 
 #vd()[
   #immini()[
     Cho tam giác $A B C$ và một điểm $B'$ nằm trên cạnh $A B$. Qua điểm $B'$, ta vẽ một đường thẳng song song với $B C$, cắt $A C$ tại $C'$ như hình bên. Dựa vào hình vẽ, hãy tính và so sánh các tỉ số sau và viết các tỉ lệ thức:
     #listEX()[
-      + $frac(A B', A B)$ và $frac(A C', A C)$;
-      + $frac(A B', B B)$ và $frac(A C', C' C)$;
-      + $frac(B B', A B)$ và $frac(C' C, A C)$.
+      + $(A B')/(A B)$ và $(A C')/( A C)$;
+      + $(A B')/(B B)$ và $(A C')/(C' C)$;
+      + $(B B')/(A B)$ và $(C' C)/(A C)$.
     ]
   ][
     #import "@preview/cetz:0.5.2"
@@ -141,7 +141,7 @@
       content(C, [$C$], anchor: "north-west")
       content(M, [$M$], anchor: "south-east")
       content(N, [$N$], anchor: "south-west")
-      content((A, 50%, M), [6,5], anchor: "east")
+      content((A, 50%, M), [$6","5$], anchor: "east")
       content((A, 50%, N), [4], anchor: "west")
       content((M, 50%, B), [$x$], anchor: "east")
       content((N, 50%, C), [2], anchor: "west")
@@ -271,7 +271,7 @@
 ]
 
 #bt()[
-  Cho tam giác $A B C$ trên đoạn $A B$ lấy điểm $D$, trên đoạn $A C$ lấy điểm $E$ sao cho $D E \/\/ B C$. Biết $A D=2,5$ cm, $A E=5$ cm, $A C=8$ cm. Tính $A B$.
+  Cho tam giác $A B C$ trên đoạn $A B$ lấy điểm $D$, trên đoạn $A C$ lấy điểm $E$ sao cho $D E \/\/ B C$. Biết $A D=2","5$ cm, $A E=5$ cm, $A C=8$ cm. Tính $A B$.
 ]
 
 #bt()[
@@ -279,15 +279,15 @@
 ]
 
 #bt()[
-  Cho tam giác $A B C$ trên đoạn $A B$ lấy điểm $K$, trên đoạn $B C$ lấy điểm $Q$ sao cho $K Q \/\/ A C$. Biết $B K=4,5$ cm, $K A=2,5$ cm, $B Q=13,5$ cm. Tính $B C$.
+  Cho tam giác $A B C$ trên đoạn $A B$ lấy điểm $K$, trên đoạn $B C$ lấy điểm $Q$ sao cho $K Q \/\/ A C$. Biết $B K=4","5$ cm, $K A=2","5$ cm, $B Q=13","5$ cm. Tính $B C$.
 ]
 
 #bt()[
-  Cho tam giác $A B C$ có $M N \/\/ B C$. Biết $A M=4$ cm, $A N=5$ cm, $N C=3,5$ cm. Tính $M B$?
+  Cho tam giác $A B C$ có $M N \/\/ B C$. Biết $A M=4$ cm, $A N=5$ cm, $N C=3","5$ cm. Tính $M B$?
 ]
 
 #bt()[
-  Cho tam giác $A E F$ có $P Q \/\/ E F$, biết $D F=24$ cm, $Q F=15$ cm, $D P=6,3$ cm. Tính $P E$?
+  Cho tam giác $A E F$ có $P Q \/\/ E F$, biết $D F=24$ cm, $Q F=15$ cm, $D P=6","3$ cm. Tính $P E$?
 ]
 
 #bt()[
@@ -328,7 +328,7 @@
 ]
 
 #bt()[
-  Cho tam giác $A B C$ có $A B=5$ cm. Điểm $D$ trên cạnh $A B$ sao cho $D B=1,5$ cm. Lấy $E$ trên cạnh $A C$ sao cho $D E \/\/ B C$. Giả sử $A E + A C=13$ cm. Tính tỉ số giữa $A C$ và $E C$ rồi tính $A C$, $E C$, $A E$.
+  Cho tam giác $A B C$ có $A B=5$ cm. Điểm $D$ trên cạnh $A B$ sao cho $D B=1","5$ cm. Lấy $E$ trên cạnh $A C$ sao cho $D E \/\/ B C$. Giả sử $A E + A C=13$ cm. Tính tỉ số giữa $A C$ và $E C$ rồi tính $A C$, $E C$, $A E$.
 ]
 
 #bt()[
@@ -348,7 +348,7 @@
 ]
 
 #bt()[
-  Cho đoạn thẳng $A B=5$ cm chứa điểm $O$ sao cho $O A=3$ cm. Đường thẳng $x y$ qua $O$. Lấy điểm $C$ trên tia $O x$ và $D$ trên tia $O y$ sao cho $A C \/\/ B D$. Giả sử $O C - O D=1,5$ cm. Tính tỉ số giữa $O C$ và $O D$ rồi tính $O C$, $O D$ và $C D$.
+  Cho đoạn thẳng $A B=5$ cm chứa điểm $O$ sao cho $O A=3$ cm. Đường thẳng $x y$ qua $O$. Lấy điểm $C$ trên tia $O x$ và $D$ trên tia $O y$ sao cho $A C \/\/ B D$. Giả sử $O C - O D=1","5$ cm. Tính tỉ số giữa $O C$ và $O D$ rồi tính $O C$, $O D$ và $C D$.
 ]
 
 #bt()[

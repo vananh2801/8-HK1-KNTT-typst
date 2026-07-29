@@ -140,8 +140,8 @@
 
 #dl(tieude: "Thể tích của hình chóp tam giác đều")[
 
-  Thể tích hình chóp tam giác đều bằng $frac(1, 3)$ tích của diện tích đáy với chiều cao của nó:
-  $ V=frac(1, 3)S dot h, $
+  Thể tích hình chóp tam giác đều bằng $1/3$ tích của diện tích đáy với chiều cao của nó:
+  $ V=1/3S dot h, $
   trong đó $S$ là diện tích đáy, $h$ là chiều cao của hình chóp.
 ]
 

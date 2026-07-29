@@ -225,7 +225,7 @@
 ]
 
 #vd()[
-  Vẽ mặt phẳng toạ độ $O x y$ và xác định các điểm $R(-3;-2)$ và $S(frac(5, 3);2)$ trong mặt phẳng toạ độ đó.
+  Vẽ mặt phẳng toạ độ $O x y$ và xác định các điểm $R(-3;-2)$ và $S(5/3;2)$ trong mặt phẳng toạ độ đó.
   #loigiai()[
     #dotlineEX(9)
   ]
@@ -243,8 +243,8 @@
     #table(
       columns: 5,
       align: center,
-      [$x$], [$-3$], [$-1$], [$1$], [$2,5$],
-      [$y$], [$4$], [$3,5$], [$1$], [$0$],
+      [$x$], [$-3$], [$-1$], [$1$], [$2","5$],
+      [$y$], [$4$], [$3","5$], [$1$], [$0$],
     )
   ]
   #loigiai()[
@@ -275,7 +275,7 @@
 ]
 
 #bt()[
-  Khi đo nhiệt độ, ta có công thức đổi từ đơn vị độ C (Celsius) sang đơn vị độ F (Fahrenheit) như sau: $F = 1,8C + 32$.
+  Khi đo nhiệt độ, ta có công thức đổi từ đơn vị độ C (Celsius) sang đơn vị độ F (Fahrenheit) như sau: $F = 1","8C + 32$.
 
   Theo em, $F$ có phải là một hàm số theo biến số $C$ hay không? Giải thích.
 ]
@@ -428,7 +428,7 @@
 ]
 
 #bt()[
-  Khối lượng $m$ (g) của một thanh sắt có khối lượng riêng là $7,8$ $"kg/dm"^3$ tỉ lệ thuận với thể tích $V$ (cm$""^3$) theo công thức $m = 7,8V$. Đại lượng $m$ có phải là hàm số của đại lượng $V$ không? Nếu có, tính $m(10)$; $m(20)$; $m(30)$; $m(35)$; $m(40)$; $m(50)$; $m(60)$.
+  Khối lượng $m$ (g) của một thanh sắt có khối lượng riêng là $7","8$ $"kg/dm"^3$ tỉ lệ thuận với thể tích $V$ (cm$""^3$) theo công thức $m = 7","8V$. Đại lượng $m$ có phải là hàm số của đại lượng $V$ không? Nếu có, tính $m(10)$; $m(20)$; $m(30)$; $m(35)$; $m(40)$; $m(50)$; $m(60)$.
 ]
 
 #bt()[

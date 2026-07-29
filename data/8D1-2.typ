@@ -17,7 +17,7 @@
 
 #vd()[
   Biểu thức nào dưới đây là đa thức? Hãy chỉ rõ các hạng tử của mỗi đa thức ấy.
-  $ 3x y^2-1; quad x+frac(1, x); quad sqrt(2)x+sqrt(3)y; quad x+sqrt(x y)+y. $
+  $ 3x y^2-1; quad x+1/x); quad sqrt(2)x+sqrt(3)y; quad x+sqrt(x y)+y. $
   #loigiai()[
     #dotlineEX(5)
   ]
@@ -43,7 +43,7 @@
 ]
 
 #vd()[
-  Cho đa thức $N=5y^2z^2-2x y^2z+frac(1, 3)x^4-2y^2z^2+frac(2, 3)x^4+x y^2z.$
+  Cho đa thức $N=5y^2z^2-2x y^2z+1/3x^4-2y^2z^2+2/3x^4+x y^2z.$
   #listEX()[
     + Thu gọn đa thức $N$.
     + Xác định hệ số và bậc của từng hạng tử (tức là bậc của từng đơn thức) trong dạng thu gọn của $N$.

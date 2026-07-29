@@ -17,7 +17,7 @@
 ]
 
 #vd()[
-  Cô Hương đầu tư 500 triệu đồng vào hai khoản: mua trái phiếu doanh nghiệp với lãi suất 8% một năm và mua trái phiếu chính phủ với lãi suất 5% một năm. Cuối năm cô Hương nhận được 35,5 triệu đồng tiền lãi. Hỏi cô Hương đã đầu tư vào mỗi khoản bao nhiêu tiền?
+  Cô Hương đầu tư 500 triệu đồng vào hai khoản: mua trái phiếu doanh nghiệp với lãi suất 8% một năm và mua trái phiếu chính phủ với lãi suất 5% một năm. Cuối năm cô Hương nhận được $35","5$ triệu đồng tiền lãi. Hỏi cô Hương đã đầu tư vào mỗi khoản bao nhiêu tiền?
   #loigiai()[
     #dotlineEX(18)
   ]
@@ -33,7 +33,7 @@
 #subsection()[Bài tập tự luận]
 
 #bt()[
-  Chị Linh làm việc trong một ngân hàng và được thưởng Tết bằng 2,5 tháng lương. Tổng thu nhập một năm của chị Linh bao gồm lương 12 tháng và thưởng Tết là 290 triệu đồng. Hỏi lương hằng tháng của chị Linh là bao nhiêu?
+  Chị Linh làm việc trong một ngân hàng và được thưởng Tết bằng $2","5$ tháng lương. Tổng thu nhập một năm của chị Linh bao gồm lương 12 tháng và thưởng Tết là 290 triệu đồng. Hỏi lương hằng tháng của chị Linh là bao nhiêu?
 ]
 
 #bt()[
@@ -41,7 +41,7 @@
 ]
 
 #bt()[
-  Nhân dịp khai trương, một siêu thị điện máy đã giảm giá nhiều mặt hàng để thu hút khách hàng. Tổng giá niêm yết của một chiếc ti vi loại A và một chiếc tủ lạnh loại B là 36,8 triệu đồng. Trong dịp này, ti vi loại A được giảm giá 30% và tủ lạnh loại B được giảm giá 25% nên bác Cường đã mua một chiếc ti vi và một chiếc tủ lạnh nói trên với tổng số tiền là 26,805 triệu đồng. Hỏi giá niêm yết của mỗi chiếc ti vi loại A và mỗi chiếc tủ lạnh loại B là bao nhiêu?
+  Nhân dịp khai trương, một siêu thị điện máy đã giảm giá nhiều mặt hàng để thu hút khách hàng. Tổng giá niêm yết của một chiếc ti vi loại A và một chiếc tủ lạnh loại B là $36","8$ triệu đồng. Trong dịp này, ti vi loại A được giảm giá 30% và tủ lạnh loại B được giảm giá 25% nên bác Cường đã mua một chiếc ti vi và một chiếc tủ lạnh nói trên với tổng số tiền là $26","805$ triệu đồng. Hỏi giá niêm yết của mỗi chiếc ti vi loại A và mỗi chiếc tủ lạnh loại B là bao nhiêu?
 ]
 
 #bt()[
@@ -74,7 +74,7 @@
 ]
 
 #bt()[
-  Một cửa hàng ngày thứ nhất bán được nhiều hơn ngày thứ hai 560 kg gạo. Tính số gạo cửa hàng bán được trong ngày thứ nhất, biết rằng nếu ngày thứ nhất bán được thêm 60 kg gạo thì sẽ gấp 1,5 lần ngày thứ hai.
+  Một cửa hàng ngày thứ nhất bán được nhiều hơn ngày thứ hai 560 kg gạo. Tính số gạo cửa hàng bán được trong ngày thứ nhất, biết rằng nếu ngày thứ nhất bán được thêm 60 kg gạo thì sẽ gấp $1","5$ lần ngày thứ hai.
 ]
 
 #bt()[
@@ -82,7 +82,7 @@
 ]
 
 #bt()[
-  Bác Năm gửi tiết kiệm một số tiền tại một ngân hàng theo thể thức kì hạn một năm với lãi suất 6,2%/năm, tiền lãi sau mỗi năm gửi tiết kiệm sẽ được nhập vào tiền vốn để tính lãi cho năm tiếp theo. Sau hai năm gửi bác Nam rút hết tiền về và nhận được cả vốn lẫn lãi là 225 568 800 đồng. Hỏi số tiền ban đầu bác Năm gửi tiết kiệm là bao nhiêu?
+  Bác Năm gửi tiết kiệm một số tiền tại một ngân hàng theo thể thức kì hạn một năm với lãi suất $6","2$%/năm, tiền lãi sau mỗi năm gửi tiết kiệm sẽ được nhập vào tiền vốn để tính lãi cho năm tiếp theo. Sau hai năm gửi bác Nam rút hết tiền về và nhận được cả vốn lẫn lãi là 225 568 800 đồng. Hỏi số tiền ban đầu bác Năm gửi tiết kiệm là bao nhiêu?
 ]
 
 #bt()[

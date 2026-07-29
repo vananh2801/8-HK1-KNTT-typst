@@ -8,7 +8,7 @@
 #subsubsection()[Phân thức đại số]
 
 #dn(tieude: "Phân thức đại số")[
-  Một _phân thức đại số_ (hay nói gọn là _phân thức_) là một biểu thức có dạng $frac(A, B)$, trong đó $A$, $B$ là những đa thức và $B$ khác đa thức không.\
+  Một _phân thức đại số_ (hay nói gọn là _phân thức_) là một biểu thức có dạng $A/B$, trong đó $A$, $B$ là những đa thức và $B$ khác đa thức không.\
   $A$ được gọi là _tử thức_ (hay _tử_), $B$ được gọi là _mẫu thức_ (hay _mẫu_).
 ]
 

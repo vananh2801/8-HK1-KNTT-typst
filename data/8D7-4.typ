@@ -451,7 +451,7 @@
     + $y = 2x^2 - 7$.
     + $y = -3 + x^2$.
     + $y = 3x$.
-    + $y = -0,5x$.
+    + $y = -0","5x$.
     + $y = sqrt(2)x - 3$.
     + $y = sqrt(2)x^3 - 1$.
     + $y = 5 - sqrt(3)x$.
@@ -534,15 +534,15 @@
   Người ta thấy áp suất khí quyển càng lên cao càng giảm theo công thức: $P = 760 - 1/12 h$, trong đó $P$ là áp suất khí quyển tính theo đơn vị mmHg, $h$ là độ cao trên mực nước biển tính bằng m. $(0 <= h <= 9120)$
   #listEX()[
     + Em hãy xem ở Thành phố Hồ Chí Minh áp suất khí quyển là bao nhiêu? Biết rằng độ cao ở Thành phố ngang với mực nước biển?
-    + Đỉnh Fansipan được gọi là "nóc nhà của Đông Dương" vì là ngọn núi cao nhất Đông Dương. Ở đây bạn An dùng áp kế thủy ngân đo được áp suất là 497,75 mmHg. Em hãy tính xem đỉnh Fansipan cao bao nhiêu mét?
+    + Đỉnh Fansipan được gọi là "nóc nhà của Đông Dương" vì là ngọn núi cao nhất Đông Dương. Ở đây bạn An dùng áp kế thủy ngân đo được áp suất là $497","75$ mmHg. Em hãy tính xem đỉnh Fansipan cao bao nhiêu mét?
   ]
 ]
 
 #bt()[
-  Rừng ngập mặn Cần Giờ (còn gọi là rừng Sác), trong chiến tranh bom đạn và chất độc hóa học đã làm nơi đây trở thành "vùng đất chết"; được trồng lại từ năm 1979, nay đã trở thành "lá phổi xanh" cho Thành phố Hồ Chí Minh, được UNESCO công nhận là khu dự trữ sinh quyển của thế giới đầu tiên ở Việt Nam vào ngày 21/01/2000. Diện tích rừng phủ xanh được cho bởi hàm số $S = 3,14 + 0,05t$, trong đó $S$ tính bằng nghìn héc ta, $t$ tính bằng số năm kể từ năm 2000.
+  Rừng ngập mặn Cần Giờ (còn gọi là rừng Sác), trong chiến tranh bom đạn và chất độc hóa học đã làm nơi đây trở thành "vùng đất chết"; được trồng lại từ năm 1979, nay đã trở thành "lá phổi xanh" cho Thành phố Hồ Chí Minh, được UNESCO công nhận là khu dự trữ sinh quyển của thế giới đầu tiên ở Việt Nam vào ngày 21/01/2000. Diện tích rừng phủ xanh được cho bởi hàm số $S = 3","14 + 0","05t$, trong đó $S$ tính bằng nghìn héc ta, $t$ tính bằng số năm kể từ năm 2000.
   #listEX()[
     + Hãy tính diện tích rừng Sác được phủ xanh vào năm 2000.
-    + Diện tích rừng Sác được phủ xanh đạt 4,04 nghìn héc-ta vào năm nào?
+    + Diện tích rừng Sác được phủ xanh đạt $4","04$ nghìn héc-ta vào năm nào?
   ]
 ]
 
@@ -550,7 +550,7 @@
   Dưới nước biển, khi độ sâu tăng lên 10 m thì áp suất nước biển sẽ tăng thêm 1 atmosphere (ký hiệu atm). Do đó ở độ sâu $d$ (m) thì áp suất $p$ (atm) tương ứng được cho bởi công thức: $p = 1/10 d + 1$ với $0 <= d <= 40$.
   #listEX()[
     + Nếu ở độ sâu 25 m thì áp suất của nước biển là bao nhiêu?
-    + Nếu áp suất của nước biển là 3,6 atm thì độ sâu tương ứng là bao nhiêu?
+    + Nếu áp suất của nước biển là $3","6$ atm thì độ sâu tương ứng là bao nhiêu?
   ]
 ]
 

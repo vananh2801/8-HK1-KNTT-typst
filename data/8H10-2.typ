@@ -109,12 +109,12 @@
       line(O_mid, A_mid, B_mid, O_mid)
       let A_midd = (O_mid, 50%, B_mid)
       line(A_midd, A)
-      content((A_midd, 40%, A), [$8,7$ cm], anchor: "south", angle: -30deg)
+      content((A_midd, 40%, A), [$8","7$ cm], anchor: "south", angle: -30deg)
       content((O_mid, 50%, B_mid), [$10$ cm], anchor: "south", angle: 60deg)
     })
   ]
   #loigiai()[
-    Diện tích một mặt bên là: $frac(1, 2) dot 10 dot 8","7 = 43","5$ ($"cm"^2$).\
+    Diện tích một mặt bên là: $1/2 dot 10 dot 8","7 = 43","5$ ($"cm"^2$).\
     Diện tích xung quanh là: $S_text("xq") = 3 dot 43","5 = 130","5$ ($"cm"^2$).\
     Vì diện tích mặt đáy bằng diện tích một mặt bên nên $S_text("đáy") = 43","5$ ($"cm"^2$).\
     Do đó, diện tích toàn phần là $S_text("tp") = S_text("xq") + S_text("đáy") = 130","5 + 43","5 = 174$ ($"cm"^2$).
@@ -129,9 +129,9 @@
 
 #subsubsection()[Thể tích]
 
-#dl()[
-  Thể tích của hình chóp tam giác đều (hình chóp tứ giác đều) bằng $frac(1, 3)$ diện tích đáy nhân với chiều cao:
-  $ V = frac(1, 3) dot S_"đáy" dot h, $
+#dl(tieude: "Thể tích của hình chóp tứ giác đều")[
+  Thể tích của hình chóp tứ giác đều bằng $1/3$ diện tích đáy nhân với chiều cao:
+  $ V = 1/3 dot S_"đáy" dot h, $
   trong đó $V$ là thể tích, $S_"đáy"$ là diện tích đáy và $h$ là chiều cao.
 ]
 
@@ -143,7 +143,7 @@
   ]
   #loigiai()[
     Diện tích mặt đáy là: $S_text("đáy") = 3 dot 3 = 9$ ($"cm"^2$).\
-    Thể tích của một chiếc hộp bánh ít gai là: $V = frac(1, 3) dot S_text("đáy") dot h = frac(1, 3) dot 9 dot 2","6 = 23","4$ ($"cm"^3$).
+    Thể tích của một chiếc hộp bánh ít gai là: $V = 1/3 dot S_text("đáy") dot h = 1/3 dot 9 dot 2","6 = 23","4$ ($"cm"^3$).
   ]
 ]
 

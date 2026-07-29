@@ -18,8 +18,8 @@
     + $x + 2 y$;
     + $0","3 x y x^2$;
     + $5x sqrt(y)$;
-    + $frac(3, 2)+y^2$;
-    + $-frac(5, 9)x y z$;
+    + $3/2 +y^2$;
+    + $-5/9 x y z$;
     + $(3-x)x^2y^2$;
     + $(1+sqrt(2))x^2y$.
   ]
@@ -77,7 +77,7 @@
 
 #vd()[
   Cho các đơn thức:
-  $ frac(5, 3)x^2y; quad -x y^2; quad 0","5x^4; quad -2x y^2; quad -frac(1, 4)x^2 y; quad 3x y^2. $
+  $ 5/3x^2y; quad -x y^2; quad 0","5x^4; quad -2x y^2; quad -1/4x^2 y; quad 3x y^2. $
   Hãy sắp xếp các đơn thức đã cho thành từng nhóm, sao cho tất cả các đơn thức
   đồng dạng thì thuộc cùng một nhóm.
   #loigiai()[

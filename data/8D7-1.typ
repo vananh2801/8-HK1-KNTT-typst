@@ -17,7 +17,7 @@
     + $2x^2=3x$;
     + $3x y=3y^2$;
     + $2t+t^2=sqrt(t)$;
-    + $frac(1, z)=4$.
+    + $1/z=4$.
   ]
   #loigiai()[
     #dotlineEX(4)
@@ -42,7 +42,7 @@
 ]
 
 #vd()[
-  Phương trình $2x^2-3x+1=0$ có đúng hai nghiệm là $x=-1$ và $x=-frac(1, 2)$. Hãy viết tập hợp tất cả các nghiệm của phương trình này.
+  Phương trình $2x^2-3x+1=0$ có đúng hai nghiệm là $x=-1$ và $x=-1/2$. Hãy viết tập hợp tất cả các nghiệm của phương trình này.
   #loigiai()[
     #dotlineEX(1)
   ]
@@ -78,18 +78,18 @@
 #phuongphap(tieude: "Cách giải phương trình bậc nhất một ẩn")[
   - Phương trình bậc nhất $a x + b = 0$ ($a != 0$) được giải như sau:
     $
-      & a x+b=0       && \
-      & a x=-b        && "(chuyển vế hạng tử "b" và đổi dấu thành "-b")" \
-      & x=-frac(b, a) && "(nhân hai vế với "frac(1, a)")"
+      & a x+b=0 && \
+      & a x=-b  && "(chuyển vế hạng tử "b" và đổi dấu thành "-b")" \
+      & x=-b/a  && "(nhân hai vế với "1/a")"
     $
-  - Phương trình bậc nhất $a x + b = 0$ ($a != 0$) luôn có _một nghiệm duy nhất_ $x=-frac(b, a)$.
+  - Phương trình bậc nhất $a x + b = 0$ ($a != 0$) luôn có _một nghiệm duy nhất_ $x=-b/a$.
 ]
 
 #vd()[
   Giải các phương trình sau:
   #listEX()[
     + $2x-13=0$;
-    + $3-frac(1, 2)x=0$.
+    + $3-1/2x=0$.
   ]
   #loigiai()[
     #dotlineEX(5)

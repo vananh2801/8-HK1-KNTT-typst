@@ -60,7 +60,7 @@
         [$Delta A B C$, $A D=D B$, $A E=E C$, $D in A B$, $E in A C$.],
         [KL],
         pad(y: 8pt)[
-          $D E\/\/B C$; $D E=frac(1, 2)B C$.
+          $D E\/\/B C$; $D E=1/2B C$.
         ],
       )
     ],

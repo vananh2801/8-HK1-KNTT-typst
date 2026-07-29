@@ -72,7 +72,7 @@
 ]
 
 #vd()[
-  Rút gọn biểu thức $P=frac(3, 2x+1)+[frac(5, 4x-1)-(frac(4, 4x-1)+frac(3, 2x+1))]$.
+  Rút gọn biểu thức $P=3/(2x+1)+[5/(4x-1)-(4/(4x-1)+3/(2x+1))]$.
   #loigiai()[
     #dotlineEX(5)
   ]

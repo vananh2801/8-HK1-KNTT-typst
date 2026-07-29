@@ -17,7 +17,7 @@ Tương tự như đối với phân số, ta có các tính chất cơ bản c�
 ]
 
 #vd()[
-  Tìm phân thức bằng phân thức $frac(x^2+x, x y)$, biết rằng mẫu thức bằng $x y^2$.
+  Tìm phân thức bằng phân thức $(x^2+x)/(x y)$, biết rằng mẫu thức bằng $x y^2$.
   #loigiai()[
     #dotlineEX(2)
   ]
@@ -31,7 +31,7 @@ Tương tự như đối với phân số, ta có các tính chất cơ bản c�
 ]
 
 #vd()[
-  Tìm phân thức bằng phân thức $frac(x^2+x, x y)$, biết rằng mẫu thức bằng $x$.
+  Tìm phân thức bằng phân thức $(x^2+x)/(x y)$, biết rằng mẫu thức bằng $x$.
   #loigiai()[
     #dotlineEX(2)
   ]
@@ -43,7 +43,7 @@ Tương tự như đối với phân số, ta có các tính chất cơ bản c�
 ]
 
 #vd()[
-  Tìm phân thức bằng phân thức $frac(x^2+x, x y)$, biết rằng mẫu thức bằng $-x y$.
+  Tìm phân thức bằng phân thức $(x^2+x)/(x y)$, biết rằng mẫu thức bằng $-x y$.
   #loigiai()[
     #dotlineEX(2)
   ]

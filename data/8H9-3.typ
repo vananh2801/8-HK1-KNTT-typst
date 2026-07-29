@@ -166,7 +166,7 @@
 #subsection()[Bài tập tự luận]
 
 #bt()[
-  Một bạn học sinh thả diều ngoài công viên, cho biết đoạn diều từ tay bạn đến con diều dài 130 m và bạn đứng cách nơi diều được thả lên theo phương thẳng đứng là 50 m. Tính độ cao của con diều so với mặt đất, biết tay bạn học sinh cách mặt đất là 1,5 m.
+  Một bạn học sinh thả diều ngoài công viên, cho biết đoạn diều từ tay bạn đến con diều dài 130 m và bạn đứng cách nơi diều được thả lên theo phương thẳng đứng là 50 m. Tính độ cao của con diều so với mặt đất, biết tay bạn học sinh cách mặt đất là $1","5$ m.
 ]
 
 #bt()[

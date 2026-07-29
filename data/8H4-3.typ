@@ -88,9 +88,9 @@
       content(E, [$E$], anchor: "north-east", padding: 4pt)
       content(F, [$F$], anchor: "north-west", padding: 4pt)
       content(M, [$M$], anchor: "south-west", padding: 2pt)
-      content((E, 50%, D), [$4,5$], anchor: "east", padding: 5pt)
-      content((D, 50%, M), [$3,5$], anchor: "south-west", padding: 2pt)
-      content((M, 50%, F), [$5,6$], anchor: "south-west", padding: 2pt)
+      content((E, 50%, D), [$4","5$], anchor: "east", padding: 5pt)
+      content((D, 50%, M), [$3","5$], anchor: "south-west", padding: 2pt)
+      content((M, 50%, F), [$5","6$], anchor: "south-west", padding: 2pt)
       content((E, 50%, F), [$x$], anchor: "north", padding: 5pt)
     })
   ]

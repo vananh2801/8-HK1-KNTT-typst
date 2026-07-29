@@ -7,7 +7,7 @@
 
 #dl(tieude: "Công thức tính xác suất")[
   Giả thiết rằng các kết quả có thể của một hành động hay thực nghiệm là _đồng khả năng_. Khi đó, _xác suất của biến cố_ $E$, kí hiệu là $P(E)$, bằng tỉ số giữa số kết quả thuận lợi cho biến cố $E$ và tổng số kết quả có thể:
-  $ P(E) = frac("Số kết quả thuận lợi cho "E, "Tổng số kết quả có thể"). $
+  $ P(E) = ("Số kết quả thuận lợi cho "E)/("Tổng số kết quả có thể"). $
 ]
 
 #phuongphap(tieude: [Các bước tính xác suất của biến cố])[

@@ -194,7 +194,7 @@
   Với mỗi câu hỏi sau, Lâm đã hỏi bốn bạn và ghi lại câu trả lời.
   #listEX()[
     + Nhà bạn có bao nhiêu chiếc ti vi? Kết quả: 2; 43; 3; 3;
-    + Bạn mất bao nhiêu thời gian (đơn vị: giờ) để hoàn thành bài tập về nhà? Kết quả: 1,2; 1,5; 2,1; 1,8. Mỗi dãy dữ liệu trên thuộc loại nào? Chỉ ra giá trị không hợp lí nếu có.
+    + Bạn mất bao nhiêu thời gian (đơn vị: giờ) để hoàn thành bài tập về nhà? Kết quả: $1","2$; $1","5$; $2","1$; $1","8$. Mỗi dãy dữ liệu trên thuộc loại nào? Chỉ ra giá trị không hợp lí nếu có.
   ]
 ]
 
@@ -313,7 +313,7 @@
 #bt()[
   Sau khi tìm hiểu về các châu lục trên Trái Đất từ trang web https://vi.wikipedia.org, bạn Long thu được những dữ liệu thống kê sau:
   - Sáu châu lục là: Châu Á; Châu Âu; Châu Đại Dương; Châu Mỹ; Châu Nam Cực; Châu Phi.
-  - Diện tích (đơn vị: triệu $"km"^2$) của sáu châu lục đó lần lượt là: $43,82$; $10,18$; $9$; $42,33$; $13,72$; $30,37$.
+  - Diện tích (đơn vị: triệu $"km"^2$) của sáu châu lục đó lần lượt là: $43","82$; $10","18$; $9$; $42","33$; $13","72$; $30","37$.
 
   Tìm dữ liệu định tính và dữ liệu định lượng trong các dữ liệu trên.
 ]
@@ -321,7 +321,7 @@
 #bt()[
   Sau khi tìm hiểu về các đại dương trên Trái Đất từ trang web https://vi.wikipedia.org, bạn Ẩn thu được những dữ liệu thống kê sau:
   - Năm đại dương là: Thái Bình Dương; Đại Tây Dương; Ấn Độ Dương; Bắc Băng Dương; Nam Đại Dương.
-  - Diện tích (đơn vị: triệu $"km"^2$) của năm đại dương đó lần lượt là: $165,25$; $106,4$; $75$; $14,09$; $20,3$.
+  - Diện tích (đơn vị: triệu $"km"^2$) của năm đại dương đó lần lượt là: $165","25$; $106","4$; $75$; $14","09$; $20","3$.
 
   Tìm dữ liệu định tính và dữ liệu định lượng trong các dữ liệu trên.
 ]
