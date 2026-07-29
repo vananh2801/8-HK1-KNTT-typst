@@ -24,26 +24,213 @@
   ]
 ]
 
-#subsubsection()[Hằng đẳng thức đáng nhớ]
+#subsubsection()[Bình phương của một tổng]
 
-Với hai biểu thức tuỳ ý $A$ và $B$, ta có các _hằng đẳng thức đáng nhớ_ sau:
+Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
+
 #align(center)[
-  #table(
-    columns: (auto, auto),
-    inset: 10pt,
-    align: (center, center),
-    [*Tên*], [*Hằng đẳng thức*],
-    [Bình phương của một tổng], [$(A + B)^2 = A^2 + 2A B + B^2$],
-    [Bình phương của một hiệu], [$(A - B)^2 = A^2 - 2A B + B^2$],
-    [Hiệu của hai bình phương], [$A^2 - B^2 = (A + B)(A - B)$],
-    [Lập phương của một tổng], [$(A + B)^3 = A^3 + 3A^2 B + 3A B^2 + B^3$],
-    [Lập phương của một hiệu], [$(A - B)^3 = A^3 - 3A^2 B + 3A B^2 - B^3$],
-    [Tổng của hai lập phương], [$A^3 + B^3 = (A + B)(A^2 - A B + B^2)$],
-    [Hiệu của hai lập phương], [$A^3 - B^3 = (A - B)(A^2 + A B + B^2)$],
-  )
+  #box(width: auto, inset: 6pt, stroke: 0.7pt + blue, radius: 3pt)[
+    $(A + B)^2 = A^2 + 2A B + B^2$
+  ]
 ]
 
+#vd()[
+  Tính nhanh $10001^2$.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
 
+#vd()[
+  Khai triển $(3x+y)^2$.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#vd()[
+  Áp dụng hằng đẳng thức để phân tích đa thức $9y^2+6y x+x^2$ thành nhân tử.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#subsubsection()[Bình phương của một hiệu]
+
+Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
+
+#align(center)[
+  #box(width: auto, inset: 6pt, stroke: 0.7pt + blue, radius: 3pt)[
+    $(A - B)^2 = A^2 - 2A B + B^2$
+  ]
+]
+
+#vd()[
+  Tính nhanh $999^2$.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#vd()[
+  Khai triển $(2z-t)^2$.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#vd()[
+  Áp dụng hằng đẳng thức để phân tích đa thức $16a^2-8a b+b^2$ thành nhân tử.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#subsubsection()[Hiệu của hai bình phương]
+
+Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
+
+#align(center)[
+  #box(width: auto, inset: 6pt, stroke: 0.7pt + blue, radius: 3pt)[
+    $A^2 - B^2 = (A + B)(A - B)$
+  ]
+]
+
+#vd()[
+  Tính nhanh:
+  #listEX()[
+    + $101^2-99^2$;
+    + $98 dot 102$.
+  ]
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#vd()[
+  Áp dụng hằng đẳng thức để phân tích đa thức $x^2-9$ thành nhân tử.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#subsubsection()[Lập phương của một tổng]
+
+Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
+
+#align(center)[
+  #box(width: auto, inset: 6pt, stroke: 0.7pt + blue, radius: 3pt)[
+    $(A + B)^3 = A^3 + 3A^2 B + 3A B^2 + B^3$
+  ]
+]
+
+#vd()[
+  Khai triển:
+  #listEX()[
+    + $(x+3)^3$;
+    + $(4a+b)^3$
+  ]
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#vd()[
+  Áp dụng hằng đẳng thức để phân tích đa thức $x^3+9x^2y+27x y^2+27y^3$ thành nhân tử.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#vd()[
+  Rút gọn biểu thức $(2x+y)^3-8x^3-y^3$.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#subsubsection()[Lập phương của một hiệu]
+
+Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
+
+#align(center)[
+  #box(width: auto, inset: 6pt, stroke: 0.7pt + blue, radius: 3pt)[
+    $(A - B)^3 = A^3 - 3A^2 B + 3A B^2 - B^3$
+  ]
+]
+
+#vd()[
+  Khai triển:
+  #listEX()[
+    + $(x-2)^3$;
+    + $(z-3t)^3$
+  ]
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#vd()[
+  Áp dụng hằng đẳng thức để phân tích đa thức $27-27x+9x^2-x^3$ thành nhân tử.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#vd()[
+  Rút gọn biểu thức $(x-y)^3+(x+y)^3$.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#subsubsection()[Tổng của hai lập phương]
+
+Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
+
+#align(center)[
+  #box(width: auto, inset: 6pt, stroke: 0.7pt + blue, radius: 3pt)[
+    $A^3 + B^3 = (A + B)(A^2 - A B + B^2)$
+  ]
+]
+
+#vd()[
+  Áp dụng hằng đẳng thức để phân tích đa thức $27x^3+8$ thành nhân tử.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#vd()[
+  Rút gọn biểu thức $(x+3)(x^2-3x+9)-x^3$.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#subsubsection()[Hiệu của hai lập phương]
+
+Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
+
+#align(center)[
+  #box(width: auto, inset: 6pt, stroke: 0.7pt + blue, radius: 3pt)[
+    $A^3 - B^3 = (A - B)(A^2 + A B + B^2)$
+  ]
+]
+
+#vd()[
+  Áp dụng hằng đẳng thức để phân tích đa thức $x^3-8$ thành nhân tử.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
+
+#vd()[
+  Rút gọn biểu thức $(3x-2y)(9x^2+6x y+4y^2)+8y^3$.
+  #loigiai()[
+    #dotlineEX(2)
+  ]
+]
 
 #subsection()[Bài tập tự luận]
 
