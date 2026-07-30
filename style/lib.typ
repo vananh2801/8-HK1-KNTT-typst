@@ -96,13 +96,16 @@
       block(width: auto, above: 1.5em, below: 2em, fill: red.lighten(80%), inset: 10pt, radius: 5pt)[
         #upper(it.body)
       ]
+      current_chapter_title.update(it.body)
+      current_section_title.update(none)
     } else {
       // Nếu tiêu đề CÓ đánh số (Chương 1, 2...)
       block(width: auto, above: 1.5em, below: 1em, fill: red.lighten(80%), inset: 10pt, radius: 5pt)[
         Chương #counter(heading).display()
-
       ]
       upper(it.body)
+      current_chapter_title.update("Chương " + str(counter(heading).display()) + ". " + it.body)
+      current_section_title.update(none)
     }
     counter("dn_count").update(0)
     counter("dl_count").update(0)
@@ -113,8 +116,6 @@
     counter("ex_count").update(0)
     counter("phuongphap_count").update(0)
     counter("quytac_count").update(0)
-    current_chapter_title.update(it.body)
-    current_section_title.update(none)
   }
 
   // section - Bài dạy
@@ -138,6 +139,7 @@
       )[
         #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "semibold")
         Bài #counter(heading).get().last()
+        #current_section_title.update("Bài " + str(counter(heading).get().last()) + ". " + it.body)
       ]
       #align(center)[
         #set text(size: 14pt, weight: "bold")
@@ -154,7 +156,6 @@
     counter("ex_count").update(0)
     counter("phuongphap_count").update(0)
     counter("quytac_count").update(0)
-    current_section_title.update(it.body)
   }
 
   // subsection - Mục đánh chữ cái in hoa
