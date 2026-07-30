@@ -162,7 +162,7 @@
     [
       #import "@preview/cetz:0.5.2"
       #set text(size: 10pt)
-      #cetz.canvas(length: 0.5cm, {
+      #cetz.canvas(length: 0.4cm, {
         import cetz.draw: *
         import cetz.angle: *
         set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
@@ -185,32 +185,33 @@
 ]
 
 #luuy()[
-  #immini()[
-    Định lí trên vẫn đúng nếu thay bằng đường thẳng cắt phần kéo dài của hai cạnh tam giác.
-  ][
-    #set text(size: 10pt)
-    #import "@preview/cetz:0.5.2"
-    #cetz.canvas(length: 0.5cm, {
-      import cetz.draw: *
-      import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
-      let A = (5, 6)
-      let B = (2, 1)
-      let C = (11, 1)
-      let M = (A, -33.33%, B)
-      let N = (A, -33.33%, C)
-      line(A, B, C, A)
-      line((M, -2.5, N), N)
-      line(M, (N, -1.5, M))
-      line(A, M, stroke: (dash: "dashed"))
-      line(A, N, stroke: (dash: "dashed"))
-      content(A, [$A$], anchor: "west")
-      content(B, [$B$], anchor: "north-east")
-      content(C, [$C$], anchor: "north-west")
-      content(M, [$M$], anchor: "south")
-      content(N, [$N$], anchor: "south")
-    })
-  ]
+  - Định lý này được chứng minh dựa trên Hệ quả định lý Thalès.
+  - #immini()[
+      Định lí trên vẫn đúng nếu thay bằng đường thẳng cắt phần kéo dài của hai cạnh tam giác.
+    ][
+      #set text(size: 10pt)
+      #import "@preview/cetz:0.5.2"
+      #cetz.canvas(length: 0.4cm, {
+        import cetz.draw: *
+        import cetz.angle: *
+        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        let A = (5, 6)
+        let B = (2, 1)
+        let C = (11, 1)
+        let M = (A, -33.33%, B)
+        let N = (A, -33.33%, C)
+        line(A, B, C, A)
+        line((M, -2.5, N), N)
+        line(M, (N, -1.5, M))
+        line(A, M, stroke: (dash: "dashed"))
+        line(A, N, stroke: (dash: "dashed"))
+        content((rel: (10deg, 10pt), to: A), [$A$])
+        content(B, [$B$], anchor: "north-east")
+        content(C, [$C$], anchor: "north-west")
+        content(M, [$M$], anchor: "south")
+        content(N, [$N$], anchor: "south")
+      })
+    ]
 ]
 
 #vd()[
@@ -219,7 +220,7 @@
   ][
     #set text(size: 10pt)
     #import "@preview/cetz:0.5.2"
-    #cetz.canvas(length: 1cm, {
+    #cetz.canvas(length: 0.7cm, {
       import cetz.draw: *
       import cetz.angle: *
       set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
@@ -242,7 +243,7 @@
     })
   ]
   #loigiai()[
-    #dotlineEX(5)
+    #dotlineEX(8)
   ]
 ]
 

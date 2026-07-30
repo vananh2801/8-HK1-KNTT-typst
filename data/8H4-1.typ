@@ -152,6 +152,56 @@
   ]
 ]
 
+#hq(tieude: "Hệ quả định lý Thalès")[
+  Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì nó tạo thành một tam giác mới có ba cạnh tương ứng tỉ lệ với ba cạnh của tam giác đã cho.
+]
+
+#align(center)[
+  #grid(
+    columns: (auto, auto),
+    column-gutter: 1em,
+    align: horizon,
+    [
+      #set text(size: 12pt)
+      #table(
+        columns: (auto, auto),
+        align: (center + horizon, left + horizon),
+        stroke: none,
+        table.vline(x: 1, stroke: 0.7pt),
+        table.hline(y: 1, stroke: 0.7pt),
+        [GT],
+        [$Delta A B C$, $B'C' \/\/ B C$ ($B' in A B$; $C' in A C$)],
+        [KL],
+        pad(y: 8pt)[
+          $(A B')/(A B) = (A C')/(A C)=(B'C')/(B C)$.
+        ],
+      )
+    ],
+    [
+      #import "@preview/cetz:0.5.2"
+      #set text(size: 10pt)
+      #cetz.canvas(length: 0.4cm, {
+        import cetz.draw: *
+        import cetz.angle: *
+        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        let A = (5, 7)
+        let B = (2, 1)
+        let C = (11, 1)
+        let Bp = (A, 33.33%, B)
+        let Cp = (A, 33.33%, C)
+        line(A, B, C, A)
+        line((Bp, -1.5, Cp), Cp)
+        line(Bp, (Cp, -1.5, Bp))
+        content(A, [$A$], anchor: "south")
+        content(B, [$B$], anchor: "north-east")
+        content(C, [$C$], anchor: "north-west")
+        content(Bp, [$B'$], anchor: "south-east")
+        content(Cp, [$C'$], anchor: "south-west")
+      })
+    ],
+  )
+]
+
 #luuy()[
   #immini()[
     Hệ quả định lý Thalès vẫn đúng cho trường hợp đường thẳng song song với một cạnh của tam giác và cắt phần kéo dài của hai cạnh còn lại.
