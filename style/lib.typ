@@ -361,6 +361,7 @@
   #body
 ]
 
+// Định nghĩa
 #let dn = createTheoremEx(
   "dn",
   "Định nghĩa",
@@ -368,6 +369,8 @@
   contentF: lythuyetContentF,
   imminiF: lythuyetImminiF,
 )
+
+// Định lý
 #let dl = createTheoremEx(
   "dl",
   "Định lý",
@@ -375,6 +378,8 @@
   contentF: lythuyetContentF,
   imminiF: lythuyetImminiF,
 )
+
+// Tính chất
 #let tc = createTheoremEx(
   "tc",
   "Tính chất",
@@ -382,16 +387,31 @@
   contentF: lythuyetContentF,
   imminiF: lythuyetImminiF,
 )
+
+// Hệ quả
+#let hq = createTheoremEx(
+  "hq",
+  "Hệ quả",
+  boxF: lythuyetBoxF,
+  contentF: lythuyetContentF,
+  imminiF: lythuyetImminiF,
+)
+
+// Lưu ý
 #let luuy = createTheoremEx(
   "luuy",
   "Lưu ý",
   numbered: false,
 )
+
+// Nhận xét
 #let nhanxet = createTheoremEx(
   "nhanxet",
   "Nhận xét",
   numbered: false,
 )
+
+// Ví dụ
 #let vd = createTheoremEx(
   "vd",
   "Ví dụ",
@@ -399,18 +419,16 @@
   contentF: baitapContentF,
   imminiF: baitapImminiF,
 )
-#let btrl = createTheoremEx(
-  "btrl",
-  "Bài",
-  contentF: baitapContentF,
-  imminiF: baitapImminiF,
-)
+
+// Câu hỏi trắc nghiệm
 #let ex = createTheoremEx(
   "ex",
   "Câu",
   contentF: baitapContentF,
   imminiF: baitapImminiF,
 )
+
+// Bài tập tự luận
 #let bt = createTheoremEx(
   "bt",
   "Bài",
@@ -418,6 +436,7 @@
   imminiF: baitapImminiF,
 )
 
+// Phương pháp
 #let phuongphap = createTheoremEx(
   "phuongphap",
   "Phương pháp",
