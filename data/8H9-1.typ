@@ -19,48 +19,41 @@
   ][
     #import "@preview/cetz:0.5.2"
     #set text(size: 10pt)
-    #cetz.canvas(length: 0.8cm, {
+    #cetz.canvas(length: 0.7cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
-      grid(
-        (0, 0),
-        (10, 8),
-        stroke: gray,
-      )
-      let A = (1, 7)
-      let B = (3, 2)
-      let C = (7, 1)
-      let S = (9, 5)
-      let Ap = ((A.at(0) + S.at(0)) / 2, (A.at(1) + S.at(1)) / 2)
-      let Bp = ((B.at(0) + S.at(0)) / 2, (B.at(1) + S.at(1)) / 2)
-      let Cp = ((C.at(0) + S.at(0)) / 2, (C.at(1) + S.at(1)) / 2)
-      line(A, B, C, A, fill: gray.lighten(50%).transparentize(70%))
-      line(Ap, Bp, Cp, Ap, fill: gray.lighten(50%).transparentize(70%))
-      line(S, A, stroke: (dash: "dashed"))
-      line(S, B, stroke: (dash: "dashed"))
-      line(S, C, stroke: (dash: "dashed"))
-      for i in (A, B, C, Ap, Bp, Cp, S) {
-        circle(i, radius: 1.5pt, fill: black)
-      }
-      content((rel: (135deg, 10pt), to: A), [$A$])
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      let scale = 1.6
+      let B = (0, 0)
+      let A = (2, 2)
+      let C = (3, 0)
+      let Bp = (5, 0)
+      let Ap = (Bp.at(0) + (A.at(0) - B.at(0)) * scale, Bp.at(1) + (A.at(1) - B.at(1)) * scale)
+      let Cp = (Bp.at(0) + (C.at(0) - B.at(0)) * scale, Bp.at(1) + (C.at(1) - B.at(1)) * scale)
+      line(A, B, C, A)
+      line(Ap, Bp, Cp, Ap)
+      content((rel: (90deg, 10pt), to: A), [$A$])
       content((rel: (225deg, 10pt), to: B), [$B$])
-      content((rel: (-50deg, 10pt), to: C), [$C$])
-      content((rel: (120deg, 10pt), to: Ap), [$A'$])
-      content((rel: (165deg, 10pt), to: Bp), [$B'$])
-      content((rel: (-50deg, 10pt), to: Cp), [$C'$])
-      angle(A, B, C, radius: 0.8)
-      angle(A, B, C, radius: 0.9)
-      angle(Ap, Bp, Cp, radius: 0.8)
-      angle(Ap, Bp, Cp, radius: 0.9)
-      angle(B, C, A, radius: 0.5)
-      angle(Bp, Cp, Ap, radius: 0.5)
-      angle(C, A, B, radius: 0.5)
+      content((rel: (-45deg, 10pt), to: C), [$C$])
+      content((rel: (90deg, 10pt), to: Ap), [$A'$])
+      content((rel: (225deg, 10pt), to: Bp), [$B'$])
+      content((rel: (-45deg, 10pt), to: Cp), [$C'$])
+      content((rel: (145deg, 0.5), to: (A, 50%, B)), [$c$])
+      content((rel: (145deg, 0.8), to: (Ap, 50%, Bp)), [$k dot c$])
+      content((rel: (-90deg, 0.5), to: (B, 50%, C)), [$a$])
+      content((rel: (-90deg, 0.5), to: (Bp, 50%, Cp)), [$k dot a$])
+      content((rel: (25deg, 0.5), to: (A, 50%, C)), [$b$])
+      content((rel: (25deg, 0.8), to: (Ap, 50%, Cp)), [$k dot b$])
+      angle(B, C, A, radius: 0.6)
+      angle(B, C, A, radius: 0.7)
+      angle(Bp, Cp, Ap, radius: 0.6)
+      angle(Bp, Cp, Ap, radius: 0.7)
+      angle(A, B, C, radius: 0.6)
+      angle(Ap, Bp, Cp, radius: 0.6)
       angle(C, A, B, radius: 0.6)
-      angle(C, A, B, radius: 0.7)
-      angle(Cp, Ap, Bp, radius: 0.5)
+      content((rel: (150deg, 0.6), to: C), [|], angle: 60deg)
       angle(Cp, Ap, Bp, radius: 0.6)
-      angle(Cp, Ap, Bp, radius: 0.7)
+      content((rel: (150deg, 0.6), to: Cp), [|], angle: 60deg)
     })
   ]
 ]
@@ -76,6 +69,13 @@
 ]
 
 #pagebreak()
+
+#vd()[
+  Cho tam giác $A B C$ và tam giác $A'B'C'$ sao cho $A B=4$ cm, $A C=6$ cm, $B C=5$ cm, $A' B'=6$ cm, $A'C'=9$ cm, $B'C'=7","5$ cm, $hat(A)=hat(A')$, $hat(B)=hat(B')$ và $hat(C)=hat(C')$. Tam giác $A B C$ và tam giác $A'B'C'$ có là hai tam giác đồng dạng không? Tại sao?
+  #loigiai()[
+    #dotlineEX(3)
+  ]
+]
 
 #vd()[
   Trong các tam giác được vẽ trên lưới hình vuông như hình sau, có một cặp tam giác đồng dạng. Hãy chỉ ra cặp tam giác đó, viết đúng kí hiệu đồng dạng và tìm tỉ số đồng dạng của chúng.
@@ -130,7 +130,7 @@
     + Nếu $A B >= A C >= B C$ thì $M N >= M P >= N P$.
   ]
   #loigiai()[
-    #dotlineEX(14)
+    #dotlineEX(22)
   ]
 ]
 
