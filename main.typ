@@ -1,13 +1,3 @@
-#page(margin: 0pt, header: none, footer: none)[
-  #image(
-    "cover.pdf",
-    width: 100%,
-    height: 100%,
-    fit: "stretch", // Hoặc "contain" tùy thuộc tỷ lệ file của bạn
-    page: 1, // Số trang cần lấy từ file PDF (mặc định là trang 1)
-  )
-]
-
 #import "style/lib.typ": *
 #show: appearance
 #show: tableofcontens
