@@ -200,7 +200,7 @@
 
 #bt()[
   #listEX()[
-    + Cho biết phần hệ số, phần biến và bậc của mỗi đơn thức sau: $2","5x^2 y; 0","25x^2 y^2$;
+    + Cho biết phần hệ số, phần biến và bậc của mỗi đơn thức sau: $2","5x^2 y; 0","25x^2 y^2$.
     + Tính giá trị của mỗi đơn thức trên tại $x=1$ và $y=-1$.
   ]
 ]
@@ -231,7 +231,7 @@
 #bt()[
   Cho đơn thức $A = (-1/2 x^3 y^3)(16/9 x^2)$.
   #listEX()[
-    + Thu gọn $A$ rồi cho biết hệ số, phần biến và bậc của đơn thức;
+    + Thu gọn $A$ rồi cho biết hệ số, phần biến và bậc của đơn thức.
     + Tính giá trị của đơn thức $A$ tại $x=1/2, y=-3$.
   ]
 ]
@@ -239,7 +239,7 @@
 #bt()[
   Cho đơn thức $A = (4/5 x^2 y^2)(-25/8 x y^2 z)$.
   #listEX()[
-    + Thu gọn $A$ rồi cho biết phần hệ số, phần biến và bậc của đơn thức;
+    + Thu gọn $A$ rồi cho biết phần hệ số, phần biến và bậc của đơn thức.
     + Tính giá trị của đơn thức $A$ tại $x=-1/5, y=-1, z=2$.
   ]
 ]

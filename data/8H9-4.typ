@@ -278,7 +278,7 @@
 #bt()[
   Cho $triangle A'B'C' tilde.rev triangle A B C$ theo tỉ số $k$. Gọi $A'H'$ và $A H$ lần lượt là các đường cao đỉnh $A'$ và $A$ của tam giác $A'B'C'$ và $A B C$. Chứng minh rằng:
   #listEX()[
-    + $(A'H')/(A H) = k$;
+    + $(A'H')/(A H) = k$.
     + Diện tích tam giác $A'B'C'$ bằng $k^2$ lần diện tích tam giác $A B C$.
   ]
 ]

@@ -127,7 +127,7 @@
 #bt()[
   Yến đi mua vở và bút để chuẩn bị cho năm học mới. Biết mỗi quyển vở giá $x$ đồng, mỗi chiếc bút giá $y$ đồng. Viết biểu thức biểu thị số tiền Yến phải trả để mua:
   #listEX()[
-    + 5 quyển vở và 3 cái bút;
+    + 5 quyển vở và 3 cái bút.
     + 5 xấp vở và 3 hộp bút, biết rằng mỗi xấp vở có 10 quyển, mỗi hộp bút có 20 chiếc.
   ]
 ]

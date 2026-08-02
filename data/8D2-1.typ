@@ -323,7 +323,7 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
 #bt()[
   Tính bằng cách sử dụng công thức $(A + B)^2 = A^2 + 2A B + B^2$.
   #listEX()[
-    + $(2x + 3)^2$.
+    + $(2x + 3)^2$;
     + $(x + 2)^2$;
     + $(y + 3)^2$;
     + $(2x + 1)^2$;
@@ -524,7 +524,7 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
 
 #bt()[
   #listEX()[
-    + Viết biểu thức tính diện tích của hình vuông có cạnh bằng $2x + 3$ dưới dạng đa thức;
+    + Viết biểu thức tính diện tích của hình vuông có cạnh bằng $2x + 3$ dưới dạng đa thức.
     + Viết biểu thức tính thể tích của khối lập phương có cạnh bằng $3x - 2$ dưới dạng đa thức.
   ]
 ]

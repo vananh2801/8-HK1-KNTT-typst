@@ -166,7 +166,7 @@
 #bt()[
   Cho tam giác $A B C$ có $A E$, $B F$, $C K$ là ba đường trung tuyến. Gọi $I$ là trung điểm của $A E$.
   #listEX()[
-    + Chứng minh: $K I$ và $K F$ cùng song song với $B C$;
+    + Chứng minh: $K I$ và $K F$ cùng song song với $B C$.
     + Chứng minh: $K$, $I$, $F$ thẳng hàng.
   ]
 ]
@@ -174,8 +174,8 @@
 #bt()[
   Cho tam giác $A B C$ có $A B=5$ cm, $A C=7$ cm, $B C=9$ cm. Kéo dài $A B$ lấy điểm $D$ sao cho $B D=B A$. Kéo dài $A C$ lấy điểm $E$ sao cho $C E=C A$. Kéo dài đường trung tuyến $A M$ của tam giác $A B C$ lấy $M I=M A$. Chứng minh:
   #listEX()[
-    + Tính độ dài các cạnh tam giác $A D E$;
-    + $D I \/\/ B C$;
+    + Tính độ dài các cạnh tam giác $A D E$.
+    + $D I \/\/ B C$.
     + Ba điểm $D$, $I$, $E$ thẳng hàng.
   ]
 ]
@@ -183,7 +183,7 @@
 #bt()[
   Cho tam giác $M N P$ có $M N=4$ cm, $M P=6$ cm, $N P=8$ cm. Kéo dài $M N$ lấy điểm $I$ sao cho $N I=N M$, kéo dài $M P$ lấy điểm $K$ sao cho $P K=P M$, kéo dài đường trung tuyến $M O$ của tam giác $M N P$ lấy $O S=O M$.
   #listEX()[
-    + Tính độ dài các cạnh của tam giác $M I K$;
+    + Tính độ dài các cạnh của tam giác $M I K$.
     + Chứng minh ba điểm $I$, $S$, $K$ thẳng hàng.
   ]
 ]
@@ -191,7 +191,7 @@
 #bt()[
   Cho tứ giác $A B C D$ ($A B \/\/ C D$). Gọi $E$, $F$, $K$ theo thứ tự là trung điểm của $A D$, $B C$, $A C$.
   #listEX()[
-    + So sánh các độ dài $E K$ và $C D$, $K F$ và $A B$;
+    + So sánh các độ dài $E K$ và $C D$, $K F$ và $A B$.
     + Chứng minh: $E F = (A B + C D)/2$.
   ]
 ]
@@ -203,7 +203,7 @@
 #bt()[
   Cho tam giác $A B C$ lấy $I$ thuộc cạnh $A B$ sao cho $I A=I B$. Qua $I$ kẻ đường thẳng song song với $B C$ cắt $A C$ tại $K$.
   #listEX()[
-    + Chứng minh: $K$ là trung điểm của $A C$;
+    + Chứng minh: $K$ là trung điểm của $A C$.
     + Chứng minh: $I K$ là đường trung bình của tam giác $A B C$.
   ]
 ]
@@ -211,7 +211,7 @@
 #bt()[
   Cho tam giác $A B C$ có độ dài $B C=a$ và $M$ là trung điểm của $A B$. Tia $M x \/\/ B C$ cắt $A C$ tại $N$.
   #listEX()[
-    + Chứng minh: $N$ là trung điểm của $A C$;
+    + Chứng minh: $N$ là trung điểm của $A C$.
     + Tính độ dài đoạn thẳng $M N$ theo $a$.
   ]
 ]
@@ -219,8 +219,8 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$ có $M$ là trung điểm $B C$. Kẻ $M x \/\/ A C$ cắt $A B$ tại $E$, kẻ $M y \/\/ A B$ cắt $A C$ tại $F$. Chứng minh:
   #listEX()[
-    + $E$, $F$ là trung điểm của $A B$ và $A C$;
-    + $E F = 1/2 B C$;
+    + $E$, $F$ là trung điểm của $A B$ và $A C$.
+    + $E F = 1/2 B C$.
     + $M E=M F=A E=A F$.
   ]
 ]
@@ -228,8 +228,8 @@
 #bt()[
   Cho tam giác $A B C$ có $A H$ là đường cao. Lấy $E$ và $K$ lần lượt là trung điểm của $A B$ và $A C$.
   #listEX()[
-    + Chứng minh: $E K$ là đường trung bình của tam giác $A B C$;
-    + Đường thẳng $E K$ cắt $A H$ tại $I$. Chứng minh: $I$ là trung điểm của $A H$;
+    + Chứng minh: $E K$ là đường trung bình của tam giác $A B C$.
+    + Đường thẳng $E K$ cắt $A H$ tại $I$. Chứng minh: $I$ là trung điểm của $A H$.
     + Biết $B C=10$ cm. Tính $E K$.
   ]
 ]
@@ -237,7 +237,7 @@
 #bt()[
   Cho hình thang $A B C D$ ($A B \/\/ C D$). Qua trung điểm $M$ của $A D$ vẽ đường thẳng song song với $A B$ cắt $A C$ tại $N$ và $B C$ tại $K$.
   #listEX()[
-    + Chứng minh: $N$ là trung điểm của $A C$ và $K$ là trung điểm của $B C$;
+    + Chứng minh: $N$ là trung điểm của $A C$ và $K$ là trung điểm của $B C$.
     + Cho $A B=1/2 D C$ và $D C=20$ cm. Tính độ dài $A B$, $M N$, $N K$, $M K$.
   ]
 ]

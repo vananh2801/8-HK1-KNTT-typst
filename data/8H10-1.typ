@@ -246,8 +246,8 @@
 #bt()[
   Cho hình chóp tam giác đều $S.D E F$ có cạnh bên $S E = 5$ cm và cạnh đáy $E F = 3$ cm. Hãy cho biết:
   #listEX()[
-    + Mặt bên và mặt đáy của hình chóp;
-    + Độ dài các cạnh bên và cạnh đáy còn lại của hình chóp;
+    + Mặt bên và mặt đáy của hình chóp.
+    + Độ dài các cạnh bên và cạnh đáy còn lại của hình chóp.
     + Số đo mỗi góc của mặt đáy.
   ]
 ]
@@ -256,8 +256,8 @@
   #immini()[
     Quan sát hình chóp tam giác đều ở hình bên và cho biết:
     #listEX()[
-      + Đỉnh, mặt đáy và các mặt bên của hình đó;
-      + Độ dài cạnh $H O$ và cạnh $B C$;
+      + Đỉnh, mặt đáy và các mặt bên của hình đó.
+      + Độ dài cạnh $H O$ và cạnh $B C$.
       + Đường cao của hình chóp đó.
     ]
   ][
@@ -307,8 +307,8 @@
   #immini()[
     Cho hình chóp tam giác đều $S.D E F$ có cạnh bên $S F = 5$ cm và cạnh đáy $E F = 3$ cm. Hãy cho biết:
     #listEX()[
-      + Mặt bên và mặt đáy của hình chóp;
-      + Độ dài các cạnh bên và cạnh đáy còn lại của hình chóp;
+      + Mặt bên và mặt đáy của hình chóp.
+      + Độ dài các cạnh bên và cạnh đáy còn lại của hình chóp.
       + Số đo mỗi góc của mặt đáy.
     ]
   ][
@@ -394,8 +394,8 @@
     ]
   ]
   #listEX()[
-    + Hãy cho biết mặt đáy, mặt bên, cạnh bên của chiếc hộp đó;
-    + Cho biết $S A = 5$ cm, $A B = 4$ cm. Tìm độ dài các cạnh còn lại của chiếc hộp;
+    + Hãy cho biết mặt đáy, mặt bên, cạnh bên của chiếc hộp đó.
+    + Cho biết $S A = 5$ cm, $A B = 4$ cm. Tìm độ dài các cạnh còn lại của chiếc hộp.
     + Mỗi góc của tam giác đáy $A B C$ bằng bao nhiêu độ?
   ]
 ]
@@ -406,7 +406,7 @@
 
 #bt()[
   #listEX()[
-    + Tính diện tích xung quanh của hình chóp tam giác đều có độ dài cạnh đáy là $10$ cm, chiều cao của mặt bên xuất phát từ đỉnh của hình chóp tam giác đều là $12$ cm;
+    + Tính diện tích xung quanh của hình chóp tam giác đều có độ dài cạnh đáy là $10$ cm, chiều cao của mặt bên xuất phát từ đỉnh của hình chóp tam giác đều là $12$ cm.
     + Tính diện tích toàn phần và thể tích của hình chóp tứ giác đều có độ dài cạnh đáy là $72$ dm, chiều cao là $68","1$ dm, chiều cao của mặt bên xuất phát từ đỉnh của hình chóp tứ giác đều là $77$ dm.
   ]
 ]
@@ -455,7 +455,7 @@
 #bt()[
   Tính diện tích xung quanh, diện tích toàn phần và thể tích của:
   #listEX()[
-    + Hình chóp tam giác đều có chiều cao là $98","3$ cm; tam giác đáy có độ dài cạnh là $40$ cm và chiều cao là $34","6$ cm; chiều cao mặt bên xuất phát từ đỉnh của hình chóp tam giác đều là $99$ cm;
+    + Hình chóp tam giác đều có chiều cao là $98","3$ cm; tam giác đáy có độ dài cạnh là $40$ cm và chiều cao là $34","6$ cm; chiều cao mặt bên xuất phát từ đỉnh của hình chóp tam giác đều là $99$ cm.
     + Hình chóp tứ giác đều có độ dài cạnh đáy là $120$ cm, chiều cao là $68","4$ cm, chiều cao mặt bên xuất phát từ đỉnh của hình chóp tứ giác đều là $91$ cm.
   ]
 ]

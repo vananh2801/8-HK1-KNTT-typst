@@ -205,7 +205,7 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
 #bt()[
   Cho biểu thức $C = 8x y + 7x^2 + 3y^3 + 2x y - 4x^2 - 9y^3$.
   #listEX()[
-    + Thu gọn biểu thức $C$;
+    + Thu gọn biểu thức $C$.
     + Tính giá trị của biểu thức $C$ tại $x = -1$, $y = -2$.
   ]
 ]

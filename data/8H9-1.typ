@@ -125,8 +125,8 @@
 #vd()[
   Cho $triangle A B C tilde.rev triangle M N P$. Chứng minh rằng:
   #listEX()[
-    + Nếu tam giác $A B C$ cân tại đỉnh $A$ thì tam giác $M N P$ cân tại đỉnh $M$;
-    + Nếu tam giác $A B C$ đều thì tam giác $M N P$ đều;
+    + Nếu tam giác $A B C$ cân tại đỉnh $A$ thì tam giác $M N P$ cân tại đỉnh $M$.
+    + Nếu tam giác $A B C$ đều thì tam giác $M N P$ đều.
     + Nếu $A B >= A C >= B C$ thì $M N >= M P >= N P$.
   ]
   #loigiai()[
@@ -380,7 +380,6 @@
   ][
     #import "@preview/cetz:0.5.2"
     #set text(size: 10pt)
-
     #cetz.canvas(length: 0.1cm, {
       import cetz.draw: *
       set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)

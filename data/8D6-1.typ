@@ -152,7 +152,7 @@
 #bt()[
   Cho phân thức $A = (x^2 - 2x + 5)/(2x + 6)$.
   #listEX()[
-    + Tính giá trị của phân thức tại $x = -2$; $x = -1$; $x = 0$; $x = 2$; $x = 3$;
+    + Tính giá trị của phân thức tại $x = -2$; $x = -1$; $x = 0$; $x = 2$; $x = 3$.
     + Tại $x = -3$ thì phân thức có xác định không? Tại sao?
   ]
 ]
@@ -160,7 +160,7 @@
 #bt()[
   Cho phân thức $B = (x^2 - 3x y + 5)/(x + 2y)$.
   #listEX()[
-    + Tính giá trị của phân thức tại $x = 1$, $y = -2$;
+    + Tính giá trị của phân thức tại $x = 1$, $y = -2$.
     + Tại $x = 2$, $y = 5$ thì phân thức có xác định không? Tại sao?
   ]
 ]
@@ -315,7 +315,7 @@
 #bt()[
   Hai bến sông A và B cách nhau 40 km. Cùng một lúc với ca nô xuôi dòng từ bến A, có một chiếc bè trôi từ bến A với vận tốc 3 km/h. Sau khi đến B, ca nô trở về bến A ngay và gặp bè khi bè đã trôi được 8 km.
   #listEX()[
-    + Gọi vận tốc của ca nô là $x$ (đơn vị: km/h; điều kiện: $x > 3$). Viết phân thức biểu thị thời gian xuôi dòng của ca nô;
+    + Gọi vận tốc của ca nô là $x$ (đơn vị: km/h; điều kiện: $x > 3$). Viết phân thức biểu thị thời gian xuôi dòng của ca nô.
     + Viết phân thức biểu thị thời gian ngược dòng của ca nô.
   ]
 ]
@@ -323,7 +323,7 @@
 #bt()[
   Một đội thợ mỏ lập kế hoạch khai thác than, theo kế hoạch đội thợ phải khai thác được 900 tấn than. Khi thực hiện, mỗi ngày đội khai thác nhiều hơn kế hoạch 20 tấn than. Do đó, đội không những đã hoàn thành kế hoạch trước một ngày mà còn vượt mức 60 tấn than.
   #listEX()[
-    + Gọi số tấn than đội thợ phải khai thác mỗi ngày theo kế hoạch là $x$ (tấn) $(x in NN^*)$. Viết phân thức biểu thị thời gian đội khai thác than theo kế hoạch;
+    + Gọi số tấn than đội thợ phải khai thác mỗi ngày theo kế hoạch là $x$ (tấn) $(x in NN^*)$. Viết phân thức biểu thị thời gian đội khai thác than theo kế hoạch.
     + Viết biểu thức biểu thị thời gian thực tế đội khai thác than.
   ]
 ]
@@ -331,7 +331,7 @@
 #bt()[
   Một chiếc khăn trải bàn hình chữ nhật có diện tích khăn trải bàn là 675 dm$""^2$.
   #listEX()[
-    + Gọi chiều rộng của chiếc khăn trải bàn là $x$ (dm) $(x > 0)$. Hãy viết phân thức biểu thị chiều dài của chiếc khăn trải bàn;
+    + Gọi chiều rộng của chiếc khăn trải bàn là $x$ (dm) $(x > 0)$. Hãy viết phân thức biểu thị chiều dài của chiếc khăn trải bàn.
     + Tính chiều dài của chiếc khăn trải bàn biết rằng chiều rộng của chiếc khăn trải bàn là 15 dm.
   ]
 ]
@@ -339,7 +339,7 @@
 #bt()[
   Một hàng rào được dựng bao quanh một mảnh đất hình chữ nhật có diện tích 90 m$""^2$. Gọi $y$ (m) là độ dài một cạnh của hàng rào.
   #listEX()[
-    + Viết một biểu thức theo $y$ biểu diễn độ dài cạnh còn lại của hàng rào hình chữ nhật đó;
+    + Viết một biểu thức theo $y$ biểu diễn độ dài cạnh còn lại của hàng rào hình chữ nhật đó.
     + Tính chu vi của mảnh đất hình chữ nhật đó khi $y = 5$ m.
   ]
 ]

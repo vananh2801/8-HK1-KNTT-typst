@@ -104,7 +104,7 @@
 #bt()[
   Cho tam giác $A B C$ có $A B=12$ cm, $A C=16$ cm, $B C=20$ cm. Đường phân giác góc $B A C$ cắt cạnh $B C$ tại $D$.
   #listEX()[
-    + Tính $D B$ và $D C$;
+    + Tính $D B$ và $D C$.
     + Tính tỉ số diện tích giữa $triangle A D B$ và $triangle A D C$.
   ]
 ]
@@ -112,7 +112,7 @@
 #bt()[
   Cho tam giác $A B C$ vuông tại $A$ có $A B=3$ cm, $A C=4$ cm. Đường phân giác của góc $A$ cắt $B C$ tại $D$.
   #listEX()[
-    + Tính $B C$, $D B$, $D C$;
+    + Tính $B C$, $D B$, $D C$.
     + Vẽ đường cao $A H$. Tính $A H$, $H D$, $A D$.
   ]
 ]
@@ -140,7 +140,7 @@
 #bt()[
   Cho tam giác $A B C$ có $A I$ là đường phân giác trong ($I$ thuộc cạnh $B C$). Cho $A B=5$ cm; $A C=2$ cm; $B C=6$ cm.
   #listEX()[
-    + Tính tỉ số $(I B)/(I C)$;
+    + Tính tỉ số $(I B)/(I C)$.
     + Tính độ dài đoạn thẳng $I B$, $I C$.
   ]
 ]
@@ -148,7 +148,7 @@
 #bt()[
   Cho tam giác $A B C$ có $A D$ là đường phân giác trong ($D$ thuộc cạnh $B C$). Cho $A B=4$ cm; $A C=9$ cm; $B C=10$ cm.
   #listEX()[
-    + Tính tỉ số $(D B)/(D C)$;
+    + Tính tỉ số $(D B)/(D C)$.
     + Tính độ dài đoạn thẳng $D B$, $D C$.
   ]
 ]
@@ -156,7 +156,7 @@
 #bt()[
   Cho tam giác $A B C$ có $A I$ là đường phân giác trong ($I$ thuộc cạnh $B C$). Cho $A B=9$ cm; $A C=7$ cm; $B C=14$ cm.
   #listEX()[
-    + Tính tỉ số $(I B)/(I C)$;
+    + Tính tỉ số $(I B)/(I C)$.
     + Tính độ dài đoạn thẳng $I B$, $I C$.
   ]
 ]
@@ -184,7 +184,7 @@
 #bt()[
   Cho tam giác $D E F$, có $D K$ là đường phân giác ngoài ($K$ thuộc đường thẳng $E F$). Cho biết $D E=5$ cm; $D F=6$ cm; $E F=8$ cm.
   #listEX()[
-    + Tính tỉ số $(K E)/(K F)$;
+    + Tính tỉ số $(K E)/(K F)$.
     + Tính độ dài đoạn thẳng $K E$, $K F$.
   ]
 ]
@@ -192,7 +192,7 @@
 #bt()[
   Cho tam giác $A B C$, có $A K$ là đường phân giác ngoài ($K$ thuộc đường thẳng $B C$). Cho $A B=10$ cm; $A C=16$ cm; $B C=12$ cm.
   #listEX()[
-    + Tính tỉ số $(K B)/(K C)$;
+    + Tính tỉ số $(K B)/(K C)$.
     + Tính độ dài đoạn thẳng $K B$, $K C$.
   ]
 ]
@@ -200,7 +200,7 @@
 #bt()[
   Cho tam giác $D E F$, có $D K$ là đường phân giác ngoài ($K$ thuộc đường thẳng $E F$). Cho $D E=7$ cm; $D F=12$ cm; $E F=10$ cm.
   #listEX()[
-    + Tính tỉ số $(K E)/(K F)$;
+    + Tính tỉ số $(K E)/(K F)$.
     + Tính độ dài đoạn thẳng $K E$, $K F$.
   ]
 ]
@@ -208,7 +208,7 @@
 #bt()[
   Cho tam giác $D E F$, có $D N$ là đường phân giác ngoài ($N$ thuộc đường thẳng $E F$). Cho $D E=9$ cm; $D F=4$ cm; $E F=6$ cm.
   #listEX()[
-    + Tính tỉ số $(N E)/(N F)$;
+    + Tính tỉ số $(N E)/(N F)$.
     + Tính độ dài đoạn thẳng $N E$, $N F$.
   ]
 ]
@@ -220,10 +220,10 @@
 #bt()[
   Cho tam giác $A B C$, có $A I$ là đường phân giác trong, $A B=9$ cm.
   #listEX()[
-    + $A C=12$ cm; $B C=8$ cm. Tính tỉ số $(I B)/(I C)$;
-    + Tính độ dài đoạn thẳng $I B$, $I C$;
-    + Cho $A K$ là đường phân giác ngoài của $triangle A B C$. Tính tỉ số $(K B)/(K C)$;
-    + Tính độ dài đoạn thẳng $K B$, $K C$;
+    + $A C=12$ cm; $B C=8$ cm. Tính tỉ số $(I B)/(I C)$.
+    + Tính độ dài đoạn thẳng $I B$, $I C$.
+    + Cho $A K$ là đường phân giác ngoài của $triangle A B C$. Tính tỉ số $(K B)/(K C)$.
+    + Tính độ dài đoạn thẳng $K B$, $K C$.
     + Tính độ dài đoạn thẳng $I K$.
   ]
 ]
@@ -231,10 +231,10 @@
 #bt()[
   Cho tam giác $A B C$ có $A I$ là đường phân giác trong, $A B=12$ cm; $A C=15$ cm; $B C=21$ cm.
   #listEX()[
-    + Tính tỉ số $(I B)/(I C)$;
-    + Tính độ dài đoạn thẳng $I B$, $I C$;
-    + Cho $A K$ là đường phân giác ngoài. Tính tỉ số $(K B)/(K C)$;
-    + Tính độ dài đoạn thẳng $K B$, $K C$;
+    + Tính tỉ số $(I B)/(I C)$.
+    + Tính độ dài đoạn thẳng $I B$, $I C$.
+    + Cho $A K$ là đường phân giác ngoài. Tính tỉ số $(K B)/(K C)$.
+    + Tính độ dài đoạn thẳng $K B$, $K C$.
     + Tính độ dài đoạn thẳng $I K$.
   ]
 ]
@@ -242,9 +242,9 @@
 #bt()[
   Cho tam giác $A B C$ có $A I$ là đường phân giác trong, $A B=4$ cm; $A C=12$ cm; $B C=9$ cm.
   #listEX()[
-    + Tính tỉ số $(I B)/(I C)$;
-    + Tính độ dài đoạn thẳng $I B$, $I C$;
-    + Cho $A K$ là đường phân giác ngoài. Tính tỉ số $(K B)/(K C)$;
+    + Tính tỉ số $(I B)/(I C)$.
+    + Tính độ dài đoạn thẳng $I B$, $I C$.
+    + Cho $A K$ là đường phân giác ngoài. Tính tỉ số $(K B)/(K C)$.
     + Tính độ dài đoạn thẳng $I K$.
   ]
 ]
@@ -252,8 +252,8 @@
 #bt()[
   Cho tam giác $A B C$ có $A I$ là đường phân giác trong, $A B=10$ cm; $A C=5$ cm; $B C=12$ cm.
   #listEX()[
-    + Tính độ dài đoạn thẳng $I B$, $I C$;
-    + Cho $A K$ là đường phân giác ngoài. Tính độ dài $K B$, $K C$;
+    + Tính độ dài đoạn thẳng $I B$, $I C$.
+    + Cho $A K$ là đường phân giác ngoài. Tính độ dài $K B$, $K C$.
     + Tính độ dài đoạn thẳng $I K$.
   ]
 ]
@@ -261,8 +261,8 @@
 #bt()[
   Cho tam giác $A B C$ có $A I$ là đường phân giác trong, $A B=2$ cm; $A C=3$ cm; $B C=4$ cm.
   #listEX()[
-    + Tính độ dài đoạn thẳng $I B$, $I C$;
-    + Cho $A K$ là đường phân giác ngoài. Tính độ dài $K B$, $K C$;
+    + Tính độ dài đoạn thẳng $I B$, $I C$.
+    + Cho $A K$ là đường phân giác ngoài. Tính độ dài $K B$, $K C$.
     + Tính độ dài đoạn thẳng $I K$.
   ]
 ]
@@ -270,8 +270,8 @@
 #bt()[
   Cho tam giác $A B C$ có $A I$ là phân giác trong, $A B=6$ cm; $A C=12$ cm; $B C=14$ cm.
   #listEX()[
-    + Tính độ dài đoạn thẳng $I B$, $I C$;
-    + Cho $A K$ là đường phân giác ngoài. Tính độ dài $K B$, $K C$;
+    + Tính độ dài đoạn thẳng $I B$, $I C$.
+    + Cho $A K$ là đường phân giác ngoài. Tính độ dài $K B$, $K C$.
     + Tính độ dài đoạn thẳng $I K$.
   ]
 ]
@@ -279,8 +279,8 @@
 #bt()[
   Cho tam giác $A B C$ có $A I$ là phân giác trong, $A B=13$ cm; $A C=17$ cm; $B C=20$ cm.
   #listEX()[
-    + Tính độ dài đoạn thẳng $I B$, $I C$;
-    + Cho $A K$ là đường phân giác ngoài. Tính độ dài $K B$, $K C$;
+    + Tính độ dài đoạn thẳng $I B$, $I C$.
+    + Cho $A K$ là đường phân giác ngoài. Tính độ dài $K B$, $K C$.
     + Tính độ dài đoạn thẳng $I K$.
   ]
 ]

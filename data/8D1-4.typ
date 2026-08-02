@@ -97,7 +97,7 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
 #bt()[
   Cho hai đơn thức $A = 1/5 x^2 y^3$ và $B = 1/6 x^3 y^2$.
   #listEX()[
-    + Hãy xác định hệ số, phần biến và bậc của hai đơn thức $A$ và $B$;
+    + Hãy xác định hệ số, phần biến và bậc của hai đơn thức $A$ và $B$.
     + Tính $A dot B$.
   ]
 ]
@@ -124,7 +124,7 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
 #bt()[
   Cho hai đơn thức $A = -4/3 x y^2 z^3$ và $B = 6/7 x^2 y z$.
   #listEX()[
-    + Tính tích của hai đơn thức trên;
+    + Tính tích của hai đơn thức trên.
     + Tìm hệ số, phần biến và bậc của đơn thức vừa thu được.
   ]
 ]
@@ -166,7 +166,7 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
 #bt()[
   Một mảnh vườn có dạng hình chữ nhật với độ dài hai cạnh là $3x + y$ (m) và $3x - y$ (m).
   #listEX()[
-    + Viết đa thức biểu thị diện tích của mảnh vườn trên theo $x$ và $y$;
+    + Viết đa thức biểu thị diện tích của mảnh vườn trên theo $x$ và $y$.
     + Tính diện tích của mảnh vườn khi $x=5$, $y=3$.
   ]
 ]

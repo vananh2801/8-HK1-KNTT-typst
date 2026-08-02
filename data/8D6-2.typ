@@ -238,7 +238,7 @@ Tương tự như đối với phân số, ta có các tính chất cơ bản c�
 #bt()[
   Cho đa thức $B = 2x^3 + 3x^2 - 29x + 30$ và hai phân thức: $x/(2x^2 + 7x - 15)$, $(x + 2)/(x^2 + 3x - 10)$.
   #listEX()[
-    + Chia đa thức $B$ lần lượt cho các mẫu thức của hai phân thức đã cho;
+    + Chia đa thức $B$ lần lượt cho các mẫu thức của hai phân thức đã cho.
     + Quy đồng mẫu thức của hai phân thức đã cho.
   ]
 ]

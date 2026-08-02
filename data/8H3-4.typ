@@ -216,7 +216,7 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$, đường trung tuyến $A H$. Gọi $O$ là trung điểm của $A C$, $D$ là điểm đối xứng với $H$ qua $O$.
   #listEX()[
-    + Chứng minh: tứ giác $A H C D$ là hình chữ nhật;
+    + Chứng minh: tứ giác $A H C D$ là hình chữ nhật.
     + Tứ giác $A D H B$ là hình gì? Vì sao?
     + Cho $B C = 6$ cm, $A H = 4$ cm. Tính diện tích tứ giác $A H C D$.
   ]
@@ -238,8 +238,8 @@
   Cho hình thang cân $A B C D$ ($A B \/\/ C D$, $A B < C D$), các đường cao $A H$, $B K$.
   #listEX()[
     + Tứ giác $A B K H$ là hình gì? Vì sao?
-    + Chứng minh: $D H = C K$;
-    + Gọi $E$ là điểm đối xứng với $D$ qua $H$. Chứng minh: $A B C E$ là hình bình hành;
+    + Chứng minh: $D H = C K$.
+    + Gọi $E$ là điểm đối xứng với $D$ qua $H$. Chứng minh: $A B C E$ là hình bình hành.
     + Tính diện tích tứ giác $A B C D$, biết $A B = 6$ cm, $A H = 4$ cm và $D H = 3$ cm.
   ]
 ]
@@ -247,8 +247,8 @@
 #bt()[
   Cho tam giác $A B C$ vuông tại $A$. Gọi $D$, $E$, $F$ lần lượt là trung điểm của ba cạnh $A B$, $B C$, $A C$.
   #listEX()[
-    + Tính độ dài $B C$, $A E$. Biết $A B = 12$ cm, $A C = 16$ cm;
-    + Chứng minh: tam giác $A E B$ cân tại $E$ và tứ giác $A D E F$ là hình chữ nhật;
+    + Tính độ dài $B C$, $A E$. Biết $A B = 12$ cm, $A C = 16$ cm.
+    + Chứng minh: tam giác $A E B$ cân tại $E$ và tứ giác $A D E F$ là hình chữ nhật.
     + Chứng minh: tứ giác $B E F D$ là hình bình hành.
   ]
 ]
@@ -256,8 +256,8 @@
 #bt()[
   Cho tam giác $A B C$ cân ở $A$ có $M$ và $N$ lần lượt là trung điểm của $B C$ và $A C$. Đường thẳng $M N$ cắt đường thẳng song song với $B C$ kẻ từ $A$ tại $D$.
   #listEX()[
-    + Chứng minh: tứ giác $A B M D$ là hình bình hành;
-    + So sánh $M D$ với $A C$;
+    + Chứng minh: tứ giác $A B M D$ là hình bình hành.
+    + So sánh $M D$ với $A C$.
     + Tứ giác $A D C M$ là tứ giác đặc biệt nào? Vì sao?
   ]
 ]
@@ -273,7 +273,7 @@
 #bt()[
   Cho tam giác $A B C$ nhọn ($A B < A C$), đường cao $A H$. Gọi $M$ là trung điểm của $A B$, điểm $E$ là điểm đối xứng với $H$ qua điểm $M$.
   #listEX()[
-    + Chứng minh: tứ giác $A H B E$ là hình chữ nhật;
+    + Chứng minh: tứ giác $A H B E$ là hình chữ nhật.
     + Trên đoạn thẳng $H C$ ta lấy điểm $D$ sao cho $H D = H B$. Chứng minh: tứ giác $A E H D$ là hình bình hành.
   ]
 ]
@@ -289,7 +289,7 @@
 #bt()[
   Cho tam giác $A B C$ vuông tại $A$ ($A B < A C$). Gọi $M$ là trung điểm $B C$. Từ $M$ vẽ $M D perp A B$ tại $D$ và $M E perp A C$ tại $E$.
   #listEX()[
-    + Chứng minh: tứ giác $A D M E$ là hình chữ nhật;
+    + Chứng minh: tứ giác $A D M E$ là hình chữ nhật.
     + Chứng minh: $D$ là trung điểm của đoạn thẳng $A B$ và tứ giác $B D E M$ là hình bình hành.
   ]
 ]
@@ -305,7 +305,7 @@
 #bt()[
   Vẽ hình bình hành $A B C D$, kẻ $A H$ vuông góc với $C D$ ở $H$ và $C K$ vuông góc với $A B$ ở $K$.
   #listEX()[
-    + Tính $hat(H A K)$;
+    + Tính $hat(H A K)$.
     + So sánh $A C$ và $H K$ rồi suy ra $A C$, $H K$ và $B D$ có cùng một trung điểm.
   ]
 ]
@@ -313,7 +313,7 @@
 #bt()[
   Cho hình thang cân $A B C D$ ($A B \/\/ C D$; $A B < C D$) có $A H$, $B K$ là hai đường cao.
   #listEX()[
-    + Chứng minh: tứ giác $A B K H$ là hình chữ nhật;
+    + Chứng minh: tứ giác $A B K H$ là hình chữ nhật.
     + So sánh $D H$ và $C K$.
   ]
 ]
@@ -322,7 +322,7 @@
   Cho hình thang cân $A B C D$ ($A B \/\/ C D$; $A B < C D$) có hai đường cao $A H$ và $B K$.
   #listEX()[
     + Tứ giác $A B K H$ là hình đặc biệt gì? Vì sao?
-    + So sánh $D H$ và $C K$;
+    + So sánh $D H$ và $C K$.
     + Chứng minh: $D H = (C D - A B)/2$.
   ]
 ]
@@ -330,8 +330,8 @@
 #bt()[
   Cho tam giác $A B C$ vuông tại $A$ có $A B = 6$ cm, $A C = 8$ cm. Gọi $M$ là trung điểm của $B C$.
   #listEX()[
-    + Tính độ dài $A M$;
-    + Kẻ $M D$ vuông góc với $A B$ tại $D$, $M E$ vuông góc với $A C$ tại $E$. Chứng minh: tứ giác $A D M E$ là hình chữ nhật;
+    + Tính độ dài $A M$.
+    + Kẻ $M D$ vuông góc với $A B$ tại $D$, $M E$ vuông góc với $A C$ tại $E$. Chứng minh: tứ giác $A D M E$ là hình chữ nhật.
     + Tính diện tích tứ giác $A D M E$.
   ]
 ]
@@ -340,7 +340,7 @@
   Vẽ hình bình hành $A B C D$ có $A D$ vuông góc với $A C$. Kéo dài đường trung tuyến $A I$ của tam giác $A D C$ về phía $I$ rồi lấy điểm $E$ sao cho $I$ là trung điểm của đoạn thẳng $A E$.
   #listEX()[
     + Tứ giác $A D E C$ là tứ giác đặc biệt gì? Vì sao?
-    + Chứng minh: ba điểm $B$, $C$, $E$ thẳng hàng;
+    + Chứng minh: ba điểm $B$, $C$, $E$ thẳng hàng.
     + Điểm $C$ là gì của đoạn thẳng $B E$?
   ]
 ]
@@ -348,7 +348,7 @@
 #bt()[
   Cho hình chữ nhật $A B C D$ ($A B < A D$). Vẽ $hat(x A y) = 90°$ sao cho tia $A x$ cắt tia $C D$ ở $M$ và tia $A y$ cắt tia $B C$ ở $N$. Kẻ tia $M z \/\/ A N$ và tia $N t \/\/ A M$ sao cho $M z$ cắt $N t$ ở $P$.
   #listEX()[
-    + Chứng minh: tứ giác $A M P N$ là hình chữ nhật;
+    + Chứng minh: tứ giác $A M P N$ là hình chữ nhật.
     + Gọi $O$ là giao điểm của $A P$ và $M N$. Định dạng tam giác $O A N$.
   ]
 ]
@@ -356,7 +356,7 @@
 #bt()[
   Cho hình chữ nhật $A B C D$ ($A B < A D$). Lấy điểm $M$ trên tia $C D$ và điểm $N$ trên tia $B C$ sao cho $hat(M A N) = 90°$. Kẻ $M x \/\/ A N$ và $N y \/\/ A M$ sao cho $M x$ và $N y$ cắt nhau ở $E$. Gọi $O$ là giao điểm của $A E$ và $M N$.
   #listEX()[
-    + Chứng minh: Tứ giác $A M E N$ là hình chữ nhật;
+    + Chứng minh: Tứ giác $A M E N$ là hình chữ nhật.
     + So sánh $O A$ với $O C$.
   ]
 ]
@@ -364,7 +364,7 @@
 #bt()[
   Cho tam giác $A B C$ cân ở $A$ có đường cao $A H$. Vẽ tia $A x \/\/ B C$ và tia $C y \/\/ A H$ sao cho $A x$ cắt $C y$ ở $D$.
   #listEX()[
-    + Chứng minh: tứ giác $A D C H$ là hình chữ nhật;
+    + Chứng minh: tứ giác $A D C H$ là hình chữ nhật.
     + Gọi $N$ là giao điểm của $A C$ và $D H$, biết $A B = 8$ cm. Tính độ dài $N H$.
   ]
 ]
@@ -384,7 +384,7 @@
 #bt()[
   Cho tam giác $A B C$ vuông ở $A$, có $A B = 6$ cm; $A C = 8$ cm. $M$ là trung điểm của $B C$.
   #listEX()[
-    + Tính $B C$;
+    + Tính $B C$.
     + Kẻ $M H \/\/ A C$ ($H in A B$), $M K \/\/ A B$ ($K in A C$). Tứ giác $A H M K$ là hình gì?
   ]
 ]
@@ -392,8 +392,8 @@
 #bt()[
   Cho tam giác $A B C$ có $A B = 6$ cm; $A C = 8$ cm; $B C = 10$ cm. $D$ là trung điểm của $B C$. Kẻ $D H perp A B$ ở $H$, $D K perp A C$ ở $K$.
   #listEX()[
-    + Tính $A D$;
-    + Chứng minh: tứ giác $A H D K$ là hình chữ nhật;
+    + Tính $A D$.
+    + Chứng minh: tứ giác $A H D K$ là hình chữ nhật.
     + Tính $S_(A H D K)$.
   ]
 ]
@@ -401,8 +401,8 @@
 #bt()[
   Cho tam giác $A B C$ vuông tại $A$ ($A B < A C$) có $K$ là trung điểm của $A C$. Từ $K$ vẽ đường thẳng song với $B C$ và cắt $A B$ tại $E$. Từ $K$ vẽ đường thẳng song song với $A B$ và cắt $B C$ tại $O$.
   #listEX()[
-    + Chứng minh: tứ giác $B E K O$ là hình bình hành;
-    + Chứng minh: $hat(A E K) = hat(K O C)$ và $E K = O C$;
+    + Chứng minh: tứ giác $B E K O$ là hình bình hành.
+    + Chứng minh: $hat(A E K) = hat(K O C)$ và $E K = O C$.
     + Từ $B$ vẽ $B x \/\/ A C$, từ $C$ vẽ $C y \/\/ A B$. $B x$ và $C y$ cắt nhau tại $M$. Chứng minh: tứ giác $A B M C$ là hình chữ nhật và 3 điểm $A$, $O$, $M$ thẳng hàng.
   ]
 ]
@@ -410,8 +410,8 @@
 #bt()[
   Cho tam giác $A B C$ vuông tại $A$ ($A B < A C$) với đường cao $A K$. Gọi $I$ là trung điểm của cạnh $B C$, $D$ là điểm đối xứng của $A$ qua $I$.
   #listEX()[
-    + Chứng minh: tứ giác $A B D C$ là hình chữ nhật;
-    + Vẽ $D M$ vuông góc với đường thẳng $A K$ tại $M$. Chứng minh: $M I = A I$ và $K$ là trung điểm của đoạn $A M$;
+    + Chứng minh: tứ giác $A B D C$ là hình chữ nhật.
+    + Vẽ $D M$ vuông góc với đường thẳng $A K$ tại $M$. Chứng minh: $M I = A I$ và $K$ là trung điểm của đoạn $A M$.
     + Chứng minh: tứ giác $B M D C$ là hình thang cân.
   ]
 ]
@@ -419,8 +419,8 @@
 #bt()[
   Cho tam giác $A B C$ đều có $A M$ là đường trung tuyến và $N$ là trung điểm $A C$. Vẽ $A x$ song song $B C$. Đường thẳng $M N$ cắt $A x$ tại $E$.
   #listEX()[
-    + Chứng minh: $A B = M E$;
-    + Chứng minh: $A M C E$ là hình chữ nhật;
+    + Chứng minh: $A B = M E$.
+    + Chứng minh: $A M C E$ là hình chữ nhật.
     + Cho $A B = 16$ cm. Tính $M C$; $A M$ và $S_(A M C E)$.
   ]
 ]
@@ -451,11 +451,11 @@
 #bt()[
   Cho hình chữ nhật $A B C D$ ($A B > A D$). Gọi $E$, $F$ lần lượt là trung điểm của $D C$ và $A B$.
   #listEX()[
-    + Chứng minh: tứ giác $A D E F$ là hình chữ nhật;
-    + Biết $D C = 14$ cm, $A D = 5$ cm. Tính diện tích hình chữ nhật $A D E F$;
-    + Chứng minh: tứ giác $A E C F$ là hình bình hành;
-    + Vẽ $E H perp F C$ tại $H$. Gọi $Q$, $K$ lần lượt là trung điểm của $F B$ và $H C$. Từ $K$, vẽ đường thẳng song song với $D C$, đường thẳng này cắt $A E$ tại $G$. Chứng minh: tứ giác $G H K E$ là hình bình hành;
-    + Chứng minh: $Q K perp E K$. (gợi ý: gọi thêm $I$ là giao điểm của $G K$ và $E H$)
+    + Chứng minh: tứ giác $A D E F$ là hình chữ nhật.
+    + Biết $D C = 14$ cm, $A D = 5$ cm. Tính diện tích hình chữ nhật $A D E F$.
+    + Chứng minh: tứ giác $A E C F$ là hình bình hành.
+    + Vẽ $E H perp F C$ tại $H$. Gọi $Q$, $K$ lần lượt là trung điểm của $F B$ và $H C$. Từ $K$, vẽ đường thẳng song song với $D C$, đường thẳng này cắt $A E$ tại $G$. Chứng minh: tứ giác $G H K E$ là hình bình hành.
+    + Chứng minh: $Q K perp E K$. (Gợi ý: gọi thêm $I$ là giao điểm của $G K$ và $E H$)
   ]
 ]
 
@@ -471,7 +471,7 @@
   #immini()[
     Một con đường hình bình hành $E B G F$ cắt ngang một miếng đất hình chữ nhật $A B C D$ với $A B = 150$ m, $B C = 120$ m, $F G = 50$ m như hình bên.
     #listEX()[
-      + Tính diện tích hình chữ nhật $A B C D$ và hình bình hành $E B G F$;
+      + Tính diện tích hình chữ nhật $A B C D$ và hình bình hành $E B G F$.
       + Chủ miếng đất thuê công nhân trồng cỏ trên phần còn lại của miếng đất với giá là 32 000 đồng/m$""^2$. Tính số tiền Ông Tư trả cho công nhân. Biết rằng, do hài lòng với sự làm việc của công nhân nên Ông Tư quyết định thưởng thêm 2% số tiền phải trả cho công nhân.
     ]
   ][

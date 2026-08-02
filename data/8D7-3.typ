@@ -265,7 +265,7 @@
     )
   ]
   #listEX()[
-    + Hãy cho biết nhiệt độ của Thành phố Hồ Chí Minh vào thời điểm 12 giờ trưa ngày hôm đó;
+    + Hãy cho biết nhiệt độ của Thành phố Hồ Chí Minh vào thời điểm 12 giờ trưa ngày hôm đó.
     + Với mỗi giá trị của $t$, ta xác định được bao nhiêu giá trị tương ứng của $T$?
   ]
 ]
@@ -337,7 +337,7 @@
 #bt()[
   Cho hàm số $y = f(x) = x^2$.
   #listEX()[
-    + Tính $f(2)$; $f(-4)$;
+    + Tính $f(2)$; $f(-4)$.
     + Lập bảng giá trị của hàm số với $x$ lần lượt bằng $-3$; $-2$; $-1$; $0$; $1$; $2$; $3$.
   ]
 ]
@@ -345,7 +345,7 @@
 #bt()[
   Cho hàm số $y = f(x) = 2x^2 - 3$.
   #listEX()[
-    + Tính $f(-1)$; $f(-3)$;
+    + Tính $f(-1)$; $f(-3)$.
     + Lập bảng giá trị của hàm số với $x$ lần lượt bằng: $-2$; $0$; $1$; $2$; $3$.
   ]
 ]
@@ -418,7 +418,7 @@
 #bt()[
   Cho hàm số $y = f(x) = 4x$.
   #listEX()[
-    + Tính $f(1)$; $f(-2)$; $f(5)$; $f(3/4)$; $f((-5)/8)$;
+    + Tính $f(1)$; $f(-2)$; $f(5)$; $f(3/4)$; $f((-5)/8)$.
     + Lập bảng các giá trị tương ứng của $y$ khi $x$ lần lượt nhận các giá trị: $-3$; $-2$; $-1$; $0$; $1$; $2$; $3$.
   ]
 ]
@@ -550,7 +550,7 @@
     )
   ]
   #listEX()[
-    + Vẽ hệ trục tọa độ $O x y$ và xác định các điểm, biểu diễn các cặp giá trị $(x; y)$ tương ứng có trong bảng trên;
+    + Vẽ hệ trục tọa độ $O x y$ và xác định các điểm, biểu diễn các cặp giá trị $(x; y)$ tương ứng có trong bảng trên.
     + Em có nhận xét gì về các điểm vừa xác định trong câu 1?
   ]
 ]

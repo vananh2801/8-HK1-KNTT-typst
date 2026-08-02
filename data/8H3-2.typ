@@ -430,7 +430,7 @@
 #bt()[
   Cho hình thang $A B C D$ ($A B \/\/ C D$) có $hat(D) = 60 degree$.
   #listEX()[
-    + Tính $hat(A)$;
+    + Tính $hat(A)$.
     + Tính $hat(B)$, $hat(C)$. Biết $hat(B)/hat(D) = 4/5$.
   ]
 ]
@@ -438,8 +438,8 @@
 #bt()[
   Cho hình thang $A B C D$ ($A D \/\/ B C$) có $hat(A) - hat(B) = 20 degree$, $hat(D) = 2 hat(C)$.
   #listEX()[
-    + Tính $hat(A) + hat(B)$;
-    + Chứng minh: $hat(A) + hat(B) = hat(C) + hat(D)$;
+    + Tính $hat(A) + hat(B)$.
+    + Chứng minh: $hat(A) + hat(B) = hat(C) + hat(D)$.
     + Tính số đo các góc của hình thang.
   ]
 ]
@@ -471,7 +471,7 @@
 #bt()[
   Cho hình thang $A B C D$ ($A B \/\/ C D$, $A B < C D$). Hai tia phân giác của hai góc $C$ và $D$ cắt nhau tại $K$ thuộc đáy $A B$. Chứng minh:
   #listEX()[
-    + $triangle A D K$ cân ở $A$; $triangle B K C$ cân ở $B$;
+    + $triangle A D K$ cân ở $A$; $triangle B K C$ cân ở $B$.
     + $A D + B C = A B$.
   ]
 ]
@@ -479,8 +479,8 @@
 #bt()[
   Cho hình thang $A B C D$ ($A B \/\/ C D$) có $C D = A D + B C$. Gọi $K$ là điểm thuộc đáy $C D$ sao cho $K D = A D$. Chứng minh:
   #listEX()[
-    + $A K$ là tia phân giác của góc $A$;
-    + $K C = B C$;
+    + $A K$ là tia phân giác của góc $A$.
+    + $K C = B C$.
     + $B K$ là tia phân giác của góc $B$.
   ]
 ]
@@ -488,8 +488,8 @@
 #bt()[
   Cho hình thang $A B C D$ ($A B \/\/ C D$) có $C D = A D + B C$. Gọi $K$ là giao điểm của tia phân giác góc $A$ với đáy $C D$. Chứng minh:
   #listEX()[
-    + $A D = D K$;
-    + $triangle B C K$ cân ở $C$;
+    + $A D = D K$.
+    + $triangle B C K$ cân ở $C$.
     + $B K$ là tia phân giác của góc $B$.
   ]
 ]
@@ -497,7 +497,7 @@
 #bt()[
   Cho hình thang $A B C D$ có đáy nhỏ $B C$ bằng $4$ cm. Qua $B$ vẽ đường thẳng song song với $C D$ cắt $A D$ ở $E$. Biết chu vi tam giác $A B E$ bằng $12$ cm.
   #listEX()[
-    + Chứng minh: $B C = E D$; $B E = C D$;
+    + Chứng minh: $B C = E D$; $B E = C D$.
     + Tính chu vi hình thang $A B C D$.
   ]
 ]
@@ -537,7 +537,7 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$. Trên các cạnh bên $A B$, $A C$ lấy theo thứ tự các điểm $D$ và $E$ sao cho $A D = A E$.
   #listEX()[
-    + Chứng minh: $B D E C$ là hình thang cân;
+    + Chứng minh: $B D E C$ là hình thang cân.
     + Tính các góc của hình thang cân đó, biết rằng $hat(A) = 50°$.
   ]
 ]
@@ -553,8 +553,8 @@
 #bt()[
   Cho hình thang $A B C D$ ($A B \/\/ C D$) có $A C = B D$. Qua $B$ kẻ đường thẳng song song với $A C$, cắt đường thẳng $D C$ tại $E$. Chứng minh:
   #listEX()[
-    + $triangle B D E$ là tam giác cân;
-    + $triangle A C D = triangle B D C$;
+    + $triangle B D E$ là tam giác cân.
+    + $triangle A C D = triangle B D C$.
     + Hình thang $A B C D$ là hình thang cân.
   ]
 ]
@@ -562,8 +562,8 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$ có $B D$ và $C E$ là hai đường trung tuyến. Chứng minh:
   #listEX()[
-    + $triangle A D E$ cân tại $A$;
-    + $triangle A B D = triangle A C E$;
+    + $triangle A D E$ cân tại $A$.
+    + $triangle A B D = triangle A C E$.
     + $B C D E$ là hình thang cân.
   ]
 ]
@@ -571,7 +571,7 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$ có $B H$ và $C K$ là hai đường cao. Chứng minh:
   #listEX()[
-    + $triangle A B H = triangle A C K$;
+    + $triangle A B H = triangle A C K$.
     + $B C H K$ là hình thang cân.
   ]
 ]
@@ -579,7 +579,7 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$ có $B D$ và $C E$ là hai đường phân giác. Chứng minh:
   #listEX()[
-    + $triangle A E C = triangle A D B$;
+    + $triangle A E C = triangle A D B$.
     + $B C D E$ là hình thang cân.
   ]
 ]
@@ -587,8 +587,8 @@
 #bt()[
   Cho hình thang cân $A B C D$ có $A B \/\/ C D$, đường chéo $D B$ vuông góc với cạnh bên $B C$, $D B$ là tia phân giác của $hat(A D C)$.
   #listEX()[
-    + Chứng minh: $hat(B C D) = 2 hat(B D C)$ và $hat(B C D) = 60°$;
-    + Gọi $T$ là giao điểm của $C B$ và $D A$. Chứng minh: tam giác $T C D$ đều;
+    + Chứng minh: $hat(B C D) = 2 hat(B D C)$ và $hat(B C D) = 60°$.
+    + Gọi $T$ là giao điểm của $C B$ và $D A$. Chứng minh: tam giác $T C D$ đều.
     + Tính chu vi của hình thang $A B C D$, biết $B C = 8$ cm.
   ]
 ]
@@ -596,7 +596,7 @@
 #bt()[
   Cho hình thang cân $A B C D$ ($A B \/\/ C D$, $A B < C D$) có $A B = A D$.
   #listEX()[
-    + Chứng minh: $hat(A D B) = hat(B D C)$;
+    + Chứng minh: $hat(A D B) = hat(B D C)$.
     + $C A$ có phải là tia phân giác của góc $C$ không? Vì sao?
   ]
 ]
@@ -604,9 +604,9 @@
 #bt()[
   Hình thang cân $A B C D$ ($A B \/\/ C D$) có $A B < C D$. Gọi $O$ là giao điểm của $A D$ và $B C$; $E$ là giao điểm của $A C$ và $B D$. Chứng minh:
   #listEX()[
-    + $triangle A O B$ cân tại $O$;
-    + $triangle A B D = triangle B A C$;
-    + $E C = E D$;
+    + $triangle A O B$ cân tại $O$.
+    + $triangle A B D = triangle B A C$.
+    + $E C = E D$.
     + $O E$ là đường trung trực chung của hai đáy $A B$ và $C D$.
   ]
 ]
@@ -618,7 +618,7 @@
 #bt()[
   Cho hình thang $A B C D$ ($A B \/\/ C D$).
   #listEX()[
-    + Tính tổng $hat(A) + hat(D)$, suy ra trong hai góc $A$, $D$ có nhiều nhất là một góc tù;
+    + Tính tổng $hat(A) + hat(D)$, suy ra trong hai góc $A$, $D$ có nhiều nhất là một góc tù.
     + Chứng minh: trong hai góc $B$, $C$ có nhiều nhất là một góc tù.
   ]
 ]
@@ -626,8 +626,8 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$, các đường phân giác $B D$, $C E$ ($D in A C$, $E in A B$).
   #listEX()[
-    + Chứng minh: $hat(A C E) = hat(A B D)$ và $triangle A C E = triangle A B D$;
-    + Chứng minh: $B E D C$ là hình thang cân;
+    + Chứng minh: $hat(A C E) = hat(A B D)$ và $triangle A C E = triangle A B D$.
+    + Chứng minh: $B E D C$ là hình thang cân.
     + Tính các góc của hình thang cân $B E D C$, biết $hat(A B C) = 62°$.
   ]
 ]
@@ -639,7 +639,7 @@
 #bt()[
   Cho hình thang $A B C D$ ($A D \/\/ B C$).
   #listEX()[
-    + Tính tổng $hat(C) + hat(D)$, suy ra trong hai góc $C$, $D$ có nhiều nhất là một góc nhọn;
+    + Tính tổng $hat(C) + hat(D)$, suy ra trong hai góc $C$, $D$ có nhiều nhất là một góc nhọn.
     + Chứng minh: trong hai góc $A$, $B$ có nhiều nhất là một góc nhọn.
   ]
 ]
@@ -667,7 +667,7 @@
 #bt()[
   Cho hình thang $A B C D$ ($A B \/\/ C D$) có chiều cao $A H = 15","2$ cm; $A B - C D = 7","3$ cm và $S_(A B C D) = 336","68$ $"cm"^2$. Tính:
   #listEX()[
-    + Tổng $A B + C D$;
+    + Tổng $A B + C D$.
     + Độ dài $A B$, $C D$.
   ]
 ]
@@ -675,7 +675,7 @@
 #bt()[
   Hình thang $A B C D$ ($A B \/\/ C D$) có $A B = 7$ cm, $C D = 10$ cm, $A D = 8$ cm và $hat(D) = 30°$. Kẻ $A H$ vuông góc $C D$ ở $H$, kéo dài $A H$ lấy $E$ sao cho $H E = H A$.
   #listEX()[
-    + Chứng minh: $triangle A D E$ đều;
+    + Chứng minh: $triangle A D E$ đều.
     + Tính $A H$, $S_(A D E)$ và $S_(A B C D)$.
   ]
 ]
@@ -683,8 +683,8 @@
 #bt()[
   Cho hình thang $A B C D$ ($A D \/\/ B C$, $A D < B C$). Kẻ $D E \/\/ A B$, $D H perp B C$ ($E$, $H$ thuộc $B C$). Biết $A D = 5$ cm, $D H = 4$ cm và $S_(C D E) = 6$ $"cm"^2$.
   #listEX()[
-    + Tính $E C$;
-    + Chứng minh: $triangle A B E = triangle E D A$;
+    + Tính $E C$.
+    + Chứng minh: $triangle A B E = triangle E D A$.
     + Tính $B C$ và $S_(A B C D)$.
   ]
 ]
@@ -692,8 +692,8 @@
 #bt()[
   Cho tứ giác lồi $A B C D$ có $hat(A) = hat(B)$ và $B C = A D$. Chứng minh:
   #listEX()[
-    + $triangle D A B = triangle C B A$, rồi suy ra $B D = A C$;
-    + $triangle A C D = triangle B D C$, rồi suy ra $hat(A D C) = hat(B C D)$;
+    + $triangle D A B = triangle C B A$, rồi suy ra $B D = A C$.
+    + $triangle A C D = triangle B D C$, rồi suy ra $hat(A D C) = hat(B C D)$.
     + $A B C D$ là hình thang cân.
   ]
 ]
@@ -701,7 +701,7 @@
 #bt()[
   Cho tứ giác lồi $A B C D$ có $hat(A) = hat(B)$ và $B C = A D$. Chứng minh:
   #listEX()[
-    + $triangle A C D = triangle B D C$;
+    + $triangle A C D = triangle B D C$.
     + $A B C D$ là hình thang cân.
   ]
 ]
@@ -709,8 +709,8 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$ có các đường phân giác $B E$ và $C F$. Chứng minh:
   #listEX()[
-    + $triangle A E F$ cân tại $A$;
-    + Tứ giác $B C E F$ là hình thang cân;
+    + $triangle A E F$ cân tại $A$.
+    + Tứ giác $B C E F$ là hình thang cân.
     + $C E = E F = F B$.
   ]
 ]
@@ -726,8 +726,8 @@
 #bt()[
   Cho hình thang cân $A B C D$ ($A B \/\/ C D$) có $hat(D) = 60°$, $A B = 15$ cm và $C D = 49$ cm. Qua $B$ vẽ đường thẳng song song với $A D$ cắt $C D$ tại $E$.
   #listEX()[
-    + Chứng minh: $triangle B C E$ đều;
-    + Tính $E C$ và chu vi hình thang $A B C D$;
+    + Chứng minh: $triangle B C E$ đều.
+    + Tính $E C$ và chu vi hình thang $A B C D$.
     + Tìm $S_(A B D) / S_(B C D)$.
   ]
 ]
@@ -735,7 +735,7 @@
 #bt()[
   Cho hình thang cân $A B C D$ ($A B \/\/ C D$, $A B < C D$) có $A H$, $B K$ là các đường cao. Chứng minh:
   #listEX()[
-    + $triangle A H D = triangle B K C$;
+    + $triangle A H D = triangle B K C$.
     + $D H = (C D - A B)/2$.
   ]
 ]

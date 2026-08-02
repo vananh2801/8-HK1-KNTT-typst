@@ -329,7 +329,7 @@
     )
   ]
   #listEX()[
-    + Vẽ biểu đồ tranh, biểu đồ cột biểu diễn bảng thống kê trên;
+    + Vẽ biểu đồ tranh, biểu đồ cột biểu diễn bảng thống kê trên.
     + Nếu muốn biểu diễn tỉ lệ khách hàng đánh giá theo các mức đánh giá trên, ta cần dùng biểu đồ nào để biểu diễn?
   ]
 ]
@@ -449,7 +449,7 @@
   ]
   Hãy biểu diễn tập dữ liệu trên dưới dạng:
   #listEX()[
-    + Hai biểu đồ cột;
+    + Hai biểu đồ cột.
     + Một biểu đồ cột kép.
   ]
 ]
@@ -556,7 +556,7 @@
   ]
   Lựa chọn dạng biểu đồ thích hợp để biểu diễn bảng thống kê trên và trả lời các câu hỏi sau:
   #listEX()[
-    + So sánh tỉ lệ học sinh xếp loại học tập Tốt và Chưa đạt của hai lớp 8A và 8B;
+    + So sánh tỉ lệ học sinh xếp loại học tập Tốt và Chưa đạt của hai lớp 8A và 8B.
     + Tổng số học sinh xếp loại học tập Tốt và Khá của lớp 8B bằng bao nhiêu phần trăm tổng số học sinh xếp loại học tập Tốt và Khá của lớp 8A.
   ]
 ]

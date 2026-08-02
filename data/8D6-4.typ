@@ -223,8 +223,8 @@
 #bt()[
   Lan đạp xe từ nhà tới câu lạc bộ bóng đá có quãng đường dài 12 km với tốc độ $x$ (km/h). Lượt về thuận chiều gió nên tốc độ nhanh hơn lượt đi 3 km/h.
   #listEX()[
-    + Viết biểu thức biểu thị tổng thời gian $T$ hai lượt đi và về;
-    + Viết biểu thức biểu thị hiệu thời gian $t$ lượt đi đối với lượt về;
+    + Viết biểu thức biểu thị tổng thời gian $T$ hai lượt đi và về.
+    + Viết biểu thức biểu thị hiệu thời gian $t$ lượt đi đối với lượt về.
     + Tính $T$ và $t$ với $x = 10$.
   ]
 ]
@@ -232,8 +232,8 @@
 #bt()[
   Nghỉ hè, ba của Long chở Long bằng xe máy từ nhà về quê có quãng đường dài 60 km với tốc độ $x$ (km/h). Lượt về ngược chiều gió nên tốc độ chậm hơn lượt đi 4 km/h.
   #listEX()[
-    + Viết biểu thức biểu thị tổng thời gian $T$ hai lượt đi và về;
-    + Viết biểu thức biểu thị hiệu thời gian $t$ lượt đi đối với lượt về;
+    + Viết biểu thức biểu thị tổng thời gian $T$ hai lượt đi và về.
+    + Viết biểu thức biểu thị hiệu thời gian $t$ lượt đi đối với lượt về.
     + Tính $T$ và $t$ với $x = 30$.
   ]
 ]

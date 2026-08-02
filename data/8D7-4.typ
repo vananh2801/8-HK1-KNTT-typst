@@ -807,7 +807,7 @@
   Bạn Dương mang theo 100 000 đồng và đạp xe đến nhà sách để mua vở. Biết giá mỗi quyển vở là 7 000 đồng, phí gửi xe đạp là 3 000 đồng.
   #listEX()[
     + Viết công thức biểu thị tổng số tiền $y$ (đồng) bạn Dương cần phải trả cho việc gửi xe đạp và mua $x$ quyển vở.
-    + Tính số tiền bạn Dương phải trả khi gửi xe và mua 12 quyển vở;
+    + Tính số tiền bạn Dương phải trả khi gửi xe và mua 12 quyển vở.
     + Viết công thức biểu thị số tiền còn lại $t$ (đồng) bạn Dương còn lại sau khi gửi xe và mua $x$ quyển vở.
     + Với số tiền trên, bạn Dương có thể mua được 15 quyển vở hay không? Vì sao?
   ]

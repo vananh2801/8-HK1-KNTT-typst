@@ -253,7 +253,7 @@
   Cho hình chóp tứ giác đều $S.M N P Q$ có cạnh bên $S M = 15$ cm và cạnh đáy $M N = 8$ cm.
   Hãy cho biết:
   #listEX()[
-    + Mặt bên và mặt đáy của hình đó;
+    + Mặt bên và mặt đáy của hình đó.
     + Độ dài các cạnh bên và cạnh đáy còn lại của hình đó.
   ]
 ]
@@ -261,7 +261,7 @@
 #bt()[
   Các phát biểu sau đúng hay sai? Nếu sai thì sửa lại cho đúng.
   #listEX()[
-    + Hình chóp tam giác đều có các cạnh bên bằng nhau và đáy là hình tam giác có ba cạnh bằng nhau;
+    + Hình chóp tam giác đều có các cạnh bên bằng nhau và đáy là hình tam giác có ba cạnh bằng nhau.
     + Hình chóp tứ giác đều có tất cả các cạnh bằng nhau.
   ]
 ]
@@ -374,8 +374,8 @@
   #immini()[
     Quan sát hình chóp tứ giác đều ở hình bên và cho biết:
     #listEX()[
-      + Mặt đáy và các mặt bên của hình đó;
-      + Đường cao của hình chóp đó;
+      + Mặt đáy và các mặt bên của hình đó.
+      + Đường cao của hình chóp đó.
       + Độ dài cạnh $S B$ và cạnh $B C$.
     ]
   ][
@@ -418,7 +418,7 @@
   #immini()[
     Cho hình chóp tứ giác đều $S.A B C D$ có cạnh bên $S D = 15$ cm và cạnh đáy $B C = 8$ cm. Hãy cho biết:
     #listEX()[
-      + Mặt bên và mặt đáy của hình đó;
+      + Mặt bên và mặt đáy của hình đó.
       + Độ dài các cạnh bên và cạnh đáy còn lại của hình đó.
     ]
   ][
@@ -598,7 +598,7 @@
   #immini()[
     Kim tự tháp Giza nổi tiếng ở Ai Cập có dạng hình chóp tứ giác đều với chiều cao khoảng $147$ m và đáy là hình vuông cạnh khoảng $230$ m.
     #listEX()[
-      + Tính thể tích của kim tự tháp Giza;
+      + Tính thể tích của kim tự tháp Giza.
       + Đường cao của mặt bên xuất phát từ đỉnh của kim tự tháp đo được dài $186","6$ m. Tính diện tích xung quanh của kim tự tháp Giza.
     ]
   ][

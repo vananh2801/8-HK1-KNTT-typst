@@ -445,7 +445,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có $hat(D A B)$.
   #listEX()[
-    + Tính số đo $hat(A B C)$; $hat(B C D)$; $hat(C D A)$;
+    + Tính số đo $hat(A B C)$; $hat(B C D)$; $hat(C D A)$.
     + Tính số đo $hat(A B D)$; $hat(A C D)$.
   ]
 ]
@@ -453,7 +453,7 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$. Trên nửa mặt phẳng không chứa $A$ có bờ là đường thẳng chứa cạnh $B C$, vẽ tia $B x \/\/ A C$ và tia $C y \/\/ A B$. Gọi $D$ là giao điểm của hai tia $B x$ và $C y$. Chứng minh:
   #listEX()[
-    + Tứ giác $A C D B$ là hình bình hành;
+    + Tứ giác $A C D B$ là hình bình hành.
     + Tứ giác $A C D B$ là hình thoi.
   ]
 ]
@@ -461,7 +461,7 @@
 #bt()[
   Cho góc $x O y$. Vẽ tia phân giác $O t$ của góc $x O y$. Từ $M$ bất kỳ trên $O t$, vẽ đường thẳng song song với $O x$ cắt $O y$ tại $A$, vẽ đường thẳng song song với $O y$ cắt $O x$ tại $B$.
   #listEX()[
-    + Chứng minh: tứ giác $O A M B$ là hình thoi;
+    + Chứng minh: tứ giác $O A M B$ là hình thoi.
     + Qua $M$ vẽ đường thẳng song song với $A B$ cắt $O x$ tại $P$, $O y$ tại $Q$. Chứng minh: tam giác $O P Q$ là tam giác cân.
   ]
 ]
@@ -469,7 +469,7 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$ có đường trung tuyến $A D$. Trên tia đối của tia $D A$ lấy điểm $E$ sao cho $D E = D A$. Chứng minh:
   #listEX()[
-    + Tứ giác $A C E B$ là hình bình hành;
+    + Tứ giác $A C E B$ là hình bình hành.
     + Tứ giác $A C E B$ là hình thoi.
   ]
 ]
@@ -477,7 +477,7 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $B$ có đường cao $B E$. Trên tia đối của tia $E B$ lấy điểm $D$ sao cho $E D = E B$. Chứng minh:
   #listEX()[
-    + Tứ giác $A B C D$ là hình bình hành;
+    + Tứ giác $A B C D$ là hình bình hành.
     + Tứ giác $A B C D$ là hình thoi.
   ]
 ]
@@ -485,7 +485,7 @@
 #bt()[
   Cho tam giác $A B C$ có đường phân giác trong $A D$. Trên $A C$ lấy điểm $E$ sao cho $D E \/\/ A B$, trên $A B$ lấy điểm $F$ sao cho $D F \/\/ A C$. Chứng minh:
   #listEX()[
-    + Tứ giác $A E D F$ là hình bình hành;
+    + Tứ giác $A E D F$ là hình bình hành.
     + Tứ giác $A E D F$ là hình thoi.
   ]
 ]
@@ -493,7 +493,7 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $B$. Đường thẳng qua $C$ song song với $A B$ cắt tia phân giác của $hat(A B C)$ tại $D$. Chứng minh:
   #listEX()[
-    + $A B = C D$;
+    + $A B = C D$.
     + Tứ giác $A B C D$ là hình thoi.
   ]
 ]
@@ -501,8 +501,8 @@
 #bt()[
   Cho tứ giác $A B C D$ có $hat(B A D) = hat(B C D)$. Biết rằng: tia $A C$ là tia phân giác của $hat(B A D)$ và tia $C A$ là tia phân giác của $hat(B C D)$. Chứng minh:
   #listEX()[
-    + Các tam giác $A B C$ và $A D C$ là các tam giác cân;
-    + $A B = A D$;
+    + Các tam giác $A B C$ và $A D C$ là các tam giác cân.
+    + $A B = A D$.
     + Tứ giác $A B C D$ là hình thoi.
   ]
 ]
@@ -510,7 +510,7 @@
 #bt()[
   Cho hình bình hành $A B C D$ có hai đường chéo $A C$ và $B D$ cắt nhau tại $O$. Đường thẳng $d_1$ qua $O$ cắt cạnh $A B$ và $C D$ lần lượt tại $M$ và $P$, đường thẳng $d_2$ qua $O$ cắt cạnh $B C$ và $D A$ lần lượt tại $N$ và $Q$. Biết rằng: $d_1 perp d_2$. Chứng minh:
   #listEX()[
-    + Tứ giác $M N P Q$ là hình bình hành;
+    + Tứ giác $M N P Q$ là hình bình hành.
     + Tứ giác $M N P Q$ là hình thoi.
   ]
 ]
@@ -518,7 +518,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có hai đường chéo $A C$ và $B D$ cắt nhau tại $O$. Trên đoạn $O A$ lấy điểm $E$, trên đoạn $O C$ lấy điểm $F$ sao cho $A E = C F$. Chứng minh:
   #listEX()[
-    + $O E = O F$;
+    + $O E = O F$.
     + Tứ giác $B E D F$ là hình thoi.
   ]
 ]
@@ -530,7 +530,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có $O$ là giao điểm của hai đường chéo.
   #listEX()[
-    + Tính $A B$ khi biết $O A = 4$ cm và $O B = 3$ cm;
+    + Tính $A B$ khi biết $O A = 4$ cm và $O B = 3$ cm.
     + Tính $hat(B A D)$ khi biết $hat(B A O) = 32 degree$.
   ]
 ]
@@ -538,7 +538,7 @@
 #bt()[
   Cho hình thoi $M N P Q$ có $I$ là giao điểm của hai đường chéo.
   #listEX()[
-    + Tính $M P$ khi biết $M N = 10$ dm, $I N = 6$ dm;
+    + Tính $M P$ khi biết $M N = 10$ dm, $I N = 6$ dm.
     + Tính $hat(I M N)$ khi biết $hat(M N P) = 128 degree$.
   ]
 ]
@@ -550,7 +550,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có $A C = 12$ cm, $B D = 16$ cm.
   #listEX()[
-    + Tính diện tích hình thoi $A B C D$;
+    + Tính diện tích hình thoi $A B C D$.
     + Tính độ dài các cạnh của hình thoi $A B C D$.
   ]
 ]
@@ -558,7 +558,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có $A B = 15$ cm, $B D = 24$ cm.
   #listEX()[
-    + Tính độ dài $A C$;
+    + Tính độ dài $A C$.
     + Tính diện tích hình thoi $A B C D$.
   ]
 ]
@@ -576,7 +576,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có diện tích bằng $120$ $"cm"^2$ và $A C = 10$ cm.
   #listEX()[
-    + Tính độ dài $B D$;
+    + Tính độ dài $B D$.
     + Tính chu vi của hình thoi $A B C D$.
   ]
 ]
@@ -584,7 +584,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có diện tích bằng $50 sqrt(3)$ $"cm"^2$ và $A C = 10$ cm.
   #listEX()[
-    + Tính độ dài $B D$ và $A B$;
+    + Tính độ dài $B D$ và $A B$.
     + Tính số đo các góc của hình thoi $A B C D$.
   ]
 ]
@@ -608,8 +608,8 @@
 #bt()[
   Hình bình hành $A B C D$ có $hat(D A C) = 90 degree$. Gọi $M$, $N$ là trung điểm của $A B$, $C D$. Chứng minh:
   #listEX()[
-    + $A M = C N$;
-    + $A N = C N$;
+    + $A M = C N$.
+    + $A N = C N$.
     + Tứ giác $A M C N$ là hình thoi.
   ]
 ]
@@ -617,8 +617,8 @@
 #bt()[
   Cho hình bình hành $A B C D$ có $A B = A C$. Gọi $M$ là trung điểm $B C$. Trên tia đối của tia $M A$ lấy $M E = M A$. Chứng minh:
   #listEX()[
-    + Tứ giác $A B E C$ là hình thoi;
-    + $D$, $C$, $E$ thẳng hàng;
+    + Tứ giác $A B E C$ là hình thoi.
+    + $D$, $C$, $E$ thẳng hàng.
     + $C$ là trung điểm của $D E$.
   ]
 ]
@@ -626,7 +626,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có $hat(A) = 60 degree$, kẻ $B H perp A D$ ($H in A D$), rồi kéo dài một đoạn $H E = B H$. Nối $E$ với $A$, $E$ với $D$. Chứng minh:
   #listEX()[
-    + $H$ là trung điểm $A D$;
+    + $H$ là trung điểm $A D$.
     + $A B D E$ là hình thoi.
   ]
 ]
@@ -642,8 +642,8 @@
 #bt()[
   Hình thoi $A B C D$ có $hat(A) = 60 degree$. Kẻ 2 đường cao $B E$ và $B F$ ($E in A D$; $F in D C$).
   #listEX()[
-    + Chứng minh: $B E = B F$;
-    + Tính số đo $hat(A B C)$;
+    + Chứng minh: $B E = B F$.
+    + Tính số đo $hat(A B C)$.
     + Tính số đo $hat(E B F)$. $triangle B E F$ là tam giác đặc biệt gì? Vì sao?
   ]
 ]
@@ -651,9 +651,9 @@
 #bt()[
   Cho hình thoi $A B C D$ có $hat(A) = 60 degree$, kẻ $B H perp A D$ ($H in A D$), rồi kéo dài một đoạn $H E = B H$. Nối $E$ với $A$, $E$ với $D$. Chứng minh:
   #listEX()[
-    + $H$ là trung điểm $A D$;
-    + Tứ giác $A B D E$ là hình thoi;
-    + $D$ là trung điểm của $C E$;
+    + $H$ là trung điểm $A D$.
+    + Tứ giác $A B D E$ là hình thoi.
+    + $D$ là trung điểm của $C E$.
     + $A C = B E$.
   ]
 ]
@@ -661,9 +661,9 @@
 #bt()[
   Cho hình thoi $A B C D$ có $A B = B D$.
   #listEX()[
-    + Chứng minh: $triangle A B D$ đều;
-    + Gọi $O$ là giao điểm của $A C$ và $B D$. Chứng minh: $O A^2 = 3/4 A B^2$;
-    + Biết chu vi của hình thoi $A B C D$ là $8$ cm. Tính độ dài đường chéo $B D$; $A C$;
+    + Chứng minh: $triangle A B D$ đều.
+    + Gọi $O$ là giao điểm của $A C$ và $B D$. Chứng minh: $O A^2 = 3/4 A B^2$.
+    + Biết chu vi của hình thoi $A B C D$ là $8$ cm. Tính độ dài đường chéo $B D$; $A C$.
     + Tính diện tích hình thoi $A B C D$.
   ]
 ]
@@ -671,7 +671,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có chu vi là $8$ cm và $A C = 2 sqrt(3)$ cm.
   #listEX()[
-    + Tính độ dài $B D$;
+    + Tính độ dài $B D$.
     + Tính số đo các góc của hình thoi $A B C D$.
   ]
 ]
@@ -687,9 +687,9 @@
 #bt()[
   Cho hình thang $A B C D$ ($A B \/\/ C D$) có $A D = C D$ và $A C perp B C$. Từ $C$ kẻ đường thẳng song song với $A D$ và cắt $A B$ tại $E$.
   #listEX()[
-    + Chứng minh: tứ giác $A E C D$ là hình thoi;
-    + Chứng minh: tứ giác $B E D C$ là hình bình hành;
-    + Chứng minh: $triangle C E B$ cân;
+    + Chứng minh: tứ giác $A E C D$ là hình thoi.
+    + Chứng minh: tứ giác $B E D C$ là hình bình hành.
+    + Chứng minh: $triangle C E B$ cân.
     + Giả sử $triangle C E B$ đều. Chứng minh: tứ giác $A B C D$ là hình thang cân.
   ]
 ]
@@ -697,7 +697,7 @@
 #bt()[
   Cho hình thang $A B C D$ ($A B \/\/ C D$) có $A D = C D$ và $A C perp B C$. Từ $C$ kẻ đường thẳng song song với $A D$ và cắt $A B$ tại $E$.
   #listEX()[
-    + Chứng minh: $triangle C E B$ cân;
+    + Chứng minh: $triangle C E B$ cân.
     + Hình thang $A B C D$ sẽ như thế nào để $triangle C E B$ đều?
   ]
 ]
@@ -706,7 +706,7 @@
   Cho hình thoi $A B C D$ có $hat(A) = 60 degree$. Một góc $x B y$ thay đổi sao cho tia $B x$ cắt cạnh $A D$ tại $M$, tia $B y$ cắt cạnh $D C$ tại $N$ và $hat(x B y) = 60 degree$. Chứng minh:
   #listEX()[
     + $A B = B D$;
-    + $triangle A B M = triangle D B N$;
+    + $triangle A B M = triangle D B N$.
     + Tổng độ dài $D M + D N$ không đổi.
   ]
 ]
@@ -714,7 +714,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có $A B = B D$. Gọi $M$ và $N$ lần lượt trên $A B$, $B C$ sao cho $A M = B N$.
   #listEX()[
-    + Chứng minh: $hat(A D M) = hat(B D N)$;
+    + Chứng minh: $hat(A D M) = hat(B D N)$.
     + Chứng minh: $triangle M D N$ là tam giác đều.
   ]
 ]
@@ -722,7 +722,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có $A B = B D$. Gọi $M$, $N$ lần lượt trên các cạnh $A B$, $B C$ sao cho $A M + N C = A D$.
   #listEX()[
-    + Chứng minh: $A M = B N$ và $triangle A M D = triangle B N D$;
+    + Chứng minh: $A M = B N$ và $triangle A M D = triangle B N D$.
     + Tính số đo các góc của $triangle D M N$.
   ]
 ]
@@ -734,7 +734,7 @@
 #bt()[
   Cho tam giác $A B C$ có $hat(A) = 90 degree$; $A B = A C = a$ và $A D$ là đường phân giác của góc trong. Từ $D$ kẻ $D E \/\/ A C$ và $D F \/\/ A B$ (với $E in A B$; $F in A C$). Chứng minh:
   #listEX()[
-    + Tứ giác $A E D F$ là hình vuông;
+    + Tứ giác $A E D F$ là hình vuông.
     + $C E = B F$.
   ]
 ]
@@ -763,7 +763,7 @@
 #bt()[
   Cho hình vuông $A B C D$. Kéo dài $B C$ lấy $E$, kéo dài $C D$ lấy $F$, sao cho $B E = D F$.
   #listEX()[
-    + Chứng minh: $triangle A B E = triangle A D F$;
+    + Chứng minh: $triangle A B E = triangle A D F$.
     + $triangle E A F$ là tam giác gì? Vì sao?
     + Kẻ tia $E x \/\/ A F$ và tia $F y \/\/ A E$. $E x$ cắt $F y$ tại $G$. Tứ giác $A E G F$ là hình gì? Vì sao?
   ]
@@ -782,8 +782,8 @@
 #bt()[
   Cho hình vuông $A B C D$. Trên tia đối của các tia $A D$, $B A$, $C B$, $D C$ lần lượt lấy các điểm $A'$, $B'$, $C'$, $D'$ sao cho $A A' = B B' = C C' = D D'$. Chứng minh:
   #listEX()[
-    + $triangle A A' B' = triangle B B' C' = triangle C C' D' = triangle D D' A'$;
-    + $hat(A' B' C') = 90 degree$;
+    + $triangle A A' B' = triangle B B' C' = triangle C C' D' = triangle D D' A'$.
+    + $hat(A' B' C') = 90 degree$.
     + Tứ giác $A' B' C' D'$ là hình vuông.
   ]
 ]
@@ -791,8 +791,8 @@
 #bt()[
   Cho hình vuông $A B C D$. Hai đường thẳng $d_1$ và $d_2$ vuông góc nhau ở tâm $O$ của hình vuông. Đường thẳng $d_1$ cắt $A B$, $C D$ ở $P$ và $Q$. Đường thẳng $d_2$ cắt $B C$, $A D$ ở $R$ và $S$. Chứng minh:
   #listEX()[
-    + $triangle A O P = triangle B O R$;
-    + $O P = O R = O S = O Q$;
+    + $triangle A O P = triangle B O R$.
+    + $O P = O R = O S = O Q$.
     + Tứ giác $P R Q S$ là hình vuông.
   ]
 ]
@@ -800,7 +800,7 @@
 #bt()[
   Cho hình chữ nhật $A B C D$ có $A B = 2 B C$. Gọi $I$ là trung điểm của $A B$ và $K$ là trung điểm của $D C$. Chứng minh:
   #listEX()[
-    + $A I K D$ và $B I K C$ là hình vuông;
+    + $A I K D$ và $B I K C$ là hình vuông.
     + $I K = (D C)/2$ và $hat(D I C) = 90 degree$.
   ]
 ]
@@ -808,7 +808,7 @@
 #bt()[
   Cho tam giác $A B C$ vuông cân ở $A$. Trên cạnh $B C$ lấy các điểm $H$, $G$ sao cho $B H = H G = G C$. Qua $H$ và $G$ kẻ các đường thẳng vuông góc với $B C$ chúng cắt $A B$ và $A C$ theo thứ tự tại $E$, $F$. Chứng minh:
   #listEX()[
-    + $triangle B E H$ và $triangle C F G$ là các tam giác vuông cân;
+    + $triangle B E H$ và $triangle C F G$ là các tam giác vuông cân.
     + $E H = H G = G F$.
   ]
 ]
@@ -816,7 +816,7 @@
 #bt()[
   Cho $hat(x O y) = 90 degree$ có $O t$ là đường phân giác. $D$ là điểm trên $O t$ với $O D = a$. Đường trung trực của $O D$ cắt hai tia $O x$, $O y$ lần lượt tại $A$, $B$.
   #listEX()[
-    + Chứng minh: $triangle O B D$ vuông cân và $triangle O A D$ vuông cân;
+    + Chứng minh: $triangle O B D$ vuông cân và $triangle O A D$ vuông cân.
     + Tứ giác $O B D A$ là hình gì? Vì sao?
     + Tính $S_(O A D B)$ theo $a$.
   ]
@@ -825,7 +825,7 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$ có $A B = sqrt(2)$ và $B C = 2$. $D$ là điểm đối xứng với $A$ qua $B C$.
   #listEX()[
-    + Tính $B D$, $D C$;
+    + Tính $B D$, $D C$.
     + Tứ giác $A B D C$ là hình gì? Vì sao? Tính $S_(A B C D)$.
   ]
 ]
@@ -833,8 +833,8 @@
 #bt()[
   Cho hình thang $A B C D$ có độ dài đáy lớn bằng $2$ lần đáy nhỏ $C D$. Gọi $I$ là trung điểm của $A B$. Đường thẳng $A D$ cắt đường thẳng $B C$ tại $E$.
   #listEX()[
-    + Chứng minh: tứ giác $A I C D$ và tứ giác $B C D I$ là hình bình hành;
-    + Chứng minh: $hat(D I A) = hat(E C D)$ và $A D = D E$;
+    + Chứng minh: tứ giác $A I C D$ và tứ giác $B C D I$ là hình bình hành.
+    + Chứng minh: $hat(D I A) = hat(E C D)$ và $A D = D E$.
     + Giả sử $hat(A) = hat(D) = 90 degree$ và $A D = C D$. Chứng minh: $B C perp A C$.
   ]
 ]
@@ -842,7 +842,7 @@
 #bt()[
   Cho hình chữ nhật $A B C D$ có $A B = 2 B C$. Gọi $I$ là trung điểm của $A B$ và $K$ là trung điểm của $D C$. Chứng minh:
   #listEX()[
-    + $A I K D$ và $B I K C$ là hình vuông;
+    + $A I K D$ và $B I K C$ là hình vuông.
     + $I K = (D C)/2$ và $hat(D I C) = 90 degree$.
   ]
 ]
@@ -859,9 +859,9 @@
 #bt()[
   Cho hình bình hành $A B C D$ có $A B = 2 A D$. Gọi $E$ và $F$ theo thứ tự là trung điểm của $A B$ và $C D$.
   #listEX()[
-    + Chứng minh: $A E C F$ là hình bình hành;
-    + Chứng minh: $A E F D$ là hình thoi;
-    + Gọi $M$ là giao điểm của $A F$ và $D E$; $N$ là giao điểm của $B F$ và $C E$. Chứng minh: $E M F N$ là hình chữ nhật;
+    + Chứng minh: $A E C F$ là hình bình hành.
+    + Chứng minh: $A E F D$ là hình thoi.
+    + Gọi $M$ là giao điểm của $A F$ và $D E$; $N$ là giao điểm của $B F$ và $C E$. Chứng minh: $E M F N$ là hình chữ nhật.
     + Hình bình hành $A B C D$ cần điều kiện gì thì $E M F N$ là hình vuông?
   ]
 ]
@@ -869,7 +869,7 @@
 #bt()[
   Cho hình bình hành $A B C D$. Gọi $D E$, $B K$ lần lượt là đường phân giác góc trong của các $triangle A D B$ và $triangle D B C$.
   #listEX()[
-    + Chứng minh: $D E \/\/ B K$;
+    + Chứng minh: $D E \/\/ B K$.
     + Tứ giác $D E B K$ là hình gì? Vì sao?
     + Tìm điều kiện của $triangle A B D$ để $D E B K$ trở thành:
       + Hình chữ nhật;
@@ -880,10 +880,10 @@
 #bt()[
   Cho hình bình hành $A B C D$ có $A B = 2 A D$. Gọi $M$ và $N$ là trung điểm của $A B$ và $C D$.
   #listEX()[
-    + Xác định dạng tứ giác $A M N D$;
-    + Chứng minh: $A N \/\/ M C$;
-    + $E$ là giao điểm của $A N$ và $D M$, $F$ là giao điểm của $M C$ và $B N$. Chứng minh: $E F \/\/ B C$;
-    + Xác định dạng của tứ giác $M E N F$;
+    + Xác định dạng tứ giác $A M N D$.
+    + Chứng minh: $A N \/\/ M C$.
+    + $E$ là giao điểm của $A N$ và $D M$, $F$ là giao điểm của $M C$ và $B N$. Chứng minh: $E F \/\/ B C$.
+    + Xác định dạng của tứ giác $M E N F$.
     + Tìm điều kiện của hình bình hành $A B C D$ để tứ giác $M E N F$ là hình vuông.
   ]
 ]
@@ -891,9 +891,9 @@
 #bt()[
   Cho hình chữ nhật $A B C D$. Gọi $M$ và $N$ lần lượt là trung điểm của các cạnh $A B$ và $C D$.
   #listEX()[
-    + Chứng minh: tứ giác $A M N D$ là hình chữ nhật;
-    + Tính diện tích của hình chữ nhật $A M N D$ biết $A D = 4$ cm và $A B = 6$ cm;
-    + Gọi $I$ là giao điểm của $A N$ và $D M$, $K$ là giao điểm của $B N$ và $M C$. Chứng minh: tứ giác $M I N K$ là hình thoi;
+    + Chứng minh: tứ giác $A M N D$ là hình chữ nhật.
+    + Tính diện tích của hình chữ nhật $A M N D$ biết $A D = 4$ cm và $A B = 6$ cm.
+    + Gọi $I$ là giao điểm của $A N$ và $D M$, $K$ là giao điểm của $B N$ và $M C$. Chứng minh: tứ giác $M I N K$ là hình thoi.
     + Tìm điều kiện của hình chữ nhật $A B C D$ để tứ giác $M I N K$ là hình vuông.
   ]
 ]
@@ -910,8 +910,8 @@
 #bt()[
   Cho hình vuông $A B C D$. Vẽ $hat(x A y) = 90 degree$. $A x$ cắt $B C$ ở $M$; $A y$ cắt đường thẳng $C D$ tại $N$.
   #listEX()[
-    + Chứng minh: $triangle M A N$ vuông cân;
-    + Vẽ hình bình hành $A M F N$ có $O$ là giao điểm của $A F$ và $M N$. Chứng minh: $O A = O C = (A F)/2$ và $triangle A C F$ vuông tại $C$;
+    + Chứng minh: $triangle M A N$ vuông cân.
+    + Vẽ hình bình hành $A M F N$ có $O$ là giao điểm của $A F$ và $M N$. Chứng minh: $O A = O C = (A F)/2$ và $triangle A C F$ vuông tại $C$.
     + Chứng minh: $D$, $O$, $B$ thẳng hàng.
   ]
 ]
@@ -919,8 +919,8 @@
 #bt()[
   Cho hình vuông $A B C D$. Từ điểm $M$ thuộc cạnh $B C$, vẽ đường thẳng cắt $C D$ ở $K$ sao cho $hat(A M B) = hat(A M K)$. Kẻ $A H perp M K$ ở $H$. Chứng minh:
   #listEX()[
-    + $triangle A B M = triangle A H M$ và $A H = A D$;
-    + $triangle D A K = triangle H A K$;
+    + $triangle A B M = triangle A H M$ và $A H = A D$.
+    + $triangle D A K = triangle H A K$.
     + $hat(M A K) = 1/2 hat(A) = 45 degree$.
   ]
 ]
@@ -928,7 +928,7 @@
 #bt()[
   Cho hình vuông $A B C D$. Từ điểm $M$ thuộc cạnh $B C$, vẽ đường thẳng cắt $C D$ ở $K$ sao cho $hat(A M B) = hat(A M K)$. Kẻ $A M perp M K$ ở $H$. Chứng minh:
   #listEX()[
-    + $triangle A M H = triangle A M B$;
+    + $triangle A M H = triangle A M B$.
     + $hat(K A M) = 45 degree$.
   ]
 ]
@@ -936,7 +936,7 @@
 #bt()[
   Cho hình vuông $A B C D$. $M$ là điểm tùy ý trên cạnh $D C$. Tia phân giác của $hat(D A M)$ cắt $C D$ tại $I$. Kẻ $I H perp A M$ tại $H$ và tia $I H$ cắt $B C$ tại $K$. Chứng minh:
   #listEX()[
-    + $triangle A D I = triangle A H I$ và $triangle A B K = triangle A H K$;
+    + $triangle A D I = triangle A H I$ và $triangle A B K = triangle A H K$.
     + $hat(I A K) = 45 degree$.
   ]
 ]
@@ -944,9 +944,9 @@
 #bt()[
   Cho hình vuông $A B C D$. Lấy $N in A B$, $M in B C$ sao cho $hat(A D N) = hat(N D M)$. Kẻ tia $D x perp D N$; $D x$ cắt tia $B C$ tại $K$. Chứng minh:
   #listEX()[
-    + $hat(A D N) = hat(C D K)$;
-    + $A N = C K$;
-    + $triangle M D K$ cân ở $M$;
+    + $hat(A D N) = hat(C D K)$.
+    + $A N = C K$.
+    + $triangle M D K$ cân ở $M$.
     + $D M = A N + C M$.
   ]
 ]
@@ -983,7 +983,7 @@
     })
   ]
   #listEX()[
-    + Tính diện tích miếng đất nhà ông Tư;
+    + Tính diện tích miếng đất nhà ông Tư.
     + Ông Tư muốn rào xung quanh khu đất trên bằng dây kẽm gai có giá 12 000 đồng một mét. Tính số tiền ông Tư phải trả khi mua dây kẽm gai, biết $E F$ nằm trong mảnh đất thì cần phải rào.
   ]
 ]

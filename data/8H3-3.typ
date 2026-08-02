@@ -283,8 +283,8 @@
 #bt()[
   Cho hình bình hành $A B C D$.
   #listEX()[
-    + Chứng minh: $triangle A D C = triangle C B A$, từ đó suy ra $C D = A B$ và $A D = B C$;
-    + Chứng minh: $hat(A D C) = hat(C B A)$ và $hat(D A B) = hat(D C B)$;
+    + Chứng minh: $triangle A D C = triangle C B A$, từ đó suy ra $C D = A B$ và $A D = B C$.
+    + Chứng minh: $hat(A D C) = hat(C B A)$ và $hat(D A B) = hat(D C B)$.
     + Gọi $O$ là giao điểm của $A C$ và $B D$. Chứng minh: $O$ là trung điểm của $A C$ và $B D$.
   ]
 ]
@@ -308,7 +308,7 @@
 #bt()[
   Cho hình bình hành $A B C D$. Gọi $E$, $F$, $G$, $H$ lần lượt là trung điểm các cạnh $A B$, $B C$, $C D$, $D A$.
   #listEX()[
-    + Chứng minh: $A E = C G$ và $triangle A E H = triangle C G F$;
+    + Chứng minh: $A E = C G$ và $triangle A E H = triangle C G F$.
     + Chứng minh: $H G = E F$ và tứ giác $E F G H$ là hình bình hành.
   ]
 ]
@@ -316,8 +316,8 @@
 #bt()[
   Cho hình thang cân $A B C D$ ($A B \/\/ C D$, $A B < C D$), các đường cao $A H$, $B K$.
   #listEX()[
-    + Chứng minh: $D H = C K$;
-    + Gọi $N$ là điểm đối xứng với $D$ qua $H$. Chứng minh: $A B C N$ là hình bình hành;
+    + Chứng minh: $D H = C K$.
+    + Gọi $N$ là điểm đối xứng với $D$ qua $H$. Chứng minh: $A B C N$ là hình bình hành.
     + Tính diện tích tứ giác $A B C D$, biết $A B = 6$ cm, $A H = 4$ cm và $D H = 3$ cm.
   ]
 ]
@@ -326,7 +326,7 @@
   Cho tam giác $A B C$ vuông tại $A$ có $A C = 5$ cm, $B C = 13$ cm. Gọi $E$ là trung điểm của cạnh $A B$, $D$ là điểm đối xứng với $C$ qua $E$.
   #listEX()[
     + Tứ giác $A D B C$ là hình gì? Vì sao?
-    + Trên $B C$ lấy điểm $F$ sao cho $E F \/\/ A C$. Chứng minh: $E F perp A B$;
+    + Trên $B C$ lấy điểm $F$ sao cho $E F \/\/ A C$. Chứng minh: $E F perp A B$.
     + Tính diện tích $triangle A B C$.
   ]
 ]
@@ -354,8 +354,8 @@
 #bt()[
   Cho hình thang $A B C D$ có độ dài đáy lớn $A B$ bằng $2$ lần đáy nhỏ $C D$. Gọi $M$ là trung điểm của $A B$. Đường thẳng $A D$ cắt đường thẳng $B C$ tại $E$.
   #listEX()[
-    + Chứng minh: tứ giác $A M C D$ và tứ giác $B C D M$ là hình bình hành;
-    + Chứng minh: $hat(D M A) = hat(E C D)$ và $A D = D E$;
+    + Chứng minh: tứ giác $A M C D$ và tứ giác $B C D M$ là hình bình hành.
+    + Chứng minh: $hat(D M A) = hat(E C D)$ và $A D = D E$.
     + Chứng minh: $C$ là trung điểm của đoạn $B E$.
   ]
 ]
@@ -363,8 +363,8 @@
 #bt()[
   Cho hình bình hành $A B C D$. Gọi $E$, $F$ theo thứ tự là trung điểm $A B$, $C D$. Gọi $M$ là giao điểm của $A F$ và $D E$, $N$ là giao điểm của $B F$ và $C E$.
   #listEX()[
-    + Chứng minh: $A E = C F$ và tứ giác $A E C F$ là hình bình hành;
-    + Chứng minh: $B F \/\/ D E$ và $E M F N$ là hình bình hành;
+    + Chứng minh: $A E = C F$ và tứ giác $A E C F$ là hình bình hành.
+    + Chứng minh: $B F \/\/ D E$ và $E M F N$ là hình bình hành.
     + Chứng minh: các đường thẳng $A C$, $E F$, $M N$ đồng qui.
   ]
 ]
@@ -372,9 +372,9 @@
 #bt()[
   Cho hình bình hành $A B C D$. Trên cạnh $A B$ lấy điểm $E$, trên cạnh $C D$ lấy điểm $F$ sao cho $A E = D F$.
   #listEX()[
-    + Chứng minh: $A E \/\/ D F$; $B E \/\/ C F$;
-    + Chứng minh: $B E = C F$;
-    + Chứng minh: tứ giác $A E F D$ là hình bình hành;
+    + Chứng minh: $A E \/\/ D F$; $B E \/\/ C F$.
+    + Chứng minh: $B E = C F$.
+    + Chứng minh: tứ giác $A E F D$ là hình bình hành.
     + Chứng minh: tứ giác $B E F C$ là hình bình hành.
   ]
 ]
@@ -382,9 +382,9 @@
 #bt()[
   Cho hình bình hành $A B C D$. Trên cạnh $A B$ lấy điểm $E$, trên cạnh $C D$ lấy điểm $F$ sao cho $A E = C F$.
   #listEX()[
-    + Chứng minh: $A E \/\/ C F$; $B E \/\/ D F$;
-    + Chứng minh: $B E = D F$;
-    + Chứng minh: tứ giác $A E C F$ là hình bình hành;
+    + Chứng minh: $A E \/\/ C F$; $B E \/\/ D F$.
+    + Chứng minh: $B E = D F$.
+    + Chứng minh: tứ giác $A E C F$ là hình bình hành.
     + Chứng minh: tứ giác $B E D F$ là hình bình hành.
   ]
 ]
@@ -392,7 +392,7 @@
 #bt()[
   Cho hình bình hành $A B C D$ có $M$ là trung điểm của $A B$ và $N$ là trung điểm của $C D$.
   #listEX()[
-    + Chứng minh: tứ giác $A M N D$ là hình bình hành;
+    + Chứng minh: tứ giác $A M N D$ là hình bình hành.
     + Chứng minh: tứ giác $A M C N$ là hình bình hành.
   ]
 ]
@@ -400,8 +400,8 @@
 #bt()[
   Cho hình bình hành $A B C D$ ($A B > A D$), phân giác của góc $D$ cắt $A B$ tại $M$.
   #listEX()[
-    + Chứng minh: $A M = A D$;
-    + Trên $D C$ lấy $N$ sao cho $D N = B M$. Chứng minh: tứ giác $B M D N$ là hình bình hành;
+    + Chứng minh: $A M = A D$.
+    + Trên $D C$ lấy $N$ sao cho $D N = B M$. Chứng minh: tứ giác $B M D N$ là hình bình hành.
     + Chứng minh: $M N$ đi qua trung điểm của $A C$.
   ]
 ]
@@ -409,8 +409,8 @@
 #bt()[
   Cho hình bình hành $A B C D$. Gọi $O$ là giao điểm của hai đường chéo $A C$ và $B D$. Một đường thẳng qua $O$ cắt $A B$ tại $E$ và cắt $C D$ tại $F$.
   #listEX()[
-    + Chứng minh: $O$ là trung điểm của $E F$;
-    + Chứng minh: tứ giác $A E C F$ là hình bình hành;
+    + Chứng minh: $O$ là trung điểm của $E F$.
+    + Chứng minh: tứ giác $A E C F$ là hình bình hành.
     + Chứng minh: tứ giác $B E D F$ là hình bình hành.
   ]
 ]
@@ -418,7 +418,7 @@
 #bt()[
   Cho hình bình hành $A B C D$. Trên cạnh $A B$ lấy điểm $E$, trên cạnh $C D$ lấy điểm $F$ sao cho $A E = C F$. Gọi $O$ là giao điểm của $A C$ và $B D$. Chứng minh:
   #listEX()[
-    + Tứ giác $A E C F$ là hình bình hành;
+    + Tứ giác $A E C F$ là hình bình hành.
     + $O$ là trung điểm của $E F$.
   ]
 ]
@@ -426,7 +426,7 @@
 #bt()[
   Cho hình bình hành $A B C D$ có $E$ là hình chiếu của $A$ và $F$ là hình chiếu của $C$ lên đường chéo $B D$.
   #listEX()[
-    + Chứng minh: $triangle A D E = triangle C B F$;
+    + Chứng minh: $triangle A D E = triangle C B F$.
     + Chứng minh: tứ giác $A E C F$ là hình bình hành.
   ]
 ]
@@ -434,7 +434,7 @@
 #bt()[
   Cho hình bình hành $A B C D$, có $O$ là giao điểm của $A C$ và $B D$. Đường thẳng qua $O$ cắt $A B$ ở $M$ và $C D$ ở $N$.
   #listEX()[
-    + Chứng minh: $O M = O N$;
+    + Chứng minh: $O M = O N$.
     + Tứ giác $A M C N$ là hình đặc biệt nào?
   ]
 ]
@@ -442,7 +442,7 @@
 #bt()[
   Cho hình bình hành $A B C D$ có $A B > A D$. Kẻ $A E$, $C F$ cùng vuông góc $B D$ ($E$, $F in B D$). Chứng minh:
   #listEX()[
-    + $A E \/\/ C F$ và $A E = C F$;
+    + $A E \/\/ C F$ và $A E = C F$.
     + Tứ giác $A E C F$ là hình gì? Vì sao?
   ]
 ]
@@ -450,7 +450,7 @@
 #bt()[
   Cho hình bình hành $A B C D$ có $A B > A D$, vẽ $A E perp B D$, $C F perp B D$ ($E$, $F in B D$). $A E$ kéo dài cắt $C D$ tại $H$ và $C F$ kéo dài cắt $A B$ tại $K$. Chứng minh:
   #listEX()[
-    + $A E C F$ là hình bình hành;
+    + $A E C F$ là hình bình hành.
     + $A H C K$ là hình bình hành.
   ]
 ]
@@ -474,7 +474,7 @@
 #bt()[
   Vẽ tam giác nhọn $A B C$ ($A B < A C$) có đường trung tuyến $A M$. Lấy điểm $D$ trên tia đối của tia $M A$ sao cho $M D = M A$.
   #listEX()[
-    + Chứng minh: tứ giác $A B D C$ là hình bình hành;
+    + Chứng minh: tứ giác $A B D C$ là hình bình hành.
     + So sánh $S_(A B D)$ với $S_(A C D)$.
   ]
 ]
@@ -498,7 +498,7 @@
 #bt()[
   Cho hình bình hành $A B C D$ có hai đường chéo $A C$ và $B D$ cắt nhau tại $O$. Gọi $M$, $N$, $P$, $Q$ lần lượt là trung điểm các đoạn $O A$, $O B$, $O C$, $O D$.
   #listEX()[
-    + Chứng minh: tứ giác $M N P Q$ là hình bình hành;
+    + Chứng minh: tứ giác $M N P Q$ là hình bình hành.
     + Chứng minh: các tứ giác $A N C Q$, $B P D M$ là các hình bình hành.
   ]
 ]
@@ -506,7 +506,7 @@
 #bt()[
   Cho tam giác $A B C$ có các đường trung tuyến $B E$, $C F$ và trọng tâm $G$. Gọi $M$ và $N$ lần lượt là trung điểm của $B G$ và $C G$.
   #listEX()[
-    + Chứng minh: $G$ là trung điểm $M E$;
+    + Chứng minh: $G$ là trung điểm $M E$.
     + Chứng minh: $M N E F$ là hình bình hành.
   ]
 ]
@@ -518,7 +518,7 @@
 #bt()[
   Cho hình bình hành $A B C D$. Biết $hat(B A D) = 120°$ và $O$ là trung điểm của $B D$.
   #listEX()[
-    + Tính số đo các góc còn lại của hình bình hành;
+    + Tính số đo các góc còn lại của hình bình hành.
     + Chứng minh: $A$, $O$, $C$ thẳng hàng.
   ]
 ]
@@ -538,7 +538,7 @@
 #bt()[
   Cho hình bình hành $A B C D$ có $A B > A D$. Kẻ $A E$, $C F$ cùng vuông góc $B D$ ($E$, $F in B D$).
   #listEX()[
-    + Chứng minh: $A E \/\/ C F$ và $A E = C F$;
+    + Chứng minh: $A E \/\/ C F$ và $A E = C F$.
     + Tứ giác $A E C F$ là hình gì? Vì sao?
   ]
 ]
@@ -554,8 +554,8 @@
 #bt()[
   Cho hình bình hành $A B C D$ có $A B > A D$, vẽ $A E perp B D$, $C F perp B D$ ($E$, $F in B D$). $A E$ kéo dài cắt $C D$ tại $H$ và $C F$ kéo dài cắt $A B$ tại $K$. Chứng minh:
   #listEX()[
-    + $A E C F$ là hình bình hành;
-    + $A H C K$ là hình bình hành;
+    + $A E C F$ là hình bình hành.
+    + $A H C K$ là hình bình hành.
     + $A C$, $B D$, $H K$ đồng quy.
   ]
 ]
@@ -563,7 +563,7 @@
 #bt()[
   Cho $triangle A B C$ cân ở $A$ có điểm $D$ trên cạnh $B C$. Vẽ $D M \/\/ A C$ ($M in A B$), $D N \/\/ A B$ ($N in A C$).
   #listEX()[
-    + Chứng minh: $A M D N$ là hình bình hành;
+    + Chứng minh: $A M D N$ là hình bình hành.
     + $triangle B D M$ là tam giác gì?
     + So sánh $D M + D N$ với $A B$.
   ]
@@ -572,7 +572,7 @@
 #bt()[
   Cho $triangle A B C$ có $D$, $E$, $F$ lần lượt là trung điểm của các cạnh $B C$, $A C$, $A B$.
   #listEX()[
-    + Chứng minh: $D E \/\/ A F$ và $D E = A F$;
+    + Chứng minh: $D E \/\/ A F$ và $D E = A F$.
     + Chứng minh: các tứ giác $A E D F$, $B F E D$, $C D F E$ là các hình bình hành.
   ]
 ]
@@ -580,7 +580,7 @@
 #bt()[
   Cho hình bình hành $A B C D$, hai đường chéo cắt nhau tại $O$. Lấy $M$, $N$ lần lượt là trung điểm của $O D$, $O B$. $E$ là giao điểm của $A M$ và $C D$, $F$ là giao điểm của $C N$ và $A B$.
   #listEX()[
-    + Chứng minh: $O M = O N$ và tứ giác $A M C N$ là hình bình hành;
+    + Chứng minh: $O M = O N$ và tứ giác $A M C N$ là hình bình hành.
     + Chứng minh: tứ giác $A E C F$ là hình bình hành và $D E = B F$.
   ]
 ]
@@ -588,9 +588,9 @@
 #bt()[
   Cho hình bình hành $A B C D$ có $M$, $N$ lần lượt là trung điểm của $A B$, $C D$. $A N$ và $C M$ cắt $B D$ lần lượt tại $E$ và $F$.
   #listEX()[
-    + Chứng minh: tứ giác $A M C N$ là hình bình hành;
-    + Từ $F$ kẻ đường thẳng song song với $A B$ cắt $A N$ tại $G$. Chứng minh: $A M F G$ là hình bình hành;
-    + Chứng minh: $triangle B M F = triangle F G E$ và $F$ là trung điểm của $B E$;
+    + Chứng minh: tứ giác $A M C N$ là hình bình hành.
+    + Từ $F$ kẻ đường thẳng song song với $A B$ cắt $A N$ tại $G$. Chứng minh: $A M F G$ là hình bình hành.
+    + Chứng minh: $triangle B M F = triangle F G E$ và $F$ là trung điểm của $B E$.
     + Chứng minh: $B F = F E = E D$.
   ]
 ]
@@ -598,9 +598,9 @@
 #bt()[
   Cho hình bình hành $A B C D$ ($A B > A D$). Gọi $E$, $F$ lần lượt là trung điểm của $C D$ và $A B$. Đường chéo $B D$ cắt $A E$, $A C$, $C F$ lần lượt tại $N$, $O$, $M$.
   #listEX()[
-    + Chứng minh: $A E C F$ là hình bình hành;
-    + Chứng minh: ba điểm $O$, $E$, $F$ thẳng hàng;
-    + Chứng minh: $M$ là trọng tâm của $triangle A B C$ và $A E = 3 F M$;
+    + Chứng minh: $A E C F$ là hình bình hành.
+    + Chứng minh: ba điểm $O$, $E$, $F$ thẳng hàng.
+    + Chứng minh: $M$ là trọng tâm của $triangle A B C$ và $A E = 3 F M$.
     + Chứng minh: $N M = 1/3 O B$ và $D N = N M = M B$.
   ]
 ]
@@ -608,7 +608,7 @@
 #bt()[
   Cho tam giác $A B C$. Từ một điểm $E$ trên cạnh $A C$ vẽ đường thẳng song song với $B C$ cắt $A B$ tại $F$ và đường thẳng song song với $A B$ cắt $B C$ tại $T$. Giả sử $A E = B F$. Chứng minh:
   #listEX()[
-    + Tam giác $A E T$ cân;
+    + Tam giác $A E T$ cân.
     + $A T$ là phân giác của góc $B A C$.
   ]
 ]
@@ -616,7 +616,7 @@
 #bt()[
   Cho $triangle A B C$ nhọn, các đường cao $B K$, $C D$ cắt nhau tại $H$. Đường vuông góc với $A B$ tại $B$ và đường vuông góc với $A C$ tại $C$ cắt nhau tại $M$.
   #listEX()[
-    + Chứng minh: $A H perp B C$;
+    + Chứng minh: $A H perp B C$.
     + Chứng minh: tứ giác $B H C M$ là hình bình hành.
   ]
 ]

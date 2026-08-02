@@ -345,7 +345,7 @@
   #immini()[
     Ta gọi tứ giác $A B C D$ trên hình bên có $A B = A D$; $C B = C D$ là hình "cái diều".
     #listEX()[
-      + Chứng minh: $A C$ là đường trung trực của đoạn $B D$;
+      + Chứng minh: $A C$ là đường trung trực của đoạn $B D$.
       + Tính $hat(B)$, $hat(D)$ biết rằng $hat(A) = 100°$, $hat(C) = 60°$.
     ]
   ][
@@ -475,7 +475,7 @@
 #bt()[
   Tứ giác $A B C D$ có $A B = B C$, $C D = D A$.
   #listEX()[
-    + Chứng minh: $B D$ là đường trung trực của đoạn $A C$;
+    + Chứng minh: $B D$ là đường trung trực của đoạn $A C$.
     + Cho biết $hat(B) = 100°$, $hat(D) = 70°$. Tính $hat(A)$ và $hat(C)$.
 
   ]

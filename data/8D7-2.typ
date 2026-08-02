@@ -60,7 +60,7 @@
     )
   ]
   #listEX()[
-    + Gọi $x$ là số phút gọi trong tháng. Hãy biểu thị theo $x$, số tiền phải trả trong tháng (tính theo nghìn đồng) khi sử dụng mỗi gói cước nói trên;
+    + Gọi $x$ là số phút gọi trong tháng. Hãy biểu thị theo $x$, số tiền phải trả trong tháng (tính theo nghìn đồng) khi sử dụng mỗi gói cước nói trên.
     + Hỏi với bao nhiêu phút gọi thì số tiền phải trả trong tháng khi sử dụng dịch vụ của hai công ty viễn thông này là như nhau?
   ]
 ]

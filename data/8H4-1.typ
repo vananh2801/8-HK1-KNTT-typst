@@ -31,7 +31,7 @@
   #immini()[
     Cho tam giác $A B C$ và một điểm $B'$ nằm trên cạnh $A B$. Qua điểm $B'$, ta vẽ một đường thẳng song song với $B C$, cắt $A C$ tại $C'$ như hình bên. Dựa vào hình vẽ, hãy tính và so sánh các tỉ số sau và viết các tỉ lệ thức:
     #listEX()[
-      + $(A B')/(A B)$ và $(A C')/( A C)$;
+      + $(A B')/(A B)$ và $(A C')/(A C)$;
       + $(A B')/(B B)$ và $(A C')/(C' C)$;
       + $(B B')/(A B)$ và $(C' C)/(A C)$.
     ]
@@ -351,8 +351,8 @@
 #bt()[
   Cho tam giác $D E F$ nhọn, $D E < D F$. Lấy $M$ thuộc cạnh $D E$, $N$ thuộc cạnh $D F$ sao cho $M N \/\/ E F$. Cho biết $D M=3$ cm; $D E=4$ cm.
   #listEX()[
-    + Tính độ dài đoạn thẳng $M E$;
-    + Tính tỉ số $(M E)/(D E)$, $(M E)/(D M)$;
+    + Tính độ dài đoạn thẳng $M E$.
+    + Tính tỉ số $(M E)/(D E)$, $(M E)/(D M)$.
     + Tính tỉ số $(N F)/(D F)$, $(N F)/(D N)$.
   ]
 ]
@@ -360,7 +360,7 @@
 #bt()[
   Cho tam giác $D E F$ nhọn, $D E < D F$. Lấy $K$ thuộc cạnh $D E$, $I$ thuộc cạnh $D F$ sao cho $K I$ song song với cạnh $E F$. Cho $D K=2$ cm, $K E=2$ cm, $D I=4$ cm.
   #listEX()[
-    + Tính tỉ số $(K D)/(K E)$;
+    + Tính tỉ số $(K D)/(K E)$.
     + Tính $I F$.
   ]
 ]
@@ -368,7 +368,7 @@
 #bt()[
   Cho $hat(x A y)$ nhọn, trên cạnh $A x$ lấy $B$ và $C$ sao cho $B$ nằm giữa $A$ và $C$. Trên cạnh $A y$ lấy hai điểm $D$ và $E$ sao cho $B D \/\/ C E$. Từ $E$ vẽ đường thẳng song song với $D C$ cắt tia $A x$ ở $F$. Chứng minh:
   #listEX()[
-    + $(A D)/(A E) = (A B)/(A C)$;
+    + $(A D)/(A E) = (A B)/(A C)$.
     + $A C^2 = A B dot A F$.
   ]
 ]
@@ -432,8 +432,8 @@
 #bt()[
   Cho tam giác $A B C$ có điểm $O$ bên trong. $A O$ cắt $B C$ tại $A_1$, $B O$ cắt $C A$ tại $B_1$ và $C O$ cắt $A B$ tại $C_1$. Kẻ $O D \/\/ A B$ ($D in B C$) và kẻ $O E \/\/ A C$ ($E in B C$). Chứng minh:
   #listEX()[
-    + $(D A_1)/(B A_1) = (E A_1)/(C A_1) = (D E)/(B C)$;
-    + $(O A_1)/(A A_1) + (O B_1)/(B B_1) + (O C_1)/(C C_1) = 1$;
+    + $(D A_1)/(B A_1) = (E A_1)/(C A_1) = (D E)/(B C)$.
+    + $(O A_1)/(A A_1) + (O B_1)/(B B_1) + (O C_1)/(C C_1) = 1$.
     + $(A O)/(A A_1) + (B O)/(B B_1) + (C O)/(C C_1) = 2$.
   ]
 ]
@@ -459,9 +459,9 @@
 #bt()[
   Cho tam giác $A B C$ có $A B=6$ cm, $A C=5$ cm. Trên $A B$, $A C$ lần lượt lấy $D$, $E$ sao cho $A D=2$ cm, $A E=5/3$ cm.
   #listEX()[
-    + Tính các tỉ số $(A D)/(A B)$, $(A E)/(A C)$;
-    + Qua $D$ vẽ đường thẳng song song với $B C$ cắt $A C$ tại $F$. Tính $A F$;
-    + So sánh $A F$ và $A E$;
+    + Tính các tỉ số $(A D)/(A B)$, $(A E)/(A C)$.
+    + Qua $D$ vẽ đường thẳng song song với $B C$ cắt $A C$ tại $F$. Tính $A F$.
+    + So sánh $A F$ và $A E$.
     + Hãy nhận xét về vị trí của $F$, $E$, vị trí của hai đường thẳng $D E$ và $D F$.
   ]
 ]
@@ -493,7 +493,7 @@
 #bt()[
   Cho tam giác $A B C$ vuông tại $A$ có $A B=15$ cm, $A C=20$ cm. Trên hai cạnh $A B$ và $A C$ lần lượt lấy 2 điểm $M$ và $N$ sao cho $A M=4$ cm và $C N=1/4 A N$.
   #listEX()[
-    + Chứng minh: $M N \/\/ B C$;
+    + Chứng minh: $M N \/\/ B C$.
     + Tính độ dài $M N$.
   ]
 ]
@@ -505,7 +505,7 @@
 #bt()[
   Cho tam giác $A B C$. Điểm $M$ trên cạnh $B C$ sao cho $M B=2 M C$. Điểm $N$ trên cạnh $A C$ sao cho $C A=3 C N$.
   #listEX()[
-    + Chứng minh: $A B=3 M N$;
+    + Chứng minh: $A B=3 M N$.
     + $A M$ cắt $B N$ tại $G$. Chứng minh: $G A=3 G M$.
   ]
 ]
@@ -534,8 +534,8 @@
 #bt()[
   Cho hình thang $A B C D$ ($A B \/\/ C D$ và $A B < C D$). $A C$ cắt $B D$ tại $O$, $B C$ cắt $A D$ tại $I$, $M$ và $K$ lần lượt là trung điểm của $C D$ và $A B$.
   #listEX()[
-    + Chứng minh: đường thẳng $M O$ đi qua $K$;
-    + Chứng minh: $M I$ cũng đi qua $K$;
+    + Chứng minh: đường thẳng $M O$ đi qua $K$.
+    + Chứng minh: $M I$ cũng đi qua $K$.
     + Có nhận xét gì về bốn điểm $I$, $K$, $O$, $M$?
   ]
 ]
@@ -559,7 +559,7 @@
 #bt()[
   Cho tam giác $A B C$ nhọn ($A B < A C$), trên cạnh $A B$ lấy điểm $D$ sao cho $A D=1$ cm; $B D=3$ cm; trên cạnh $A C$ lấy $E$ sao cho $A E=2$ cm; $E C=6$ cm.
   #listEX()[
-    + Chứng minh: $(A D)/(B D) = (A E)/(C E)$;
+    + Chứng minh: $(A D)/(B D) = (A E)/(C E)$.
     + Chứng minh: $D E \/\/ B C$.
   ]
 ]
@@ -567,7 +567,7 @@
 #bt()[
   Cho tam giác $D E F$ nhọn ($D E < D F$), trên cạnh $D E$ lấy điểm $M$ sao cho $D M=2$ cm; $D E=5$ cm; trên cạnh $D F$ lấy $N$ sao cho $D N=6$ cm; $D F=15$ cm.
   #listEX()[
-    + Chứng minh: $(D M)/(D E) = (D N)/(D F)$;
+    + Chứng minh: $(D M)/(D E) = (D N)/(D F)$.
     + Chứng minh: $M N \/\/ E F$.
   ]
 ]
@@ -575,7 +575,7 @@
 #bt()[
   Cho tam giác $M N P$ nhọn ($M N < M P$), trên cạnh $M N$ lấy điểm $K$ sao cho $M N=5$ cm; $K N=3$ cm; trên cạnh $M P$ lấy $I$ sao cho $M P=15$ cm; $I P=9$ cm.
   #listEX()[
-    + Chứng minh: $(M N)/(K N) = (M P)/(I P)$;
+    + Chứng minh: $(M N)/(K N) = (M P)/(I P)$.
     + Chứng minh: $K I \/\/ N P$.
   ]
 ]
@@ -583,7 +583,7 @@
 #bt()[
   Cho tam giác $K I J$ nhọn ($K I < K J$), trên cạnh $K I$ lấy điểm $M$ sao cho $(K M)/(I M )= 1/4$, trên cạnh $K J$ lấy $N$ sao cho $K N=0","25$ cm; $N J=1$ cm.
   #listEX()[
-    + Chứng minh: $(M K)/(M I) = (N K)/(N J)$;
+    + Chứng minh: $(M K)/(M I) = (N K)/(N J)$.
     + Chứng minh: $M N \/\/ I J$.
   ]
 ]
@@ -612,10 +612,10 @@
   Cho tứ giác $A B C D$ có $hat(A) = hat(C) = 90 degree$. Từ điểm $M$ trên $B D$, kẻ $M E perp A D$ ở $E$, $M F perp C D$ ở $F$. Chứng minh: $E F \/\/ A C$.
   #listEX()[
     + Cho tam giác $A B C$ nhọn, có $A M$ là đường trung tuyến. $O$ là điểm bất kì thuộc đoạn $A M$. Trên tia đối của tia $M A$ lấy điểm $K$ sao cho $M K=M O$. Gọi $E$ là giao điểm của $B O$ và $A C$. Gọi $F$ là giao điểm của $C O$ và $A B$. Chứng minh: tứ giác $B O C K$ là hình bình hành;
-    + Chứng minh: $(A F)/(A B) = (A O)/(A K)$;
-    + Chứng minh: $E F \/\/ B C$;
-    + Cho tam giác $A B C$ nhọn, có $A O$ là đường trung tuyến. $T$ là điểm bất kì thuộc tia đối của tia $O A$. Trên tia đối của tia $O T$ lấy điểm $K$ sao cho $O K=O T$. Gọi $N$ là giao điểm của $B T$ và $A C$. Gọi $M$ là giao điểm của $C T$ và $A B$. Chứng minh: tứ giác $B K C T$ là hình bình hành;
-    + Chứng minh: $(A C)/(A N) = (A K)/(A T)$;
+    + Chứng minh: $(A F)/(A B) = (A O)/(A K)$.
+    + Chứng minh: $E F \/\/ B C$.
+    + Cho tam giác $A B C$ nhọn, có $A O$ là đường trung tuyến. $T$ là điểm bất kì thuộc tia đối của tia $O A$. Trên tia đối của tia $O T$ lấy điểm $K$ sao cho $O K=O T$. Gọi $N$ là giao điểm của $B T$ và $A C$. Gọi $M$ là giao điểm của $C T$ và $A B$. Chứng minh: tứ giác $B K C T$ là hình bình hành.
+    + Chứng minh: $(A C)/(A N) = (A K)/(A T)$.
     + Chứng minh: $B C \/\/ M N$.
   ]
 ]
@@ -623,7 +623,7 @@
 #bt()[
   Cho tam giác $A B C$ nhọn, có $A D$, $B E$ và $C F$ là ba đường cao cắt nhau tại $H$. Vẽ $D K perp A B$ tại $K$, $D N perp A C$ tại $N$.
   #listEX()[
-    + Chứng minh: $(A F)/(A K) = (A H)/(A D)$;
+    + Chứng minh: $(A F)/(A K) = (A H)/(A D)$.
     + Chứng minh: $E F \/\/ K N$.
   ]
 ]

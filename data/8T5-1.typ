@@ -185,7 +185,7 @@
   ]
   Xét tính hợp lí của các quảng cáo sau đây đối với nhãn hiệu bút mực:
   #listEX()[
-    + Là loại bút được mọi người dùng lựa chọn;
+    + Là loại bút được mọi người dùng lựa chọn.
     + Là loại bút chiếm thị phần cao nhất.
   ]
 ]
@@ -193,17 +193,18 @@
 #bt()[
   Với mỗi câu hỏi sau, Lâm đã hỏi bốn bạn và ghi lại câu trả lời.
   #listEX()[
-    + Nhà bạn có bao nhiêu chiếc ti vi? Kết quả: 2; 43; 3; 3;
-    + Bạn mất bao nhiêu thời gian (đơn vị: giờ) để hoàn thành bài tập về nhà? Kết quả: $1","2$; $1","5$; $2","1$; $1","8$. Mỗi dãy dữ liệu trên thuộc loại nào? Chỉ ra giá trị không hợp lí nếu có.
+    + Nhà bạn có bao nhiêu chiếc ti vi? Kết quả: 2; 43; 3; 3.
+    + Bạn mất bao nhiêu thời gian (đơn vị: giờ) để hoàn thành bài tập về nhà? Kết quả: $1","2$; $1","5$; $2","1$; $1","8$.
   ]
+  Mỗi dãy dữ liệu trên thuộc loại nào? Chỉ ra giá trị không hợp lí nếu có.
 ]
 
 #bt()[
   Em hãy đề xuất phương pháp thu thập dữ liệu cho các vấn đề sau:
   #listEX()[
-    + Ý kiến của cha mẹ học sinh khối 8 về chất lượng đồng phục của trường em;
-    + Tỉ số giữa số lần ra mặt sấp và số lần ra mặt ngửa khi tung đồng xu 100 lần;
-    + So sánh số huy chương nhận được ở SEA Games 31 của Việt Nam và Thái Lan;
+    + Ý kiến của cha mẹ học sinh khối 8 về chất lượng đồng phục của trường em.
+    + Tỉ số giữa số lần ra mặt sấp và số lần ra mặt ngửa khi tung đồng xu 100 lần.
+    + So sánh số huy chương nhận được ở SEA Games 31 của Việt Nam và Thái Lan.
     + Tổng số sản phẩm quốc nội của mỗi nước thuộc khối ASEAN.
   ]
 ]
@@ -267,8 +268,8 @@
 #bt()[
   Nên sử dụng phương pháp thu thập nào để thu được mỗi dữ liệu sau?
   #listEX()[
-    + Tên của 10 quốc gia có diện tích lớn nhất;
-    + Ý kiến của các bạn về địa điểm đi tham quan tuần tới;
+    + Tên của 10 quốc gia có diện tích lớn nhất.
+    + Ý kiến của các bạn về địa điểm đi tham quan tuần tới.
     + Chiều cao của các cây chè giống sau 5 tháng trồng.
   ]
 ]
@@ -314,7 +315,6 @@
   Sau khi tìm hiểu về các châu lục trên Trái Đất từ trang web https://vi.wikipedia.org, bạn Long thu được những dữ liệu thống kê sau:
   - Sáu châu lục là: Châu Á; Châu Âu; Châu Đại Dương; Châu Mỹ; Châu Nam Cực; Châu Phi.
   - Diện tích (đơn vị: triệu $"km"^2$) của sáu châu lục đó lần lượt là: $43","82$; $10","18$; $9$; $42","33$; $13","72$; $30","37$.
-
   Tìm dữ liệu định tính và dữ liệu định lượng trong các dữ liệu trên.
 ]
 
@@ -322,7 +322,6 @@
   Sau khi tìm hiểu về các đại dương trên Trái Đất từ trang web https://vi.wikipedia.org, bạn Ẩn thu được những dữ liệu thống kê sau:
   - Năm đại dương là: Thái Bình Dương; Đại Tây Dương; Ấn Độ Dương; Bắc Băng Dương; Nam Đại Dương.
   - Diện tích (đơn vị: triệu $"km"^2$) của năm đại dương đó lần lượt là: $165","25$; $106","4$; $75$; $14","09$; $20","3$.
-
   Tìm dữ liệu định tính và dữ liệu định lượng trong các dữ liệu trên.
 ]
 
