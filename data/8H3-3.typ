@@ -325,7 +325,7 @@
 #bt()[
   Cho tam giác $A B C$ vuông tại $A$ có $A C = 5$ cm, $B C = 13$ cm. Gọi $E$ là trung điểm của cạnh $A B$, $D$ là điểm đối xứng với $C$ qua $E$.
   #listEX()[
-    + Tứ giác $A D B C$ là hình gì? Vì sao?;
+    + Tứ giác $A D B C$ là hình gì? Vì sao?
     + Trên $B C$ lấy điểm $F$ sao cho $E F \/\/ A C$. Chứng minh: $E F perp A B$;
     + Tính diện tích $triangle A B C$.
   ]
@@ -466,7 +466,7 @@
 #bt()[
   Vẽ hình bình hành $A B C D$. Kéo dài đường trung tuyến $A M$ của tam giác $A B C$ rồi lấy $M E = M A$.
   #listEX()[
-    + Tứ giác $A B E C$ là hình đặc biệt nào?;
+    + Tứ giác $A B E C$ là hình đặc biệt nào?
     + Chứng minh: $D$, $C$, $E$ thẳng hàng và suy ra $C$ là trung điểm của $D E$.
   ]
 ]
@@ -482,7 +482,7 @@
 #bt()[
   Cho tam giác nhọn $A B C$ ($A B < A C$). Vẽ tia $B x \/\/ A C$ và tia $C y \/\/ A B$ sao cho $B x$ và $C y$ cắt nhau ở $D$. Gọi $M$ là trung điểm của $B C$.
   #listEX()[
-    + Tứ giác $A B D C$ là hình đặc biệt gì?;
+    + Tứ giác $A B D C$ là hình đặc biệt gì?
     + Chứng minh: $A$, $M$, $D$ thẳng hàng.
   ]
 ]
@@ -490,7 +490,7 @@
 #bt()[
   Cho tam giác $A B C$. Kéo dài hai đường trung tuyến $B M$ và $C N$ rồi lần lượt lấy $M D = M B$ và $N E = N C$.
   #listEX()[
-    + Các tứ giác $A B D C$ và $A C B E$ có dạng đặc biệt nào?;
+    + Các tứ giác $A B D C$ và $A C B E$ có dạng đặc biệt nào?
     + Chứng minh: $D$, $A$, $E$ thẳng hàng rồi suy ra điểm $A$ là trung điểm của đoạn thẳng $D E$.
   ]
 ]
@@ -530,7 +530,7 @@
 #bt()[
   Cho hình thang $A B C D$ ($A B \/\/ C D$) có $D C = 2 A B$. Gọi $K$ là trung điểm của $D C$.
   #listEX()[
-    + Tứ giác $A B K D$ là hình gì? Vì sao?;
+    + Tứ giác $A B K D$ là hình gì? Vì sao?
     + Vẽ hình bình hành $K B C H$ ($H$ và $B$ nằm khác phía đối với $D C$). Chứng minh: $A$ và $H$ đối xứng nhau qua $K$.
   ]
 ]
@@ -564,7 +564,7 @@
   Cho $triangle A B C$ cân ở $A$ có điểm $D$ trên cạnh $B C$. Vẽ $D M \/\/ A C$ ($M in A B$), $D N \/\/ A B$ ($N in A C$).
   #listEX()[
     + Chứng minh: $A M D N$ là hình bình hành;
-    + $triangle B D M$ là tam giác gì?;
+    + $triangle B D M$ là tam giác gì?
     + So sánh $D M + D N$ với $A B$.
   ]
 ]

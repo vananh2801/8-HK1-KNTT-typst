@@ -254,3 +254,13 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
     })
   ]
 ]
+
+#bt()[
+  Hai ca nô đi cùng chiều nhau. Tính tổng vận tốc hai ca nô, biết:
+  #listEX()[
+    + Ca nô thứ nhất có vận tốc là $2y^2$ (km/h); ca nô thứ hai có vận tốc $2x y + y^2$ (km/h).
+    + Ca nô thứ nhất có vận tốc là $2y z + y^2$ (km/h); ca nô thứ hai có vận tốc là $z^2$ (km/h).
+    + Ca nô thứ nhất có vận tốc là $3x y^2 + 2x^2y$ (km/h); ca nô thứ hai có vận tốc là $2x^2y$ (km/h).
+    + Ca nô thứ nhất có vận tốc là $2x^2y + 3x y^2$ (km/h); ca nô thứ hai có vận tốc là $x^2y - 2x y^2$ (km/h).
+  ]
+]

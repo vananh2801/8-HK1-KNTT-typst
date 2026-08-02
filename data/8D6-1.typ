@@ -278,3 +278,68 @@
     + $(2x^2 y)/(4x y^3)$ và $(5x^2 y^2(x - 2y))/(10x y^5(x - 2y))$.
   ]
 ]
+
+#bt()[
+  Một ca-nô xuôi dòng từ bến $A$ đến bến $B$ mất 5 giờ và ngược dòng từ bến $B$ về bến $A$ mất 7 giờ. Tính quãng đường từ bến $A$ đến bến $B$.
+  #listEX()[
+    + Gọi $x$ (km) là chiều dài quãng đường từ bến $A$ đến bến $B$ $(x > 0)$. Hãy viết phân thức biểu thị vận tốc xuôi dòng và ngược dòng của ca nô.
+    + Tính vận tốc xuôi dòng của ca nô khi biết quãng đường $A B$ dài 70 km.
+  ]
+]
+
+#bt()[
+  Một đoàn xe vận tải nhận chuyên chở 15 tấn hàng. Khi sắp khởi hành thì 1 xe phải điều đi làm công việc khác. Gọi số xe thực tế chở hàng là $x$ (xe), $(x in NN^*)$.
+  #listEX()[
+    + Hãy viết phân thức biểu thị số tấn hàng mỗi xe phải chở theo kế hoạch.
+    + Hãy viết phân thức biểu thị số tấn hàng thực tế mỗi xe phải chở.
+    + Tính số tấn hàng mỗi xe phải chở theo kế hoạch, biết rằng thực tế đoàn xe có tất cả 5 xe chở hàng.
+  ]
+]
+
+#bt()[
+  Một ô tô chạy với vận tốc trung bình là $x$ (km/h).
+  #listEX()[
+    + Viết biểu thức biểu thị thời gian (tính bằng giờ) ô tô chạy hết quãng đường 160 km.
+    + Tính thời gian ô tô đi được 160 km trong trường hợp vận tốc trung bình của ô tô là 80 (km/h).
+  ]
+]
+
+#bt()[
+  Mai đạp xe từ nhà tới câu lạc bộ nấu ăn có quãng đường dài 10km với vận tốc $x$ (km/h). Lượt về thuận chiều gió nên tốc độ nhanh hơn lượt đi là 2 km/h.
+  #listEX()[
+    + Viết biểu thức $T$ biểu thị thời gian Mai đi từ câu lạc bộ nấu ăn về đến nhà.
+    + Tính thời gian Mai đi từ câu lạc bộ nấu ăn về đến nhà biết $x = 10$.
+  ]
+]
+
+#bt()[
+  Hai bến sông A và B cách nhau 40 km. Cùng một lúc với ca nô xuôi dòng từ bến A, có một chiếc bè trôi từ bến A với vận tốc 3 km/h. Sau khi đến B, ca nô trở về bến A ngay và gặp bè khi bè đã trôi được 8 km.
+  #listEX()[
+    + Gọi vận tốc của ca nô là $x$ (đơn vị: km/h; điều kiện: $x > 3$). Viết phân thức biểu thị thời gian xuôi dòng của ca nô;
+    + Viết phân thức biểu thị thời gian ngược dòng của ca nô.
+  ]
+]
+
+#bt()[
+  Một đội thợ mỏ lập kế hoạch khai thác than, theo kế hoạch đội thợ phải khai thác được 900 tấn than. Khi thực hiện, mỗi ngày đội khai thác nhiều hơn kế hoạch 20 tấn than. Do đó, đội không những đã hoàn thành kế hoạch trước một ngày mà còn vượt mức 60 tấn than.
+  #listEX()[
+    + Gọi số tấn than đội thợ phải khai thác mỗi ngày theo kế hoạch là $x$ (tấn) $(x in NN^*)$. Viết phân thức biểu thị thời gian đội khai thác than theo kế hoạch;
+    + Viết biểu thức biểu thị thời gian thực tế đội khai thác than.
+  ]
+]
+
+#bt()[
+  Một chiếc khăn trải bàn hình chữ nhật có diện tích khăn trải bàn là 675 dm$""^2$.
+  #listEX()[
+    + Gọi chiều rộng của chiếc khăn trải bàn là $x$ (dm) $(x > 0)$. Hãy viết phân thức biểu thị chiều dài của chiếc khăn trải bàn;
+    + Tính chiều dài của chiếc khăn trải bàn biết rằng chiều rộng của chiếc khăn trải bàn là 15 dm.
+  ]
+]
+
+#bt()[
+  Một hàng rào được dựng bao quanh một mảnh đất hình chữ nhật có diện tích 90 m$""^2$. Gọi $y$ (m) là độ dài một cạnh của hàng rào.
+  #listEX()[
+    + Viết một biểu thức theo $y$ biểu diễn độ dài cạnh còn lại của hàng rào hình chữ nhật đó;
+    + Tính chu vi của mảnh đất hình chữ nhật đó khi $y = 5$ m.
+  ]
+]

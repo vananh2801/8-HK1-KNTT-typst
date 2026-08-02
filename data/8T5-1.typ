@@ -117,8 +117,8 @@
   - Hàm lượng vitamin C (tính theo mg) có trong một số trái cây: $95$; $52$; $28$; ...
   - Mức độ tươi ngon của trái cây: loại 1, loại 2, loại 3.
   #listEX()[
-    + Tìm dữ liệu định tính và dữ liệu định lượng trong các dữ liệu trên;
-    + Trong số các dữ liệu định tính tìm được, dữ liệu nào có thể so sánh hơn kém?;
+    + Tìm dữ liệu định tính và dữ liệu định lượng trong các dữ liệu trên.
+    + Trong số các dữ liệu định tính tìm được, dữ liệu nào có thể so sánh hơn kém?
     + Trong số các dữ liệu định lượng tìm được, dữ liệu nào là liên tục?
   ]
 ]
@@ -138,8 +138,8 @@
     )
   ]
   #listEX()[
-    + Tìm dữ liệu định tính và dữ liệu định lượng trong bảng dữ liệu trên;
-    + Trong số các dữ liệu định tính tìm được, dữ liệu nào có thể so sánh hơn kém?;
+    + Tìm dữ liệu định tính và dữ liệu định lượng trong bảng dữ liệu trên.
+    + Trong số các dữ liệu định tính tìm được, dữ liệu nào có thể so sánh hơn kém?
     + Trong số các dữ liệu định lượng tìm được, dữ liệu nào là rời rạc?
   ]
 ]
@@ -147,7 +147,7 @@
 #bt()[
   Để nâng cao hiệu quả kinh doanh, một siêu thị tiến hành hỏi những mặt hàng mà $50$ khách hàng dự định mua khi vào siêu thị. Kết quả thu được như sau: gạo, mì ăn liền, thịt, cá, rau củ, trứng, hoa quả, sữa tươi, quần áo, nước khoáng, nước giải khát, nước sinh tố, xà phòng, kem đánh răng, bột giặt, xoong nồi, bát đĩa, bút viết, vở học sinh, cặp sách.
   #listEX()[
-    + Có bao nhiêu mặt hàng khách hàng dự định mua?;
+    + Có bao nhiêu mặt hàng khách hàng dự định mua?
     + Hãy sắp xếp các mặt hàng đó theo những nhóm sau: Nhóm 1: Mặt hàng thực phẩm; Nhóm 2: Mặt hàng đồ uống; Nhóm 3: Mặt hàng đồ dùng trong gia đình; Nhóm 4: Mặt hàng văn phòng phẩm.
   ]
 ]
@@ -258,8 +258,8 @@
 #bt()[
   Dữ liệu thu được trong mỗi câu hỏi sau thuộc loại nào?
   #listEX()[
-    + Bạn cao bao nhiêu?;
-    + Mạng điện thoại bạn đang dùng là gì?;
+    + Bạn cao bao nhiêu?
+    + Mạng điện thoại bạn đang dùng là gì?
     + Gia đình bạn có bao nhiêu người dưới 18 tuổi?
   ]
 ]
@@ -285,8 +285,8 @@
     [Đỗ Hải Hà], [48], [Bơi tự do], [Tốt], [3],
   )
   #listEX()[
-    + Phân loại các dữ liệu trong bảng thống kê trên dựa trên hai tiêu chí định tính và định lượng;
-    + Trong số các dữ liệu định tính tìm được, dữ liệu nào có thể so sánh hơn kém?;
+    + Phân loại các dữ liệu trong bảng thống kê trên dựa trên hai tiêu chí định tính và định lượng.
+    + Trong số các dữ liệu định tính tìm được, dữ liệu nào có thể so sánh hơn kém?
     + Trong số các dữ liệu định lượng tìm được, dữ liệu nào là liên tục?
   ]
 ]

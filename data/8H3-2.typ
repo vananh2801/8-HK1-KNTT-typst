@@ -718,7 +718,7 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$. Điểm $D$ trên cạnh $A B$, $E$ trên cạnh $A C$ sao cho $A E = A D$.
   #listEX()[
-    + Tứ giác $B D E C$ là hình gì? Vì sao?;
+    + Tứ giác $B D E C$ là hình gì? Vì sao?
     + Xác định vị trí của các điểm $D$, $E$ để có $B D = D E = E C$.
   ]
 ]

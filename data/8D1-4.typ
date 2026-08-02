@@ -232,3 +232,38 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
     + $1/3 x^4 y - 5/3 x^3(5/2 x y) + 3/4 x^4 y$.
   ]
 ]
+
+#bt()[
+  #immini()[
+    Bạn Hạnh dự định cắt một miếng bìa có dạng tam giác vuông với độ dài hai cạnh lần lượt là $6$ cm, $8$ cm. Sau khi xem xét lại, bạn Hạnh quyết định tăng độ dài hai cạnh góc vuông $6$ cm thêm $x$ cm và tăng độ dài cạnh góc vuông $8$ cm thêm $y$ cm. Viết đa thức biểu diễn diện tích phần tăng thêm của miếng bìa theo $x$ cm và $y$ cm.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 0.4cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      let A = (0, 0)
+      let B = (0, 6)
+      let C = (8, 0)
+      let D = (0, 8)
+      let E = (11, 0)
+      line(A, D, E, A)
+      line(B, C)
+      right-angle(A, C, B, radius: 0.6, label: none)
+      content((rel: (180deg, 1.2), to: (A, 50%, B)), [$6$ cm])
+      content((rel: (180deg, 0.6), to: (B, 50%, D)), [$x$])
+      content((rel: (-90deg, 0.6), to: (A, 50%, C)), [$8$ cm])
+      content((rel: (-90deg, 0.6), to: (C, 50%, E)), [$y$])
+    })
+  ]
+]
+
+#bt()[
+  Một mảnh vườn có dạng hình chữ nhật với chiều rộng là $x$ (m), chiều dài là $y$ (m).
+  #listEX()[
+    + Viết đa thức biểu thị diện tích của mảnh vườn.
+    + Nếu tăng chiều rộng lên 2 m và giảm chiều dài đi 3 m thì được mảnh vườn mới. Viết đa thức biểu thị diện tích của mảnh vườn mới.
+    + Viết đa thức biểu thị phần diện tích lớn hơn của mảnh vườn mới so với mảnh vườn ban đầu.
+  ]
+]

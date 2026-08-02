@@ -679,3 +679,97 @@ _Phân tích đa thức thành nhân tử_ (hay thừa số) là biến đổi �
     + $9x^2 - 6x + 1 - 36y^2$.
   ]
 ]
+
+#bt()[
+  Cho mảnh đất hình chữ nhật có chiều dài là $x + 1$ mét, chiều rộng là $x$ mét. Người ta làm muốn quy hoạch một phần diện tích của mảnh đất bằng $6 x - 6$ m$""^2$ để trồng cây. Phần còn lại để làm nhà.
+  #listEX()[
+    + Viết biểu thức tính $S$ phần làm nhà của mảnh đất theo $x$.
+    + Phân tích $S$ thành nhân tử rồi tính $S$ khi $x = 14$ (m).
+  ]
+]
+
+#bt()[
+  Cho mảnh đất hình vuông có cạnh dài $x + 2$ mét. Người ta làm đường đi bao quanh rộng $y - 2$ mét.
+  #listEX()[
+    + Viết biểu thức tính $S$ phần diện tích làm đường đi của mảnh đất theo $x$ và $y$.
+    + Phân tích $S$ thành nhân tử rồi tính $S$ khi $x = 20$ (m) và $y = 5$ (m).
+  ]
+]
+
+#bt()[
+  Nhà bạn Thảo có một cái ao hình vuông, có lối đi xung quanh rộng $1","5$ (m). Hãy viết đa thức biểu thị phần diện tích lối đi biết mỗi cạnh của ao là $x$ (m).
+]
+
+#bt()[
+  Một bức tường hình chữ nhật có kích thước lần lượt là $x + y$ và $x - y$ $(x > y)$.
+  #listEX()[
+    + Viết công thức tính diện tích bức tường theo $x$ và $y$?
+    + Áp dụng tính diện tích mặt tường biết $x = 3","5$ mét, $y = 1","5$ mét.
+  ]
+]
+
+#bt()[
+  Cho mảnh đất hình chữ nhật có chiều dài là $x$ mét, chiều rộng là $x - 2$ mét. Người ta muốn làm quy hoạch một phần diện tích của mảnh đất bằng $6 x - 15$ m$""^2$ để trồng cây. Phần còn lại để làm nhà.
+  #listEX()[
+    + Viết biểu thức tính $S$ phần làm nhà của mảnh đất theo $x$.
+    + Phân tích $S$ thành nhân tử rồi tính $S$ khi $x = 10$ (m).
+  ]
+]
+
+#bt()[
+  Cho mảnh đất hình vuông có cạnh dài $x$ mét. Người ta làm đường đi xung quanh mảnh đất rộng $y$ mét.
+  #listEX()[
+    + Viết biểu thức tính $S$ phần diện tích làm đường đi của mảnh đất theo $x$ và $y$.
+    + Phân tích $S$ thành nhân tử rồi tính $S$ khi $x = 9$ (m) và $y = 1$ (m).
+  ]
+]
+
+#bt()[
+  Nhà bạn Hà có mảnh vườn hình vuông dùng trồng hoa, có lối đi xung quanh rộng $x$ (m). Hãy viết đa thức biểu thị phần diện tích có lối đi biết mỗi cạnh của phần trồng hoa là $2 y$ (m).
+]
+
+#bt()[
+  Một căn phòng hình chữ nhật có kích thước nền nhà lần lượt là $3 x + y$ và $3 x - y$.
+  #listEX()[
+    + Viết công thức tính diện tích nền theo $x$ và $y$?
+    + Áp dụng tính diện tích mặt tường biết $x = 2$ (mét), $y = 1$ (mét).
+  ]
+]
+
+#bt()[
+  Một khối gỗ dạng hình lập phương có cạnh $x + 3$. Người ta cắt đi một phần gỗ có dạng hình lập phương có cạnh bằng cạnh $x - 3$ $(x > 3)$.
+  #listEX()[
+    + Viết biểu thức tính thể tích khối gỗ ban đầu.
+    + Viết biểu thức tính thể tích phần khối gỗ còn lại dưới dạng tích.
+    + Tính thể tích khối gỗ còn lại biết $x = 25$ cm.
+  ]
+]
+
+#bt()[
+  Một khối hình lập phương có cạnh $2 x + 3$. Người ta cắt đi một phần gỗ có dạng hình lập phương có cạnh bằng $x - 3$ $(x > 3)$.
+  #listEX()[
+    + Tính thể tích khối gỗ còn lại.
+    + Viết biểu thức tính thể tích phần khối gỗ còn lại dưới dạng đa thức.
+  ]
+]
+
+#bt()[
+  Một bể cá có dạng hình lập phương có cạnh là $x$ (dm). Người ta đặt trong bể một viên đá có hình lập phương cạnh 2 (dm). Hỏi cần bơm bao nhiêu lít nước để bể đầy?
+]
+
+#bt()[
+  Một cái thùng hình lập phương có cạnh $x + 2$ (m). Thùng chứa đầy nước. Người ta bỏ vào thùng một khối sắt hình lập phương có cạnh $y$ (m) (với $x > y$), thì nước trong thùng trào ra.
+  #listEX()[
+    + Viết công thức biểu thị lượng nước trong thùng trào ra.
+    + Sau đó người ta lấy khối sắt ra, thì lượng nước trong thùng còn lại bao nhiêu?
+    + Nếu cạnh của thùng là 1m, cạnh của khối sắt là 20cm thì sau khi thả khối sắt vào rồi lấy ra, trong thùng còn bao nhiêu lít nước?
+  ]
+]
+
+#bt()[
+  Sân nhà bác Nga có mảnh sân hình chữ nhật có các kích thước là $x - 5$ (m) và $x + 5$ (m). Bác muốn quây một mảnh hình vuông để xây bồn trồng hoa có cạnh là $x - 5$ (m) (với $x > 5$).
+  #listEX()[
+    + Viết biểu thức biểu thị diện tích phần miếng sân còn lại.
+    + Tính diện tích phần miếng sân còn lại, biết $x = 15$ m.
+  ]
+]

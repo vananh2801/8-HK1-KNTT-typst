@@ -93,3 +93,75 @@
 #bt()[
   Viết một đa thức bậc 3 với hai biến $x$, $y$ và có ba hạng tử.
 ]
+
+#bt()[
+  #immini()[
+    Nhà Hằng lắp một tấm chắn phòng hình thang với đáy lớn $4x$, đáy bé $2x$ và chiều cao $h$. Trên đó khoét một ô hình tròn có bán kính $r$ làm ô thoáng cửa sổ (đơn vị mét).
+    #listEX()[
+      + Viết biểu thức biểu thị diện tích của tấm chắn phòng (không tính phần ô thoáng cửa sổ).
+      + Tính giá trị diện tích trên khi $x = 2","5$ m; $h = 3","5$ m; $r = 0","3$ m (lấy $pi = 3","14$; làm tròn kết quả đến hàng phần trăm).
+    ]
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 1cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      let A = (0, 0)
+      let B = (3, 0)
+      let C = (6, -2.5)
+      let D = (0, -2.5)
+      let O = (2, -1.25)
+      line(A, B, C, D, A, fill: blue.lighten(50%))
+      circle(O, radius: 0.75, fill: white)
+      line(O, (rel: (45deg, 0.75), to: O))
+      content((rel: (70deg, 0.35), to: O), [$r$])
+      content((rel: (90deg, 0.3), to: (A, 50%, B)), [$2x$])
+      content((rel: (-90deg, 0.3), to: (C, 50%, D)), [$4x$])
+      content((rel: (180deg, 0.3), to: (A, 50%, D)), [$h$])
+    })
+  ]
+]
+
+#bt()[
+  Yến đi mua vở và bút để chuẩn bị cho năm học mới. Biết mỗi quyển vở giá $x$ đồng, mỗi chiếc bút giá $y$ đồng. Viết biểu thức biểu thị số tiền Yến phải trả để mua:
+  #listEX()[
+    + 5 quyển vở và 3 cái bút;
+    + 5 xấp vở và 3 hộp bút, biết rằng mỗi xấp vở có 10 quyển, mỗi hộp bút có 20 chiếc.
+  ]
+]
+
+#bt()[
+  #immini()[
+    Bạn Thành dùng một miếng bìa hình chữ nhật để làm một chiếc hộp (không nắp) bằng cách cắt bốn hình vuông cạnh $x$ cm ở bốn góc rồi gấp lại. Biết rằng miếng bìa có chiều dài là $y$ cm, chiều rộng là $z$ cm. Tìm đa thức (ba biến $x$, $y$, $z$) biểu thị thể tích của chiếc hộp. Xác định bậc của đa thức đó.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 1cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      let A = (0, 0)
+      let B = (5, 0)
+      let C = (5, -4)
+      let D = (0, -4)
+      let Ap = (1, -1)
+      let Bp = (4, -1)
+      let Cp = (4, -3)
+      let Dp = (1, -3)
+      line(A, B, C, D, A)
+      line(Ap, Bp, Cp, Dp, Ap, stroke: (dash: "dashed"))
+      line(A, (1, 0), Ap, (0, -1), A)
+      line(B, (5, -1), Bp, (4, 0), B)
+      line(C, (4, -4), Cp, (5, -3), C)
+      line(D, (1, -4), Dp, (0, -3), D)
+      content((rel: (180deg, 0.5), to: (A, 50%, D)), [$z$ cm])
+      content((rel: (-90deg, 0.3), to: (C, 50%, D)), [$y$ cm])
+      content((rel: (0deg, 0.5), to: (1, -0.5)), [$x$ cm])
+      content((rel: (0deg, 0.5), to: (1, -3.5)), [$x$ cm])
+      content((rel: (180deg, 0.5), to: (4, -0.5)), [$x$ cm])
+      content((rel: (180deg, 0.5), to: (4, -3.5)), [$x$ cm])
+    })
+  ]
+]

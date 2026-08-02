@@ -217,7 +217,7 @@
   Cho tam giác $A B C$ cân tại $A$, đường trung tuyến $A H$. Gọi $O$ là trung điểm của $A C$, $D$ là điểm đối xứng với $H$ qua $O$.
   #listEX()[
     + Chứng minh: tứ giác $A H C D$ là hình chữ nhật;
-    + Tứ giác $A D H B$ là hình gì? Vì sao?;
+    + Tứ giác $A D H B$ là hình gì? Vì sao?
     + Cho $B C = 6$ cm, $A H = 4$ cm. Tính diện tích tứ giác $A H C D$.
   ]
 ]
@@ -225,7 +225,7 @@
 #bt()[
   Cho tam giác $A B C$ vuông ở $A$ có đường cao $A H$. Kẻ $H D$ vuông góc với $A B$ ở $D$ và $H E$ vuông góc với $A C$ ở $E$.
   #listEX()[
-    + Tứ giác $A D H E$ là hình đặc biệt nào? Vì sao?;
+    + Tứ giác $A D H E$ là hình đặc biệt nào? Vì sao?
     + Gọi $O$ là giao điểm của $A H$ và $D E$. Chứng minh: $O A = O H = O D = O E$.
   ]
 ]
@@ -237,7 +237,7 @@
 #bt()[
   Cho hình thang cân $A B C D$ ($A B \/\/ C D$, $A B < C D$), các đường cao $A H$, $B K$.
   #listEX()[
-    + Tứ giác $A B K H$ là hình gì? Vì sao?;
+    + Tứ giác $A B K H$ là hình gì? Vì sao?
     + Chứng minh: $D H = C K$;
     + Gọi $E$ là điểm đối xứng với $D$ qua $H$. Chứng minh: $A B C E$ là hình bình hành;
     + Tính diện tích tứ giác $A B C D$, biết $A B = 6$ cm, $A H = 4$ cm và $D H = 3$ cm.
@@ -265,7 +265,7 @@
 #bt()[
   Cho tam giác $A B E$ vuông tại $A$ ($A B < A E$), đường trung tuyến $A M$. Gọi $C$ là điểm đối xứng với $A$ qua $M$.
   #listEX()[
-    + Tứ giác $A B C E$ là hình gì? Vì sao?;
+    + Tứ giác $A B C E$ là hình gì? Vì sao?
     + Cho $A M = 5$ cm, $B C = 8$ cm. Tính diện tích tứ giác $A B C E$.
   ]
 ]
@@ -311,22 +311,6 @@
 ]
 
 #bt()[
-  Cho hình thang vuông $A B C D$ có $hat(A) = hat(D) = 90°$; $A B = 10$ cm; $A D = 12$ cm; $C D = 15$ cm. Lấy điểm $E$ trên cạnh $C D$ sao cho $B E$ song song với $A D$.
-  #listEX()[
-    + Chứng minh: tứ giác $A B E D$ là hình chữ nhật;
-    + Tính độ dài các đoạn thẳng $B E$, $D E$, $E C$, $B C$.
-  ]
-]
-
-#bt()[
-  Cho hình thang vuông $A B C D$ có $hat(A) = hat(D) = 90°$; $A B = 10$ cm; $C D = 18$ cm; $B C = 17$ cm. Kẻ $B E$ vuông góc với $C D$ ở $E$.
-  #listEX()[
-    + Chứng minh: tứ giác $A B E D$ là hình chữ nhật;
-    + Tính độ dài các đoạn thẳng $D E$; $E C$; $B E$; $A D$.
-  ]
-]
-
-#bt()[
   Cho hình thang cân $A B C D$ ($A B \/\/ C D$; $A B < C D$) có $A H$, $B K$ là hai đường cao.
   #listEX()[
     + Chứng minh: tứ giác $A B K H$ là hình chữ nhật;
@@ -337,7 +321,7 @@
 #bt()[
   Cho hình thang cân $A B C D$ ($A B \/\/ C D$; $A B < C D$) có hai đường cao $A H$ và $B K$.
   #listEX()[
-    + Tứ giác $A B K H$ là hình đặc biệt gì? Vì sao?;
+    + Tứ giác $A B K H$ là hình đặc biệt gì? Vì sao?
     + So sánh $D H$ và $C K$;
     + Chứng minh: $D H = (C D - A B)/2$.
   ]
@@ -355,7 +339,7 @@
 #bt()[
   Vẽ hình bình hành $A B C D$ có $A D$ vuông góc với $A C$. Kéo dài đường trung tuyến $A I$ của tam giác $A D C$ về phía $I$ rồi lấy điểm $E$ sao cho $I$ là trung điểm của đoạn thẳng $A E$.
   #listEX()[
-    + Tứ giác $A D E C$ là tứ giác đặc biệt gì? Vì sao?;
+    + Tứ giác $A D E C$ là tứ giác đặc biệt gì? Vì sao?
     + Chứng minh: ba điểm $B$, $C$, $E$ thẳng hàng;
     + Điểm $C$ là gì của đoạn thẳng $B E$?
   ]
@@ -415,23 +399,6 @@
 ]
 
 #bt()[
-  Cho tam giác $A B C$ cân tại $A$ có đường cao $A H$. Qua $B$ kẻ đường thẳng song song với $A H$, cắt $A C$ tại $I$.
-  #listEX()[
-    + Chứng minh: tứ giác $A H B I$ là hình thang vuông;
-    + Qua $A$ kẻ đường thẳng song song với $B C$ và cắt $I B$ tại $D$. Chứng minh: tứ giác $D A H B$ là hình chữ nhật.
-  ]
-]
-
-#bt()[
-  Cho hình thang vuông $M N P Q$ có $hat(M) = hat(Q) = 90°$; $M N = 16$ cm; $N P = 17$ cm; $P Q = 24$ cm. Kẻ $N E$ vuông góc $P Q$ tại $E$.
-  #listEX()[
-    + Định dạng tứ giác $M N E Q$;
-    + Tính $Q E$; $E P$; $M Q$;
-    + Tính $S_(M N E Q)$ và $S_(M N P Q)$.
-  ]
-]
-
-#bt()[
   Cho tam giác $A B C$ vuông tại $A$ ($A B < A C$) có $K$ là trung điểm của $A C$. Từ $K$ vẽ đường thẳng song với $B C$ và cắt $A B$ tại $E$. Từ $K$ vẽ đường thẳng song song với $A B$ và cắt $B C$ tại $O$.
   #listEX()[
     + Chứng minh: tứ giác $B E K O$ là hình bình hành;
@@ -465,9 +432,9 @@
 #bt()[
   Cho tam giác $A B C$ vuông tại $A$ ($A B < A C$). $M$ là trung điểm của cạnh $B C$. Vẽ $M D$ vuông góc với $A B$ tại $D$, $M E$ vuông góc với $A C$ tại $E$.
   #listEX()[
-    + Chứng minh tứ giác $A D M E$ là hình chữ nhật;
-    + Chứng minh tứ giác $C M D E$ là hình bình hành;
-    + Vẽ $A H$ vuông góc với $B C$ tại $H$. Tứ giác $M H D E$ là hình gì? Vì sao?;
+    + Chứng minh tứ giác $A D M E$ là hình chữ nhật.
+    + Chứng minh tứ giác $C M D E$ là hình bình hành.
+    + Vẽ $A H$ vuông góc với $B C$ tại $H$. Tứ giác $M H D E$ là hình gì? Vì sao?
     + Qua $H$ vẽ đường thẳng song song với $A B$ cắt $A C$ tại $N$. Chứng minh: $H N^2 = A N dot C N$.
   ]
 ]
@@ -475,8 +442,8 @@
 #bt()[
   Cho tam giác $A B C$ vuông tại $A$ ($A B < A C$), đường cao $A H$, đường trung tuyến $A M$. Vẽ $H D perp A B$, $H E perp A C$ ($D in A B$, $E in A C$).
   #listEX()[
-    + Chứng minh: tứ giác $A D H E$ là hình chữ nhật và $A B dot A C = A H dot B C$;
-    + Gọi $P$ là điểm đối xứng của $A$ qua $E$. Tứ giác $D H P E$ là hình gì? Vì sao?;
+    + Chứng minh: tứ giác $A D H E$ là hình chữ nhật và $A B dot A C = A H dot B C$.
+    + Gọi $P$ là điểm đối xứng của $A$ qua $E$. Tứ giác $D H P E$ là hình gì? Vì sao?
     + Gọi $T$ là giao điểm của $D E$ và $H A$. Qua $A$ kẻ đường thẳng $x y$ vuông góc với đường thẳng $M T$. Chứng minh: ba đường thẳng $x y$, $B C$, $D E$ đồng quy.
   ]
 ]
@@ -495,7 +462,143 @@
 #bt()[
   Cho điểm $E$ thuộc cạnh $A B$ của hình chữ nhật $A B C D$. $F$ thuộc tia $B C$ sao cho $hat(E D F) = 90°$. Vẽ hình chữ nhật $E D F K$, tâm $O$. Chứng minh:
   #listEX()[
-    + $B O = E F / 2$;
+    + $B O = (E F) / 2$.
     + Tam giác $D B K$ vuông.
+  ]
+]
+
+#bt()[
+  #immini()[
+    Một con đường hình bình hành $E B G F$ cắt ngang một miếng đất hình chữ nhật $A B C D$ với $A B = 150$ m, $B C = 120$ m, $F G = 50$ m như hình bên.
+    #listEX()[
+      + Tính diện tích hình chữ nhật $A B C D$ và hình bình hành $E B G F$;
+      + Chủ miếng đất thuê công nhân trồng cỏ trên phần còn lại của miếng đất với giá là 32 000 đồng/m$""^2$. Tính số tiền Ông Tư trả cho công nhân. Biết rằng, do hài lòng với sự làm việc của công nhân nên Ông Tư quyết định thưởng thêm 2% số tiền phải trả cho công nhân.
+    ]
+  ][
+    #align(center)[
+      #import "@preview/cetz:0.5.2"
+      #set text(size: 10pt)
+      #cetz.canvas(length: 0.3cm, {
+        import cetz.draw: *
+        import cetz.angle: *
+        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        let A = (0, 0)
+        let B = (15, 0)
+        let C = (15, -12)
+        let D = (0, -12)
+        let E = (10, 0)
+        let F = (5, -12)
+        let G = (10, -12)
+        line(A, E, F, D, A, fill: gray, stroke: none)
+        line(B, C, G, B, fill: gray, stroke: none)
+        line(A, B, C, D, A)
+        line(E, F)
+        line(B, G)
+        content((rel: (135deg, 1), to: A), [$A$])
+        content((rel: (45deg, 1), to: B), [$B$])
+        content((rel: (-45deg, 1), to: C), [$C$])
+        content((rel: (-135deg, 1), to: D), [$D$])
+        content((rel: (90deg, 1), to: E), [$E$])
+        content((rel: (-90deg, 1), to: F), [$F$])
+        content((rel: (-90deg, 1), to: G), [$G$])
+        line(
+          (rel: (90deg, 2), to: A),
+          (rel: (90deg, 2), to: B),
+          mark: (start: "stealth", end: "stealth"),
+          stroke: (dash: "dashed"),
+        )
+        content(
+          (rel: (90deg, 3), to: (A, 50%, B)),
+          [$150$ m],
+        )
+        line(
+          (rel: (-90deg, 2), to: F),
+          (rel: (-90deg, 2), to: G),
+          mark: (start: "stealth", end: "stealth"),
+          stroke: (dash: "dashed"),
+        )
+        content(
+          (rel: (-90deg, 3), to: (F, 50%, G)),
+          [$50$ m],
+        )
+        line(
+          (rel: (0deg, 2), to: B),
+          (rel: (0deg, 2), to: C),
+          mark: (start: "stealth", end: "stealth"),
+          stroke: (dash: "dashed"),
+        )
+        content(
+          (rel: (0deg, 4), to: (B, 50%, C)),
+          [$120$ m],
+        )
+      })
+    ]
+  ]
+]
+
+#bt()[
+  Bác Sáu có một mảnh đất hình chữ nhật, chiều dài 40m và chiều rộng là 25m. Bác Sáu muốn xây dựng mảnh đất trên thành sân bóng đá mini. Bác đã ký hợp đồng với một đơn vị thi công cỏ nhân tạo với giá là 160.000 đồng/m$""^2$. Biết rằng chỉ có 96% diện tích sân cần phủ cỏ. Hỏi bác Sáu phải trả bao nhiêu tiền cho đơn vị thi công?
+]
+
+#bt()[
+  #immini()[
+    Một khu giải trí được xây trên mảnh đất hình vuông có độ rộng là 600 mét và được chia làm 3 phần như hình bên, biết $E D \/\/ B F$ và $A E = F C = 120$ m. Giá thi công công trình được chia làm hai phần: phần cảnh quan có giá $1","2$ triệu đồng/m$""^2$; phần xây dựng 1 tầng là $2","2$ triệu đồng/m$""^2$. Hãy tính tổng số tiền nhà đầu tư phải trả để xây dựng khu giải trí này, biết 2 phần có hình tam giác dùng làm cảnh quan và phần còn lại dùng để xây dựng khu giải trí 2 tầng.
+  ][
+    #align(center)[
+      #import "@preview/cetz:0.5.2"
+      #set text(size: 10pt)
+      #cetz.canvas(length: 0.6cm, {
+        import cetz.draw: *
+        import cetz.angle: *
+        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        let A = (0, 0)
+        let B = (6, 0)
+        let C = (6, -6)
+        let D = (0, -6)
+        let E = (1.2, 0)
+        let F = (4.8, -6)
+        line(A, E, D, A, fill: gray, stroke: none)
+        line(B, F, C, B, fill: gray, stroke: none)
+        line(A, B, C, D, A)
+        line(E, D)
+        line(B, F)
+        content((rel: (135deg, 0.5), to: A), [$A$])
+        content((rel: (45deg, 0.5), to: B), [$B$])
+        content((rel: (-45deg, 0.5), to: C), [$C$])
+        content((rel: (-135deg, 0.5), to: D), [$D$])
+        content((rel: (90deg, 0.5), to: E), [$E$])
+        content((rel: (-90deg, 0.5), to: F), [$F$])
+        line(
+          (rel: (0deg, 1), to: B),
+          (rel: (0deg, 1), to: C),
+          mark: (start: "stealth", end: "stealth"),
+          stroke: (dash: "dashed"),
+        )
+        content(
+          (rel: (0deg, 2), to: (B, 50%, C)),
+          [$600$ m],
+        )
+        line(
+          (rel: (90deg, 1), to: A),
+          (rel: (90deg, 1), to: E),
+          mark: (start: "stealth", end: "stealth"),
+          stroke: (dash: "dashed"),
+        )
+        content(
+          (rel: (90deg, 1.5), to: (A, 50%, E)),
+          [$120$ m],
+        )
+        line(
+          (rel: (-90deg, 1), to: F),
+          (rel: (-90deg, 1), to: C),
+          mark: (start: "stealth", end: "stealth"),
+          stroke: (dash: "dashed"),
+        )
+        content(
+          (rel: (-90deg, 1.5), to: (F, 50%, C)),
+          [$120$ m],
+        )
+      })
+    ]
   ]
 ]

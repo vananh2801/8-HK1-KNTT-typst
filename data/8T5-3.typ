@@ -147,7 +147,7 @@
     })
   ]
   #listEX()[
-    + Xã nào có nhiều máy cày nhất? Xã nào có ít máy cày nhất?;
+    + Xã nào có nhiều máy cày nhất? Xã nào có ít máy cày nhất?
     + Trong tình huống xã có trên 20 máy cày cần đầu tư một trạm bảo trì và sửa chữa riêng, theo em đó là những xã nào?
   ]
 ]

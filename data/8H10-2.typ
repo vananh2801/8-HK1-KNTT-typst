@@ -550,7 +550,7 @@
   #immini()[
     Hình bên là một cái lều ở trại hè của học sinh kèm theo các kích thước.
     #listEX()[
-      + Thể tích không khí bên trong lều là bao nhiêu?;
+      + Thể tích không khí bên trong lều là bao nhiêu?
       + Xác định số vải bạt cần thiết để dựng lều (không tính đến đường viền, nếp gấp, ...) biết chiều cao của mặt bên xuất phát từ đỉnh của chiếc lều là $2","5$ m.
     ]
   ][

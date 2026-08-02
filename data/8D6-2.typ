@@ -268,3 +268,7 @@ Tương tự như đối với phân số, ta có các tính chất cơ bản c�
     + $b/(6a)$, $(4a + 3b^2)/(18a b)$, $x/(9b)$.
   ]
 ]
+
+#bt()[
+  Một mảnh vườn hình chữ nhật có diện tích là $2 x^2 + 17 x + 21$ (m$""^2$) và độ dài một cạnh là $2 x + 3$ (m). Viết phân thức theo $x$ biểu diễn độ dài cạnh còn lại và rút gọn phân thức này.
+]

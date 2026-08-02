@@ -441,8 +441,8 @@
 #bt()[
   Cho tam giác $A B C$ có $M$ thuộc cạnh $A B$. Từ $M$ vẽ đường thẳng song song với $B C$ và cắt cạnh $A C$ tại $N$. Từ $N$ vẽ đường thẳng song song với $A B$ và cắt cạnh $B C$ tại $K$.
   #listEX()[
-    + So sánh: $(A M)/(A B)$ và $(A N)/(A C)$;
-    + Tứ giác $M N K B$ là hình gì?;
+    + So sánh: $(A M)/(A B)$ và $(A N)/(A C)$.
+    + Tứ giác $M N K B$ là hình gì?
     + Chứng minh: $(A M)/(A B) = (A N)/(A C) = (M N)/(B C)$.
   ]
 ]
@@ -450,8 +450,8 @@
 #bt()[
   Cho tam giác $A B C$. Trên tia đối của tia $A C$ lấy điểm $P$, từ $P$ vẽ đường thẳng song song với $B C$ và cắt đường thẳng $A B$ tại $Q$. Từ $Q$ vẽ đường thẳng song song với $A C$ và cắt đường thẳng $B C$ tại $D$.
   #listEX()[
-    + So sánh: $(A Q)/(A B)$ và $(C D)/(B C)$;
-    + Tứ giác $P Q D C$ là hình gì?;
+    + So sánh: $(A Q)/(A B)$ và $(C D)/(B C)$.
+    + Tứ giác $P Q D C$ là hình gì?
     + Chứng minh: $(A Q)/(A B) = (P Q)/(B C) = (A P)/(A C)$.
   ]
 ]
@@ -517,8 +517,8 @@
 #bt()[
   Cho tam giác $A B C$ có trung tuyến $A M$. $M D$ là đường phân giác trong của $triangle M A B$. Từ $D$ kẻ đường song song với $B C$ cắt $A M$ và $A C$ lần lượt tại $N$ và $E$.
   #listEX()[
-    + $M N$ là đường gì của $triangle D M E$?;
-    + $triangle M N D$, $triangle M N E$, $triangle M D E$ là các tam giác gì?;
+    + $M N$ là đường gì của $triangle D M E$?
+    + $triangle M N D$, $triangle M N E$, $triangle M D E$ là các tam giác gì?
     + Chứng minh: $M E$ là đường phân giác của $triangle A M C$.
   ]
 ]
@@ -603,7 +603,7 @@
 #bt()[
   Cho tứ giác $A B C D$. Qua điểm $E$ trên cạnh $A D$, kẻ đường thẳng song song với $D C$ và cắt $A C$ ở $G$. Qua $G$ kẻ đường thẳng song song với $C B$ và cắt $A B$ ở $H$.
   #listEX()[
-    + Tỉ số $(G A)/(G C)$ bằng những tỉ số nào?;
+    + Tỉ số $(G A)/(G C)$ bằng những tỉ số nào?
     + Chứng minh: $H E \/\/ B D$.
   ]
 ]

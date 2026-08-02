@@ -552,14 +552,6 @@
 ]
 
 #bt()[
-  Cho hình thang vuông $A B C D$ $(hat(A) = hat(D) = 90 degree)$. Biết $A B = 6$ cm, $C D = 12$ cm, $A D = 17$ cm. Trên cạnh $A D$ lấy điểm $K$ sao cho $A K = 8$ cm.
-  #listEX()[
-    + Chứng minh: $hat(A B K) = hat(D K C)$.
-    + Chứng minh: $K B perp K C$.
-  ]
-]
-
-#bt()[
   Cho tam giác $A B C$ vuông tại $A$, có $A H$ là đường cao. Gọi $I$ và $K$ lần lượt là hình chiếu của $H$ lên $A B$ và $A C$.
   #listEX()[
     + Chứng minh: $A H^2 = A I dot A B$.

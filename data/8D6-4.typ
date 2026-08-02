@@ -295,3 +295,12 @@
     + $(x + 1)/(x + 2) : ((x + 2)/(x + 3) dot (x + 3)/(x + 1))$.
   ]
 ]
+
+#bt()[
+  Trong năm 2010, một tiệm bánh mì bán một loại bánh mì với giá $a$ nghìn đồng một chiếc. Trong năm 2023, giá một chiếc bánh đó tăng thêm 4 nghìn đồng so với năm 2010. Một người đã dùng 600 nghìn đồng để mua loại bánh mì đó trong mỗi năm 2010 và 2023.
+  #listEX()[
+    + Viết hai phân thức lần lượt biểu diễn số bánh mì người này mua được vào năm 2010 và năm 2023.
+    + Chứng minh rằng số bánh mì người này mua được vào năm 2010 gấp $(a + 4) \/ a$ lần so với năm 2023.
+    + Nếu $a = 8$, thì số bánh mì người này mua được vào năm 2010 gấp bao nhiêu lần so với năm 2023?
+  ]
+]

@@ -339,14 +339,6 @@
 ]
 
 #bt()[
-  Cho tứ giác $A B C D$ có $hat(B A D) = 90 degree$, $hat(C B D) = 90 degree$, $A B = 4$ cm, $B D = 6$ cm, $C D = 9$ cm. Chứng minh:
-  #listEX()[
-    + $triangle A B D$ đồng dạng với $triangle B D C$.
-    + Tứ giác $A B C D$ là hình thang vuông.
-  ]
-]
-
-#bt()[
   Cho $triangle A B C$ đồng dạng với $triangle D E F$. Kẻ các đường cao $A H$ và $D K$.
   #listEX()[
     + Chứng minh: tam giác $A B H$ đồng dạng với tam giác $D E K$.

@@ -124,7 +124,7 @@
 #bt()[
   Cho tam giác $A B C$ có $A D$ là đường phân giác trong. Từ $B$ kẻ tia song song với $A C$ và cắt $A D$ tại $M$.
   #listEX()[
-    + Dùng hệ quả của định lí Thalès đối với $triangle D A C$ thì tỉ số $(D B)/(D C)$ bằng với tỉ số nào?;
+    + Dùng hệ quả của định lí Thalès đối với $triangle D A C$ thì tỉ số $(D B)/(D C)$ bằng với tỉ số nào?
     + $triangle A B M$ là tam giác gì? Chứng minh hệ quả 2 của định lí Thalès: đường phân giác $A D$ của $triangle A B C$ chia cạnh đối diện thành hai đoạn thẳng tương ứng tỉ lệ với hai cạnh kề của hai đoạn thẳng đó, nghĩa là $(D B)/(D C) = (A B)/(A C)$.
   ]
 ]
@@ -132,7 +132,7 @@
 #bt()[
   Cho tam giác $A B C$ không cân tại $A$ (để dễ vẽ hình, nên vẽ góc ở đỉnh $B$ tù) và có $A E$ là đường phân giác ngoài ($E$ thuộc đường thẳng $B C$). Từ $B$ kẻ tia song song với $A C$ và cắt $A E$ tại $M$.
   #listEX()[
-    + Theo hệ quả 1 của định lí Thalès trong $triangle E A C$ thì tỉ số $(E B)/(E C)$ bằng với tỉ số nào?;
+    + Theo hệ quả 1 của định lí Thalès trong $triangle E A C$ thì tỉ số $(E B)/(E C)$ bằng với tỉ số nào?
     + $triangle A B M$ là tam giác gì? Chứng minh: $(E B)/(E C) = (A B)/(A C)$.
   ]
 ]

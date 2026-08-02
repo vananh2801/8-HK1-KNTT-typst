@@ -170,47 +170,6 @@
 ]
 
 #bt()[
-  #immini()[
-    Một bức tường hình thang vuông có cửa sổ hình chữ nhật với các kích thước như hình bên (tính bằng m).
-    #listEX()[
-      + Viết biểu thức biểu thị diện tích bức tường (không tính phần cửa sổ).
-      + Tính giá trị diện tích trên khi $x = 3$ m; $h = 4$ m.
-    ]
-  ][
-    #import "@preview/cetz:0.5.2"
-    #set text(size: 10pt)
-    #cetz.canvas(length: 0.8cm, {
-      import cetz.draw: *
-      import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
-      // Cài đặt nét vẽ (line cap=join tương đương với join: "miter" hoặc "round")
-      set-style(stroke: (join: "miter"))
-      // Vẽ bức tường hình thang và tô màu nền nâu nhạt
-      line(
-        (0, 0),
-        (8, 0),
-        (4, 3),
-        (0, 3),
-        close: true,
-        fill: red.lighten(70%),
-      )
-      // Vẽ cửa sổ hình chữ nhật và tô màu trắng (đè lên bức tường)
-      rect((1, 1), (3, 2), fill: white)
-      // Chèn các nhãn kích thước (text)
-      // - anchor: "north" (mỏ neo ở đỉnh chữ -> chữ rớt xuống dưới -> giống below)
-      // - anchor: "south" (mỏ neo ở đáy chữ -> chữ đội lên trên -> giống above)
-      // - anchor: "east" (mỏ neo ở bên phải chữ -> chữ dạt sang trái -> giống left)
-      // - anchor: "west" (mỏ neo ở bên trái chữ -> chữ dạt sang phải -> giống right)
-      content((4, 0), [$8x$], anchor: "north", padding: 5pt)
-      content((2, 3), [$4x$], anchor: "south", padding: 5pt)
-      content((0, 1.5), [$h$], anchor: "east", padding: 5pt)
-      content((1, 1.5), [$x$], anchor: "west", padding: 2pt)
-      content((2, 1), [$2x$], anchor: "north", padding: 5pt)
-    })
-  ]
-]
-
-#bt()[
   Tìm hệ số, phần biến và bậc của các đơn thức sau:
   #listEX()[
     + $4x$;
@@ -318,4 +277,20 @@
 #bt()[
   Xếp các đơn thức sau thành từng nhóm các đơn thức đồng dạng:
   $ 5/3 x^2 y; quad x y^2; quad -1/2 x^2 y; quad -2x y^2; quad x^2 y; quad 1/4 x y^2; quad -2/5 x^2 y; quad x y. $
+]
+
+#bt()[
+  Tú muốn làm một cái bể cá cubic không có nắp dạng hình lập phương có kích thước một cạnh là $x$ cm.
+  #listEX()[
+    + Viết các biểu thức tính dung tích bể và diện tích kính để làm cái bể đó.
+    + Tính giá trị của các đại lượng trên khi $x = 30$ cm.
+  ]
+]
+
+#bt()[
+  Trong homestay Panorama Tam Đảo (Vĩnh Phúc) có hai bể bơi dạng hình hộp chữ nhật. Bể thứ nhất có độ sâu là $1","4$ m, đáy là hình chữ nhật có chiều dài $x$ mét, chiều rộng $y$ mét. Bể thứ hai có độ sâu $1","6$ m, đáy là hình chữ nhật có hai kích thước gấp 3 lần hai kích thước đáy của bể thứ nhất. Hãy viết biểu thức với hai biến $x$ và $y$ biểu thị số mét khối nước cần có để bơm đầy cả hai bể bơi.
+]
+
+#bt()[
+  Nhóm thiện nguyện Nhất Tâm chuẩn bị $y$ phần quà giúp đỡ những gia đình có hoàn cảnh khó khăn. Mỗi phần quà gồm $x$ kg gạo và $x$ gói bánh. Viết biểu thức biểu thị giá trị bằng tiền (nghìn đồng) của toàn bộ số quà đó, biết rằng gạo có giá 10 nghìn đồng/kg và bánh có giá 30 nghìn đồng/gói.
 ]

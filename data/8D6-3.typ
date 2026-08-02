@@ -307,3 +307,33 @@
     + $x/(2a - b) - (4a x)/(4a^2 - b^2) + b/(2a + b)$.
   ]
 ]
+
+#bt()[
+  Một ô tô đi từ $A$ đến $B$ với vận tốc 50 km/h, rồi đi từ $B$ về $A$ với vận tốc lớn hơn vận tốc lúc đi là 10 km/h với quãng đường $A B$ là $x$ km.
+  #listEX()[
+    + Viết phân thức biểu thị theo $x$ thời gian đi từ $A$ đến $B$.
+    + Viết phân thức biểu thị theo $x$ thời gian đi từ $B$ đến $A$.
+    + Tính hiệu thời gian đi từ $A$ về $B$ và thời gian đi từ $B$ đến $A$ theo $x$.
+    + Tính tổng thời gian cả đi lẫn về của ô tô theo $x$.
+  ]
+]
+
+#bt()[
+  Một đoàn tàu chở khách đi một quãng đường 500 km trong đó 50 km đường qua thành phố và 450 km đường qua vùng rừng núi. Biết vận tốc tàu chạy qua thành phố kém 3 km/h so với vận tốc tàu chạy qua vùng rừng núi. Gọi $x$ km/h là vận tốc chạy qua vùng rừng núi $(x > 30)$.
+  #listEX()[
+    + Viết phân thức biểu thị theo $x$ thời gian tàu chạy quãng đường trong thành phố.
+    + Viết phân thức biểu thị theo $x$ thời gian tàu chạy quãng đường qua vùng rừng núi.
+    + Tính thời gian tàu chạy trên cả quãng đường theo $x$.
+    + Áp dụng tính với $x = 60$ km/h.
+  ]
+]
+
+#bt()[
+  Để hưởng ứng phong trào Tết trồng cây, chi đoàn thanh niên của một trường THCS dự định trồng 120 cây xanh. Khi bắt đầu thực hiện, chi đoàn được tăng cường thêm 3 đoàn viên. Gọi $x$ là số đoàn viên ban đầu của chi đoàn và giả sử số cây mỗi đoàn viên trồng là như nhau. Viết phân thức biểu thị theo $x$:
+  #listEX()[
+    + Số cây mỗi đoàn viên trồng theo dự định.
+    + Số cây mỗi đoàn viên trồng theo thực tế.
+    + Số cây mỗi đoàn viên trồng theo dự định nhiều hơn số cây mỗi đoàn viên trồng trên thực tế.
+    + Áp dụng tính với $x = 12$.
+  ]
+]

@@ -504,7 +504,7 @@
 #bt()[
   Vẽ một hệ trục tọa độ $O x y$ và đánh dấu các điểm $A(-2; 0)$, $B(3; 0)$, $C(4; 0)$.
   #listEX()[
-    + Em có nhận xét gì về các điểm $A$, $B$, $C$?;
+    + Em có nhận xét gì về các điểm $A$, $B$, $C$?
     + Em hãy cho biết một điểm bất kì trên trục hoành có tung độ bằng bao nhiêu.
   ]
 ]
@@ -512,7 +512,7 @@
 #bt()[
   Vẽ một hệ trục tọa độ $O x y$ và đánh dấu các điểm $M(0; -2)$, $N(0; 1)$, $P(0; 4)$.
   #listEX()[
-    + Em có nhận xét gì về các điểm $M$, $N$, $P$?;
+    + Em có nhận xét gì về các điểm $M$, $N$, $P$?
     + Em hãy cho biết một điểm bất kì trên trục tung có hoành độ bằng bao nhiêu?
   ]
 ]
@@ -552,5 +552,105 @@
   #listEX()[
     + Vẽ hệ trục tọa độ $O x y$ và xác định các điểm, biểu diễn các cặp giá trị $(x; y)$ tương ứng có trong bảng trên;
     + Em có nhận xét gì về các điểm vừa xác định trong câu 1?
+  ]
+]
+
+#bt()[
+  Nhà bác học Galileo Galilei (1564 -1642) là người đầu tiên phát hiện ra quan hệ giữa đường chuyển động $y$ (m) và thời gian chuyển động $t$ (giây) của một vật được biểu diễn gần đúng bởi hàm số $y (t) = 5 t^2$. Tính quãng đường mà vật đó chuyển động được sau 2 giây và 5 giây.
+]
+
+
+#bt()[
+  Ngân hàng A có tỷ giá giao dịch giữa đồng đô la Mỹ (USD) và tiền Việt Nam (VNĐ) là 1 USD = 23 620 VNĐ. Anh An được người thân ở Mỹ gửi tặng $x$ (USD).
+  #listEX()[
+    + Gọi $y$ (đồng) là số tiền anh An nhận được khi đến ngân hàng A đổi $x$ (USD). Viết công thức biểu diễn $y$ theo $x$.
+    + Hỏi anh An nhận được bao nhiêu tiền khi đến ngân hàng A đổi 350 USD?
+  ]
+]
+
+#bt()[
+  Gọi $s$ (km) là quãng đường một chiếc xe máy di chuyển trong $t$ (giờ) với vận tốc 50 km/h.
+  #listEX()[
+    + Lập công thức biểu diễn $s$ theo $t$.
+    + Tính quãng đường xe máy đi được sau 2 giờ.
+    + Sau bao lâu xe máy đi được quãng đường dài 120 km?
+  ]
+]
+
+#bt()[
+  Để tính điện năng tiêu thụ của đồ dùng điện, người ta dùng công thức: $A = P t$, trong đó:\
+  $A$: điện năng của thiết bị tiêu thụ (kWh).\
+  $P$: công suất định mức được ghi trên thiết bị điện (kW).\
+  $t$: thời gian thiết bị dùng điện (giờ).
+
+  Bác Sơn lắp đặt loại bóng đèn LED có công suất 20 (W) trong vườn rau và sử dụng chiếu sáng trong $t$ giờ mỗi ngày.
+  #listEX()[
+    + Hãy lập công thức biểu diễn $A$ theo $t$ của 1 bóng đèn trên.
+    + Biết biểu giá điện sinh hoạt cho ở bảng sau:
+      #align(center)[
+        _Biểu giá điện sinh hoạt 6 bậc mới nhất áp dụng từ ngày 01/05/2023._
+        #table(
+          columns: (auto, auto),
+          align: center + horizon,
+          table.header([*Giá bán lẻ điện sinh hoạt*], [*Giá bán điện (đồng/kWh)*]),
+          [Bậc 1: Cho kWh từ 0 - 50], [1 728],
+          [Bậc 2: Cho kWh từ 51 - 100], [1 786],
+          [Bậc 3: Cho kWh từ 101 - 200], [2 074],
+          [Bậc 4: Cho kWh từ 201 - 300], [2 612],
+          [Bậc 5: Cho kWh từ 301 - 400], [2 919],
+          [Bậc 6: Cho kWh từ 401 trở lên], [3 015],
+        )
+      ]
+      Tính tổng số tiền điện trong 30 ngày, mỗi ngày chiếu sáng 10 giờ, biết rằng bác An lắp đặt và sử dụng cùng lúc 10 bóng đèn trong vườn.
+  ]
+]
+
+#bt()[
+  Anh An trồng rau muống để bán hàng ngày. Trung bình mỗi ngày anh bán được $x$ bó rau, giá mỗi bó rau muống là 5 000 đồng.
+  #listEX()[
+    + Gọi $y$ (đồng) là số tiền anh An thu được khi bán được $x$ bó rau. Lập công thức $y$ theo $x$.
+    + Tính số tiền anh An thu nhập được trong tháng 7/2023. Biết trung bình mỗi ngày thường anh bán được 30 bó rau; ngày thứ Bảy và Chủ nhật anh bán bằng 150% số bó rau ngày thường và ngày 1/7/2023 là thứ Bảy.
+  ]
+]
+
+#bt()[
+  Chị Ngân gửi 100 000,000 đồng vào ngân hàng A với kỳ hạn 1 năm và không rút trước kỳ hạn. Biết ngân hàng A có lãi suất là $r$%/năm.
+  #listEX()[
+    + Gọi số tiền lãi là $y$ (đồng), lập công thức biểu diễn số tiền lãi $y$ chị Ngân nhận được sau 1 năm.
+    + Tính số tiền lãi chị Ngân nhận được sau 1 năm nếu lãi suất là $6","5$%/năm.
+    + Lãi suất kép (lãi kép) hay còn được gọi là lãi cộng dồn, có nghĩa là khi đến kỳ nhận lãi của khoản đầu tư thì bạn lấy lãi đó nhập vào thành gốc và tiếp tục đầu tư cho chu kỳ tiếp theo. Cứ lặp đi lặp lại như vậy xuyên suốt thời gian đầu tư hoặc gửi tiết kiệm thì được coi là lãi suất kép. Tính số tiền lãi chị Ngân nhận được ở năm thứ 2 biết lãi suất không thay đổi.
+  ]
+]
+
+#bt()[
+  Chị Ngân là nhân viên trang trí bánh kem ở cửa hàng Men Bakery. Cửa hàng trả tiền công cho chị theo sản phẩm. Biết mỗi cái bánh sau khi trang trí thành phẩm, chị nhận được tiền công là 25 000 đồng.
+  #listEX()[
+    + Gọi $y$ (đồng) là số tiền công chị nhận được tương ứng với $x$ cái bánh sau khi trang trí thành phẩm. Lập hàm số $y$ theo $x$.
+    + Tính số tiền công chị nhận được khi trang trí 600 cái bánh.
+  ]
+]
+
+#bt()[
+  Cửa hàng thời trang Hiếu Thảo nhập về $x$ cái áo thun với giá nhập 90 000 đồng/áo. Mỗi cái áo bán ra cửa hàng lời được 30% giá nhập.
+  #listEX()[
+    + Gọi $y$ (đồng) là số tiền cửa hàng có lời khi bán được $x$ cái áo. Lập hàm số $y$ theo $x$.
+    + Hỏi cửa hàng có lời bao nhiêu khi bán được 250 cái áo.
+  ]
+]
+
+#bt()[
+  Bạn An đi làm thêm ở quán trà sữa. Trung bình mỗi giờ làm thường bạn được trả 25 000 đồng; nếu làm tăng ca thì mỗi giờ tăng ca bạn được trả 150% số tiền làm giờ thường. Gọi $y_1$ là số tiền bạn nhận được khi làm $t_1$ giờ thường; $y_2$ là số tiền bạn nhận được khi làm $t_2$ giờ tăng ca.
+  #listEX()[
+    + Lập hàm số $y_1$ theo $t_1$ và hàm số $y_2$ theo $t_2$.
+    + Tính số tiền bạn An nhận được khi làm 60 giờ thường và 10 giờ tăng ca.
+  ]
+]
+
+#bt()[
+  Bạn Phúc đi học được mẹ cho 30 000 đồng. Bạn ăn sáng hết 20 000 đồng. Số tiền còn lại bạn bỏ ống heo tiết kiệm để mua một cái máy tính cầm tay có giá 355 000 đồng.
+  #listEX()[
+    + Gọi $y$ (đồng) là số tiền bạn tiết kiệm được trong $x$ ngày. Lập hàm số $y$ theo $x$.
+    + Tính số tiền bạn Phúc tiết kiệm được trong 15 ngày;
+    + Hỏi bạn phải tiết kiệm ít nhất bao nhiêu ngày thì đủ tiền mua máy tính cầm tay.
   ]
 ]

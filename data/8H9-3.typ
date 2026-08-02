@@ -262,3 +262,271 @@
     + $A C = sqrt(45)$ cm, $A H = 1$ cm, $B H = sqrt(11)$ cm.
   ]
 ]
+
+#bt()[
+  #immini()[
+    Biết số inch màn hình tivi bằng độ dài đường chéo của tivi (cm) chia cho $2","54$. Nhà bạn Linh có một chiếc tivi 55 inch. Bạn Linh đo được một cạnh của tivi là $70$ cm. Em hãy tính giúp bạn cạnh còn lại của tivi dài bao nhiêu cm.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 0.5cm, {
+      import cetz.draw: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      let A = (0, 5)
+      let B = (10, 5)
+      let C = (10, 0)
+      let D = (0, 0)
+      line(A, B, C, D, A)
+      line(A, C)
+      line((9.7, 5), (9.7, 4.7), (10, 4.7))
+      line((9.7, 0), (9.7, 0.3), (10, 0.3))
+      content((rel: (135deg, 10pt), to: A), [$A$])
+      content((rel: (45deg, 10pt), to: B), [$B$])
+      content((rel: (-45deg, 10pt), to: C), [$C$])
+      content((rel: (-135deg, 10pt), to: D), [$D$])
+      content((rel: (45deg, 8pt), to: (A, 50%, C)), [55 inch], angle: -25deg)
+      content((rel: (0deg, 8pt), to: (B, 50%, C)), [70 cm], angle: -90deg)
+    })
+  ]
+]
+
+#bt()[
+  #immini()[
+    Một mảnh vườn có dạng một tam giác vuông $A B C$. Biết độ dài các cạnh $A B = x$ (m), $B C = x + 2$ (m). Tính cạnh $A C$ theo $x$.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 0.8cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      let x = 2
+      // Lập phương cạnh x+1
+      let A = (0, 0)
+      let B = (0, 3)
+      let C = (5, 0)
+      line(A, B, C, A)
+      right-angle(A, C, B, label: none, radius: 0.3)
+      content((rel: (180deg, 0.3), to: (A, 50%, B)), [$x$])
+      content((rel: (30deg, 0.6), to: (B, 50%, C)), [$x+2$])
+      content((rel: (-135deg, 0.3), to: (A)), [$A$])
+      content((rel: (135deg, 0.3), to: (B)), [$B$])
+      content((rel: (-35deg, 0.3), to: (C)), [$C$])
+    })
+  ]
+]
+
+#bt()[
+  Một bác thợ xây tính diện tích của một phòng ngủ. Bác đứng tại một góc nhà và yêu cầu một thợ xây khác cầm đầu kia của thước đi sang góc bên cạnh để đo, kết quả đo được 6 m. Sau đó, người thợ kia lại đi sang góc bên cạnh để đo, kết quả đo được 10 m. Vậy diện tích phòng ngủ là bao nhiêu mét vuông?
+]
+
+#bt()[
+  #immini()[
+    Để xác định chiếc điện thoại là bao nhiêu inch, các nhà sản xuất đã dựa vào độ dài đường chéo của màn hình điện thoại. Biết rằng 1 inch $approx 2","54$ cm, điện thoại có chiều rộng là 7 cm; chiều dài là 15,5 cm. Hỏi chiếc điện thoại là bao nhiêu inch? (Làm tròn kết quả đến hàng đơn vị).
+  ][
+    #image("../imgs/8H9-3-iphone-13-pro-max.jpg", width: 4cm)
+  ]
+]
+
+#bt()[
+  #immini()[
+    Một bạn học sinh thả diều ngoài đồng, cho biết đoạn dây diều từ tay bạn đến diều dài $170$ m và bạn đứng cách nơi diều được thả lên theo phương thẳng đứng là $80$ m. Tính độ cao của con diều so với mặt đất, biết tay bạn học sinh cách mặt đất $1","5$ m.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 0.35cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+      let A = (0, 0) // góc vuông
+      let B = (-8, 0) // bàn tay cầm diều
+      let C = (0, 15) // diều
+      let D = (0, -1.5) // chân đường vuông góc chiếu từ diều xuống đất
+      let E = (-8, -1.5) // chân người
+      // Vẽ đất
+      line(
+        (E),
+        (rel: (-5, 0), to: (E)),
+        (rel: (-5, -0.2), to: (E)),
+        (rel: (1, -0.2), to: (D)),
+        (rel: (1, 0), to: (D)),
+        (D),
+        stroke: none,
+        fill: red.darken(50%),
+      )
+      // Vẽ diều
+      line(
+        (rel: (135deg, 1.1), to: C),
+        (rel: (45deg, 0.6), to: C),
+        (rel: (-45deg, 2), to: C),
+        (rel: (-135deg, 0.6), to: C),
+        (rel: (135deg, 1.1), to: C),
+        fill: blue.lighten(90%),
+      )
+      hobby(
+        (rel: (-45deg, 2), to: C),
+        (rel: (-50deg, 3.5), to: C),
+        (rel: (-45deg, 4.5), to: C),
+      )
+      hobby(
+        (rel: (-45deg, 2), to: C),
+        (rel: (-40deg, 3.5), to: C),
+        (rel: (-30deg, 4.5), to: C),
+      )
+      // Vẽ người
+      let head = (rel: (140deg, 1), to: B)
+      circle(head, radius: 0.3, fill: black, stroke: black)
+      let neck = (rel: (0, -0.35), to: head)
+      let hip = (rel: (0, -0.6), to: neck)
+      line(neck, hip)
+      line(hip, (rel: (-0.5, -1.2), to: hip))
+      line(hip, (rel: (0.5, -1.2), to: hip))
+      line(neck, (rel: (-0.6, -0.6), to: neck))
+      line(neck, B)
+      // Vẽ các yếu tố hình học
+      line(B, C)
+      line(C, D, stroke: (dash: "dashed"))
+      line(A, B, E, stroke: (dash: "dashed"))
+      right-angle(A, B, C, label: none, radius: 0.7)
+      content((rel: (135deg, 0.7), to: (B, 50%, C)), [$170$ m], angle: 65deg)
+      content((rel: (90deg, 0.6), to: (B, 50%, A)), [$80$ m])
+      content((rel: (0deg, 1.3), to: (A, 50%, D)), [$1","5$ m])
+    })
+  ]
+]
+
+#bt()[
+  #immini()[
+    Trên hình bên là khung mái nhà được làm từ các thanh thép hình bằng cách hàn chung lại với nhau. Mái nhà là một tam giác cân tại $A$, có chiều cao $A H = 1","4$ m $(A H perp B C)$, chiều rộng $B C = 4","8$ m. Để tạo được khung như hình vẽ, người thợ hàn phải cắt các thanh thép dài thành các đoạn. Em hãy tính độ dài các đoạn thẳng $A B$, $A C$ (đơn vị cm) để giúp chú thợ hàn cắt chuẩn kích thước (làm tròn đến chữ số thập phân thứ hai).
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 1cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 5pt), mark: (fill: black), content: (padding: 2pt))
+      let H = (0, 0)
+      let A = (0, 1.4)
+      let B = (-2.4, 0)
+      let C = (2.4, 0)
+      line(A, B, C, A)
+      line(A, H)
+      line((H, 50%, B), (B, 50%, A))
+      line((B, 50%, A), H, (C, 50%, A))
+      line((C, 50%, A), (H, 50%, C))
+      content((rel: (90deg, 0.3), to: (A)), [$A$])
+      content((rel: (-140deg, 0.4), to: (B)), [$B$])
+      content((rel: (-90deg, 0.3), to: (H)), [$H$])
+      content((rel: (-40deg, 0.4), to: (C)), [$C$])
+    })
+  ]
+]
+
+#bt()[
+  #immini()[
+    Tính chiều dài đường trượt $A C$ trong hình vẽ bên _(kết quả làm tròn đến hàng phần mười)_.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 0.8cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round", join: "round"), mark: (fill: black))
+      let H = (0, 0)
+      let A = (0, 3)
+      let B = (4, 0)
+      let C = (-6, 0)
+      // Vẽ tam giác
+      line(A, B, C, A)
+      line(A, H)
+      line(
+        A,
+        (rel: (180deg, 0.6), to: (A)),
+        (rel: (90deg, 0.3), to: (C)),
+        C,
+      )
+      // Vẽ tay vịn
+      hobby(
+        (rel: (180deg, 0.6), to: (A)),
+        (rel: (150deg, 0.75), to: (A)),
+        (rel: (90deg, 0.6), to: (A)),
+        (rel: (30deg, 0.7), to: (A)),
+        (rel: (0deg, 0.6), to: (A)),
+        (rel: (-10deg, 0.7), to: (A)),
+      )
+      hobby(
+        (rel: (180deg, 0.5), to: (A)),
+        (rel: (150deg, 0.65), to: (A)),
+        (rel: (90deg, 0.5), to: (A)),
+        (rel: (30deg, 0.6), to: (A)),
+        (rel: (0deg, 0.5), to: (A)),
+        (rel: (-15deg, 0.6), to: (A)),
+      )
+      line(
+        (rel: (-10deg, 0.7), to: (A)),
+        (rel: (90deg, 0.4), to: (B)),
+        B,
+      )
+      line(
+        (rel: (-15deg, 0.6), to: (A)),
+        (rel: (105deg, 0.37), to: (B)),
+        (rel: (135deg, 0.15), to: (B)),
+      )
+      // Vẽ cầu thang đi lên
+      for i in range(1, 14) {
+        line(
+          (A.at(0) + 0.3 * i - 0.3, A.at(1) - 0.225 * i + 0.225),
+          (A.at(0) + 0.3 * i, A.at(1) - 0.225 * i + 0.225),
+          (A.at(0) + 0.3 * i, A.at(1) - 0.225 * i),
+          (A.at(0) + 0.3 * i - 0.3, A.at(1) - 0.225 * i + 0.225),
+          fill: gray,
+        )
+      }
+      // các thông số và điểm
+      content((rel: (90deg, 0.25), to: (A)), [$A$])
+      content((rel: (-40deg, 0.4), to: (B)), [$B$])
+      content((rel: (-90deg, 0.3), to: (H)), [$H$])
+      content((rel: (-140deg, 0.4), to: (C)), [$C$])
+      content((rel: (-140deg, 0.4), to: (A, 50%, B)), [$5$ m])
+      content((rel: (180deg, 0.5), to: (A, 50%, H)), [$3$ m])
+      line(
+        (rel: (-90deg, 0.6), to: (C)),
+        (rel: (-90deg, 0.6), to: (B)),
+        mark: (start: "stealth", end: "stealth"),
+      )
+      content((rel: (-90deg, 0.9), to: (C, 50%, B)), [$10$ m])
+    })
+  ]
+]
+
+#bt()[
+  #immini()[
+    Một mái nhà có khung sắt được thiết kế như hình vẽ bên. Hãy tính số tiền sắt phải trả, biết rằng một mét sắt có giá 135 000 đồng và để đảm bảo đủ sắt thì người ta dùng dư 5% so với chiều dài cần dùng.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 1.2cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round", join: "round"), mark: (fill: black))
+      let A = (0, 0)
+      let B = (A.at(0) + calc.cos(53deg) * 2, A.at(1) + calc.sin(53deg) * 2)
+      let C = (B.at(0) + calc.cos(-37deg) * 2, B.at(1) + calc.sin(-37deg) * 2)
+      let D = (C.at(0) + calc.cos(53deg), C.at(1) + calc.sin(53deg))
+      let E = (D.at(0) + calc.cos(-37deg) * 2, D.at(1) + calc.sin(-37deg) * 2)
+      line(A, B, C, D, E, A, stroke: 3pt)
+      right-angle(B, A, C, label: none, radius: 0.2)
+      right-angle(C, D, B, label: none, radius: 0.2)
+      right-angle(D, C, E, label: none, radius: 0.2)
+      content((rel: (-135deg, 0.2), to: (A)), [$A$])
+      content((rel: (90deg, 0.2), to: (B)), [$B$])
+      content((rel: (-80deg, 0.2), to: (C)), [$C$])
+      content((rel: (90deg, 0.2), to: (D)), [$D$])
+      content((rel: (-45deg, 0.2), to: (E)), [$E$])
+      content((rel: (127deg, 0.2), to: (A, 50%, B)), [$2$ m], angle: 53deg)
+      content((rel: (37deg, 0.2), to: (B, 50%, C)), [$2$ m], angle: -37deg)
+      content((rel: (127deg, 0.2), to: (C, 50%, D)), [$1$ m], angle: 53deg)
+      content((rel: (37deg, 0.2), to: (D, 50%, E)), [$2$ m], angle: -37deg)
+    })
+  ]
+]

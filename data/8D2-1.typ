@@ -577,7 +577,7 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
 #bt()[
   Cho hình hộp chữ nhật có chiều dài, chiều rộng, chiều cao đều bằng 5 cm. Thể tích của hình hộp chữ nhật sẽ tăng bao nhiêu nếu:
   #listEX()[
-    + Chiều dài và chiều rộng tăng thêm $a$ cm?;
+    + Chiều dài và chiều rộng tăng thêm $a$ cm?
     + Chiều dài, chiều rộng, chiều cao đều tăng thêm $a$ cm?
   ]
 ]
@@ -700,4 +700,89 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
     + $a^3 - b^3 = (a - b)^3 + 3a b(a - b)$.
   ]
   Áp dụng: Tính $a^3 + b^3$, biết $a dot b = 6$ và $a + b = -5$.
+]
+
+#bt()[
+  #immini()[
+    Từ một khối lập phương có cạnh bằng $x + 1$, ta cắt bỏ một khối lập phương có cạnh bằng $x$. Tính thể tích phần còn lại, viết kết quả dưới dạng đa thức?
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 1cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      let x = 2
+      // Lập phương cạnh x+1
+      let A = (0, 0)
+      let B = (1, 1)
+      let C = (B.at(0) + 1 + x, B.at(1))
+      let D = (C.at(0) - B.at(0), A.at(1))
+      let Ap = (A.at(0), A.at(1) - 1 - x)
+      let Bp = (B.at(0), B.at(1) - 1 - x)
+      let Cp = (C.at(0), C.at(1) - 1 - x)
+      let Dp = (D.at(0), D.at(1) - 1 - x)
+      // Lập phương cạnh x
+      let App = (A.at(0) + 1, A.at(0))
+      let Bpp = (App.at(0) + (B.at(0) - A.at(0)) / (1 + x) * x, B.at(1) / (1 + x) * x)
+      let Cpp = (
+        C.at(0) + (D.at(0) - C.at(0)) / (1 + x),
+        C.at(1) + (D.at(1) - C.at(1)) / (1 + x),
+      )
+      let Dpp = D
+      let Appp = (App.at(0), App.at(1) - x)
+      let Bppp = (Bpp.at(0), Bpp.at(1) - x)
+      let Cppp = (Cpp.at(0), Cpp.at(1) - x)
+      let Dppp = (Dpp.at(0), Dpp.at(1) - x)
+      // Vẽ ba mặt màu
+      line(A, B, C, Cpp, Bpp, App, A, fill: red.lighten(70%))
+      line(A, App, Appp, Dppp, Dp, Ap, A, fill: red.lighten(70%))
+      line(C, Cpp, Cppp, Dppp, Dp, Cp, C, fill: red.lighten(70%))
+      // Vẽ khối bị cắt
+      line(Bpp, Bppp, Appp)
+      line(Bppp, Cppp)
+      line(App, Dpp, Cpp, stroke: (dash: "dashed"))
+      line(Dpp, Dppp, stroke: (dash: "dashed"))
+      // Số đo
+      content((rel: (-90deg, 0.2), to: (Appp, 50%, Dppp)), [$x$])
+      content((rel: (-90deg, 0.2), to: (Ap, 50%, Dp)), [$x+1$])
+    })
+  ]
+]
+
+#bt()[
+  Mảnh vườn trồng hoa nhà bác An có dạng hình chữ nhật với chiều rộng là $2 y$ (m), chiều dài là $4 y^2$ (m). Năm nay kinh tế dư giả, hoa bán được nhiều, bác An quyết định mua thêm đất nhà bên cạnh để cho mảnh vườn rộng ra và trồng được nhiều hoa hơn. Tuy nhiên, nhà bên cạnh chỉ bán cho bác thêm $x$ m chiều rộng và thêm $4 y + x^2$ m chiều dài $(x,y > 0)$. Hỏi mảnh vườn nhà bác An có diện tích tăng thêm bao nhiêu mét vuông. Viết biểu thức dạng tích biểu thị phần diện tích tăng thêm đó theo $x$ và $y$.
+]
+
+#bt()[
+  #listEX()[
+    + An đi chợ mua gạo. An mua 16 kg với giá 14 000 đồng một kg. Cô bán hàng đọc ngay kết quả số tiền gạo An phải trả là 224 000 đồng. Vậy cô bán hàng tính tiền như thế nào nhanh như vậy?
+    + Lan đi chợ mua cam. Lan mua 29 kg với giá 31 000 đồng một kg. Lan phải trả số tiền bao nhiêu nghìn đồng? Em hãy tính giúp bạn một cách nhanh nhất.
+    + Bác Hoa cần mua 49 linh kiện điện tử với giá 102 000 đồng một linh kiện. Em hãy tính nhẩm giúp bác số tiền phải trả.
+    + Lan cần mua 98 linh kiện điện tử với giá 102 000 đồng một linh kiện. Em hãy tính nhẩm giúp Lan số tiền phải trả.
+  ]
+]
+
+#bt()[
+  Cô Hoài gửi vào ngân hàng 400 triệu đồng theo thể thức lãi kép theo định kỳ với lãi suất $x$ mỗi năm (tức là nếu đến kỳ hạn người gửi không rút lãi ra thì tiền lãi được tính vào vốn của kỳ kế tiếp). Biểu thức $S = 400(1+x)^3$ (triệu đồng) là số tiền cô Hoài nhận được sau 3 năm.
+  #listEX()[
+    + Tính số tiền cô Hoài nhận được sau 3 năm khi lãi suất là $x = 60%$.
+    + Khai triển $S$ thành đa thức theo $x$ và xác định bậc của đa thức.
+  ]
+]
+
+#bt()[
+  Bác Đạt gửi vào ngân hàng 200 triệu đồng theo thể thức lãi kép theo định kỳ với lãi suất $x$ mỗi năm (tức là nếu đến kỳ hạn người gửi không rút lãi ra thì tiền lãi được tính vào vốn của kỳ kế tiếp). Biểu thức $S = 200(1+x)^3$ (triệu đồng) là số tiền Bác Đạt nhận được sau 3 năm.
+  #listEX()[
+    + Tính số tiền Bác Đạt nhận được sau 3 năm khi lãi suất là $x = 5","2%$.
+    + Khai triển $S$ thành đa thức theo $x$ và xác định bậc của đa thức.
+  ]
+]
+
+#bt()[
+  Hằng ngày bố em đi chợ bán hàng bằng xe máy với vận tốc là 40 km/h. Hôm nay bố em vừa đi đến chợ thì nhà có việc gấp nên mẹ gọi bố về ngay không bán hàng nữa. Lúc về, bố em được một người bạn chỉ cho đi đường khác ngắn hơn đường lúc đi là $158 a^3$ km $(a > 0)$ và bố đi với vận tốc lớn hơn vận tốc lúc đi là $48 b^3 - 40$ km/h $(b >= 1)$. Biết quãng đường lúc bố đi từ nhà đến chợ là $320 a^3$ km. Hỏi lúc về, bố đã đi nhanh hơn lúc đi bao nhiêu giờ? Viết biểu thức dạng tích biểu thị khoảng thời gian đó.
+]
+
+#bt()[
+  Tết năm nay, Hiếu được mừng tuổi $(2 a + 3 b)(4 a^2 + 9 b^2 + 9 b - 6 a - 6 a b + 3) + 20000$ đồng. Hiếu đưa bố nhưng bố không cầm, bố bảo với Hiếu: "Con hãy cầm số tiền này để mua dụng cụ học tập." Hiếu cầm số tiền đó vào cửa hàng mua $4 a^2 - 4 a + 1$ cái bút giá $2 a - 1$ đồng một cái bút và mua $1 + 6 b + 9 b^2$ quyển vở giá $1 + 3 b$ đồng một quyển vở. Hỏi Hiếu có mua hết số tiền mừng tuổi không? Số tiền mà Hiếu còn thừa sau khi mua bút và vở là bao nhiêu?
 ]

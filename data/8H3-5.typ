@@ -442,8 +442,6 @@
 
 #subsection()[Bài tập tự luận]
 
-#subsubsection()[Hình thoi]
-
 #bt()[
   Cho hình thoi $A B C D$ có $hat(D A B)$.
   #listEX()[
@@ -568,9 +566,9 @@
 #bt()[
   Cho hình thoi $A B C D$ có $A B = B D = 10$ cm.
   #listEX()[
-    + $triangle A B D$ là tam giác gì? Vì sao?;
-    + Tính số đo các góc của hình thoi $A B C D$;
-    + Tính độ dài $A C$;
+    + $triangle A B D$ là tam giác gì? Vì sao?
+    + Tính số đo các góc của hình thoi $A B C D$.
+    + Tính độ dài $A C$.
     + Tính diện tích hình thoi $A B C D$.
   ]
 ]
@@ -636,7 +634,7 @@
 #bt()[
   Cho hình thoi $A B C D$ có $A B = B D$.
   #listEX()[
-    + $triangle A B D$ là tam giác gì? Vì sao?;
+    + $triangle A B D$ là tam giác gì? Vì sao?
     + Tính các góc của hình thoi $A B C D$.
   ]
 ]
@@ -729,8 +727,6 @@
   ]
 ]
 
-#subsubsection()[Hình vuông]
-
 #bt()[
   Cho $hat(x O y) = 90 degree$ và tia phân giác $O t$. Lấy điểm $A$ bất kì trên $O t$, kẻ $A B perp O x$ ở $B$, $A C perp O y$ ở $C$. Chứng minh: tứ giác $O B A C$ là hình vuông.
 ]
@@ -746,7 +742,7 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$ có $A B = sqrt(2)$ và $B C = 2$. $D$ là điểm đối xứng với $A$ qua $B C$.
   #listEX()[
-    + $triangle A B C$ là tam giác gì? Vì sao?;
+    + $triangle A B C$ là tam giác gì? Vì sao?
     + Chứng minh: tứ giác $A B D C$ là hình vuông.
   ]
 ]
@@ -758,8 +754,8 @@
 #bt()[
   Cho tam giác $A B C$ vuông cân tại $A$ có đường cao $A H$. Gọi $O$ là trung điểm của $A C$, trên tia đối của tia $O B$ lấy điểm $D$ sao cho $O D = O B$.
   #listEX()[
-    + Tứ giác $A B C D$ là hình gì? Vì sao?;
-    + Gọi $E$ là trung điểm của $A B$. Tứ giác $A H C D$ là hình gì? Vì sao?;
+    + Tứ giác $A B C D$ là hình gì? Vì sao?
+    + Gọi $E$ là trung điểm của $A B$. Tứ giác $A H C D$ là hình gì? Vì sao?
     + Tứ giác $A O H E$ là hình gì? Vì sao?
   ]
 ]
@@ -768,7 +764,7 @@
   Cho hình vuông $A B C D$. Kéo dài $B C$ lấy $E$, kéo dài $C D$ lấy $F$, sao cho $B E = D F$.
   #listEX()[
     + Chứng minh: $triangle A B E = triangle A D F$;
-    + $triangle E A F$ là tam giác gì? Vì sao?;
+    + $triangle E A F$ là tam giác gì? Vì sao?
     + Kẻ tia $E x \/\/ A F$ và tia $F y \/\/ A E$. $E x$ cắt $F y$ tại $G$. Tứ giác $A E G F$ là hình gì? Vì sao?
   ]
 ]
@@ -776,9 +772,9 @@
 #bt()[
   Cho hình vuông $A B C D$ có $E$ là trung điểm của $A B$, $F$ là trung điểm của $A D$.
   #listEX()[
-    + Chứng minh: tứ giác $D F E B$ là hình thang cân;
-    + Gọi $I$ là trung điểm của $E F$. Từ $I$ lần lượt vẽ $I P perp A D$ tại $P$, $I Q perp A B$ tại $Q$. Tứ giác $A Q I P$ là hình đặc biệt gì? Vì sao?;
-    + Chứng minh: $A$, $I$, $C$ thẳng hàng;
+    + Chứng minh: tứ giác $D F E B$ là hình thang cân.
+    + Gọi $I$ là trung điểm của $E F$. Từ $I$ lần lượt vẽ $I P perp A D$ tại $P$, $I Q perp A B$ tại $Q$. Tứ giác $A Q I P$ là hình đặc biệt gì? Vì sao?
+    + Chứng minh: $A$, $I$, $C$ thẳng hàng.
     + Vẽ $B H perp C F$ tại $H$, $B H$ cắt $C D$ tại $T$. Chứng minh: $T$ là trung điểm của $C D$.
   ]
 ]
@@ -821,7 +817,7 @@
   Cho $hat(x O y) = 90 degree$ có $O t$ là đường phân giác. $D$ là điểm trên $O t$ với $O D = a$. Đường trung trực của $O D$ cắt hai tia $O x$, $O y$ lần lượt tại $A$, $B$.
   #listEX()[
     + Chứng minh: $triangle O B D$ vuông cân và $triangle O A D$ vuông cân;
-    + Tứ giác $O B D A$ là hình gì? Vì sao?;
+    + Tứ giác $O B D A$ là hình gì? Vì sao?
     + Tính $S_(O A D B)$ theo $a$.
   ]
 ]
@@ -854,8 +850,8 @@
 #bt()[
   Cho $triangle A B C$ vuông cân tại $B$, gọi $O$ là trung điểm của $A C$; $D$ là điểm đối xứng của $B$ qua $O$. Trên cạnh $B C$ lấy điểm $M$ và trên tia đối của tia $D C$ lấy điểm $N$ sao cho $D N = B M$.
   #listEX()[
-    + Tứ giác $A B C D$ là hình gì? Vì sao?;
-    + Chứng minh: tam giác $M A N$ là tam giác vuông cân;
+    + Tứ giác $A B C D$ là hình gì? Vì sao?
+    + Chứng minh: tam giác $M A N$ là tam giác vuông cân.
     + Chứng minh: $B D$ đi qua trung điểm của $M N$. (gợi ý: từ $N$ vẽ đường thẳng song song với $B M$ và cắt $B D$ tại $T$)
   ]
 ]
@@ -874,7 +870,7 @@
   Cho hình bình hành $A B C D$. Gọi $D E$, $B K$ lần lượt là đường phân giác góc trong của các $triangle A D B$ và $triangle D B C$.
   #listEX()[
     + Chứng minh: $D E \/\/ B K$;
-    + Tứ giác $D E B K$ là hình gì? Vì sao?;
+    + Tứ giác $D E B K$ là hình gì? Vì sao?
     + Tìm điều kiện của $triangle A B D$ để $D E B K$ trở thành:
       + Hình chữ nhật;
       + Hình vuông.
@@ -905,8 +901,8 @@
 #bt()[
   Cho tam giác $A B C$ cân tại $A$, đường trung tuyến $A M$. Gọi $I$ là trung điểm của $A C$ và $K$ là điểm đối xứng với $M$ qua điểm $I$.
   #listEX()[
-    + Tứ giác $A K C M$ là hình gì? Vì sao?;
-    + Chứng minh: $A K M B$ là hình bình hành;
+    + Tứ giác $A K C M$ là hình gì? Vì sao?
+    + Chứng minh: $A K M B$ là hình bình hành.
     + Tìm điều kiện của tam giác $A B C$ để tứ giác $A K C M$ là hình vuông.
   ]
 ]
@@ -953,4 +949,80 @@
     + $triangle M D K$ cân ở $M$;
     + $D M = A N + C M$.
   ]
+]
+
+#bt()[
+  #immini()[
+    Nhà ông Tư có miếng đất như hình vẽ sau, gồm hình vuông $A B C D$ và hình chữ nhật $E H K F$ có diện tích bằng nhau. Biết chiều rộng hình chữ nhật $E H K F$ là $H K = 5$ m và chiều dài $E H$ gấp bốn lần chiều rộng $H K$.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 0.25cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      let A = (0, 0)
+      let B = (0, 10)
+      let C = (10, 10)
+      let D = (10, 0)
+      let E = (10, 7.5)
+      let F = (10, 2.5)
+      let H = (30, 7.5)
+      let K = (30, 2.5)
+      line(A, B, C, E, H, K, F, D, A)
+      line(E, F, stroke: (dash: "dashed"))
+      content((rel: (-135deg, 1), to: A), [$A$])
+      content((rel: (135deg, 1), to: B), [$B$])
+      content((rel: (45deg, 1), to: C), [$C$])
+      content((rel: (-45deg, 1), to: D), [$D$])
+      content((rel: (180deg, 1), to: E), [$E$])
+      content((rel: (180deg, 1), to: F), [$F$])
+      content((rel: (45deg, 1), to: H), [$H$])
+      content((rel: (-45deg, 1), to: K), [$K$])
+      content((rel: (0deg, 1.8), to: (H, 50%, K)), [$5$ m])
+    })
+  ]
+  #listEX()[
+    + Tính diện tích miếng đất nhà ông Tư;
+    + Ông Tư muốn rào xung quanh khu đất trên bằng dây kẽm gai có giá 12 000 đồng một mét. Tính số tiền ông Tư phải trả khi mua dây kẽm gai, biết $E F$ nằm trong mảnh đất thì cần phải rào.
+  ]
+]
+
+#bt()[
+  #immini()[
+    Một mảnh đất hình chữ nhật có độ dài cạnh là 20 mét và 50 mét. Nhà thi công dự kiến sẽ trồng hoa ở chính giữa miếng đất với hình thoi có độ dài hai đường chéo lần lượt là 12 và 25 mét. Hãy tính diện tích phần còn lại của mảnh đất sau khi trồng hoa.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 1.2cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      let A = (0, 0)
+      let B = (0, 2)
+      let C = (5, 2)
+      let D = (5, 0)
+      line(A, B, C, D, A)
+      line(
+        (rel: (0deg, 1.25), to: (A, 50%, B)),
+        (rel: (-90deg, 0.4), to: (B, 50%, C)),
+        (rel: (180deg, 1.25), to: (C, 50%, D)),
+        (rel: (90deg, 0.4), to: (D, 50%, A)),
+        (rel: (0deg, 1.25), to: (A, 50%, B)),
+        fill: gray,
+      )
+    })
+  ]
+]
+
+#bt()[
+  Một phòng khách hình chữ nhật có chiều dài 6m và chiều rộng 3,5m được lát nền bởi các viên gạch hình vuông có kích thước 50 cm $times$ 50 cm. Coi diện tích các mạch là không đáng kể. Biết 1 hộp gồm có 4 viên với giá 135.000 đồng mỗi hộp. Để lát nền cho phòng khách trên thì tốn hết bao nhiêu tiền?
+]
+
+#bt()[
+  Bác Minh có một mảnh sân hình chữ nhật với chiều dài 15m, chiều rộng 10m. Bác Minh muốn lót gạch 80% diện tích mảnh sân bằng các tấm gạch hình vuông có cạnh bằng 0,5m, phần sân còn lại để trồng hoa. Hãy tính số tấm gạch cần dùng để lót sân (xem khoảng cách giữa các tấm gạch là không đáng kể).
+]
+
+#bt()[
+  Nhà bác Hai có một cái sân hình chữ nhật có chiều dài 12m, chiều rộng 8m. Bác muốn mua những viên gạch hình vuông có cạnh 0,4m để lót sân. Ngoài ra, bác còn mua thêm 2% gạch dự trữ cùng loại để thay thế các viên gạch bị hỏng sau này. Hỏi bác Hai cần trả bao nhiêu tiền để mua số gạch như dự tính? (Tính cả các viên gạch dự trữ; giả sử diện tích giữa các viên gạch là không đáng kể). Biết giá một viên là 15.000 VNĐ.
 ]
