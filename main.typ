@@ -24,7 +24,7 @@
 
 // Chương 2
 #counter(heading).update((1,))
-#chapter()[Hằng dẳng thức đáng nhớ và ứng dụng]
+#chapter()[Hằng đẳng thức đáng nhớ và ứng dụng]
 #include "data/8D2-1.typ"
 #include "data/8D2-2.typ"
 

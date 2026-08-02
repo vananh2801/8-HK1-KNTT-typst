@@ -1,7 +1,7 @@
 #import "../style/lib.typ": *
 #show: appearance
 
-#section()[Thu nhập và phân loại dữ liệu]
+#section()[Thu thập và phân loại dữ liệu]
 
 #subsection()[Lý thuyết]
 
@@ -153,7 +153,7 @@
 ]
 
 #bt()[
-  Bảng thống kê sau cho biết dữ liệu về hoạt động trong giờ ra chơi của học sinh lớp $8/1$ (mỗi học sinh chỉ thực hiện một hoạt động).
+  Bảng thống kê sau cho biết dữ liệu về hoạt động trong giờ ra chơi của học sinh lớp 8A1 (mỗi học sinh chỉ thực hiện một hoạt động).
   #align(center)[
     #table(
       columns: 2,
@@ -212,7 +212,7 @@
 #bt()[
   Tìm điểm không hợp lí trong những dữ liệu cho dưới đây.
   #listEX()[
-    + Danh sách email của các bạn trong đội văn nghệ lớp $8/1$ Trường THCS Ngô Quyền, quận Tân Bình như sau:
+    + Danh sách email của các bạn trong đội văn nghệ lớp 8A1 Trường THCS Ngô Quyền, quận Tân Bình như sau:
       #align(center)[
         #table(
           columns: 3,
@@ -302,11 +302,11 @@
     #table(
       columns: 3,
       [*Lớp*], [*Sĩ số*], [*Số học sinh đăng kí tham gia hoạt động ngoại khoá*],
-      [8/1], [38], [33],
-      [8/2], [40], [35],
-      [8/3], [39], [40],
-      [8/4], [39], [32],
-      [8/5], [40], [32],
+      [8A1], [38], [33],
+      [8A2], [40], [35],
+      [8A3], [39], [40],
+      [8A4], [39], [32],
+      [8A5], [40], [32],
     )
   ]
 ]
@@ -398,10 +398,10 @@
 
 // biểu đồ cột
 #bt()[
-  Một công ty kinh doanh vật liệu xây dựng có bốn kho hàng, mỗi kho hàng có 50 tấn hàng. Kế toán của công ty lập biểu đồ cột kép ở hình bên dưới biểu diễn số lượng vật liệu đã xuất bán và số lượng vật liệu còn tồn lại trong mỗi kho sau tuần lễ kinh doanh đầu tiên.
+  Một công ty kinh doanh vật liệu xây dựng có bốn kho hàng, mỗi kho hàng có 50 tấn hàng. Kế toán của công ty lập biểu đồ cột kép ở hình bên dưới biểu diễn số lượng vật liệu đã xuất bán và số lượng vật liệu còn lại trong mỗi kho sau tuần lễ kinh doanh đầu tiên.
   #align(center)[
     #set text(size: 10pt)
-    *Số lượng vật liệu đã xuất bán và số lượng vật liệu còn tồn lại trong mỗi kho*
+    *Số lượng vật liệu đã xuất bán và số lượng vật liệu còn lại trong mỗi kho*
     #import "@preview/cetz:0.5.2"
     #cetz.canvas(length: 1cm, {
       import cetz.draw: *

@@ -681,7 +681,7 @@ _Phân tích đa thức thành nhân tử_ (hay thừa số) là biến đổi �
 ]
 
 #bt()[
-  Cho mảnh đất hình chữ nhật có chiều dài là $x + 1$ mét, chiều rộng là $x$ mét. Người ta làm muốn quy hoạch một phần diện tích của mảnh đất bằng $6 x - 6$ m$""^2$ để trồng cây. Phần còn lại để làm nhà.
+  Cho mảnh đất hình chữ nhật có chiều dài là $x + 1$ mét, chiều rộng là $x$ mét. Người ta muốn quy hoạch một phần diện tích của mảnh đất bằng $6 x - 6$ m$""^2$ để trồng cây. Phần còn lại để làm nhà.
   #listEX()[
     + Viết biểu thức tính $S$ phần làm nhà của mảnh đất theo $x$.
     + Phân tích $S$ thành nhân tử rồi tính $S$ khi $x = 14$ (m).

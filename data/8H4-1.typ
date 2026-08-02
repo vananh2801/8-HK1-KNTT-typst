@@ -740,7 +740,7 @@
 
 #bt()[
   #immini()[
-    Bạn Bảo muốn đo khoảng cách giữa hai điểm $A$ và $B$, nhưng ở giữa có một hồ nước sâu. Bạn đánh dấu các điểm $M$, $C$, $D$ như hình bên. Sau khi đo các kích thước, bạn Bảo nhận thấy $(M B)/(B D)=(M A)/(A C)=7/10$. Sau đó, bạn Bảo tiếp tục đo khoảng cách giửa hai điểm $C$ và $D$ là 80 m. Hãy tính khoảng cách giữa hai điểm $A$ và $B$.
+    Bạn Bảo muốn đo khoảng cách giữa hai điểm $A$ và $B$, nhưng ở giữa có một hồ nước sâu. Bạn đánh dấu các điểm $M$, $C$, $D$ như hình bên. Sau khi đo các kích thước, bạn Bảo nhận thấy $(M B)/(B D)=(M A)/(A C)=7/3$. Sau đó, bạn Bảo tiếp tục đo khoảng cách giữa hai điểm $C$ và $D$ là 80 m. Hãy tính khoảng cách giữa hai điểm $A$ và $B$.
   ][
     #import "@preview/cetz:0.5.2"
     #set text(size: 10pt)

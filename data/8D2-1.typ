@@ -1,7 +1,7 @@
 #import "../style/lib.typ": *
 #show: appearance
 
-#section()[Hằng dẳng thức đáng nhớ]
+#section()[Hằng đẳng thức đáng nhớ]
 
 #subsection()[Lý thuyết]
 
@@ -751,7 +751,7 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
 ]
 
 #bt()[
-  Mảnh vườn trồng hoa nhà bác An có dạng hình chữ nhật với chiều rộng là $2 y$ (m), chiều dài là $4 y^2$ (m). Năm nay kinh tế dư giả, hoa bán được nhiều, bác An quyết định mua thêm đất nhà bên cạnh để cho mảnh vườn rộng ra và trồng được nhiều hoa hơn. Tuy nhiên, nhà bên cạnh chỉ bán cho bác thêm $x$ m chiều rộng và thêm $4 y + x^2$ m chiều dài $(x,y > 0)$. Hỏi mảnh vườn nhà bác An có diện tích tăng thêm bao nhiêu mét vuông. Viết biểu thức dạng tích biểu thị phần diện tích tăng thêm đó theo $x$ và $y$.
+  Mảnh vườn trồng hoa nhà bác An có dạng hình chữ nhật với chiều rộng là $2 y$ (m), chiều dài là $4 y^2$ (m). Năm nay kinh tế dư dả, hoa bán được nhiều, bác An quyết định mua thêm đất nhà bên cạnh để cho mảnh vườn rộng ra và trồng được nhiều hoa hơn. Tuy nhiên, nhà bên cạnh chỉ bán cho bác thêm $x$ m chiều rộng và thêm $4 y + x^2$ m chiều dài $(x,y > 0)$. Hỏi mảnh vườn nhà bác An có diện tích tăng thêm bao nhiêu mét vuông. Viết biểu thức dạng tích biểu thị phần diện tích tăng thêm đó theo $x$ và $y$.
 ]
 
 #bt()[

@@ -16,7 +16,7 @@
 ]
 
 #dn(tieude: "Tứ giác lồi")[
-  _Tứ giác lồi_ là tứ giác mà hai đỉnh thuộc một cạnh bất kì luôn nằm về một phía của đường thẳng đi qua hai đỉnh còn lại.
+  _Tứ giác lồi_ là tứ giác luôn nằm trong một nửa mặt phẳng có bờ là đường thẳng chứa bất kì cạnh nào của tứ giác.
 ]
 
 #vd()[

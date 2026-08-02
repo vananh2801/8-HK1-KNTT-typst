@@ -202,7 +202,7 @@
 #subsection()[Bài tập tự luận]
 
 #bt()[
-  Cho tam giác $A B C$ vuông ở $A$ có $A M$ là đường trung tuyến. Định dạng các tam giác $A B M$, $A C M$.
+  Cho tam giác $A B C$ vuông ở $A$ có $A M$ là đường trung tuyến. Xác định dạng các tam giác $A B M$, $A C M$.
 ]
 
 #bt()[
@@ -349,7 +349,7 @@
   Cho hình chữ nhật $A B C D$ ($A B < A D$). Vẽ $hat(x A y) = 90°$ sao cho tia $A x$ cắt tia $C D$ ở $M$ và tia $A y$ cắt tia $B C$ ở $N$. Kẻ tia $M z \/\/ A N$ và tia $N t \/\/ A M$ sao cho $M z$ cắt $N t$ ở $P$.
   #listEX()[
     + Chứng minh: tứ giác $A M P N$ là hình chữ nhật.
-    + Gọi $O$ là giao điểm của $A P$ và $M N$. Định dạng tam giác $O A N$.
+    + Gọi $O$ là giao điểm của $A P$ và $M N$. Xác định dạng tam giác $O A N$.
   ]
 ]
 

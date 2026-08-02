@@ -71,7 +71,7 @@
 ]
 
 #nhanxet()[
-  - Hai đơn thức đơn thức đồng dạng thì có cùng bậc.\
+  - Hai đơn thức đồng dạng thì có cùng bậc.\
   - Hai số khác 0 cũng được coi là hai đơn thức đồng dạng.
 ]
 
@@ -280,7 +280,7 @@
 ]
 
 #bt()[
-  Tú muốn làm một cái bể cá cubic không có nắp dạng hình lập phương có kích thước một cạnh là $x$ cm.
+  Tú muốn làm một cái bể cá không có nắp dạng hình lập phương có kích thước một cạnh là $x$ cm.
   #listEX()[
     + Viết các biểu thức tính dung tích bể và diện tích kính để làm cái bể đó.
     + Tính giá trị của các đại lượng trên khi $x = 30$ cm.

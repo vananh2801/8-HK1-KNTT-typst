@@ -120,7 +120,7 @@
 
 #dl(tieude: "Dấu hiệu nhận biết hình thoi")[
   - #immini()[
-      Hình bình hành có hai cạnh kể bằng nhau là hình thoi.
+      Hình bình hành có hai cạnh kề bằng nhau là hình thoi.
     ][
 
     ]
@@ -268,7 +268,7 @@
 
 #dl(tieude: "Dấu hiệu nhận biết hình vuông")[
   - #immini()[
-      Hình chữ nhật có hai cạnh kể bằng nhau là hình vuông.
+      Hình chữ nhật có hai cạnh kề bằng nhau là hình vuông.
     ][
       #import "@preview/cetz:0.5.2"
       #set text(size: 10pt)

@@ -494,7 +494,7 @@
 ]
 
 #bt()[
-  Lớp bạn Nam dự định gấp $100$ hộp đựng quà dạng hình chóp tam giác đều có tất cả các mặt đều là hình tam giác đều cạnh $5$ cm để đựng các món quà gửi tặng cho học sinh khó khăn nhân dịp Tết Trung thu. Cho biết chiều cao của mỗi mặt là $4","3$ cm. Tính diện tích giấy cần đề làm $100$ hộp quà, biết rằng phải tốn $20%$ diện tích giấy cho các mép giấy và các phần giấy bị bỏ đi.
+  Lớp bạn Nam dự định gấp $100$ hộp đựng quà dạng hình chóp tam giác đều có tất cả các mặt đều là hình tam giác đều cạnh $5$ cm để đựng các món quà gửi tặng cho học sinh khó khăn nhân dịp Tết Trung thu. Cho biết chiều cao của mỗi mặt là $4","3$ cm. Tính diện tích giấy cần để làm $100$ hộp quà, biết rằng phải tốn $20%$ diện tích giấy cho các mép giấy và các phần giấy bị bỏ đi.
 ]
 
 #bt()[

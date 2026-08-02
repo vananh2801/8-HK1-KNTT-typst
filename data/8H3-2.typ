@@ -70,7 +70,7 @@
 
 #dn(tieude: "Hình thang cân")[
   #immini[
-    _Hình thang cân_ là hình thang có hai góc kể một đáy bằng nhau.
+    _Hình thang cân_ là hình thang có hai góc kề một đáy bằng nhau.
   ][
     #import "@preview/cetz:0.5.2"
     #set text(size: 10pt)
@@ -158,7 +158,7 @@
   ]
 ]
 
-#subsubsection()[Dấu hiệu nhân biết hình thang cân]
+#subsubsection()[Dấu hiệu nhận biết hình thang cân]
 
 #dl(tieude: "Dấu hiệu nhận biết hình thang cân")[
   #immini()[

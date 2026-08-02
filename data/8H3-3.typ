@@ -73,7 +73,7 @@
   - Hai đường chéo cắt nhau tại trung điểm của mỗi đường.
 ]
 
-#nhanxet()[Trong hình bình hành, hai góc kể một cạnh bất kì thì bù nhau.]
+#nhanxet()[Trong hình bình hành, hai góc kề một cạnh bất kì thì bù nhau.]
 
 #subsubsection()[Dấu hiệu nhận biết]
 
@@ -544,7 +544,7 @@
 ]
 
 #bt()[
-  Cho $A E = 12$ cm, $B D = 18$ cm. Tính $S_(A B C D)$. Cho hình bình hành $A B C D$. Gọi $O$ là giao điểm hai đường thẳng $A C$ và $B D$. Qua điểm $O$, vẽ đường thẳng $a$ cắt hai đường thẳng $A D$, $B C$ lần lượt tại $E$, $F$. Qua $O$ vẽ đường thẳng $b$ cắt hai cạnh $A B$, $C D$ lần lượt tại $M$, $N$. Chứng minh:
+  Cho hình bình hành $A B C D$. Gọi $O$ là giao điểm hai đường thẳng $A C$ và $B D$. Qua điểm $O$, vẽ đường thẳng $a$ cắt hai đường thẳng $A D$, $B C$ lần lượt tại $E$, $F$. Qua $O$ vẽ đường thẳng $b$ cắt hai cạnh $A B$, $C D$ lần lượt tại $M$, $N$. Chứng minh:
   #listEX()[
     + $triangle O A M = triangle O C N$ và $O$ là trung điểm của $M N$;
     + Tứ giác $E M F N$ là hình bình hành.

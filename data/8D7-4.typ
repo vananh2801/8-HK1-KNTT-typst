@@ -706,7 +706,7 @@
 ]
 
 #bt()[
-  Quang hợp là quá trình lá cây nhờ có chất diệp lục, sử dụng nước, khí carbon dioxide (CO$""_2$), và năng lượng ánh sáng mặt trời để chế tạo ra tinh bột và nhả khí oxygen (O$""_2$). Nếu tính theo khối lượng thì cứ 44 kg CO$""_2$ sẽ tạo ra 32 kg O$""_2$. Gọi $x$ (kg) là khối lượng CO$""_2$ được dùng trong quá trình quang hợp để tạo ra $y$ (kg) CO$""_2$. Biết mối liên hệ giữa $y$ và $x$ được biểu diễn theo hàm số $y = a x$ ($a$ là hằng số).
+  Quang hợp là quá trình lá cây nhờ có chất diệp lục, sử dụng nước, khí carbon dioxide (CO$""_2$), và năng lượng ánh sáng mặt trời để chế tạo ra tinh bột và nhả khí oxygen (O$""_2$). Nếu tính theo khối lượng thì cứ 44 kg CO$""_2$ sẽ nhả ra 32 kg O$""_2$. Gọi $x$ (kg) là khối lượng CO$""_2$ được dùng trong quá trình quang hợp để nhả ra $y$ (kg) O$""_2$. Biết mối liên hệ giữa $y$ và $x$ được biểu diễn theo hàm số $y = a x$ ($a$ là hằng số).
   #listEX()[
     + Xác định $a$.
     + Một giống cây A trưởng thành tiêu thụ 22 kg $C O_2$ trong một năm để thực hiện quá trình quang hợp. Tính số cây A trưởng thành cần trồng để tạo ra 2 400 kg $O_2$ trong một năm (biết khả năng quang hợp của các cây A trưởng thành là như nhau).

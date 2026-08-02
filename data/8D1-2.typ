@@ -36,7 +36,7 @@
 #phuongphap(tieude: "Cách thu gọn đa thức")[
   #cacbuoc()[
     + Ta thu gọn tất cả hạng tử (đơn thức).
-    + Sử dụng tính chất giao hoán của phép cộng để sắp xếp các hạng tử động dạng vào một nhóm.
+    + Sử dụng tính chất giao hoán của phép cộng để sắp xếp các hạng tử đồng dạng vào một nhóm.
     + Thực hiện phép cộng các đơn thức đồng dạng trong các nhóm.
     + Viết kết quả cuối cùng.
   ]

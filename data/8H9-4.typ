@@ -171,11 +171,11 @@
 
           $hat(B' A' C')=hat(B A C)=90 degree$
 
-          $(A' B')/(A B)=(A' C')/(A C)$
+          $(B' C')/(B C)=(A' B')/(A B)$
         ],
         [KL],
         [
-          $triangle A'B'C' tilde.rev triangle A B C$ (c.g.c).
+          $triangle A'B'C' tilde.rev triangle A B C$ (ch - cgv).
         ],
       )
     ],
