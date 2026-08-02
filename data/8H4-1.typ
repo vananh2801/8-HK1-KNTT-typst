@@ -643,3 +643,133 @@
     + Chứng minh: $(B M)/(B F) = (B D)/(B C)$ và $M K \/\/ E F$.
   ]
 ]
+
+#bt()[
+  #immini()[
+    Hãy ứng dụng hệ quả định lý Thalès để đo khoảng cách $B C$ ở hai địa điểm không thể đến được như hình bên. Biết $D E \/\/ B C$.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 0.1cm, {
+      import cetz.draw: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+
+      let B = (0, 0)
+      let A = (B.at(0) + 30 * calc.cos(110deg), B.at(0) + 30 * calc.sin(110deg))
+      let D = (B.at(0) + 14 * calc.cos(110deg), B.at(0) + 14 * calc.sin(110deg))
+      let E = (D.at(0) + 22, D.at(1) + 0)
+      let C = (B.at(0) + 41.25, B.at(1) + 0)
+      hobby(
+        B,
+        (8, 4),
+        (18, 5.5),
+        (28, 4.5),
+        (36, 3),
+        C,
+        (35, -3),
+        (26, -4.5),
+        (15, -4),
+        (6, -2.5),
+        close: true,
+        fill: gray.lighten(50%),
+        stroke: black,
+      )
+      line(A, B)
+      line(B, C, stroke: (dash: "dashed", thickness: 0.7pt))
+      line(C, A)
+      line(D, E)
+      line((rel: (200deg, 5), to: A), (rel: (200deg, 5), to: B), mark: (start: "stealth", end: "stealth"))
+      content((rel: (180deg, 10), to: D), [$30$ m])
+      content((rel: (135deg, 10pt), to: A), [$A$])
+      content((rel: (-135deg, 10pt), to: B), [$B$])
+      content((rel: (-35deg, 10pt), to: C), [$C$])
+      content((rel: (180deg, 7pt), to: D), [$D$])
+      content((rel: (45deg, 10pt), to: E), [$E$])
+      content((rel: (-90deg, 6pt), to: (D, 50%, E)), [$22$ m])
+      content((rel: (0deg, 6pt), to: (A, 50%, D)), [$16$ m], angle: -70deg)
+    })
+  ]
+]
+
+#bt()[
+  #immini()[
+    Để đo chiều cao $A B$ của một cái cây, người ta đặt một cọc $C D$ thẳng đứng gần tòa nhà. Trên đầu $C$ của cọc có gắn 1 thước ngắm sao cho hướng của thước đi qua đỉnh $A$ của cây. Sau đó xác định điểm $E$ là giao điểm của hai đường thẳng $A C$ và $B D$. Người ta đo được $C D = 1","5$ m, $E D = 2$ m, $E B = 7","2$ m. Tính chiều cao $A B$ của cây.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 0.7cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      let B = (0, 0)
+      let A = (0, 5.4)
+      let E = (7.2, 0)
+      let D = (5.2, 0)
+      let C = (5.2, 1.5)
+      // Vẽ cây bóng đen bằng đường cong hobby có đỉnh tại A và gốc tại B
+      hobby(
+        (-0.35, 0),
+        (-0.25, 1.2),
+        (-0.3, 2.6),
+        (-0.6, 3.4),
+        (-1.6, 3.8),
+        (-1.6, 4.0),
+        (-0.7, 4.8),
+        A, // Đỉnh cây tại A (0, 5.4)
+        (0.7, 4.8),
+        (1.6, 4.0),
+        (1.6, 3.8),
+        (0.6, 3.4),
+        (0.3, 2.6),
+        (0.25, 1.2),
+        (0.35, 0),
+        fill: gray.lighten(50%),
+        stroke: none,
+      )
+      line(D, C, A, B, E, C)
+      right-angle(B, D, A, radius: 0.3, label: none)
+      right-angle(D, E, C, radius: 0.3, label: none)
+      content((rel: (135deg, 0.5), to: A), [$A$])
+      content((rel: (-135deg, 0.5), to: B), [$B$])
+      content((rel: (45deg, 0.5), to: C), [$C$])
+      content((rel: (-90deg, 0.5), to: D), [$D$])
+      content((rel: (-45deg, 0.5), to: E), [$E$])
+    })
+  ]
+]
+
+#bt()[
+  #immini()[
+    Bạn Bảo muốn đo khoảng cách giữa hai điểm $A$ và $B$, nhưng ở giữa có một hồ nước sâu. Bạn đánh dấu các điểm $M$, $C$, $D$ như hình bên. Sau khi đo các kích thước, bạn Bảo nhận thấy $(M B)/(B D)=(M A)/(A C)=7/10$. Sau đó, bạn Bảo tiếp tục đo khoảng cách giửa hai điểm $C$ và $D$ là 80 m. Hãy tính khoảng cách giữa hai điểm $A$ và $B$.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 0.7cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      let M = (0, 0)
+      let C = (5, 0)
+      let D = (6, 4)
+      let A = (M, 70%, C)
+      let B = (M, 70%, D)
+      hobby(
+        (rel: (-110deg, 0.3), to: B),
+        (rel: (-70deg, 1), to: B),
+        (rel: (-80deg, 1.2), to: B),
+        (rel: (-80deg, 1.4), to: B),
+        (rel: (-100deg, 2.5), to: B),
+        (rel: (-110deg, 0.3), to: B),
+        fill: gray.lighten(50%),
+      )
+      line(M, C, D, M)
+      line(A, B, stroke: (dash: "dashed"))
+      content((rel: (-90deg, 0.5), to: A), [$A$])
+      content((rel: (135deg, 0.5), to: B), [$B$])
+      content((rel: (-45deg, 0.5), to: C), [$C$])
+      content((rel: (70deg, 0.5), to: D), [$D$])
+      content((rel: (-135deg, 0.5), to: M), [$M$])
+      content((rel: (0deg, 0.8), to: (C, 50%, D)), [$80$ m])
+    })
+  ]
+]

@@ -372,7 +372,7 @@
 
 #bt()[
   #immini()[
-    Người ta ứng dụng hai tam giác đồng dạng để đo khoảng cách $B C$ ở hai địa điểm không thể đến được (Hình bên). Biết $D E \/\/ B C$.
+    Người ta ứng dụng hai tam giác đồng dạng để đo khoảng cách $B C$ ở hai địa điểm không thể đến được như hình bên. Biết $D E \/\/ B C$.
     #listEX()[
       + Chứng minh: $triangle A D E tilde.rev triangle A B C$.
       + Tính khoảng cách $B C$.

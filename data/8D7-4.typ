@@ -577,7 +577,7 @@
       + Hỏi $80 degree$F tương ứng với bao nhiêu độ $C$?
     ]
   ][
-    #image("../imgs/8D4-7-nhiet-ket-C-F.jpeg", width: 3.5cm)
+    #image("../imgs/8D7-4-nhiet-ket-C-F.jpeg", width: 3.5cm)
   ]
 ]
 
