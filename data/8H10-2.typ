@@ -139,7 +139,7 @@
   #immini()[
     Tính thể tích của một chiếc hộp bánh ít gai có dạng hình chóp tứ giác đều, có độ dài cạnh đáy là $3$ cm và chiều cao là $2","6$ cm.
   ][
-    #image("../imgs/8H10-banhit.png", width: 4.5cm)
+    #image("../imgs/8H10-2-banhit.png", width: 4.5cm)
   ]
   #loigiai()[
     Diện tích mặt đáy là: $S_text("đáy") = 3 dot 3 = 9$ ($"cm"^2$).\
@@ -454,7 +454,7 @@
 #bt(tieude: "https://www.pariscityvision.com/en/paris/museums")[
   Bảo tàng Louvre (Pháp) có một kim tự tháp hình chóp tứ giác đều bằng kính (gọi là kim tự tháp Louvre) có chiều cao $21","3$ m và cạnh đáy $34$ m. Tính thể tích của kim tự tháp này.\
   #align(center)[
-    #image("../imgs/8H10-bao-tang-lourvre.png", width: 10cm)
+    #image("../imgs/8H10-2-bao-tang-lourvre.png", width: 10cm)
   ]
 ]
 
@@ -602,7 +602,7 @@
       + Đường cao của mặt bên xuất phát từ đỉnh của kim tự tháp đo được dài $186","6$ m. Tính diện tích xung quanh của kim tự tháp Giza.
     ]
   ][
-    #image("../imgs/8H10-kim-tu-thap-giza.png", width: 6cm)
+    #image("../imgs/8H10-2-kim-tu-thap-giza.png", width: 6cm)
   ]
 ]
 
@@ -614,7 +614,7 @@
   Đại kim tự tháp của Mỹ (The Great American Pyramid) nằm ở Memphis, bang Tennessee là một trong những kim tự tháp lớn nhất thế giới. Nơi đây hoạt động như một trung tâm thương mại và giải trí sầm uất. Đại kim tự tháp có dạng hình chóp tứ giác đều với đáy là hình vuông cạnh $180$ m và chiều cao của mặt bên kẻ từ đỉnh hình chóp bằng $133$ m. Tính diện tích mặt ngoài của Đại kim tự tháp này.
   #align(center)[
     #box[
-      #image("../imgs/8H10-dai-kim-tu-thap-My.png", width: 8cm)
+      #image("../imgs/8H10-2-dai-kim-tu-thap-My.png", width: 8cm)
     ]
     #h(1cm)
     #box[
@@ -668,11 +668,11 @@
   Khu bảo tồn Muttart là một phần biểu tượng của cảnh quan thành phố Edmonton, Canada với bốn nhà kính hình dạng kim tự tháp. Mỗi toà nhà đều có từng chủ đề riêng. Hai nhà kính lớn đều có dạng hình chóp tứ giác đều với chiều cao $24$ m và diện tích đáy mỗi nhà kính khoảng $660$ $"m"^2$. Tính tổng thể tích của hai nhà kính này.
   #align(center)[
     #box[
-      #image("../imgs/8H10-khu-bao-ton-muttart.png", width: 8cm)
+      #image("../imgs/8H10-2-khu-bao-ton-muttart.png", width: 8cm)
     ]
     #h(0.5cm)
     #box[
-      #image("../imgs/8H10-khu-bao-ton-muttart-2.png", width: 8cm)
+      #image("../imgs/8H10-2-khu-bao-ton-muttart-2.png", width: 8cm)
     ]
   ]
 ]

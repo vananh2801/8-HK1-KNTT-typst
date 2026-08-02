@@ -480,7 +480,7 @@
   #immini()[
     Tính thể tích khối rubik có dạng hình chóp tam giác đều như hình bên. Biết khối rubik này có bốn mặt là các tam giác đều bằng nhau cạnh $4","7$ cm và chiều cao $4","1$ cm; chiều cao của khối rubik bằng $3","9$ cm.
   ][
-    #image("../imgs/8H10-rubik-bien-the-kim-tu-thap.png", width: 3cm)
+    #image("../imgs/8H10-1-rubik-bien-the-kim-tu-thap.png", width: 3cm)
   ]
 ]
 
@@ -501,7 +501,7 @@
   #immini()[
     Chóp inox đặt trên đỉnh núi Fansipan (Việt Nam) có dạng hình chóp tam giác đều với chu vi đáy khoảng $180$ cm và chiều cao khoảng $90$ cm. Hãy tính diện tích xung quanh và thể tích của chóp inox.
   ][
-    #image("../imgs/8H10-chop-inox-dinh-nui-fasipan.png", width: 6cm)
+    #image("../imgs/8H10-1-chop-inox-dinh-nui-fasipan.png", width: 6cm)
   ]
 ]
 
@@ -509,7 +509,7 @@
   #immini()[
     Một chiếc đèn thả trần có dạng hình chóp tam giác đều có tất cả các cạnh đều khoảng $20$ cm. Độ dài đường cao của mặt bên là $17","5$ cm. Tính diện tích xung quanh của chiếc đèn thả trần đó.
   ][
-    #image("../imgs/8H10-den-chop-tam-giac.png", width: 6cm)
+    #image("../imgs/8H10-1-den-chop-tam-giac.png", width: 6cm)
   ]
 ]
 
@@ -517,6 +517,6 @@
   #immini()[
     Bộ nam châm xếp hình có dạng hình chóp tam giác đều (như hình ảnh bên) có độ dài cạnh đáy khoảng $6$ cm và mặt bên có đường cao khoảng $7$ cm. Tính diện tích xung quanh bộ nam châm xếp hình đó.
   ][
-    #image("../imgs/8H10-bo-nam-cham-chop-tam-giac.png", width: 6cm)
+    #image("../imgs/8H10-1-bo-nam-cham-chop-tam-giac.png", width: 6cm)
   ]
 ]
