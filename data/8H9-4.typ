@@ -284,7 +284,7 @@
 ]
 
 #bt()[
-  Một người đo chiều cao của một tòa nhà nhờ một cọc chôn xuống đất, cọc cao 6 m và đặt cách xa tòa nhà 54 m. Sau khi người ấy lùi ra xa cách cọc $0","8$ m thì thấy đầu cọc và đỉnh tòa nhà cùng nằm trên một đường thẳng. Hỏi tòa nhà cao bao nhiêu mét, biết rằng khoảng cách từ chân đến mắt người ấy là $1","8$ m.
+  Một người đo chiều cao của một tòa nhà nhờ một cọc chôn xuống đất, cọc cao 6 m và đặt cách xa tòa nhà 54 m. Sau khi người ấy lùi ra xa cách cọc $0","8$ m thì thấy đầu cọc và đỉnh tòa nhà cùng nằm trên một đường thẳng. Hỏi tòa nhà cao bao nhiêu mét, biết rằng khoảng cách từ chân đến mắt người ấy là $1","8$ m?
 ]
 
 #bt()[

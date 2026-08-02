@@ -322,7 +322,7 @@
 
 #bt()[
   #immini()[
-    Để xác định chiếc điện thoại là bao nhiêu inch, các nhà sản xuất đã dựa vào độ dài đường chéo của màn hình điện thoại. Biết rằng 1 inch $approx 2","54$ cm, điện thoại có chiều rộng là 7 cm; chiều dài là 15,5 cm. Hỏi chiếc điện thoại là bao nhiêu inch? (Làm tròn kết quả đến hàng đơn vị).
+    Để xác định chiếc điện thoại là bao nhiêu inch, các nhà sản xuất đã dựa vào độ dài đường chéo của màn hình điện thoại. Biết rằng 1 inch $approx 2","54$ cm, điện thoại có chiều rộng là 7 cm; chiều dài là 15,5 cm. Hỏi chiếc điện thoại là bao nhiêu inch? (Làm tròn kết quả đến hàng đơn vị)?
   ][
     #image("../imgs/8H9-3-iphone-13-pro-max.jpg", width: 4cm)
   ]

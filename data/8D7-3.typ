@@ -614,7 +614,7 @@
 ]
 
 #bt()[
-  Chị Ngân gửi 100 000,000 đồng vào ngân hàng A với kỳ hạn 1 năm và không rút trước kỳ hạn. Biết ngân hàng A có lãi suất là $r$%/năm.
+  Chị Ngân gửi 100 000 000 đồng vào ngân hàng A với kỳ hạn 1 năm và không rút trước kỳ hạn. Biết ngân hàng A có lãi suất là $r$%/năm.
   #listEX()[
     + Gọi số tiền lãi là $y$ (đồng), lập công thức biểu diễn số tiền lãi $y$ chị Ngân nhận được sau 1 năm.
     + Tính số tiền lãi chị Ngân nhận được sau 1 năm nếu lãi suất là $6","5$%/năm.
@@ -634,7 +634,7 @@
   Cửa hàng thời trang Hiếu Thảo nhập về $x$ cái áo thun với giá nhập 90 000 đồng/áo. Mỗi cái áo bán ra cửa hàng lời được 30% giá nhập.
   #listEX()[
     + Gọi $y$ (đồng) là số tiền cửa hàng có lời khi bán được $x$ cái áo. Lập hàm số $y$ theo $x$.
-    + Hỏi cửa hàng có lời bao nhiêu khi bán được 250 cái áo.
+    + Hỏi cửa hàng có lời bao nhiêu khi bán được 250 cái áo?
   ]
 ]
 
@@ -651,6 +651,6 @@
   #listEX()[
     + Gọi $y$ (đồng) là số tiền bạn tiết kiệm được trong $x$ ngày. Lập hàm số $y$ theo $x$.
     + Tính số tiền bạn Phúc tiết kiệm được trong 15 ngày;
-    + Hỏi bạn phải tiết kiệm ít nhất bao nhiêu ngày thì đủ tiền mua máy tính cầm tay.
+    + Hỏi bạn phải tiết kiệm ít nhất bao nhiêu ngày thì đủ tiền mua máy tính cầm tay?
   ]
 ]

@@ -305,7 +305,7 @@
 ]
 
 #bt()[
-  Mai đạp xe từ nhà tới câu lạc bộ nấu ăn có quãng đường dài 10km với vận tốc $x$ (km/h). Lượt về thuận chiều gió nên tốc độ nhanh hơn lượt đi là 2 km/h.
+  Mai đạp xe từ nhà tới câu lạc bộ nấu ăn có quãng đường dài 10 km với vận tốc $x$ (km/h). Lượt về thuận chiều gió nên tốc độ nhanh hơn lượt đi là 2 km/h.
   #listEX()[
     + Viết biểu thức $T$ biểu thị thời gian Mai đi từ câu lạc bộ nấu ăn về đến nhà.
     + Tính thời gian Mai đi từ câu lạc bộ nấu ăn về đến nhà biết $x = 10$.

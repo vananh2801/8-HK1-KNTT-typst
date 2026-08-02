@@ -28,7 +28,7 @@ Trong thực tế, ta thường gặp các hành động, thực nghiệm mà k�
 #dn(tieude: "Kết quả thuận lợi")[
   Xét một biến cố $E$, mà $E$ có xảy ra hay không xảy ra tuỳ thuộc vào kết quả của hành động, thực nghiệm $T$.
 
-  Một kết quả có thể của $T$ để biến cố $E$ xảy ra được gọi là kết quả thuận lợi cho biến cố $Е$.
+  Một kết quả có thể của $T$ để biến cố $E$ xảy ra được gọi là kết quả thuận lợi cho biến cố $E$.
 ]
 
 #vd()[
@@ -36,7 +36,7 @@ Trong thực tế, ta thường gặp các hành động, thực nghiệm mà k�
   #listEX()[
     + Liệt kê tất cả các kết quả có thể của hành động trên. Có tất cả bao nhiêu kết quả có thể?
     + Liệt kê các kết quả thuận lợi cho các biến cố sau:
-      - $E$: "Chọn được một bạn lớp 8А";
+      - $E$: "Chọn được một bạn lớp 8A";
       - $F$: "Chọn được một bạn nữ".
   ]
   #loigiai()[

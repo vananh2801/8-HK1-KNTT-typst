@@ -762,7 +762,7 @@ _Phân tích đa thức thành nhân tử_ (hay thừa số) là biến đổi �
   #listEX()[
     + Viết công thức biểu thị lượng nước trong thùng trào ra.
     + Sau đó người ta lấy khối sắt ra, thì lượng nước trong thùng còn lại bao nhiêu?
-    + Nếu cạnh của thùng là 1m, cạnh của khối sắt là 20cm thì sau khi thả khối sắt vào rồi lấy ra, trong thùng còn bao nhiêu lít nước?
+    + Nếu cạnh của thùng là 1 m, cạnh của khối sắt là 20 cm thì sau khi thả khối sắt vào rồi lấy ra, trong thùng còn bao nhiêu lít nước?
   ]
 ]
 

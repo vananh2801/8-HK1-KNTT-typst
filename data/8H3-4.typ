@@ -537,7 +537,7 @@
 ]
 
 #bt()[
-  Bác Sáu có một mảnh đất hình chữ nhật, chiều dài 40m và chiều rộng là 25m. Bác Sáu muốn xây dựng mảnh đất trên thành sân bóng đá mini. Bác đã ký hợp đồng với một đơn vị thi công cỏ nhân tạo với giá là 160.000 đồng/m$""^2$. Biết rằng chỉ có 96% diện tích sân cần phủ cỏ. Hỏi bác Sáu phải trả bao nhiêu tiền cho đơn vị thi công?
+  Bác Sáu có một mảnh đất hình chữ nhật, chiều dài 40 m và chiều rộng là 25 m. Bác Sáu muốn xây dựng mảnh đất trên thành sân bóng đá mini. Bác đã ký hợp đồng với một đơn vị thi công cỏ nhân tạo với giá là 160 000 đồng/m$""^2$. Biết rằng chỉ có 96% diện tích sân cần phủ cỏ. Hỏi bác Sáu phải trả bao nhiêu tiền cho đơn vị thi công?
 ]
 
 #bt()[

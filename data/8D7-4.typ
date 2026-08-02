@@ -597,7 +597,7 @@
   _(Theo https://www.nhathuocankhang.com/ban-tin-suc-khoe/cach-tinh-chinh-xac-luong-nuoc-can-uong-moi-ngay-cua-co-the-1163869
   )_
 
-  Bạn An nặng 55kg thì lượng nước cần nạp vào cơ thể trong một ngày là bao nhiêu lít?
+  Bạn An nặng 55 kg thì lượng nước cần nạp vào cơ thể trong một ngày là bao nhiêu lít?
 ]
 
 #bt()[
@@ -641,7 +641,7 @@
 ]
 
 #bt()[
-  Một cửa hàng sách cũ có một chính sách như sau: Nếu khách hàng đăng ký làm hội viên của cửa hàng sách, thì mỗi năm phải đóng 50 000 đồng chi phí và phải chi thuê sách với giá 5 000 đồng/cuốn; còn nếu khách hàng không phải hội viên, thì phải thuê sách với giá 10,000 đồng/cuốn. Gọi $s$ (đồng) là tổng số tiền mỗi khách hàng phải trả trong mỗi năm và $t$ là số cuốn sách mà khách hàng thuê.
+  Một cửa hàng sách cũ có một chính sách như sau: Nếu khách hàng đăng ký làm hội viên của cửa hàng sách, thì mỗi năm phải đóng 50 000 đồng chi phí và phải chi thuê sách với giá 5 000 đồng/cuốn; còn nếu khách hàng không phải hội viên, thì phải thuê sách với giá 10 000 đồng/cuốn. Gọi $s$ (đồng) là tổng số tiền mỗi khách hàng phải trả trong mỗi năm và $t$ là số cuốn sách mà khách hàng thuê.
   #listEX()[
     + Lập hàm số của $s$ theo $t$ đối với khách hàng là hội viên và đối với khách hàng không phải là hội viên.
     + Trung là một hội viên của cửa hàng sách, năm ngoái Trung đã trả cho cửa hàng sách tổng cộng 90 000 đồng. Hỏi nếu Trung không phải là hội viên của cửa hàng sách thì số tiền phải trả là bao nhiêu?
@@ -693,7 +693,7 @@
   Một ô tô có bình xăng chứa 30 lít. Cứ sau khi ô tô chạy được 20 km thì tiêu hao 1 lít xăng. Biết rằng mối liên hệ giữa số lít xăng còn lại trong bình là $y$ (lít) ứng với quãng đường đã đi là $x$ (km) là hàm số bậc nhất dạng $y = a x + b$.
   #listEX()[
     + Xác định hệ số $a$ và $b$.
-    + Nếu số lít xăng còn lại trong bình là 16 lít thì ô tô đã đi được quãng đường bao nhiêu.
+    + Nếu số lít xăng còn lại trong bình là 16 lít thì ô tô đã đi được quãng đường bao nhiêu?
   ]
 ]
 
@@ -732,7 +732,7 @@
   ]
 ]
 #bt()[
-  Khi càng lên cao thì áp suất khí quyển càng giảm do không khí loãng dần. Để tính áp suất khí quyển ở độ cao không quá cao so với mặt nước biển thường sử dụng công thức: $P = 760 - 2 h \/ 25$. Trong đó, $P$ là áp suất khí quyển (mmHg); $h$ là độ cao so với mực nước biển (m). Hỏi thành phố Bảo Lộc ở độ cao 1 200 m so với mực nước biển thì áp suất của khí quyển là bao nhiêu (mmHg).
+  Khi càng lên cao thì áp suất khí quyển càng giảm do không khí loãng dần. Để tính áp suất khí quyển ở độ cao không quá cao so với mặt nước biển thường sử dụng công thức: $P = 760 - 2 h \/ 25$. Trong đó, $P$ là áp suất khí quyển (mmHg); $h$ là độ cao so với mực nước biển (m). Hỏi thành phố Bảo Lộc ở độ cao 1 200 m so với mực nước biển thì áp suất của khí quyển là bao nhiêu (mmHg)?
 ]
 
 #bt()[

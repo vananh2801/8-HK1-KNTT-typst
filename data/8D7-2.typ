@@ -127,7 +127,7 @@
 ]
 
 #bt()[
-  Lúc 6 giờ sáng, một xe tải khởi hành từ A với vận tốc 40 km/giờ đi về B. Sau 1 giờ 30 phút, một xe du lịch cũng khởi hành từ A với vận tốc 60 km/giờ và đuổi theo xe tải. Hỏi lúc mấy giờ thì hai xe gặp nhau và chỗ gặp nhau cách B bao nhiêu km, biết quãng đường AB dài 200 km.
+  Lúc 6 giờ sáng, một xe tải khởi hành từ A với vận tốc 40 km/giờ đi về B. Sau 1 giờ 30 phút, một xe du lịch cũng khởi hành từ A với vận tốc 60 km/giờ và đuổi theo xe tải. Hỏi lúc mấy giờ thì hai xe gặp nhau và chỗ gặp nhau cách B bao nhiêu km, biết quãng đường AB dài 200 km?
 ]
 
 #bt()[

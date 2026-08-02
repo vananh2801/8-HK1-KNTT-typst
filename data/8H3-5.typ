@@ -1016,13 +1016,13 @@
 ]
 
 #bt()[
-  Một phòng khách hình chữ nhật có chiều dài 6m và chiều rộng 3,5m được lát nền bởi các viên gạch hình vuông có kích thước 50 cm $times$ 50 cm. Coi diện tích các mạch là không đáng kể. Biết 1 hộp gồm có 4 viên với giá 135.000 đồng mỗi hộp. Để lát nền cho phòng khách trên thì tốn hết bao nhiêu tiền?
+  Một phòng khách hình chữ nhật có chiều dài 6 m và chiều rộng "3$,$5" m được lát nền bởi các viên gạch hình vuông có kích thước 50 cm $times$ 50 cm. Coi diện tích các mạch là không đáng kể. Biết 1 hộp gồm có 4 viên với giá 135 000 đồng mỗi hộp. Để lát nền cho phòng khách trên thì tốn hết bao nhiêu tiền?
 ]
 
 #bt()[
-  Bác Minh có một mảnh sân hình chữ nhật với chiều dài 15m, chiều rộng 10m. Bác Minh muốn lót gạch 80% diện tích mảnh sân bằng các tấm gạch hình vuông có cạnh bằng 0,5m, phần sân còn lại để trồng hoa. Hãy tính số tấm gạch cần dùng để lót sân (xem khoảng cách giữa các tấm gạch là không đáng kể).
+  Bác Minh có một mảnh sân hình chữ nhật với chiều dài 15 m, chiều rộng 10 m. Bác Minh muốn lót gạch 80% diện tích mảnh sân bằng các tấm gạch hình vuông có cạnh bằng $0","5$ m, phần sân còn lại để trồng hoa. Hãy tính số tấm gạch cần dùng để lót sân (xem khoảng cách giữa các tấm gạch là không đáng kể).
 ]
 
 #bt()[
-  Nhà bác Hai có một cái sân hình chữ nhật có chiều dài 12m, chiều rộng 8m. Bác muốn mua những viên gạch hình vuông có cạnh 0,4m để lót sân. Ngoài ra, bác còn mua thêm 2% gạch dự trữ cùng loại để thay thế các viên gạch bị hỏng sau này. Hỏi bác Hai cần trả bao nhiêu tiền để mua số gạch như dự tính? (Tính cả các viên gạch dự trữ; giả sử diện tích giữa các viên gạch là không đáng kể). Biết giá một viên là 15.000 VNĐ.
+  Nhà bác Hai có một cái sân hình chữ nhật có chiều dài $12$ m, chiều rộng $8$ m. Bác muốn mua những viên gạch hình vuông có cạnh "0$,$4" m để lót sân. Ngoài ra, bác còn mua thêm 2% gạch dự trữ cùng loại để thay thế các viên gạch bị hỏng sau này. Hỏi bác Hai cần trả bao nhiêu tiền để mua số gạch như dự tính? (Tính cả các viên gạch dự trữ; giả sử diện tích giữa các viên gạch là không đáng kể). Biết giá một viên là 15 000 VNĐ.
 ]
