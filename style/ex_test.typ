@@ -139,7 +139,7 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
     ),
     // Nội dung các dòng kẻ chấm
     ..for _ in range(sodong * socot) {
-      (box(width: 100%, repeat([. #h(5pt)])),)
+      (box(width: 100%, repeat([. #h(0pt)])),)
     }
   )
 ]
