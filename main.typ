@@ -24,7 +24,7 @@
 
 // Chương 2
 #counter(heading).update((1,))
-#chapter()[Hằng đẳng thức đáng nhớ và ứng dụng]
+#chapter()[Hằng đẳng thức đáng nhớ#linebreak() và ứng dụng]
 #include "data/8D2-1.typ"
 #include "data/8D2-2.typ"
 
@@ -61,7 +61,7 @@
 
 // Chương 7
 #counter(heading).update((6,))
-#chapter()[Phương trình bậc nhất và hàm số bậc nhất]
+#chapter()[Phương trình bậc nhất#linebreak() và hàm số bậc nhất]
 #include "data/8D7-1.typ"
 #include "data/8D7-2.typ"
 #include "data/8D7-3.typ"

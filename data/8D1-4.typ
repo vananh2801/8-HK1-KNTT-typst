@@ -8,9 +8,9 @@
 #subsubsection()[Nhắc lại một số tính chất liên quan phép nhân]
 
 Xét các số $A$, $B$ và $C$, ta có:
-- Tính chất giao hoán của phép nhân: #box(stroke: 1pt, inset: 4pt)[$A dot B=B dot A$]
-- Tính chất Kết hợp của phép nhân: #box(stroke: 1pt, inset: 4pt)[$A dot B dot C=(A dot B) dot C=A dot (B dot C)$]
-- Tính chất phân phối của phép nhân đối với phép cộng: #box(stroke: 1pt, inset: 4pt)[$A dot (B+C)=A dot B+A dot C$]
+- Tính chất giao hoán của phép nhân: #box(width: auto, inset: 6pt, stroke: 0.7pt + blue, radius: 3pt)[$A dot B=B dot A$]
+- Tính chất Kết hợp của phép nhân: #box(width: auto, inset: 6pt, stroke: 0.7pt + blue, radius: 3pt)[$A dot B dot C=(A dot B) dot C=A dot (B dot C)$]
+- Tính chất phân phối của phép nhân đối với phép cộng: #box(width: auto, inset: 6pt, stroke: 0.7pt + blue, radius: 3pt)[$A dot (B+C)=A dot B+A dot C$]
 
 Các tính chất này áp dụng tương tự cho phép cộng đa thức.
 
@@ -23,7 +23,7 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
 #vd()[
   Thực hiện phép nhân $(2x y^2) dot (3x^2 z)$.
   #loigiai()[
-    Ta có $(2x y^2) dot (3x^2 z) = (2 dot 3) dot (x dot x^2) dot y^2 dot z = 6 dot x^(1+2) dot y^2 dot z = 6x^3 y^2 z$.
+    #dotlineEX(2)
   ]
 ]
 
@@ -177,7 +177,7 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
   ][
     #import "@preview/cetz:0.5.2"
     #set text(size: 10pt)
-    #cetz.canvas(length: 0.8cm, {
+    #cetz.canvas(length: 0.9cm, {
       import cetz.draw: *
       import cetz.angle: *
       set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))

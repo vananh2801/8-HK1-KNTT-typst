@@ -248,7 +248,7 @@
   ][
     #import "@preview/cetz:0.5.2"
     #set text(size: 10pt)
-    #cetz.canvas(length: 0.7cm, {
+    #cetz.canvas(length: 0.6cm, {
       import cetz.draw: *
       import cetz.angle: *
       set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
@@ -264,7 +264,8 @@
         (rel: (-60deg, 1.4), to: B),
         (rel: (-80deg, 1.8), to: B),
         (rel: (-90deg, 0.3), to: B),
-        fill: gray.lighten(50%),
+        fill: blue.lighten(90%),
+        stroke: 1pt + blue,
       )
       line(M, C, D, M)
       line(A, B, stroke: (dash: "dashed"))
@@ -277,6 +278,42 @@
       content((A, 50%, C), [|])
       content((M, 50%, B), [||], angle: 45deg)
       content((B, 50%, D), [||], angle: 45deg)
+    })
+  ]
+]
+
+#bt()[
+  #immini()[
+    Tại một khu nghỉ dưỡng người ta muốn xây một cây cầu bắc qua ao sen đoạn $E F$ như hình bên để du khách có thể đi bộ ngắm sen và đàn cá KOI bơi, cây cầu đi bộ này song song với hai con đường $A B$ và $C D$. Em hãy tính độ dài cây cầu $E F$, biết con đường $A B$ và $D C$ dài lần lượt là 27 m và 49 m, $E$ và $F$ là điểm chính giữa $A D$ và $B C$.
+  ][
+    #import "@preview/cetz:0.5.2"
+    #set text(size: 10pt)
+    #cetz.canvas(length: 0.9cm, {
+      import cetz.draw: *
+      import cetz.angle: *
+      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      let D = (0, 0)
+      let C = (4.9, 0)
+      let A = (0.4, 3)
+      let B = (3.1, 3)
+      let E = (A, 50%, D)
+      let F = (B, 50%, C)
+      circle((E, 50%, F), radius: (1.5, 0.6), fill: blue.lighten(90%), stroke: 1pt + blue)
+      line(A, B, C, D, A)
+      line(E, F, stroke: (dash: "dashed"))
+      content((rel: (135deg, 0.3), to: A), [$A$])
+      content((rel: (55deg, 0.3), to: B), [$B$])
+      content((rel: (-45deg, 0.3), to: C), [$C$])
+      content((rel: (-135deg, 0.3), to: D), [$D$])
+      content((rel: (170deg, 0.3), to: E), [$E$])
+      content((rel: (15deg, 0.3), to: F), [$F$])
+      content((A, 50%, E), [|], angle: 80deg)
+      content((E, 50%, D), [|], angle: 80deg)
+      content((B, 50%, F), [||], angle: 110deg)
+      content((F, 50%, C), [||], angle: 110deg)
+      for point in (A, B, C, D, E, F) {
+        circle(point, radius: 1.5pt, fill: black)
+      }
     })
   ]
 ]
@@ -326,42 +363,6 @@
 
 #bt()[
   #immini()[
-    Tại một khu nghỉ dưỡng người ta muốn xây một cây cầu bắc qua ao sen đoạn $E F$ như hình bên để du khách có thể đi bộ ngắm sen và đàn cá KOI bơi, cây cầu đi bộ này song song với hai con đường $A B$ và $C D$. Em hãy tính độ dài cây cầu $E F$, biết con đường $A B$ và $D C$ dài lần lượt là 27 m và 49 m, $E$ và $F$ là điểm chính giữa $A D$ và $B C$.
-  ][
-    #import "@preview/cetz:0.5.2"
-    #set text(size: 10pt)
-    #cetz.canvas(length: 0.9cm, {
-      import cetz.draw: *
-      import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
-      let D = (0, 0)
-      let C = (4.9, 0)
-      let A = (0.4, 3)
-      let B = (3.1, 3)
-      let E = (A, 50%, D)
-      let F = (B, 50%, C)
-      circle((E, 50%, F), radius: (1.5, 0.6), fill: gray.lighten(50%))
-      line(A, B, C, D, A)
-      line(E, F, stroke: (dash: "dashed"))
-      content((rel: (135deg, 0.3), to: A), [$A$])
-      content((rel: (55deg, 0.3), to: B), [$B$])
-      content((rel: (-45deg, 0.3), to: C), [$C$])
-      content((rel: (-135deg, 0.3), to: D), [$D$])
-      content((rel: (170deg, 0.3), to: E), [$E$])
-      content((rel: (15deg, 0.3), to: F), [$F$])
-      content((A, 50%, E), [|], angle: 80deg)
-      content((E, 50%, D), [|], angle: 80deg)
-      content((B, 50%, F), [||], angle: 110deg)
-      content((F, 50%, C), [||], angle: 110deg)
-      for point in (A, B, C, D, E, F) {
-        circle(point, radius: 1.5pt, fill: black)
-      }
-    })
-  ]
-]
-
-#bt()[
-  #immini()[
     Nhà bác An có một chiếc kệ để cây cảnh ngoài ban công như hình bên. Biết các tầng $A B$, $C D$, $E F$ song song nhau. Em hãy cho biết tầng $E F$ của kệ có chiều dài bao nhiêu? (Biết $C D = 48$ cm, $A B = 24$ cm).
   ][
     #import "@preview/cetz:0.5.2"
@@ -385,9 +386,9 @@
       let Ep = (rel: (-110deg, 6), to: Sp)
       let Fp = (rel: (-60deg, 6), to: Sp)
       line(Ep, Sp, Fp)
-      line(A, B, Bp, Ap, A, fill: gray.lighten(50%), stroke: 1pt + black)
-      line(C, D, Dp, Cp, C, fill: gray.lighten(50%), stroke: 1pt + black)
-      line(E, F, Fp, Ep, E, fill: gray.lighten(50%), stroke: 1pt + black)
+      line(A, B, Bp, Ap, A, fill: green.lighten(50%), stroke: 1pt + black)
+      line(C, D, Dp, Cp, C, fill: green.lighten(50%), stroke: 1pt + black)
+      line(E, F, Fp, Ep, E, fill: green.lighten(50%), stroke: 1pt + black)
       line(E, S, F)
       line(S, Sp)
       content((rel: (-155deg, 0.4), to: A), [$A$])

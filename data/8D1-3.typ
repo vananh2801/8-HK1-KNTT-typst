@@ -8,8 +8,8 @@
 #subsubsection()[Nhắc lại một số tính chất liên quan phép cộng]
 
 Xét các số $A$, $B$ và $C$, ta có:
-- Tính chất giao hoán của phép cộng: #box(stroke: 1pt, inset: 4pt)[$A+B=B+A$]
-- Tính chất kết hợp của phép cộng: #box(stroke: 1pt, inset: 4pt)[$A+B+C=(A+B)+C=A+(B+C)$]
+- Tính chất giao hoán của phép cộng: #box(width: auto, inset: 6pt, stroke: 0.7pt + blue, radius: 3pt)[$A+B=B+A$]
+- Tính chất kết hợp của phép cộng: #box(width: auto, inset: 6pt, stroke: 0.7pt + blue, radius: 3pt)[$A+B+C=(A+B)+C=A+(B+C)$]
 
 Các tính chất này áp dụng tương tự cho phép cộng đa thức.
 
