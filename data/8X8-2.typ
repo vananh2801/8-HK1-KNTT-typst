@@ -45,6 +45,8 @@
   ]
 ]
 
+#subsection()[Bài tập tự luận]
+
 #bt()[
   Một hộp có 1 quả bóng vàng và 5 quả bóng xanh có kích thước và khối lượng như nhau. Lâm lấy ra ngẫu nhiên 1 quả bóng từ hộp. Theo em, khả năng Lâm lấy được bóng xanh bằng mấy lần khả năng lấy được bóng vàng?
 ]
