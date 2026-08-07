@@ -752,10 +752,15 @@
 ]
 
 #bt()[
-  #immini()[
-    Sự thay đổi nhiệt độ của không khí tùy theo độ cao của địa hình như sau: cứ lên cao 100 m thì nhiệt độ không khí giảm 0,6$degree$C. Gọi $y$ ($degree$C) là nhiệt độ không khí tại khu du lịch Bà Nà Hill có độ cao khoảng 1 500 m, và $x$ ($degree$C) là nhiệt độ không khí tại bãi biển Đà Nẵng gần đấy.
-  ][
-    #image("../imgs/8D7-4-ba-na-hill.jpg", width: 6cm)
+  Sự thay đổi nhiệt độ của không khí tùy theo độ cao của địa hình như sau: cứ lên cao 100 m thì nhiệt độ không khí giảm 0,6$degree$C. Gọi $y$ ($degree$C) là nhiệt độ không khí tại khu du lịch Bà Nà Hills có độ cao khoảng 1 500 m, và $x$ ($degree$C) là nhiệt độ không khí tại bãi biển Đà Nẵng gần đấy.
+  #align(center)[
+    #box()[
+      #image("../imgs/8D7-4-ba-na-hills.png", width: 8cm)
+    ]
+    #h(1em)
+    #box()[
+      #image("../imgs/8D7-4-ba-na-hills-2.png", width: 8cm)
+    ]
   ]
   #listEX()[
     + Hãy lập công thức tính $y$ theo $x$.

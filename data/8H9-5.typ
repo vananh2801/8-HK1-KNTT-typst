@@ -169,11 +169,11 @@
   Bạn An chụp hình chợ Bến Thành ở TP Hồ Chí Minh và in ra 2 tờ giấy có kích cỡ khác nhau là A3 và A4. Bạn An xếp hai tờ giấy sao cho các cạnh bên song song như sau:
   #align(center)[
     #box(stroke: 1pt + black, inset: 3pt, fill: white)[
-      #image("../imgs/8H9-5-cho-ben-thanh.jpg", height: 4cm)
+      #image("../imgs/8H9-5-cho-ben-thanh.png", height: 4cm, width: 4cm * 141.14%)
     ]
     #h(2em)
     #box(stroke: 1pt + black, inset: 3pt, fill: white)[
-      #image("../imgs/8H9-5-cho-ben-thanh.jpg", width: 4cm)
+      #image("../imgs/8H9-5-cho-ben-thanh.png", width: 4cm, height: 4cm / 1.414)
     ]
   ]
   Khi đó ta có hai hình đồng dạng phối cảnh.
@@ -192,17 +192,17 @@
   Bạn An chụp hình bến Nhà Rồng ở TP Hồ Chí Minh và in ra 3 tờ giấy có kích cỡ lần lượt là A3, A4 và A4. Bạn An xếp hai tờ giấy A3 và A4 sao cho các cạnh bên song song, tờ giấy A4 thứ hai bị nghiêng như sau:
   #align(center)[
     #box(stroke: 1pt + black, inset: 3pt, fill: white)[
-      #image("../imgs/8H9-5-ben-nha-rong.png", height: 4cm)
+      #image("../imgs/8H9-5-ben-nha-rong.png", height: 4cm, width: 4cm * 141.14%)
     ]
     #h(2em)
     #box(stroke: 1pt + black, inset: 3pt, fill: white)[
-      #image("../imgs/8H9-5-ben-nha-rong.png", width: 4cm)
+      #image("../imgs/8H9-5-ben-nha-rong.png", width: 4cm, height: 4cm / 1.414)
     ]
     #h(2em)
     #box()[
       #rotate(-10deg)[
         #box(stroke: 1pt + black, inset: 3pt, fill: white)[
-          #image("../imgs/8H9-5-ben-nha-rong.png", width: 4cm)
+          #image("../imgs/8H9-5-ben-nha-rong.png", width: 4cm, height: 4cm / 1.414)
         ]
       ]
     ]

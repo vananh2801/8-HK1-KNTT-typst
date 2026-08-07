@@ -158,7 +158,7 @@
   #immini()[
     Một chiếc xe khách chạy từ Vũng Tàu về TP. Hồ Chí Minh trên quãng đường $(150 x + 2)$ km với vận tốc $(x + 5)$ km/h. Viết biểu thức đại số tính thời gian xe chạy từ Vũng Tàu về TP. Hồ Chí Minh.
   ][
-    #image("../imgs/8D1-5-xe-buyt.webp", width: 7cm)
+    #image("../imgs/8D1-5-xe-buyt.png", width: 7cm)
   ]
 ]
 
@@ -166,7 +166,7 @@
   #immini()[
     Tuyến buýt đường sông Sài Gòn (Saigon Waterbus) đã khai trương tuyến số 1, bắt đầu từ bến Bạch Đằng (Quận 1, TP. HCM) đi qua 4 bến và kết thúc ở bến Linh Đông (Quận Thủ Đức). Từ bến Linh Đông đi bến Bạch Đằng, buýt qua sông chạy quãng đường $(5 x + 1)$ km. Thời gian chạy suốt tuyến là $1/10 x$ giờ. Viết biểu thức đại số tính vận tốc từ bến Linh Đông đến bến Bạch Đằng theo $x$.
   ][
-    #image("../imgs/8D1-5-xe-buyt-duong-song-sai-gon.webp", width: 7cm)
+    #image("../imgs/8D1-5-xe-buyt-duong-song-sai-gon.png", width: 7cm)
   ]
 ]
 
@@ -178,11 +178,11 @@
   Ao Bà Om, hay Ao Vuông, là một thắng cảnh độc đáo và nổi tiếng ở tỉnh Trà Vinh, Việt Nam. Mặt nước ao trong xanh và phẳng lặng được phủ bởi hoa sen, hoa súng. Ao được bao bọc xung quanh bởi các gò cát mấp mô với các hàng cây sao, cây dầu cổ thụ hàng trăm năm tuổi có rễ nổi lên khỏi mặt đất tạo nên những hình thù kỳ lạ. Ao được đào ở trung tâm miếng đất hình vuông có cạnh là $(x + 400)$ mét. Ao hình chữ nhật có chiều dài $(x + 200)$ mét. Biết diện tích của ao ít hơn diện tích miếng đất là $200(3 x + 8)$ m$""^2$. Viết biểu thức đại số tính chiều rộng của ao.
   #align(center)[
     #box()[
-      #image("../imgs/8D1-5-ao-ba-om-2.jpg", height: 5cm)
+      #image("../imgs/8D1-5-ao-ba-om-2.png", height: 5cm)
     ]
     #h(2em)
     #box()[
-      #image("../imgs/8D1-5-ao-ba-om.jpg", height: 5cm)
+      #image("../imgs/8D1-5-ao-ba-om.png", height: 5cm)
     ]
   ]
 ]

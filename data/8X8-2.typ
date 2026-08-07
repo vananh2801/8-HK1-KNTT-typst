@@ -55,7 +55,7 @@
     - $A$: "Gieo được mặt có số chấm là số nguyên tố".
     - $B$: "Gieo được mặt có nhiều hơn 4 chấm".
   ][
-    #image("../imgs/8X8-2-xuc-xac.jpeg", width: 2.5cm)
+    #image("../imgs/8X8-2-xuc-xac.svg", width: 2.5cm)
   ]
 ]
 

@@ -356,7 +356,7 @@
     ]
     #h(2em)
     #box()[
-      #image("../imgs/8H4-2-bap-benh.jpg", width: 6cm)
+      #image("../imgs/8H4-2-bap-benh.png", width: 6cm)
     ]
   ]
 ]
