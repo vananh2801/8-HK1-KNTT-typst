@@ -77,7 +77,9 @@
 
 #vd()[
   Cho các đơn thức:
-  $ 5/3x^2y; quad -x y^2; quad 0","5x^4; quad -2x y^2; quad -1/4x^2 y; quad 3x y^2. $
+  $
+    5/3x^2y; quad -x y^2; quad 0","5x^4; quad -2x y^2; quad -1/4x^2 y; quad 3x y^2.
+  $
   Hãy sắp xếp các đơn thức đã cho thành từng nhóm, sao cho tất cả các đơn thức
   đồng dạng thì thuộc cùng một nhóm.
   #loigiai()[
@@ -138,7 +140,17 @@
         stroke: none,
       )
       // Vẽ các mặt và cạnh nhìn thấy (tương đương \draw nét liền)
-      line((0, 2), (0, 0), (3, 0), (3, 2), (0, 2), (1, 3), (4, 3), (4, 1), (3, 0))
+      line(
+        (0, 2),
+        (0, 0),
+        (3, 0),
+        (3, 2),
+        (0, 2),
+        (1, 3),
+        (4, 3),
+        (4, 1),
+        (3, 0),
+      )
       line((3, 2), (4, 3))
       // Vẽ các cạnh khuất ở mặt sau (tương đương \draw[dashed])
       line((0, 0), (1, 1), (1, 3), stroke: (dash: "dashed"))
@@ -276,7 +288,9 @@
 
 #bt()[
   Xếp các đơn thức sau thành từng nhóm các đơn thức đồng dạng:
-  $ 5/3 x^2 y; quad x y^2; quad -1/2 x^2 y; quad -2x y^2; quad x^2 y; quad 1/4 x y^2; quad -2/5 x^2 y; quad x y. $
+  $
+    5/3 x^2 y; quad x y^2; quad -1/2 x^2 y; quad -2x y^2; quad x^2 y; quad 1/4 x y^2; quad -2/5 x^2 y; quad x y.
+  $
 ]
 
 #bt()[

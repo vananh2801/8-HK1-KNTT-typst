@@ -70,7 +70,10 @@
     #import "@preview/cetz-plot:0.1.4": plot
     #cetz.canvas(length: 1.2cm, {
       import cetz.draw: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), content: (padding: 3pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        content: (padding: 3pt),
+      )
       set-style(
         axes: (
           shared-zero: false,
@@ -136,7 +139,10 @@
       #import "@preview/cetz-plot:0.1.4": plot
       #cetz.canvas(length: 1cm, {
         import cetz.draw: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), content: (padding: 3pt))
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          content: (padding: 3pt),
+        )
         set-style(
           axes: (
             shared-zero: false,
@@ -192,7 +198,10 @@
       #import "@preview/cetz-plot:0.1.4": plot
       #cetz.canvas(length: 1cm, {
         import cetz.draw: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), content: (padding: 3pt))
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          content: (padding: 3pt),
+        )
         set-style(
           axes: (
             shared-zero: false,
@@ -268,7 +277,10 @@
         #import "@preview/cetz-plot:0.1.4": plot
         #cetz.canvas(length: 1cm, {
           import cetz.draw: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), content: (padding: 3pt))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            content: (padding: 3pt),
+          )
           set-style(
             axes: (
               shared-zero: false,
@@ -319,7 +331,10 @@
         #import "@preview/cetz-plot:0.1.4": plot
         #cetz.canvas(length: 1cm, {
           import cetz.draw: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), content: (padding: 6pt))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            content: (padding: 6pt),
+          )
           set-style(
             axes: (
               shared-zero: false,
@@ -370,7 +385,10 @@
         #import "@preview/cetz-plot:0.1.4": plot
         #cetz.canvas(length: 1cm, {
           import cetz.draw: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), content: (padding: 3pt))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            content: (padding: 3pt),
+          )
           set-style(
             axes: (
               shared-zero: false,

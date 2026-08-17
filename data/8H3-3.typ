@@ -268,9 +268,21 @@
       content(B, [$B$], anchor: "south-west", padding: 5pt)
       content(C, [$C$], anchor: "north-west", padding: 5pt)
       content(D, [$D$], anchor: "north-east", padding: 5pt)
-      content((rel: (angle: -30deg, radius: 0.6), to: A), [$70 degree$], size: 9pt)
-      content((rel: (angle: -140deg, radius: 0.45), to: B), [$110 degree$], size: 9pt)
-      content((rel: (angle: 35deg, radius: 0.45), to: D), [$110 degree$], size: 9pt)
+      content(
+        (rel: (angle: -30deg, radius: 0.6), to: A),
+        [$70 degree$],
+        size: 9pt,
+      )
+      content(
+        (rel: (angle: -140deg, radius: 0.45), to: B),
+        [$110 degree$],
+        size: 9pt,
+      )
+      content(
+        (rel: (angle: 35deg, radius: 0.45), to: D),
+        [$110 degree$],
+        size: 9pt,
+      )
     })
   ]
   #loigiai()[

@@ -125,16 +125,48 @@
     #cetz.canvas(length: 0.6cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 5pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 5pt),
+      )
       rect((0, 0), (5, 3), fill: orange.lighten(60%))
-      line((4, 3), (5, 3), (7, 4), (6, 4), close: true, fill: orange.lighten(70%))
-      line((5, 2), (7, 3), (7, 4), (5, 3), close: true, fill: orange.lighten(70%))
+      line(
+        (4, 3),
+        (5, 3),
+        (7, 4),
+        (6, 4),
+        close: true,
+        fill: orange.lighten(70%),
+      )
+      line(
+        (5, 2),
+        (7, 3),
+        (7, 4),
+        (5, 3),
+        close: true,
+        fill: orange.lighten(70%),
+      )
       rect((0, 3), (4, 5), fill: blue.lighten(60%))
       rect((5, 0), (9, 2), fill: blue.lighten(60%))
       line((0, 5), (2, 6), (6, 6), (4, 5), close: true, fill: blue.lighten(70%))
       line((4, 3), (6, 4), (6, 6), (4, 5), close: true, fill: blue.lighten(70%))
-      line((9, 0), (11, 1), (11, 3), (9, 2), close: true, fill: blue.lighten(70%))
-      line((5, 2), (9, 2), (11, 3), (7, 3), close: true, fill: blue.lighten(70%))
+      line(
+        (9, 0),
+        (11, 1),
+        (11, 3),
+        (9, 2),
+        close: true,
+        fill: blue.lighten(70%),
+      )
+      line(
+        (5, 2),
+        (9, 2),
+        (11, 3),
+        (7, 3),
+        close: true,
+        fill: blue.lighten(70%),
+      )
       content((2.5, 1.5), [$a$ $"cm"^3$])
       content((7, 1), [$b$ $"cm"^3$])
       content((2.5, 0), [$x$ cm], anchor: "north")

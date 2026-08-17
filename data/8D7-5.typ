@@ -17,7 +17,10 @@
       #cetz.canvas(length: 1.4cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), content: (padding: 3pt))
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          content: (padding: 3pt),
+        )
         set-style(
           axes: (
             shared-zero: false,
@@ -60,7 +63,10 @@
               angle(A, (1, 0), T, label: none)
               content((rel: (25deg, 0.7), to: A), [$alpha$])
               content((rel: (60deg, 0.7), to: A), [$y=a x+b$], angle: 45deg)
-              content((-1.2, 1.5), box(inset: 3pt, stroke: 0.7pt + black)[$a>0$])
+              content((-1.2, 1.5), box(
+                inset: 3pt,
+                stroke: 0.7pt + black,
+              )[$a>0$])
             })
           },
         )
@@ -74,7 +80,10 @@
       #cetz.canvas(length: 1.4cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), content: (padding: 3pt))
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          content: (padding: 3pt),
+        )
         set-style(
           axes: (
             shared-zero: false,
@@ -155,7 +164,10 @@
     #cetz.canvas(length: 1.4cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), content: (padding: 3pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        content: (padding: 3pt),
+      )
       set-style(
         axes: (
           shared-zero: false,

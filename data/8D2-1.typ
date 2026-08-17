@@ -378,10 +378,30 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
       set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
       rect((0, 0), (5, 5), fill: orange.lighten(70%))
       rect((0, 0), (2, 2), fill: white)
-      line((0, 0), (0, 2), mark: (start: "stealth", end: "stealth"), stroke: 1pt)
-      line((0, 0), (2, 0), mark: (start: "stealth", end: "stealth"), stroke: 1pt)
-      line((0, 2), (0, 5), mark: (start: "stealth", end: "stealth"), stroke: 1pt)
-      line((2, 0), (5, 0), mark: (start: "stealth", end: "stealth"), stroke: 1pt)
+      line(
+        (0, 0),
+        (0, 2),
+        mark: (start: "stealth", end: "stealth"),
+        stroke: 1pt,
+      )
+      line(
+        (0, 0),
+        (2, 0),
+        mark: (start: "stealth", end: "stealth"),
+        stroke: 1pt,
+      )
+      line(
+        (0, 2),
+        (0, 5),
+        mark: (start: "stealth", end: "stealth"),
+        stroke: 1pt,
+      )
+      line(
+        (2, 0),
+        (5, 0),
+        mark: (start: "stealth", end: "stealth"),
+        stroke: 1pt,
+      )
       content((1, 0), [$10$], anchor: "north", padding: 5pt)
       content((3.5, 0), [$x$], anchor: "north", padding: 5pt)
       content((0, 1), [$10$], anchor: "east", padding: 5pt)
@@ -711,7 +731,11 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
     #cetz.canvas(length: 1cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 2pt),
+      )
       let x = 2
       // Lập phương cạnh x+1
       let A = (0, 0)
@@ -724,7 +748,10 @@ Với hai biểu thức tuỳ ý $A$ và $B$, ta có:
       let Dp = (D.at(0), D.at(1) - 1 - x)
       // Lập phương cạnh x
       let App = (A.at(0) + 1, A.at(0))
-      let Bpp = (App.at(0) + (B.at(0) - A.at(0)) / (1 + x) * x, B.at(1) / (1 + x) * x)
+      let Bpp = (
+        App.at(0) + (B.at(0) - A.at(0)) / (1 + x) * x,
+        B.at(1) / (1 + x) * x,
+      )
       let Cpp = (
         C.at(0) + (D.at(0) - C.at(0)) / (1 + x),
         C.at(1) + (D.at(1) - C.at(1)) / (1 + x),

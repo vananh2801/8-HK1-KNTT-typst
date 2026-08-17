@@ -592,7 +592,9 @@
         #table(
           columns: (auto, auto),
           align: center + horizon,
-          table.header([*Giá bán lẻ điện sinh hoạt*], [*Giá bán điện (đồng/kWh)*]),
+          table.header(
+            [*Giá bán lẻ điện sinh hoạt*], [*Giá bán điện (đồng/kWh)*]
+          ),
           [Bậc 1: Cho kWh từ 0 - 50], [1 728],
           [Bậc 2: Cho kWh từ 51 - 100], [1 786],
           [Bậc 3: Cho kWh từ 101 - 200], [2 074],

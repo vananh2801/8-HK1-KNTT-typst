@@ -40,7 +40,11 @@
       #cetz.canvas(length: 1cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         let scale = 1.6
         let A = (0, 0)
         let B = (0, 3)
@@ -68,7 +72,11 @@
       #cetz.canvas(length: 1cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         let scale = 1.6
         let A = (0, 0)
         let B = (0, 2)
@@ -87,7 +95,11 @@
       #cetz.canvas(length: 1cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         let scale = 1.6
         let A = (0, 0)
         let B = (0, 2)
@@ -134,14 +146,24 @@
     #cetz.canvas(length: 0.3cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        padding: 5pt,
+      )
       let scale = 2
       let B = (0, 3)
       let A = (0, 0)
       let C = (4, 0)
       let Ap = (9, 0)
-      let Bp = (Ap.at(0) + (B.at(0) - A.at(0)) * scale, Ap.at(1) + (B.at(1) - A.at(1)) * scale)
-      let Cp = (Ap.at(0) + (C.at(0) - A.at(0)) * scale, Ap.at(1) + (C.at(1) - A.at(1)) * scale)
+      let Bp = (
+        Ap.at(0) + (B.at(0) - A.at(0)) * scale,
+        Ap.at(1) + (B.at(1) - A.at(1)) * scale,
+      )
+      let Cp = (
+        Ap.at(0) + (C.at(0) - A.at(0)) * scale,
+        Ap.at(1) + (C.at(1) - A.at(1)) * scale,
+      )
       line(A, B, C, A)
       line(Ap, Bp, Cp, Ap)
       right-angle(A, C, B, label: none)
@@ -271,7 +293,11 @@
     #set text(size: 10pt)
     #cetz.canvas(length: 0.5cm, {
       import cetz.draw: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 2pt),
+      )
       let A = (0, 5)
       let B = (10, 5)
       let C = (10, 0)
@@ -299,7 +325,11 @@
     #cetz.canvas(length: 0.8cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 2pt),
+      )
       let x = 2
       // Lập phương cạnh x+1
       let A = (0, 0)
@@ -404,7 +434,11 @@
     #cetz.canvas(length: 1cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 5pt), mark: (fill: black), content: (padding: 2pt))
+      set-style(
+        stroke: (thickness: 5pt),
+        mark: (fill: black),
+        content: (padding: 2pt),
+      )
       let H = (0, 0)
       let A = (0, 1.4)
       let B = (-2.4, 0)
@@ -431,7 +465,10 @@
     #cetz.canvas(length: 0.8cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round", join: "round"), mark: (fill: black))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round", join: "round"),
+        mark: (fill: black),
+      )
       let H = (0, 0)
       let A = (0, 3)
       let B = (4, 0)
@@ -508,7 +545,10 @@
     #cetz.canvas(length: 1.2cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round", join: "round"), mark: (fill: black))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round", join: "round"),
+        mark: (fill: black),
+      )
       let A = (0, 0)
       let B = (A.at(0) + calc.cos(53deg) * 2, A.at(1) + calc.sin(53deg) * 2)
       let C = (B.at(0) + calc.cos(-37deg) * 2, B.at(1) + calc.sin(-37deg) * 2)

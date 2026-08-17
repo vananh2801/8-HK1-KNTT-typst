@@ -35,7 +35,11 @@
   #cetz.canvas(length: scale, {
     import cetz.draw: *
     import cetz.angle: *
-    set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+    set-style(
+      stroke: (thickness: 0.7pt, cap: "round"),
+      mark: (fill: black),
+      padding: 5pt,
+    )
     // Kích thước tam giác đều
     let R = 2.5
     let r = R / 2
@@ -135,10 +139,22 @@
     line(..outer-br, close: true, fill: rgb("#9e9e9e"), stroke: 1pt + black)
     line(..outer-bl, close: true, fill: rgb("#9e9e9e"), stroke: 1pt + black)
     // 2. Tạo 4 cánh hoa nhỏ màu xám bên trong hình thoi
-    let inner-top = arc-pts(-R / 2, R / 2, r, -alpha, 45) + arc-pts(R / 2, R / 2, r, 135, 180 + alpha)
-    let inner-right = arc-pts(R / 2, R / 2, r, 270 - alpha, 315) + arc-pts(R / 2, -R / 2, r, 45, 90 + alpha)
-    let inner-bottom = arc-pts(R / 2, -R / 2, r, 180 - alpha, 225) + arc-pts(-R / 2, -R / 2, r, -45, alpha)
-    let inner-left = arc-pts(-R / 2, -R / 2, r, 90 - alpha, 135) + arc-pts(-R / 2, R / 2, r, 225, 270 + alpha)
+    let inner-top = (
+      arc-pts(-R / 2, R / 2, r, -alpha, 45)
+        + arc-pts(R / 2, R / 2, r, 135, 180 + alpha)
+    )
+    let inner-right = (
+      arc-pts(R / 2, R / 2, r, 270 - alpha, 315)
+        + arc-pts(R / 2, -R / 2, r, 45, 90 + alpha)
+    )
+    let inner-bottom = (
+      arc-pts(R / 2, -R / 2, r, 180 - alpha, 225)
+        + arc-pts(-R / 2, -R / 2, r, -45, alpha)
+    )
+    let inner-left = (
+      arc-pts(-R / 2, -R / 2, r, 90 - alpha, 135)
+        + arc-pts(-R / 2, R / 2, r, 225, 270 + alpha)
+    )
     line(..inner-top, close: true, fill: rgb("#9e9e9e"), stroke: 1pt + black)
     line(..inner-right, close: true, fill: rgb("#9e9e9e"), stroke: 1pt + black)
     line(..inner-bottom, close: true, fill: rgb("#9e9e9e"), stroke: 1pt + black)
@@ -146,7 +162,15 @@
     // 3. Vẽ hình thoi nối 4 trung điểm của hình vuông lớn
     line((0, R), (R, 0), (0, -R), (-R, 0), close: true, stroke: 1pt + black)
     // 4. Vẽ hình vuông nhỏ màu trắng ở tâm
-    line((-s, s), (s, s), (s, -s), (-s, -s), close: true, fill: white, stroke: 1pt + black)
+    line(
+      (-s, s),
+      (s, s),
+      (s, -s),
+      (-s, -s),
+      close: true,
+      fill: white,
+      stroke: 1pt + black,
+    )
     // 5. Vẽ viền hình vuông ngoài cùng
     line((-R, R), (R, R), (R, -R), (-R, -R), close: true, stroke: 1.2pt + black)
   })
@@ -169,7 +193,11 @@
   Bạn An chụp hình chợ Bến Thành ở TP Hồ Chí Minh và in ra 2 tờ giấy có kích cỡ khác nhau là A3 và A4. Bạn An xếp hai tờ giấy sao cho các cạnh bên song song như sau:
   #align(center)[
     #box(stroke: 1pt + black, inset: 3pt, fill: white)[
-      #image("../imgs/8H9-5-cho-ben-thanh.png", height: 4cm, width: 4cm * 141.14%)
+      #image(
+        "../imgs/8H9-5-cho-ben-thanh.png",
+        height: 4cm,
+        width: 4cm * 141.14%,
+      )
     ]
     #h(2em)
     #box(stroke: 1pt + black, inset: 3pt, fill: white)[
@@ -192,7 +220,11 @@
   Bạn An chụp hình bến Nhà Rồng ở TP Hồ Chí Minh và in ra 3 tờ giấy có kích cỡ lần lượt là A3, A4 và A4. Bạn An xếp hai tờ giấy A3 và A4 sao cho các cạnh bên song song, tờ giấy A4 thứ hai bị nghiêng như sau:
   #align(center)[
     #box(stroke: 1pt + black, inset: 3pt, fill: white)[
-      #image("../imgs/8H9-5-ben-nha-rong.png", height: 4cm, width: 4cm * 141.14%)
+      #image(
+        "../imgs/8H9-5-ben-nha-rong.png",
+        height: 4cm,
+        width: 4cm * 141.14%,
+      )
     ]
     #h(2em)
     #box(stroke: 1pt + black, inset: 3pt, fill: white)[
@@ -202,7 +234,11 @@
     #box()[
       #rotate(-10deg)[
         #box(stroke: 1pt + black, inset: 3pt, fill: white)[
-          #image("../imgs/8H9-5-ben-nha-rong.png", width: 4cm, height: 4cm / 1.414)
+          #image(
+            "../imgs/8H9-5-ben-nha-rong.png",
+            width: 4cm,
+            height: 4cm / 1.414,
+          )
         ]
       ]
     ]
@@ -281,7 +317,11 @@
       #cetz.canvas(length: 1cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         // Mũi tên nằm ngang (2 cm)
         line((-1, 1.5), (1, 1.5), mark: (end: "stealth"), stroke: 0.7pt)
         content((0, 2.05), [2 cm])
@@ -289,17 +329,73 @@
         line((-1.6, -1.5), (-1.6, 1), mark: (end: "stealth"), stroke: 0.7pt)
         content((-2.2, -0.3), [2,5 cm])
         // Cánh trên bên trái
-        bezier((0, 0.2), (-1.0, 0.9), (-0.3, 0.8), (-0.8, 1.0), stroke: 1pt, fill: luma(230))
-        bezier((-1.0, 0.9), (0, -0.2), (-1.1, 0.3), (-0.4, -0.1), stroke: 1pt, fill: luma(230))
+        bezier(
+          (0, 0.2),
+          (-1.0, 0.9),
+          (-0.3, 0.8),
+          (-0.8, 1.0),
+          stroke: 1pt,
+          fill: luma(230),
+        )
+        bezier(
+          (-1.0, 0.9),
+          (0, -0.2),
+          (-1.1, 0.3),
+          (-0.4, -0.1),
+          stroke: 1pt,
+          fill: luma(230),
+        )
         // Cánh trên bên phải
-        bezier((0, 0.2), (1.0, 0.9), (0.3, 0.8), (0.8, 1.0), stroke: 1pt, fill: luma(230))
-        bezier((1.0, 0.9), (0, -0.2), (1.1, 0.3), (0.4, -0.1), stroke: 1pt, fill: luma(230))
+        bezier(
+          (0, 0.2),
+          (1.0, 0.9),
+          (0.3, 0.8),
+          (0.8, 1.0),
+          stroke: 1pt,
+          fill: luma(230),
+        )
+        bezier(
+          (1.0, 0.9),
+          (0, -0.2),
+          (1.1, 0.3),
+          (0.4, -0.1),
+          stroke: 1pt,
+          fill: luma(230),
+        )
         // Cánh dưới bên trái
-        bezier((0, -0.1), (-0.7, -1.1), (-0.6, -0.2), (-0.8, -0.6), stroke: 1pt, fill: luma(240))
-        bezier((-0.7, -1.1), (0, -0.8), (-0.4, -1.3), (-0.2, -1.0), stroke: 1pt, fill: luma(240))
+        bezier(
+          (0, -0.1),
+          (-0.7, -1.1),
+          (-0.6, -0.2),
+          (-0.8, -0.6),
+          stroke: 1pt,
+          fill: luma(240),
+        )
+        bezier(
+          (-0.7, -1.1),
+          (0, -0.8),
+          (-0.4, -1.3),
+          (-0.2, -1.0),
+          stroke: 1pt,
+          fill: luma(240),
+        )
         // Cánh dưới bên phải
-        bezier((0, -0.1), (0.7, -1.1), (0.6, -0.2), (0.8, -0.6), stroke: 1pt, fill: luma(240))
-        bezier((0.7, -1.1), (0, -0.8), (0.4, -1.3), (0.2, -1.0), stroke: 1pt, fill: luma(240))
+        bezier(
+          (0, -0.1),
+          (0.7, -1.1),
+          (0.6, -0.2),
+          (0.8, -0.6),
+          stroke: 1pt,
+          fill: luma(240),
+        )
+        bezier(
+          (0.7, -1.1),
+          (0, -0.8),
+          (0.4, -1.3),
+          (0.2, -1.0),
+          stroke: 1pt,
+          fill: luma(240),
+        )
         // Đuôi cánh bướm
         line((-0.5, -1.0), (-0.65, -1.45), stroke: 1.2pt)
         circle((-0.65, -1.45), radius: 0.04, fill: black)
@@ -314,7 +410,13 @@
         circle((0, -0.2), radius: (0.07, 0.55), fill: black)
         circle((0, 0.38), radius: 0.09, fill: black)
         // Râu bướm (Antennae)
-        bezier((0, 0.45), (-0.3, 0.85), (-0.05, 0.65), (-0.15, 0.8), stroke: 0.8pt)
+        bezier(
+          (0, 0.45),
+          (-0.3, 0.85),
+          (-0.05, 0.65),
+          (-0.15, 0.8),
+          stroke: 0.8pt,
+        )
         bezier((0, 0.45), (0.3, 0.85), (0.05, 0.65), (0.15, 0.8), stroke: 0.8pt)
         circle((-0.3, 0.85), radius: 0.03, fill: black)
         circle((0.3, 0.85), radius: 0.03, fill: black)
@@ -328,7 +430,11 @@
       #cetz.canvas(length: 1cm, x: 1.5, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         // Mũi tên nằm ngang (3 cm)
         line((-1, 1.3), (1, 1.3), mark: (end: "stealth"), stroke: 0.7pt)
         content((0, 1.6), [3 cm])
@@ -336,17 +442,73 @@
         line((-1.3, -1.5), (-1.3, 1), mark: (end: "stealth"), stroke: 0.7pt)
         content((-1.9, -0.3), [2,5 cm])
         // Cánh trên bên trái
-        bezier((0, 0.2), (-1.0, 0.9), (-0.3, 0.8), (-0.8, 1.0), stroke: 1pt, fill: luma(230))
-        bezier((-1.0, 0.9), (0, -0.2), (-1.1, 0.3), (-0.4, -0.1), stroke: 1pt, fill: luma(230))
+        bezier(
+          (0, 0.2),
+          (-1.0, 0.9),
+          (-0.3, 0.8),
+          (-0.8, 1.0),
+          stroke: 1pt,
+          fill: luma(230),
+        )
+        bezier(
+          (-1.0, 0.9),
+          (0, -0.2),
+          (-1.1, 0.3),
+          (-0.4, -0.1),
+          stroke: 1pt,
+          fill: luma(230),
+        )
         // Cánh trên bên phải
-        bezier((0, 0.2), (1.0, 0.9), (0.3, 0.8), (0.8, 1.0), stroke: 1pt, fill: luma(230))
-        bezier((1.0, 0.9), (0, -0.2), (1.1, 0.3), (0.4, -0.1), stroke: 1pt, fill: luma(230))
+        bezier(
+          (0, 0.2),
+          (1.0, 0.9),
+          (0.3, 0.8),
+          (0.8, 1.0),
+          stroke: 1pt,
+          fill: luma(230),
+        )
+        bezier(
+          (1.0, 0.9),
+          (0, -0.2),
+          (1.1, 0.3),
+          (0.4, -0.1),
+          stroke: 1pt,
+          fill: luma(230),
+        )
         // Cánh dưới bên trái
-        bezier((0, -0.1), (-0.7, -1.1), (-0.6, -0.2), (-0.8, -0.6), stroke: 1pt, fill: luma(240))
-        bezier((-0.7, -1.1), (0, -0.8), (-0.4, -1.3), (-0.2, -1.0), stroke: 1pt, fill: luma(240))
+        bezier(
+          (0, -0.1),
+          (-0.7, -1.1),
+          (-0.6, -0.2),
+          (-0.8, -0.6),
+          stroke: 1pt,
+          fill: luma(240),
+        )
+        bezier(
+          (-0.7, -1.1),
+          (0, -0.8),
+          (-0.4, -1.3),
+          (-0.2, -1.0),
+          stroke: 1pt,
+          fill: luma(240),
+        )
         // Cánh dưới bên phải
-        bezier((0, -0.1), (0.7, -1.1), (0.6, -0.2), (0.8, -0.6), stroke: 1pt, fill: luma(240))
-        bezier((0.7, -1.1), (0, -0.8), (0.4, -1.3), (0.2, -1.0), stroke: 1pt, fill: luma(240))
+        bezier(
+          (0, -0.1),
+          (0.7, -1.1),
+          (0.6, -0.2),
+          (0.8, -0.6),
+          stroke: 1pt,
+          fill: luma(240),
+        )
+        bezier(
+          (0.7, -1.1),
+          (0, -0.8),
+          (0.4, -1.3),
+          (0.2, -1.0),
+          stroke: 1pt,
+          fill: luma(240),
+        )
         // Đuôi cánh bướm
         line((-0.5, -1.0), (-0.65, -1.45), stroke: 1.2pt)
         circle((-0.65, -1.45), radius: 0.04, fill: black)
@@ -361,7 +523,13 @@
         circle((0, -0.2), radius: (0.07, 0.55), fill: black)
         circle((0, 0.38), radius: 0.09, fill: black)
         // Râu bướm (Antennae)
-        bezier((0, 0.45), (-0.3, 0.85), (-0.05, 0.65), (-0.15, 0.8), stroke: 0.8pt)
+        bezier(
+          (0, 0.45),
+          (-0.3, 0.85),
+          (-0.05, 0.65),
+          (-0.15, 0.8),
+          stroke: 0.8pt,
+        )
         bezier((0, 0.45), (0.3, 0.85), (0.05, 0.65), (0.15, 0.8), stroke: 0.8pt)
         circle((-0.3, 0.85), radius: 0.03, fill: black)
         circle((0.3, 0.85), radius: 0.03, fill: black)
@@ -375,7 +543,11 @@
       #cetz.canvas(length: 1.4cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         // Mũi tên nằm ngang (2,8 cm)
         line((-1, 1.2), (1, 1.2), mark: (end: "stealth"), stroke: 0.7pt)
         content((0, 1.4), [2,8 cm])
@@ -383,17 +555,73 @@
         line((-1.3, -1.5), (-1.3, 1), mark: (end: "stealth"), stroke: 0.7pt)
         content((-1.7, -0.3), [3,5 cm])
         // Cánh trên bên trái
-        bezier((0, 0.2), (-1.0, 0.9), (-0.3, 0.8), (-0.8, 1.0), stroke: 1pt, fill: luma(230))
-        bezier((-1.0, 0.9), (0, -0.2), (-1.1, 0.3), (-0.4, -0.1), stroke: 1pt, fill: luma(230))
+        bezier(
+          (0, 0.2),
+          (-1.0, 0.9),
+          (-0.3, 0.8),
+          (-0.8, 1.0),
+          stroke: 1pt,
+          fill: luma(230),
+        )
+        bezier(
+          (-1.0, 0.9),
+          (0, -0.2),
+          (-1.1, 0.3),
+          (-0.4, -0.1),
+          stroke: 1pt,
+          fill: luma(230),
+        )
         // Cánh trên bên phải
-        bezier((0, 0.2), (1.0, 0.9), (0.3, 0.8), (0.8, 1.0), stroke: 1pt, fill: luma(230))
-        bezier((1.0, 0.9), (0, -0.2), (1.1, 0.3), (0.4, -0.1), stroke: 1pt, fill: luma(230))
+        bezier(
+          (0, 0.2),
+          (1.0, 0.9),
+          (0.3, 0.8),
+          (0.8, 1.0),
+          stroke: 1pt,
+          fill: luma(230),
+        )
+        bezier(
+          (1.0, 0.9),
+          (0, -0.2),
+          (1.1, 0.3),
+          (0.4, -0.1),
+          stroke: 1pt,
+          fill: luma(230),
+        )
         // Cánh dưới bên trái
-        bezier((0, -0.1), (-0.7, -1.1), (-0.6, -0.2), (-0.8, -0.6), stroke: 1pt, fill: luma(240))
-        bezier((-0.7, -1.1), (0, -0.8), (-0.4, -1.3), (-0.2, -1.0), stroke: 1pt, fill: luma(240))
+        bezier(
+          (0, -0.1),
+          (-0.7, -1.1),
+          (-0.6, -0.2),
+          (-0.8, -0.6),
+          stroke: 1pt,
+          fill: luma(240),
+        )
+        bezier(
+          (-0.7, -1.1),
+          (0, -0.8),
+          (-0.4, -1.3),
+          (-0.2, -1.0),
+          stroke: 1pt,
+          fill: luma(240),
+        )
         // Cánh dưới bên phải
-        bezier((0, -0.1), (0.7, -1.1), (0.6, -0.2), (0.8, -0.6), stroke: 1pt, fill: luma(240))
-        bezier((0.7, -1.1), (0, -0.8), (0.4, -1.3), (0.2, -1.0), stroke: 1pt, fill: luma(240))
+        bezier(
+          (0, -0.1),
+          (0.7, -1.1),
+          (0.6, -0.2),
+          (0.8, -0.6),
+          stroke: 1pt,
+          fill: luma(240),
+        )
+        bezier(
+          (0.7, -1.1),
+          (0, -0.8),
+          (0.4, -1.3),
+          (0.2, -1.0),
+          stroke: 1pt,
+          fill: luma(240),
+        )
         // Đuôi cánh bướm
         line((-0.5, -1.0), (-0.65, -1.45), stroke: 1.2pt)
         circle((-0.65, -1.45), radius: 0.04, fill: black)
@@ -408,7 +636,13 @@
         circle((0, -0.2), radius: (0.07, 0.55), fill: black)
         circle((0, 0.38), radius: 0.09, fill: black)
         // Râu bướm (Antennae)
-        bezier((0, 0.45), (-0.3, 0.85), (-0.05, 0.65), (-0.15, 0.8), stroke: 0.8pt)
+        bezier(
+          (0, 0.45),
+          (-0.3, 0.85),
+          (-0.05, 0.65),
+          (-0.15, 0.8),
+          stroke: 0.8pt,
+        )
         bezier((0, 0.45), (0.3, 0.85), (0.05, 0.65), (0.15, 0.8), stroke: 0.8pt)
         circle((-0.3, 0.85), radius: 0.03, fill: black)
         circle((0.3, 0.85), radius: 0.03, fill: black)

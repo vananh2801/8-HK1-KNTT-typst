@@ -82,7 +82,9 @@
 
 #bt()[
   Cho các biểu thức sau:
-  $ a b^2 - pi r^2; (4 pi r^3)/3; p/(2 pi); 2x - 1/y; 0; -1/sqrt(3); x^3 + 2x^2 - x + 4. $
+  $
+    a b^2 - pi r^2; (4 pi r^3)/3; p/(2 pi); 2x - 1/y; 0; -1/sqrt(3); x^3 + 2x^2 - x + 4.
+  $
   Trong các biểu thức trên, hãy chỉ ra:
   #listEX()[
     + Các đơn thức.
@@ -107,7 +109,11 @@
     #cetz.canvas(length: 1cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 2pt),
+      )
       let A = (0, 0)
       let B = (3, 0)
       let C = (6, -2.5)
@@ -141,7 +147,11 @@
     #cetz.canvas(length: 1cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 2pt),
+      )
       let A = (0, 0)
       let B = (5, 0)
       let C = (5, -4)

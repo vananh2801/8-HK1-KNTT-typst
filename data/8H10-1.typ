@@ -58,25 +58,39 @@
     right-angle(C_mid, B, C, radius: 0.2, label: none)
     right-angle(C_mid, A, S, radius: 0.2, label: none)
     // Đỉnh
-    line((S.at(0) + 1.3, S.at(1) + 0), (S.at(0) + 0.2, S.at(1) + 0), mark: (end: "stealth"))
+    line((S.at(0) + 1.3, S.at(1) + 0), (S.at(0) + 0.2, S.at(1) + 0), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) + 1.4, S.at(1) + 0), [Đỉnh], anchor: "west")
     // Đường cao
-    line((S.at(0) + 1.3, S.at(1) - 1), (S.at(0) + 0.2, S.at(1) - 1.8), mark: (end: "stealth"))
+    line((S.at(0) + 1.3, S.at(1) - 1), (S.at(0) + 0.2, S.at(1) - 1.8), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) + 1.4, S.at(1) - 1), [Đường cao], anchor: "west")
     // Mặt bên
-    line((S.at(0) + 2.5, S.at(1) - 2), (S.at(0) + 1, S.at(1) - 3), mark: (end: "stealth"))
+    line((S.at(0) + 2.5, S.at(1) - 2), (S.at(0) + 1, S.at(1) - 3), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) + 2.6, S.at(1) - 2), [Mặt bên], anchor: "west")
     // Cạnh đáy
-    line((S.at(0) + 2.0, S.at(1) - 7), (S.at(0) + 1, S.at(1) - 5.7), mark: (end: "stealth"))
+    line((S.at(0) + 2.0, S.at(1) - 7), (S.at(0) + 1, S.at(1) - 5.7), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) + 2.1, S.at(1) - 7), [Cạnh đáy], anchor: "west")
     // Cạnh bên
-    line((S.at(0) - 1.5, S.at(1) - 1), (S.at(0) - 1, S.at(1) - 1.6), mark: (end: "stealth"))
+    line((S.at(0) - 1.5, S.at(1) - 1), (S.at(0) - 1, S.at(1) - 1.6), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) - 1.6, S.at(1) - 1), [Cạnh bên], anchor: "east")
     // Trung đoạn
-    line((S.at(0) - 1.5, S.at(1) - 2), (S.at(0) - 1, S.at(1) - 2.9), mark: (end: "stealth"))
+    line((S.at(0) - 1.5, S.at(1) - 2), (S.at(0) - 1, S.at(1) - 2.9), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) - 1.6, S.at(1) - 2), [Trung đoạn], anchor: "east")
     // Mặt đáy
-    line((S.at(0) - 2.5, S.at(1) - 6.5), (S.at(0) - 1.2, S.at(1) - 6), mark: (end: "stealth"))
+    line((S.at(0) - 2.5, S.at(1) - 6.5), (S.at(0) - 1.2, S.at(1) - 6), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) - 2.6, S.at(1) - 6.5), [Mặt đáy], anchor: "east")
   })
 ]
@@ -124,7 +138,13 @@
       content(M_mid, $I$, anchor: "north-west", padding: 3pt)
       right-angle(M_mid, P, S, radius: 0.4, label: none)
       content((S, 50%, P), [5 cm], angle: -50deg, anchor: "south", padding: 4pt)
-      content((M_mid, 50%, P), [5 cm], angle: 35deg, anchor: "north", padding: 3pt)
+      content(
+        (M_mid, 50%, P),
+        [5 cm],
+        angle: 35deg,
+        anchor: "north",
+        padding: 3pt,
+      )
     })
   ]
   #loigiai()[
@@ -208,14 +228,23 @@
       columns: (3cm, 2cm, 3cm, 3cm, 3cm, 2cm),
       inset: 8pt,
       align: center + horizon,
-      [*Hình*], [*Đáy*], [*Mặt bên*], [*Số cạnh đáy*], [*Số cạnh bên*], [*Số mặt*],
+      [*Hình*],
+      [*Đáy*],
+      [*Mặt bên*],
+      [*Số cạnh đáy*],
+      [*Số cạnh bên*],
+      [*Số mặt*],
+
       [
         #import "@preview/cetz:0.5.2"
         #set text(size: 10pt)
         #cetz.canvas(length: 0.4cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           let M = (0, 0)
           let N = (1.2, -3)
           let P = (6, 0)
@@ -297,8 +326,20 @@
       right-angle(B_mid, A, B, radius: 0.3, label: none)
       right-angle(C_mid, B, C, radius: 0.3, label: none)
       content((H, 50%, O), [18 cm], anchor: "north", padding: 5pt, angle: 90deg)
-      content((H, 50%, C), [20 cm], anchor: "south", padding: 5pt, angle: -45deg)
-      content((A, 50%, B), [15 cm], anchor: "north", padding: 5pt, angle: -70deg)
+      content(
+        (H, 50%, C),
+        [20 cm],
+        anchor: "south",
+        padding: 5pt,
+        angle: -45deg,
+      )
+      content(
+        (A, 50%, B),
+        [15 cm],
+        anchor: "north",
+        padding: 5pt,
+        angle: -70deg,
+      )
     })
   ]
 ]
@@ -356,11 +397,32 @@
         let P2 = (3 * calc.cos(-30deg), 3 * calc.sin(-30deg))
         let P3 = (3 * calc.cos(210deg), 3 * calc.sin(210deg))
         // Miền 1 (Cam) tương ứng pattern orange
-        line(O, P1, P2, close: true, fill: orange.lighten(50%), stroke: 1pt + orange)
+        line(
+          O,
+          P1,
+          P2,
+          close: true,
+          fill: orange.lighten(50%),
+          stroke: 1pt + orange,
+        )
         // Miền 2 (Xanh dương) tương ứng pattern blue
-        line(O, P1, P3, close: true, fill: blue.lighten(50%), stroke: 1pt + blue)
+        line(
+          O,
+          P1,
+          P3,
+          close: true,
+          fill: blue.lighten(50%),
+          stroke: 1pt + blue,
+        )
         // Miền 3 (Xanh lá) tương ứng pattern green
-        line(O, P3, P2, close: true, fill: green.lighten(50%), stroke: 1pt + green)
+        line(
+          O,
+          P3,
+          P2,
+          close: true,
+          fill: green.lighten(50%),
+          stroke: 1pt + green,
+        )
       })
     ]
     #h(2cm)
@@ -370,7 +432,11 @@
       #cetz.canvas(length: 0.4cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 5pt))
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          content: (padding: 5pt),
+        )
         let D = (-1, 0)
         let E = (1, -3)
         let F = (6, 0)
@@ -420,7 +486,11 @@
     #cetz.canvas(length: 0.6cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 5pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 5pt),
+      )
       let D = (-1, 0)
       let E = (1, -3)
       let F = (6, 0)

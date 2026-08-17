@@ -45,14 +45,24 @@
       #cetz.canvas(length: 0.5cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         let scale = 1.6
         let B = (0, 3)
         let A = (0, 0)
         let C = (4, 0)
         let Ap = (7, 0)
-        let Bp = (Ap.at(0) + (B.at(0) - A.at(0)) * scale, Ap.at(1) + (B.at(1) - A.at(1)) * scale)
-        let Cp = (Ap.at(0) + (C.at(0) - A.at(0)) * scale, Ap.at(1) + (C.at(1) - A.at(1)) * scale)
+        let Bp = (
+          Ap.at(0) + (B.at(0) - A.at(0)) * scale,
+          Ap.at(1) + (B.at(1) - A.at(1)) * scale,
+        )
+        let Cp = (
+          Ap.at(0) + (C.at(0) - A.at(0)) * scale,
+          Ap.at(1) + (C.at(1) - A.at(1)) * scale,
+        )
         line(A, B, C, A)
         line(Ap, Bp, Cp, Ap)
         right-angle(A, C, B, label: none)
@@ -110,14 +120,24 @@
       #cetz.canvas(length: 0.5cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         let scale = 1.6
         let B = (0, 3)
         let A = (0, 0)
         let C = (4, 0)
         let Ap = (7, 0)
-        let Bp = (Ap.at(0) + (B.at(0) - A.at(0)) * scale, Ap.at(1) + (B.at(1) - A.at(1)) * scale)
-        let Cp = (Ap.at(0) + (C.at(0) - A.at(0)) * scale, Ap.at(1) + (C.at(1) - A.at(1)) * scale)
+        let Bp = (
+          Ap.at(0) + (B.at(0) - A.at(0)) * scale,
+          Ap.at(1) + (B.at(1) - A.at(1)) * scale,
+        )
+        let Cp = (
+          Ap.at(0) + (C.at(0) - A.at(0)) * scale,
+          Ap.at(1) + (C.at(1) - A.at(1)) * scale,
+        )
         line(A, B, C, A)
         line(Ap, Bp, Cp, Ap)
         right-angle(A, C, B, label: none)
@@ -148,7 +168,9 @@
 
 #subsubsection()[Trường hợp đồng dạng đặc biệt của hai tam giác vuông]
 
-#dl(tieude: "Trường hợp đồng dạng cạnh huyền - cạnh góc vuông của hai tam giác vuông")[
+#dl(
+  tieude: "Trường hợp đồng dạng cạnh huyền - cạnh góc vuông của hai tam giác vuông",
+)[
   Nếu cạnh huyền và một cạnh góc vuông của tam giác vuông này tỉ lệ với cạnh huyền và một cạnh góc vuông của tam giác vuông kia thì hai tam giác vuông đó đồng dạng với nhau.
 ]
 
@@ -185,14 +207,24 @@
       #cetz.canvas(length: 0.5cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         let scale = 1.6
         let B = (0, 3)
         let A = (0, 0)
         let C = (4, 0)
         let Ap = (7, 0)
-        let Bp = (Ap.at(0) + (B.at(0) - A.at(0)) * scale, Ap.at(1) + (B.at(1) - A.at(1)) * scale)
-        let Cp = (Ap.at(0) + (C.at(0) - A.at(0)) * scale, Ap.at(1) + (C.at(1) - A.at(1)) * scale)
+        let Bp = (
+          Ap.at(0) + (B.at(0) - A.at(0)) * scale,
+          Ap.at(1) + (B.at(1) - A.at(1)) * scale,
+        )
+        let Cp = (
+          Ap.at(0) + (C.at(0) - A.at(0)) * scale,
+          Ap.at(1) + (C.at(1) - A.at(1)) * scale,
+        )
         line(A, B, C, A)
         line(Ap, Bp, Cp, Ap)
         right-angle(A, C, B, label: none)
@@ -221,7 +253,11 @@
     #cetz.canvas(length: 0.8cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        padding: 5pt,
+      )
       let H = (0, 0)
       let A = (0, 2)
       let C = (0, 3)

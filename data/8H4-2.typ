@@ -16,7 +16,11 @@
     #cetz.canvas(length: 0.45cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        padding: 5pt,
+      )
       let A = (4, 7)
       let B = (2, 1)
       let C = (12, 1)
@@ -70,7 +74,11 @@
       #cetz.canvas(length: 0.5cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         let A = (4, 7)
         let B = (2, 1)
         let C = (12, 1)
@@ -101,7 +109,11 @@
     #cetz.canvas(length: 0.5cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        padding: 5pt,
+      )
       let A = (8, 7)
       let B = (2, 1)
       let C = (12, 1)
@@ -135,7 +147,11 @@
     #cetz.canvas(length: 0.4cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        padding: 5pt,
+      )
       let A = (4, 7)
       let B = (2, 1)
       let C = (12, 1)
@@ -251,7 +267,11 @@
     #cetz.canvas(length: 0.6cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        padding: 5pt,
+      )
       let M = (0, 0)
       let C = (5, 0)
       let D = (4, 4)
@@ -291,14 +311,23 @@
     #cetz.canvas(length: 0.9cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        padding: 5pt,
+      )
       let D = (0, 0)
       let C = (4.9, 0)
       let A = (0.4, 3)
       let B = (3.1, 3)
       let E = (A, 50%, D)
       let F = (B, 50%, C)
-      circle((E, 50%, F), radius: (1.5, 0.6), fill: blue.lighten(90%), stroke: 1pt + blue)
+      circle(
+        (E, 50%, F),
+        radius: (1.5, 0.6),
+        fill: blue.lighten(90%),
+        stroke: 1pt + blue,
+      )
       line(A, B, C, D, A)
       line(E, F, stroke: (dash: "dashed"))
       content((rel: (135deg, 0.3), to: A), [$A$])
@@ -327,7 +356,11 @@
       #cetz.canvas(length: 0.25cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         let B = (0, 0)
         let C = (0, 4)
         let E = (20, 0)
@@ -370,7 +403,11 @@
     #cetz.canvas(length: 0.8cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 2pt, cap: "round", join: "round"), mark: (fill: black), padding: 5pt)
+      set-style(
+        stroke: (thickness: 2pt, cap: "round", join: "round"),
+        mark: (fill: black),
+        padding: 5pt,
+      )
       let S = (0, 0)
       let A = (rel: (-110deg, 2.1), to: S)
       let B = (rel: (-60deg, 2.1), to: S)

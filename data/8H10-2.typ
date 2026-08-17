@@ -22,7 +22,10 @@
   #cetz.canvas(length: 1.2cm, {
     import cetz.draw: *
     import cetz.angle: *
-    set-style(stroke: (thickness: 0.7pt, cap: "round", join: "round"), mark: (fill: black))
+    set-style(
+      stroke: (thickness: 0.7pt, cap: "round", join: "round"),
+      mark: (fill: black),
+    )
     let A = (0, 0)
     let B = (1.7, -1)
     let C = (5, 0)
@@ -57,25 +60,39 @@
     right-angle(O, S, B, radius: 0.2, label: none)
     right-angle(H, S, B, radius: 0.2, label: none)
     // Đỉnh
-    line((S.at(0) + 1.3, S.at(1) + 0), (S.at(0) + 0.2, S.at(1) + 0), mark: (end: "stealth"))
+    line((S.at(0) + 1.3, S.at(1) + 0), (S.at(0) + 0.2, S.at(1) + 0), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) + 1.4, S.at(1) + 0), [Đỉnh], anchor: "west")
     // Đường cao
-    line((S.at(0) + 1.3, S.at(1) - 1), (S.at(0) + 0.05, S.at(1) - 2), mark: (end: "stealth"))
+    line((S.at(0) + 1.3, S.at(1) - 1), (S.at(0) + 0.05, S.at(1) - 2), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) + 1.4, S.at(1) - 1), [Đường cao], anchor: "west")
     // Mặt bên
-    line((S.at(0) + 2.5, S.at(1) - 2), (S.at(0) + 1, S.at(1) - 2), mark: (end: "stealth"))
+    line((S.at(0) + 2.5, S.at(1) - 2), (S.at(0) + 1, S.at(1) - 2), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) + 2.6, S.at(1) - 2), [Mặt bên], anchor: "west")
     // Trung đoạn
-    line((S.at(0) - 1.5, S.at(1) - 2), (S.at(0) - 1, S.at(1) - 2.6), mark: (end: "stealth"))
+    line((S.at(0) - 1.5, S.at(1) - 2), (S.at(0) - 1, S.at(1) - 2.6), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) - 1.6, S.at(1) - 2), [Trung đoạn], anchor: "east")
     // Cạnh đáy
-    line((S.at(0) + 2.0, S.at(1) - 5.5), (S.at(0) + 1.4, S.at(1) - 4.4), mark: (end: "stealth"))
+    line((S.at(0) + 2.0, S.at(1) - 5.5), (S.at(0) + 1.4, S.at(1) - 4.4), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) + 2.1, S.at(1) - 5.5), [Cạnh đáy], anchor: "west")
     // Cạnh bên
-    line((S.at(0) - 1.5, S.at(1) - 1), (S.at(0) - 1, S.at(1) - 1.6), mark: (end: "stealth"))
+    line((S.at(0) - 1.5, S.at(1) - 1), (S.at(0) - 1, S.at(1) - 1.6), mark: (
+      end: "stealth",
+    ))
     content((S.at(0) - 1.6, S.at(1) - 1), [Cạnh bên], anchor: "east")
     // Mặt đáy
-    line((S.at(0), S.at(1) - 5.4), (S.at(0), S.at(1) - 4.4), mark: (end: "stealth"))
+    line((S.at(0), S.at(1) - 5.4), (S.at(0), S.at(1) - 4.4), mark: (
+      end: "stealth",
+    ))
     content((S.at(0), S.at(1) - 5.5), [Mặt đáy], anchor: "north")
   })
 ]
@@ -98,7 +115,11 @@
     #cetz.canvas(length: 1.3cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round", join: "round"), mark: (fill: black), content: (padding: 2pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round", join: "round"),
+        mark: (fill: black),
+        content: (padding: 2pt),
+      )
       let O = (0, 0)
       let A = (3, 0)
       let B = (calc.cos(60deg) * 3, calc.sin(60deg) * 3)
@@ -156,7 +177,13 @@
       columns: (auto, auto, auto, auto, auto, auto),
       inset: 8pt,
       align: center + horizon,
-      [*Hình*], [*Đáy*], [*Mặt bên*], [*Số cạnh đáy*], [*Số cạnh bên*], [*Số mặt*],
+      [*Hình*],
+      [*Đáy*],
+      [*Mặt bên*],
+      [*Số cạnh đáy*],
+      [*Số cạnh bên*],
+      [*Số mặt*],
+
       [
         #import "@preview/cetz:0.5.2"
         #set text(size: 10pt)
@@ -199,7 +226,11 @@
       #cetz.canvas(length: 1.2cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 3pt))
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          content: (padding: 3pt),
+        )
         let O = (0, 0)
         let A = (2, 0.5)
         let B = (1, -0.5)
@@ -226,7 +257,11 @@
       #cetz.canvas(length: 1.2cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 3pt))
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          content: (padding: 3pt),
+        )
         let S = (0, -2)
         let O = (0, 0)
         let A = (-2, -0.5)
@@ -242,7 +277,11 @@
         line(S, D, stroke: (dash: "dashed"))
         line(S, O, stroke: (dash: "dashed"))
         line(S, H, stroke: (dash: "dashed"))
-        content((C.at(0) / 2 + D.at(0) / 2, C.at(1) / 2 + D.at(1) / 2), [10 cm], anchor: "south")
+        content(
+          (C.at(0) / 2 + D.at(0) / 2, C.at(1) / 2 + D.at(1) / 2),
+          [10 cm],
+          anchor: "south",
+        )
         content((S, 45%, H), [13 cm], anchor: "south", angle: -100deg)
       })
   ]
@@ -282,7 +321,10 @@
           A4: (320deg, 3),
         )
         ctz-draw-line("A4", "O", "A1", "A2", "A3")
-        ctz-draw-line("A2", "O", "A3", "A4", stroke: (dash: "dashed", paint: blue))
+        ctz-draw-line("A2", "O", "A3", "A4", stroke: (
+          dash: "dashed",
+          paint: blue,
+        ))
         ctz-def-rotation("B1", "A3", "A4", 90)
         ctz-def-rotation("B2", "A4", "B1", 90)
         ctz-draw-line("A4", "B1", "B2", "A3")
@@ -301,7 +343,10 @@
           A5: (350deg, 3),
         )
         ctz-draw-line("A4", "A5", "O", "A1", "A2", "A3")
-        ctz-draw-line("A2", "O", "A3", "A4", "O", stroke: (dash: "dashed", paint: blue))
+        ctz-draw-line("A2", "O", "A3", "A4", "O", stroke: (
+          dash: "dashed",
+          paint: blue,
+        ))
         ctz-def-rotation("B1", "A3", "A4", 90)
         ctz-def-rotation("B2", "A4", "B1", 90)
         ctz-draw-line("A4", "B1", "B2", "A3")
@@ -325,7 +370,10 @@
         )
         ctz-def-rotation("B4", "O", "B3", 90)
         ctz-draw-line("A4", "O", "A1")
-        ctz-draw-line("A3", "O", "A2", "A1", "B2", stroke: (dash: "dashed", paint: blue))
+        ctz-draw-line("A3", "O", "A2", "A1", "B2", stroke: (
+          dash: "dashed",
+          paint: blue,
+        ))
         ctz-draw-line("A4", "A3", "A2", "B1", "B2", "B4", "A1")
       })
     + #import "@preview/ctz-euclide:0.2.0": *
@@ -341,7 +389,10 @@
           A4: (180deg, 3),
         )
         ctz-draw-line("A2", "A1", "O", "A4", "A3")
-        ctz-draw-line("A2", "O", "A3", "A2", stroke: (dash: "dashed", paint: blue))
+        ctz-draw-line("A2", "O", "A3", "A2", stroke: (
+          dash: "dashed",
+          paint: blue,
+        ))
         ctz-def-rotation("B1", "A1", "A2", 135)
         ctz-def-rotation("B2", "A4", "A3", -135)
         ctz-draw-line("A2", "B1", "B2")
@@ -384,7 +435,11 @@
     #cetz.canvas(length: 1cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 5pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 5pt),
+      )
       let A = (0, 0)
       let B = (2, -1)
       let C = (5, 0)
@@ -427,7 +482,11 @@
     #cetz.canvas(length: 0.8cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 5pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 5pt),
+      )
       let A = (-1, 0.5)
       let B = (-2, -0.5)
       let C = (1, -0.5)
@@ -467,7 +526,11 @@
     #cetz.canvas(length: 0.9cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 3pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 3pt),
+      )
       let O = (0, 0)
       let A = (-1, 0.5)
       let B = (-2, -0.5)
@@ -484,8 +547,17 @@
       line(A, C, stroke: (dash: "dashed"))
       line(B, D, stroke: (dash: "dashed"))
       line(S, O, stroke: (dash: "dashed"))
-      content((B.at(0) / 2 + C.at(0) / 2, B.at(1) / 2 + C.at(1) / 2), [5 cm], anchor: "north")
-      content((S.at(0) / 2 + O.at(0) / 2, S.at(1) / 2 + O.at(1) / 2), [3 cm], anchor: "south", angle: 90deg)
+      content(
+        (B.at(0) / 2 + C.at(0) / 2, B.at(1) / 2 + C.at(1) / 2),
+        [5 cm],
+        anchor: "north",
+      )
+      content(
+        (S.at(0) / 2 + O.at(0) / 2, S.at(1) / 2 + O.at(1) / 2),
+        [3 cm],
+        anchor: "south",
+        angle: 90deg,
+      )
       content(O, [$O$], anchor: "north")
       content(A, [$A$], anchor: "east")
       content(B, [$B$], anchor: "north-east")
@@ -521,7 +593,11 @@
     #cetz.canvas(length: 0.9cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 2pt),
+      )
       let S = (0, 2.2)
       let A = (-1, 0.2)
       let B = (-2, -0.2)
@@ -559,7 +635,11 @@
     #cetz.canvas(length: 1.4cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 2pt),
+      )
       let S = (0, 2)
       let O = (0, 0)
       let A = (-2, 0.3)
@@ -623,7 +703,11 @@
       #cetz.canvas(length: 1.4cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 3pt))
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          content: (padding: 3pt),
+        )
         let O = (0, 0)
         let A = (-1, 0.5)
         let B = (-2, -0.5)
@@ -642,7 +726,11 @@
         line(A, C, stroke: (dash: "dashed"))
         line(B, D, stroke: (dash: "dashed"))
         line(S, O, stroke: (dash: "dashed"))
-        content((B.at(0) / 2 + C.at(0) / 2, B.at(1) / 2 + C.at(1) / 2), [180 m], anchor: "north")
+        content(
+          (B.at(0) / 2 + C.at(0) / 2, B.at(1) / 2 + C.at(1) / 2),
+          [180 m],
+          anchor: "north",
+        )
         content(
           (S.at(0) / 2 + I.at(0) / 2, S.at(1) / 2 + I.at(1) / 2),
           [133 m],

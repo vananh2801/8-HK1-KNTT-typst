@@ -42,8 +42,8 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
     Ta có:
     $
       (-4x y) dot (2x^2 + x y - y^2) & = (-4x y)(2x^2) + (-4x y)(x y) + (-4x y)(-y^2) \
-                                     & = (-4) dot 2 (x y)x^2 - 4(x y)(x y) + 4(x y)y^2 \
-                                     & = -8x^3 y - 4x^2 y^2 + 4x y^3.
+      & = (-4) dot 2 (x y)x^2 - 4(x y)(x y) + 4(x y)y^2 \
+      & = -8x^3 y - 4x^2 y^2 + 4x y^3.
     $
   ]
 ]
@@ -60,8 +60,8 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
     Ta có:
     $
       (2x y^2-z) dot (3x^2 z+x y) & = 2x y^2(3x^2 z+x y)-z(3x^2 z+x y) \
-                                  & = 2x y^2 dot 3x^2 z+2x y^2 dot x y-z dot 3x^2 z-z dot x y \
-                                  & = 6x^3 y^2 z+2x^2 y^3-3x^2 z^2-x y z.
+      & = 2x y^2 dot 3x^2 z+2x y^2 dot x y-z dot 3x^2 z-z dot x y \
+      & = 6x^3 y^2 z+2x^2 y^3-3x^2 z^2-x y z.
     $
   ]
 ]
@@ -242,7 +242,11 @@ Các tính chất này áp dụng tương tự cho phép cộng đa thức.
     #cetz.canvas(length: 0.4cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 2pt),
+      )
       let A = (0, 0)
       let B = (0, 6)
       let C = (8, 0)

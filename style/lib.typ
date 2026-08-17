@@ -13,7 +13,9 @@
       let page_num = counter(page).get().first()
       let section = current_section_title.get()
       let chapter = current_chapter_title.get()
-      let current = if section == none or calc.odd(page_num) { chapter } else { section }
+      let current = if section == none or calc.odd(page_num) { chapter } else {
+        section
+      }
       [
         #show linebreak: [ ]
         #line(stroke: 1pt + red.darken(30%), length: 100%)
@@ -93,18 +95,34 @@
     set text(size: 24pt, weight: "bold")
     // Kiểm tra nếu tiêu đề KHÔNG có đánh số (ví dụ: Mục lục, Lời nói đầu)
     if it.numbering == none {
-      block(width: auto, above: 1.5em, below: 2em, fill: red.lighten(80%), inset: 10pt, radius: 5pt)[
+      block(
+        width: auto,
+        above: 1.5em,
+        below: 2em,
+        fill: red.lighten(80%),
+        inset: 10pt,
+        radius: 5pt,
+      )[
         #upper(it.body)
       ]
       current_chapter_title.update(it.body)
       current_section_title.update(none)
     } else {
       // Nếu tiêu đề CÓ đánh số (Chương 1, 2...)
-      block(width: auto, above: 1.5em, below: 1em, fill: red.lighten(80%), inset: 10pt, radius: 5pt)[
+      block(
+        width: auto,
+        above: 1.5em,
+        below: 1em,
+        fill: red.lighten(80%),
+        inset: 10pt,
+        radius: 5pt,
+      )[
         Chương #counter(heading).display()
       ]
       upper(it.body)
-      current_chapter_title.update("Chương " + str(counter(heading).display()) + ". " + it.body)
+      current_chapter_title.update(
+        "Chương " + str(counter(heading).display()) + ". " + it.body,
+      )
       current_section_title.update(none)
     }
     counter("dn_count").update(0)
@@ -121,14 +139,26 @@
   // section - Bài dạy
   show heading.where(level: 2): it => context {
     pagebreak(weak: true)
-    block(above: 1.5em, below: 1em, width: 100%, radius: 8pt, inset: 12pt, stroke: 1pt + red)[
+    block(
+      above: 1.5em,
+      below: 1em,
+      width: 100%,
+      radius: 8pt,
+      inset: 12pt,
+      stroke: 1pt + red,
+    )[
       #set text(size: 12pt, weight: "bold")
       #box(
         fill: red.lighten(80%),
         inset: 5pt,
         radius: 5pt,
       )[
-        #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "semibold")
+        #set text(
+          fill: black,
+          font: "JetBrains Mono",
+          size: 10pt,
+          weight: "semibold",
+        )
         Chương #numbering("I", counter(heading).get().first())
       ]
       #h(0.2em)
@@ -137,9 +167,16 @@
         inset: 5pt,
         radius: 5pt,
       )[
-        #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "semibold")
+        #set text(
+          fill: black,
+          font: "JetBrains Mono",
+          size: 10pt,
+          weight: "semibold",
+        )
         Bài #counter(heading).get().last()
-        #current_section_title.update("Bài " + str(counter(heading).get().last()) + ". " + it.body)
+        #current_section_title.update(
+          "Bài " + str(counter(heading).get().last()) + ". " + it.body,
+        )
       ]
       #align(center)[
         #set text(size: 14pt, weight: "bold")
@@ -168,7 +205,13 @@
       #let dynamic_width = calc.max(20pt, measure(count).width + 10pt)
       #set text(size: 14pt, weight: "bold")
       #set par(justify: true)
-      #box(fill: green.lighten(70%), inset: 5pt, radius: 5pt, height: 20pt, width: dynamic_width)[#h(1fr)#count#h(1fr)]
+      #box(
+        fill: green.lighten(70%),
+        inset: 5pt,
+        radius: 5pt,
+        height: 20pt,
+        width: dynamic_width,
+      )[#h(1fr)#count#h(1fr)]
       #h(0.4em)
       #it.body
     ]
@@ -184,7 +227,13 @@
       #let count = numbering("1", counter(heading).get().last())
       #let dynamic_width = calc.max(20pt, measure(count).width + 10pt)
       #set par(justify: true)
-      #box(fill: green.lighten(70%), inset: 5pt, radius: 5pt, height: 20pt, width: dynamic_width)[#h(1fr)#count#h(1fr)]
+      #box(
+        fill: green.lighten(70%),
+        inset: 5pt,
+        radius: 5pt,
+        height: 20pt,
+        width: dynamic_width,
+      )[#h(1fr)#count#h(1fr)]
       #h(0.4em)
       #it.body
     ]
@@ -276,7 +325,14 @@
 }
 
 // Lý thuyết
-#let lythuyetContentF(body, fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
+#let lythuyetContentF(
+  body,
+  fulllabel: none,
+  shortlabel: none,
+  label: none,
+  title: none,
+  count: none,
+) = [
   #immini_at_start_state.update(false)
   #let chapter_count = context { counter(heading).get().at(0) }
   #let section_count = context { counter(heading).get().at(01) }
@@ -294,15 +350,30 @@
     [
       #h(1em)
       #box(width: auto, fill: red.lighten(80%), radius: 4pt, inset: 4pt)[
-        #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "semibold")
+        #set text(
+          fill: black,
+          font: "JetBrains Mono",
+          size: 10pt,
+          weight: "semibold",
+        )
         #chapter_count.#section_count.#count
       ]
       #box(width: auto)[
-        #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "bold")
+        #set text(
+          fill: black,
+          font: "JetBrains Mono",
+          size: 10pt,
+          weight: "bold",
+        )
         |
       ]
       #box(width: auto, fill: blue.lighten(80%), radius: 4pt, inset: 4pt)[
-        #set text(fill: black, font: "JetBrains Mono", size: 10pt, weight: "semibold")
+        #set text(
+          fill: black,
+          font: "JetBrains Mono",
+          size: 10pt,
+          weight: "semibold",
+        )
         #label
       ]
     ],
@@ -311,7 +382,13 @@
   // Xuất nội dung
   #body
 ]
-#let lythuyetImminiF(fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
+#let lythuyetImminiF(
+  fulllabel: none,
+  shortlabel: none,
+  label: none,
+  title: none,
+  count: none,
+) = [
   #strong[#shortlabel]
 ]
 #let lythuyetBoxF(body) = {
@@ -337,11 +414,24 @@
   )[#body]
 }
 
-#let baitapImminiF(fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
+#let baitapImminiF(
+  fulllabel: none,
+  shortlabel: none,
+  label: none,
+  title: none,
+  count: none,
+) = [
   #strong[#shortlabel]
 ]
 
-#let baitapContentF(body, fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
+#let baitapContentF(
+  body,
+  fulllabel: none,
+  shortlabel: none,
+  label: none,
+  title: none,
+  count: none,
+) = [
   // In đậm Tiêu đề
   #strong[#shortlabel]
   // Xuất nội dung
@@ -352,7 +442,14 @@
   }
 ]
 
-#let dlcontentF(body, fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
+#let dlcontentF(
+  body,
+  fulllabel: none,
+  shortlabel: none,
+  label: none,
+  title: none,
+  count: none,
+) = [
   // In đậm Tiêu đề
   #strong[#fulllabel]
   // In nghiêng nội dung

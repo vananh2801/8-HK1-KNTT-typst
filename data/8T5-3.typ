@@ -30,7 +30,11 @@
     #cetz.canvas(length: 0.9cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 3pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 3pt),
+      )
       let O = (0, 0)
       let R = 2.6 // Độ rộng
       let arr_value = (0, 60, 75, 85, 100) // Các giá trị
@@ -58,8 +62,20 @@
         )
         content(
           (
-            O.at(0) + calc.cos(90deg - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2) * R * 0.6,
-            O.at(0) + calc.sin(90deg - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2) * R * 0.6,
+            O.at(0)
+              + calc.cos(
+                90deg
+                  - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2,
+              )
+                * R
+                * 0.6,
+            O.at(0)
+              + calc.sin(
+                90deg
+                  - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2,
+              )
+                * R
+                * 0.6,
           ),
           [
             #box(fill: white, inset: 2pt)[
@@ -76,7 +92,12 @@
       }
       content((O.at(0) + R + 1, O.at(1)), anchor: "west")[
         #for i in range(0, arr_name.len()) {
-          box(fill: arr_color.at(i), width: 1cm, height: 0.6cm, stroke: 1pt + black)
+          box(
+            fill: arr_color.at(i),
+            width: 1cm,
+            height: 0.6cm,
+            stroke: 1pt + black,
+          )
           h(1em)
           arr_name.at(i)
           linebreak()
@@ -98,7 +119,11 @@
     #cetz.canvas(length: 1cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 6pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 6pt),
+      )
       let O = (0, 0)
       let W = 10 // Chiều rộng Ox
       let H = 5 // Chiều cao Oy
@@ -128,11 +153,17 @@
         for j in range(0, value.len()) {
           rect(
             (cols-pos * (i + 1) + col-w * (j - value.len() / 2), 0),
-            (cols-pos * (i + 1) + col-w * (j + 1 - value.len() / 2), H / arr_value_max * value.at(j)),
+            (
+              cols-pos * (i + 1) + col-w * (j + 1 - value.len() / 2),
+              H / arr_value_max * value.at(j),
+            ),
             fill: arr_color.at(j),
           )
           content(
-            (cols-pos * (i + 1) + col-w * (j + 0.5 - value.len() / 2), H / arr_value_max * value.at(j)),
+            (
+              cols-pos * (i + 1) + col-w * (j + 0.5 - value.len() / 2),
+              H / arr_value_max * value.at(j),
+            ),
             [#value.at(j)],
             anchor: "south",
           )
@@ -140,9 +171,16 @@
         content((cols-pos * (i + 1), 0), [#arr_X_name.at(i)], anchor: "north")
       }
       for i in range(0, calc.ceil(arr_value_max / y_step) + 1) {
-        line((-0.1, H / arr_value_max * i * y_step), (0.1, H / arr_value_max * i * y_step))
+        line(
+          (-0.1, H / arr_value_max * i * y_step),
+          (0.1, H / arr_value_max * i * y_step),
+        )
         let curr_value = i * y_step
-        content((0, H / arr_value_max * i * y_step), [#curr_value], anchor: "east")
+        content(
+          (0, H / arr_value_max * i * y_step),
+          [#curr_value],
+          anchor: "east",
+        )
       }
     })
   ]
@@ -161,7 +199,11 @@
     #cetz.canvas(length: 1cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 6pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 6pt),
+      )
       let O = (0, 0)
       let W = 9 // Chiều rộng Ox
       let H = 5 // Chiều cao Oy
@@ -192,11 +234,17 @@
         for j in range(0, value.len()) {
           rect(
             (cols-pos * (i + 1) + col-w * (j - value.len() / 2), 0),
-            (cols-pos * (i + 1) + col-w * (j + 1 - value.len() / 2), H / arr_value_max * value.at(j)),
+            (
+              cols-pos * (i + 1) + col-w * (j + 1 - value.len() / 2),
+              H / arr_value_max * value.at(j),
+            ),
             fill: arr_color.at(j),
           )
           content(
-            (cols-pos * (i + 1) + col-w * (j + 0.5 - value.len() / 2), H / arr_value_max * value.at(j)),
+            (
+              cols-pos * (i + 1) + col-w * (j + 0.5 - value.len() / 2),
+              H / arr_value_max * value.at(j),
+            ),
             [#value.at(j)],
             anchor: "south",
           )
@@ -204,13 +252,25 @@
         content((cols-pos * (i + 1), 0), [#arr_X_name.at(i)], anchor: "north")
       }
       for i in range(0, calc.ceil(arr_value_max / y_step) + 1) {
-        line((-0.1, H / arr_value_max * i * y_step), (0.1, H / arr_value_max * i * y_step))
+        line(
+          (-0.1, H / arr_value_max * i * y_step),
+          (0.1, H / arr_value_max * i * y_step),
+        )
         let curr_value = i * y_step
-        content((0, H / arr_value_max * i * y_step), [#curr_value], anchor: "east")
+        content(
+          (0, H / arr_value_max * i * y_step),
+          [#curr_value],
+          anchor: "east",
+        )
       }
       content((O.at(0) + W + 1, O.at(1) + H / 2), anchor: "west")[
         #for i in range(0, arr_name.len()) {
-          box(fill: arr_color.at(i), width: 1cm, height: 0.6cm, stroke: 1pt + black)
+          box(
+            fill: arr_color.at(i),
+            width: 1cm,
+            height: 0.6cm,
+            stroke: 1pt + black,
+          )
           h(1em)
           arr_name.at(i)
           linebreak()

@@ -51,16 +51,33 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
 #let current_theorem_sochc = counter("current_theorem_sochc")
 #let current_theorem_boxF = state("current_theorem_boxF", (f: body => body))
 
-#let defaultContentF(body, fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
+#let defaultContentF(
+  body,
+  fulllabel: none,
+  shortlabel: none,
+  label: none,
+  title: none,
+  count: none,
+) = [
   #strong[#fulllabel]
   #body
 ]
-#let current_theorem_contentF = state("current_theorem_contentF", (f: defaultContentF))
+#let current_theorem_contentF = state("current_theorem_contentF", (
+  f: defaultContentF,
+))
 
-#let defaultImminiF(fulllabel: none, shortlabel: none, label: none, title: none, count: none) = [
+#let defaultImminiF(
+  fulllabel: none,
+  shortlabel: none,
+  label: none,
+  title: none,
+  count: none,
+) = [
   #strong[#fulllabel]
 ]
-#let current_theorem_imminiF = state("current_theorem_imminiF", (f: defaultImminiF))
+#let current_theorem_imminiF = state("current_theorem_imminiF", (
+  f: defaultImminiF,
+))
 
 // Câu hỏi con
 #let current_chc_label = state("current_chc_label", none)
@@ -89,7 +106,10 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
 }
 
 // Lệnh để soạn chc cho đề Đánh giá năng lực
-#let fromchc = state("fromchc", "Dựa vào thông tin dưới đây để trả lời các câu từ")
+#let fromchc = state(
+  "fromchc",
+  "Dựa vào thông tin dưới đây để trả lời các câu từ",
+)
 #let tochc = state("tochc", "đến")
 
 // Khai báo các lệnh thay thế latex
@@ -170,7 +190,9 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
   // Xuất nội dung
   if items.len() == 4 {
     parbreak()
-    let contents = items.enumerate().map(((i, it)) => [*#labels.at(i).* #it #h(-1mm)#context { dotEX.get() }])
+    let contents = items
+      .enumerate()
+      .map(((i, it)) => [*#labels.at(i).* #it #h(-1mm)#context { dotEX.get() }])
     layout(size => {
       let gutter = 1em.to-absolute()
       let widths = contents.map(c => measure(c).width)
@@ -191,7 +213,9 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
       grid(
         columns: (1fr,) * colnum,
         column-gutter: gutter,
-        row-gutter: if khoangcach != none { khoangcach } else { par.leading + 0.6em },
+        row-gutter: if khoangcach != none { khoangcach } else {
+          par.leading + 0.6em
+        },
         ..contents
       )
     })
@@ -230,7 +254,9 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
   // Xuất nội dung
   if items.len() == 4 {
     parbreak()
-    let contents = items.enumerate().map(((i, it)) => [*#labels.at(i))* #it #h(-1mm)#context { dotEX.get() }])
+    let contents = items
+      .enumerate()
+      .map(((i, it)) => [*#labels.at(i))* #it #h(-1mm)#context { dotEX.get() }])
     layout(size => {
       let gutter = 1em.to-absolute()
       let widths = contents.map(c => measure(c).width)
@@ -251,7 +277,9 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
       grid(
         columns: (1fr,) * colnum,
         column-gutter: gutter,
-        row-gutter: if khoangcach != none { khoangcach } else { par.leading + 0.6em },
+        row-gutter: if khoangcach != none { khoangcach } else {
+          par.leading + 0.6em
+        },
         ..contents
       )
     })
@@ -266,7 +294,13 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
 }
 
 // choiceTF
-#let choiceTF(socot: none, dapan: none, kieu: none, khoangcach: none, ..answers) = {
+#let choiceTF(
+  socot: none,
+  dapan: none,
+  kieu: none,
+  khoangcach: none,
+  ..answers,
+) = {
   let items = answers.pos()
   let labels = ("a)", "b)", "c)", "d)")
   // Lưu đáp án
@@ -290,7 +324,9 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
   }
   // Xuất nội dung
   parbreak()
-  let contents = items.enumerate().map(((i, it)) => [*#labels.at(i)* #it #h(-1mm)#context { dotEX.get() }])
+  let contents = items
+    .enumerate()
+    .map(((i, it)) => [*#labels.at(i)* #it #h(-1mm)#context { dotEX.get() }])
   if kieu == "t" {
     table(
       columns: (1fr, auto, auto),
@@ -328,7 +364,9 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
       grid(
         columns: (1fr,) * colnum,
         column-gutter: gutter,
-        row-gutter: if khoangcach != none { khoangcach } else { par.leading + 0.6em },
+        row-gutter: if khoangcach != none { khoangcach } else {
+          par.leading + 0.6em
+        },
         ..contents
       )
     })
@@ -397,7 +435,14 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
 }
 
 // Lệnh xuất đáp án
-#let XuatDapAn(name, socot: 6, duongthang: 1pt + black, botron: 0.6em, khoangcach: 0.6em, maunen: white) = context {
+#let XuatDapAn(
+  name,
+  socot: 6,
+  duongthang: 1pt + black,
+  botron: 0.6em,
+  khoangcach: 0.6em,
+  maunen: white,
+) = context {
   let raw = query(<dapan-marker>).map(m => m.value).filter(v => v.name == name)
   if raw.len() == 0 { return }
   let parsed = raw.map(item => (cau: item.label, dapan: item.ans))
@@ -410,7 +455,11 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
     let usable-col-w = col-w - 2 * inset - 2pt // trừ 2 bên inset + stroke
     let spans = parsed.map(p => {
       let w = measure([*#p.cau* #p.dapan]).width
-      calc.clamp(calc.ceil(w.to-absolute() / usable-col-w.to-absolute()), 1, total-cols)
+      calc.clamp(
+        calc.ceil(w.to-absolute() / usable-col-w.to-absolute()),
+        1,
+        total-cols,
+      )
     })
     let rows = ()
     let current-row = ()
@@ -429,7 +478,9 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
     }
     if current-row.len() > 0 { rows.push(current-row) }
     for row in rows {
-      let col-sizes = row.map(item => (col-w * item.span,)).fold((), (acc, x) => acc + x)
+      let col-sizes = row
+        .map(item => (col-w * item.span,))
+        .fold((), (acc, x) => acc + x)
       grid(
         columns: col-sizes,
         align: left + top,
@@ -549,7 +600,12 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
   layout(size => {
     let gutter = 1em.to-absolute()
     let widths = contents_raw.map(it => (
-      calc.max(measure(box(it)).width, measure([*#falseEX*]).width, measure([*#trueEX*]).width) + 0.5em.to-absolute()
+      calc.max(
+        measure(box(it)).width,
+        measure([*#falseEX*]).width,
+        measure([*#trueEX*]).width,
+      )
+        + 0.5em.to-absolute()
     ))
     let maxw = calc.max(..widths)
     let safety = 1.08
@@ -593,7 +649,12 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
     } else {
       current_theorem_title.get()
     }
-    let fulllabel = label + if count != 0 { " " + str(count) } + if title != none { " (" + title + ")" } + "."
+    let fulllabel = (
+      label
+        + if count != 0 { " " + str(count) }
+        + if title != none { " (" + title + ")" }
+        + "."
+    )
     let shortlabel = label + if count != 0 { " " + str(count) } + "."
     let prefix = if type(titleStyle) == function {
       titleStyle(
@@ -604,7 +665,10 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
         title: title,
       )
     }
-    if not immini_at_start_state.get() or (in_theorem_state.get() and current_theorem_sochc.get().first() > 0) {
+    if (
+      not immini_at_start_state.get()
+        or (in_theorem_state.get() and current_theorem_sochc.get().first() > 0)
+    ) {
       text_content
     } else {
       prefix
@@ -639,7 +703,12 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
     } else {
       current_theorem_title.get()
     }
-    let fulllabel = label + if count != 0 { " " + str(count) } + if title != none { " (" + title + ")" } + "."
+    let fulllabel = (
+      label
+        + if count != 0 { " " + str(count) }
+        + if title != none { " (" + title + ")" }
+        + "."
+    )
     let shortlabel = label + if count != 0 { " " + str(count) } + "."
     let prefix = if type(titleStyle) == function {
       titleStyle(
@@ -650,7 +719,10 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
         title: title,
       )
     }
-    if not immini_at_start_state.get() or (in_theorem_state.get() and current_theorem_sochc.get().first() > 0) {
+    if (
+      not immini_at_start_state.get()
+        or (in_theorem_state.get() and current_theorem_sochc.get().first() > 0)
+    ) {
       text_content
     } else {
       prefix
@@ -676,11 +748,15 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
       (
         type(c) == content
           and not (
-            repr(c.func()) == "space" or c.func() == parbreak or (c.func() == text and c.text.trim() == "")
+            repr(c.func()) == "space"
+              or c.func() == parbreak
+              or (c.func() == text and c.text.trim() == "")
           )
       )
     })
-    if real-children.len() == 0 { false } else { starts-with-immini(real-children.first()) }
+    if real-children.len() == 0 { false } else {
+      starts-with-immini(real-children.first())
+    }
   } else if body.has("body") {
     starts-with-immini(body.body)
   } else if body.has("child") {
@@ -707,7 +783,10 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
       layout(size => {
         let body_size = measure(body, width: size.width)
         let socot_final = if colnum != none { colnum } else { 1 }
-        let n = calc.max(calc.ceil(body_size.height / par.leading.to-absolute() / 2), 1)
+        let n = calc.max(
+          calc.ceil(body_size.height / par.leading.to-absolute() / 2),
+          1,
+        )
         dotlineEX(n, socot: socot_final)
       })
     } else {
@@ -738,13 +817,17 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
   let count = context {
     let result = []
     if current_theorem_sochc.get().first() != 0 {
-      let theorem_cout = counter(current_theorem_name.get() + "_count").get().first()
+      let theorem_cout = counter(current_theorem_name.get() + "_count")
+        .get()
+        .first()
       let chc_count = counter("chc_count").get().first()
       let sochc_count = current_theorem_sochc.get().first()
       let result_count = theorem_cout + chc_count - sochc_count
       result = [#result_count]
     } else {
-      let theorem_cout = counter(current_theorem_name.get() + "_count").get().first()
+      let theorem_cout = counter(current_theorem_name.get() + "_count")
+        .get()
+        .first()
       let chc_count = counter("chc_count").get().first()
       if theorem_cout != 0 {
         result = [#numbering("1.a", theorem_cout, chc_count)]
@@ -826,7 +909,9 @@ Dựa trên cơ sở ý tưởng của ex_test, tôi đã làm gói lệnh này,
     let count = context {
       let result = [#counter(theoremName + "_count").get().first()]
       result
-      current_theorem_short_label.update([#theoremLabel #if numbered { result }.])
+      current_theorem_short_label.update(
+        [#theoremLabel #if numbered { result }.],
+      )
     }
     // Tạo label + Lưu label để có thể xử lý
     let full_label = context {

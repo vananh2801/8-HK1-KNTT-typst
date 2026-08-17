@@ -124,7 +124,12 @@
         content(B, [$B$], anchor: "south-west", padding: 3pt)
         content(C, [$C$], anchor: "north-west", padding: 3pt)
         content(D, [$D$], anchor: "north-east", padding: 3pt)
-        content((C, 50%, D), [$A B\/\/C D$ và $A D\/\/B C$], anchor: "north", padding: 15pt)
+        content(
+          (C, 50%, D),
+          [$A B\/\/C D$ và $A D\/\/B C$],
+          anchor: "north",
+          padding: 15pt,
+        )
       })
     ]
   - #immini()[
@@ -481,7 +486,11 @@
       #cetz.canvas(length: 0.3cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         let A = (0, 0)
         let B = (15, 0)
         let C = (15, -12)
@@ -550,7 +559,11 @@
       #cetz.canvas(length: 0.6cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), padding: 5pt)
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          padding: 5pt,
+        )
         let A = (0, 0)
         let B = (6, 0)
         let C = (6, -6)

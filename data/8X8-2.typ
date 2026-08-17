@@ -78,7 +78,11 @@
     #cetz.canvas(length: 0.9cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 3pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 3pt),
+      )
       let O = (0, 0)
       let R = 2.6 // Độ rộng
       let arr_value = (0, 24, 54, 64, 76, 100) // Các giá trị
@@ -107,8 +111,20 @@
         )
         content(
           (
-            O.at(0) + calc.cos(90deg - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2) * R * 0.7,
-            O.at(0) + calc.sin(90deg - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2) * R * 0.7,
+            O.at(0)
+              + calc.cos(
+                90deg
+                  - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2,
+              )
+                * R
+                * 0.7,
+            O.at(0)
+              + calc.sin(
+                90deg
+                  - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2,
+              )
+                * R
+                * 0.7,
           ),
           [
             #box(fill: white, inset: 2pt)[
@@ -125,7 +141,12 @@
       }
       content((O.at(0) + R + 1, O.at(1)), anchor: "west")[
         #for i in range(0, arr_name.len()) {
-          box(fill: arr_color.at(i), width: 1cm, height: 0.6cm, stroke: 1pt + black)
+          box(
+            fill: arr_color.at(i),
+            width: 1cm,
+            height: 0.6cm,
+            stroke: 1pt + black,
+          )
           h(1em)
           arr_name.at(i)
           linebreak()
@@ -176,7 +197,11 @@
       #cetz.canvas(length: 0.9cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 3pt))
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          content: (padding: 3pt),
+        )
         let O = (0, 0)
         let R = 2 // Độ rộng
         let arr_value = (0, 28, 50, 76, 100) // Các giá trị
@@ -205,8 +230,26 @@
           )
           content(
             (
-              O.at(0) + calc.cos(90deg - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2) * R * 0.6,
-              O.at(0) + calc.sin(90deg - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2) * R * 0.6,
+              O.at(0)
+                + calc.cos(
+                  90deg
+                    - 360deg
+                      / 100
+                      * (arr_value.at(i) + arr_value.at(i + 1))
+                      / 2,
+                )
+                  * R
+                  * 0.6,
+              O.at(0)
+                + calc.sin(
+                  90deg
+                    - 360deg
+                      / 100
+                      * (arr_value.at(i) + arr_value.at(i + 1))
+                      / 2,
+                )
+                  * R
+                  * 0.6,
             ),
             [
               #box(fill: white, inset: 2pt)[
@@ -223,7 +266,12 @@
         }
         content((O.at(0) + R + 1, O.at(1)), anchor: "west")[
           #for i in range(0, arr_name.len()) {
-            box(fill: arr_color.at(i), width: 1cm, height: 0.6cm, stroke: 1pt + black)
+            box(
+              fill: arr_color.at(i),
+              width: 1cm,
+              height: 0.6cm,
+              stroke: 1pt + black,
+            )
             h(1em)
             arr_name.at(i)
             linebreak()

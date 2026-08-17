@@ -28,7 +28,11 @@
         #cetz.canvas(length: 1cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+            content: (padding: 2pt),
+          )
           let A = (0, 0)
           let B = (1, -1)
           let C = (2, 0)
@@ -46,7 +50,11 @@
         #cetz.canvas(length: 1cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+            content: (padding: 2pt),
+          )
           let A = (0, 0)
           let B = (2, -1)
           let C = (1, 0)
@@ -64,7 +72,11 @@
         #cetz.canvas(length: 1cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+            content: (padding: 2pt),
+          )
           let A = (0, 0)
           let B = (2, -2)
           let C = (0, -2)
@@ -82,7 +94,11 @@
         #cetz.canvas(length: 1cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+            content: (padding: 2pt),
+          )
           let A = (0, 0)
           let B = (-1, -2)
           let C = (0.5, -2)
@@ -122,7 +138,11 @@
       #cetz.canvas(length: 0.5cm, {
         import cetz.draw: *
         import cetz.angle: *
-        set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 2pt))
+        set-style(
+          stroke: (thickness: 0.7pt, cap: "round"),
+          mark: (fill: black),
+          content: (padding: 2pt),
+        )
         let H = (0, 0)
         let Hx = (H.at(0) + calc.cos(55deg), H.at(0) + calc.sin(55deg))
         let Hy = (H.at(0) + calc.cos(0deg), H.at(0) + calc.sin(0deg))
@@ -133,10 +153,16 @@
         right-angle(G, H, F, label: none, radius: 0.3)
         right-angle(E, H, F, label: none, radius: 0.3)
         content(H, [$H$], anchor: "north-east")
-        content((H.at(0) + calc.cos(20deg) * 1.2, H.at(1) + calc.sin(20deg) * 1.2), [$55 degree$])
+        content(
+          (H.at(0) + calc.cos(20deg) * 1.2, H.at(1) + calc.sin(20deg) * 1.2),
+          [$55 degree$],
+        )
         content(G, [$G$], anchor: "north-west")
         content(F, [$F$], anchor: "south-west")
-        content((F.at(0) + calc.cos(220deg) * 0.5, F.at(1) + calc.sin(220deg) * 0.5), [?])
+        content(
+          (F.at(0) + calc.cos(220deg) * 0.5, F.at(1) + calc.sin(220deg) * 0.5),
+          [?],
+        )
         content(E, [$E$], anchor: "south")
       })
     ]
@@ -157,7 +183,10 @@
         #cetz.canvas(length: 0.8cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           hide({
             line((0, 0), (rel: (angle: 60deg, radius: 2.2)), name: "AB")
             line("AB.end", (rel: (angle: 0deg, radius: 1.8)), name: "BC")
@@ -186,7 +215,10 @@
         #cetz.canvas(length: 1cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           hide({
             line((4.5, 0), (rel: (angle: 0deg, radius: 2.5)), name: "HG")
             line("HG.end", (rel: (angle: 90deg, radius: 1.8)), name: "GF")
@@ -213,7 +245,10 @@
         #cetz.canvas(length: 1cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           hide({
             line((8.5, 0), (rel: (angle: 0deg, radius: 2.5)), name: "AE")
             line("AE.start", (rel: (angle: 65deg, radius: 2.2)), name: "AB3")
@@ -246,7 +281,10 @@
         #cetz.canvas(length: 1cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           hide({
             line((13.0, 0), (rel: (angle: 0deg, radius: 2.5)), name: "NM")
             line("NM.end", (rel: (angle: 105deg, radius: 2.2)), name: "MK")
@@ -282,7 +320,10 @@
         #cetz.canvas(length: 0.9cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           hide({
             line((0, 2), (rel: (angle: 0deg, radius: 2.8)), name: "PS")
             line("PS.end", (rel: (angle: 245deg, radius: 2.5)), name: "SR")
@@ -313,7 +354,10 @@
         #cetz.canvas(length: 0.8cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           hide({
             line((0, 0), (rel: (angle: 0deg, radius: 4.5)), name: "QP")
             line("QP.start", (rel: (angle: 72deg, radius: 2.2)), name: "QM")
@@ -375,12 +419,30 @@
         content(D3, [$D$], anchor: "north", padding: 5pt)
         content((rel: (angle: 0deg, radius: 1.0), to: C3), [$60 degree$])
         content((rel: (angle: 180deg, radius: 0.8), to: A3), [$100 degree$])
-        line((rel: (angle: 120deg, radius: 0.1), to: (C3, 50%, B3)), (rel: (angle: -60deg, radius: 0.2)))
-        line((rel: (angle: 120deg, radius: 0.1), to: (C3, 53%, B3)), (rel: (angle: -60deg, radius: 0.2)))
-        line((rel: (angle: 60deg, radius: 0.1), to: (C3, 50%, D3)), (rel: (angle: -120deg, radius: 0.2)))
-        line((rel: (angle: 60deg, radius: 0.1), to: (C3, 53%, D3)), (rel: (angle: -120deg, radius: 0.2)))
-        line((rel: (angle: 40deg, radius: 0.1), to: (B3, 50%, A3)), (rel: (angle: -140deg, radius: 0.2)))
-        line((rel: (angle: 140deg, radius: 0.1), to: (D3, 50%, A3)), (rel: (angle: -40deg, radius: 0.2)))
+        line(
+          (rel: (angle: 120deg, radius: 0.1), to: (C3, 50%, B3)),
+          (rel: (angle: -60deg, radius: 0.2)),
+        )
+        line(
+          (rel: (angle: 120deg, radius: 0.1), to: (C3, 53%, B3)),
+          (rel: (angle: -60deg, radius: 0.2)),
+        )
+        line(
+          (rel: (angle: 60deg, radius: 0.1), to: (C3, 50%, D3)),
+          (rel: (angle: -120deg, radius: 0.2)),
+        )
+        line(
+          (rel: (angle: 60deg, radius: 0.1), to: (C3, 53%, D3)),
+          (rel: (angle: -120deg, radius: 0.2)),
+        )
+        line(
+          (rel: (angle: 40deg, radius: 0.1), to: (B3, 50%, A3)),
+          (rel: (angle: -140deg, radius: 0.2)),
+        )
+        line(
+          (rel: (angle: 140deg, radius: 0.1), to: (D3, 50%, A3)),
+          (rel: (angle: -40deg, radius: 0.2)),
+        )
       })
     ]
   ]
@@ -397,11 +459,22 @@
           #cetz.canvas(length: 0.8cm, {
             import cetz.draw: *
             import cetz.angle: *
-            set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+            set-style(
+              stroke: (thickness: 0.7pt, cap: "round"),
+              mark: (fill: black),
+            )
             hide({
               line((0, 0), (4, 0), name: "AD")
-              line("AD.start", (rel: (angle: 75deg, radius: 2.5)), name: "rayAB")
-              line("rayAB.end", (rel: (angle: -15deg, radius: 4)), name: "rayBC")
+              line(
+                "AD.start",
+                (rel: (angle: 75deg, radius: 2.5)),
+                name: "rayAB",
+              )
+              line(
+                "rayAB.end",
+                (rel: (angle: -15deg, radius: 4)),
+                name: "rayBC",
+              )
               line("AD.end", (rel: (angle: 105deg, radius: 4)), name: "rayDC")
             })
             intersections("C1", "rayBC", "rayDC")
@@ -418,8 +491,16 @@
             content(B1, [$B$], anchor: "east", padding: 5pt)
             content(C1, [$C$], anchor: "south", padding: 5pt)
             content(D1, [$D$], anchor: "south-west", padding: 5pt)
-            content((rel: (angle: 30.5deg, radius: 0.55), to: A1), [$75 degree$], size: 8pt)
-            content((rel: (angle: 215deg, radius: 0.55), to: C1), [$120 degree$], size: 8pt)
+            content(
+              (rel: (angle: 30.5deg, radius: 0.55), to: A1),
+              [$75 degree$],
+              size: 8pt,
+            )
+            content(
+              (rel: (angle: 215deg, radius: 0.55), to: C1),
+              [$120 degree$],
+              size: 8pt,
+            )
             line(
               (rel: (angle: -105deg, radius: 0.2), to: B1),
               (rel: (angle: -15deg, radius: 0.2)),
@@ -440,7 +521,10 @@
           #cetz.canvas(length: 0.8cm, {
             import cetz.draw: *
             import cetz.angle: *
-            set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+            set-style(
+              stroke: (thickness: 0.7pt, cap: "round"),
+              mark: (fill: black),
+            )
             hide({
               line((0, 0), (rel: (angle: 75deg, radius: 2.2)), name: "DA2")
               line("DA2.end", (rel: (angle: -10deg, radius: 2.5)), name: "AB2")

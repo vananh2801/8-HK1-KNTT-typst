@@ -99,7 +99,11 @@ Trong thực tế, ta thường gặp các hành động, thực nghiệm mà k�
     #cetz.canvas(length: 0.9cm, {
       import cetz.draw: *
       import cetz.angle: *
-      set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black), content: (padding: 3pt))
+      set-style(
+        stroke: (thickness: 0.7pt, cap: "round"),
+        mark: (fill: black),
+        content: (padding: 3pt),
+      )
       let O = (0, 0)
       let R = 2.6 // Độ rộng
       let arr_value = (0, 12.5, 25, 37.5, 50, 62.5, 75, 87.5, 100) // Các giá trị
@@ -130,8 +134,20 @@ Trong thực tế, ta thường gặp các hành động, thực nghiệm mà k�
         )
         content(
           (
-            O.at(0) + calc.cos(90deg - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2) * R * 0.7,
-            O.at(0) + calc.sin(90deg - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2) * R * 0.7,
+            O.at(0)
+              + calc.cos(
+                90deg
+                  - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2,
+              )
+                * R
+                * 0.7,
+            O.at(0)
+              + calc.sin(
+                90deg
+                  - 360deg / 100 * (arr_value.at(i) + arr_value.at(i + 1)) / 2,
+              )
+                * R
+                * 0.7,
           ),
           [
             #box(fill: white, inset: 3pt, radius: 5pt, stroke: 1pt + black)[
@@ -141,7 +157,12 @@ Trong thực tế, ta thường gặp các hành động, thực nghiệm mà k�
           ],
         )
       }
-      line((O), (rel: (110deg, R / 2), to: O), mark: (end: "stealth"), stroke: 5pt + black)
+      line(
+        (O),
+        (rel: (110deg, R / 2), to: O),
+        mark: (end: "stealth"),
+        stroke: 5pt + black,
+      )
     })
   ]
 ]

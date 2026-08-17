@@ -32,8 +32,20 @@
       content(H, [$H$], anchor: "north", padding: 3pt)
       content((A, 50%, B), [đáy nhỏ], anchor: "south", padding: 3pt)
       content((C, 50%, D), [đáy lớn], anchor: "north", padding: 3pt)
-      content((A, 50%, D), [cạnh bên], anchor: "south", padding: 3pt, angle: 63deg)
-      content((B, 50%, C), [cạnh bên], anchor: "south", padding: 3pt, angle: -45deg)
+      content(
+        (A, 50%, D),
+        [cạnh bên],
+        anchor: "south",
+        padding: 3pt,
+        angle: 63deg,
+      )
+      content(
+        (B, 50%, C),
+        [cạnh bên],
+        anchor: "south",
+        padding: 3pt,
+        angle: -45deg,
+      )
       content((A, 50%, H), [đường cao], anchor: "west", padding: 3pt)
     })
   ]
@@ -198,7 +210,10 @@
         #cetz.canvas(length: 0.7cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           let D = (0, 0)
           let A = (1.5, 2.5)
           let B = (4.0, 2.5)
@@ -213,7 +228,11 @@
           content(B, [$B$], anchor: "south", padding: 5pt)
           content(C, [$C$], anchor: "west", padding: 5pt)
           content(D, [$D$], anchor: "east", padding: 5pt)
-          content((rel: (angle: 250deg, radius: 0.4), to: B), [$140 degree$], size: 8pt)
+          content(
+            (rel: (angle: 250deg, radius: 0.4), to: B),
+            [$140 degree$],
+            size: 8pt,
+          )
           content((rel: (angle: 160deg, radius: 0.4), to: C), [$x$], size: 8pt)
           content((rel: (0, -0.4), to: (D, 50%, C)), [$A B\/\/C D$], size: 9pt)
         })
@@ -224,7 +243,10 @@
         #cetz.canvas(length: 0.7cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           let M = (0, 0)
           let Q = (0, 2.5)
           let N = (rel: (angle: -30deg, radius: 3.5), to: M)
@@ -241,10 +263,21 @@
           content(P, [$P$], anchor: "west", padding: 5pt)
           content(Q, [$Q$], anchor: "south-east", padding: 5pt)
           content((rel: (angle: 30deg, radius: 0.5), to: M), [$x$], size: 8pt)
-          content((rel: (angle: -60deg, radius: 0.8), to: Q), [$60 degree$], size: 8pt)
+          content(
+            (rel: (angle: -60deg, radius: 0.8), to: Q),
+            [$60 degree$],
+            size: 8pt,
+          )
           content((rel: (angle: 185deg, radius: 0.5), to: P), [$y$], size: 8pt)
-          content((rel: (angle: 5deg, radius: 0.7), to: N), [$70 degree$], size: 8pt)
-          content((rel: (angle: -120deg, radius: 1), to: (M, 50%, N)), [$M N\/\/P Q$])
+          content(
+            (rel: (angle: 5deg, radius: 0.7), to: N),
+            [$70 degree$],
+            size: 8pt,
+          )
+          content(
+            (rel: (angle: -120deg, radius: 1), to: (M, 50%, N)),
+            [$M N\/\/P Q$],
+          )
         })
       ]
     + #box[
@@ -253,7 +286,10 @@
         #cetz.canvas(length: 0.9cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           let I = (0, 0)
           hide({
             line(I, (rel: (angle: 36deg, radius: 2.8)), name: "rayIH")
@@ -275,8 +311,16 @@
           content(G, [$G$], anchor: "south", padding: 5pt)
           content(K, [$K$], anchor: "west", padding: 5pt)
           content((rel: (angle: 22deg, radius: 0.6), to: I), [$x$], size: 8pt)
-          content((rel: (angle: -72deg, radius: 0.35), to: H), [$4x$], size: 8pt)
-          content((rel: (angle: -126deg, radius: 0.4), to: G), [$3x$], size: 8pt)
+          content(
+            (rel: (angle: -72deg, radius: 0.35), to: H),
+            [$4x$],
+            size: 8pt,
+          )
+          content(
+            (rel: (angle: -126deg, radius: 0.4), to: G),
+            [$3x$],
+            size: 8pt,
+          )
           content((rel: (angle: 144deg, radius: 0.5), to: K), [$2x$], size: 8pt)
           content((rel: (0, -0.4), to: (I, 50%, K)), [HG\/\/IK], size: 9pt)
         })
@@ -287,7 +331,10 @@
         #cetz.canvas(length: 0.7cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           let S = (0, 0)
           let T = (4.5, 0)
           let V = (0, 1.8)
@@ -320,7 +367,10 @@
         #cetz.canvas(length: 0.7cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           let D = (0, 0)
           hide({
             line(D, (rel: (angle: 80deg, radius: 2.5)), name: "rayDA")
@@ -341,8 +391,16 @@
           content(B, [$B$], anchor: "south", padding: 5pt)
           content(C, [$C$], anchor: "north", padding: 5pt)
           content(D, [$D$], anchor: "north", padding: 5pt)
-          content((rel: (angle: 30deg, radius: 0.6), to: D), [$80 degree$], size: 8pt)
-          content((rel: (angle: 200deg, radius: 0.8), to: B), [$40 degree$], size: 8pt)
+          content(
+            (rel: (angle: 30deg, radius: 0.6), to: D),
+            [$80 degree$],
+            size: 8pt,
+          )
+          content(
+            (rel: (angle: 200deg, radius: 0.8), to: B),
+            [$40 degree$],
+            size: 8pt,
+          )
           content((rel: (angle: -50deg, radius: 0.35), to: A), [$x$], size: 8pt)
           content((rel: (angle: 110deg, radius: 0.4), to: C), [$y$], size: 8pt)
         })
@@ -353,7 +411,10 @@
         #cetz.canvas(length: 0.7cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           let A = (0, 0)
           hide({
             line(A, (rel: (angle: 0deg, radius: 2.5)), name: "rayAD")
@@ -377,8 +438,16 @@
           content(B, [$B$], anchor: "east", padding: 5pt)
           content(C, [$C$], anchor: "south-west", padding: 5pt)
           content(D, [$D$], anchor: "north-west", padding: 5pt)
-          content((rel: (angle: 40deg, radius: 0.8), to: B), [$50 degree$], size: 8pt)
-          content((rel: (angle: 30deg, radius: 0.7), to: D), [$70 degree$], size: 8pt)
+          content(
+            (rel: (angle: 40deg, radius: 0.8), to: B),
+            [$50 degree$],
+            size: 8pt,
+          )
+          content(
+            (rel: (angle: 30deg, radius: 0.7), to: D),
+            [$70 degree$],
+            size: 8pt,
+          )
           content((rel: (angle: 40deg, radius: 0.55), to: A), [$x$], size: 8pt)
           content((rel: (angle: 225deg, radius: 0.5), to: C), [$y$], size: 8pt)
         })
@@ -389,7 +458,10 @@
         #cetz.canvas(length: 0.7cm, {
           import cetz.draw: *
           import cetz.angle: *
-          set-style(stroke: (thickness: 0.7pt, cap: "round"), mark: (fill: black))
+          set-style(
+            stroke: (thickness: 0.7pt, cap: "round"),
+            mark: (fill: black),
+          )
           let D = (0, 0)
           hide({
             line(D, (rel: (angle: 0deg, radius: 3.5)), name: "rayDC")
@@ -411,7 +483,11 @@
           content(B, [$B$], anchor: "south-west", padding: 5pt)
           content(C, [$C$], anchor: "north-west", padding: 5pt)
           content(D, [$D$], anchor: "north-east", padding: 5pt)
-          content((rel: (angle: -25deg, radius: 0.7), to: A), [$65 degree$], size: 8pt)
+          content(
+            (rel: (angle: -25deg, radius: 0.7), to: A),
+            [$65 degree$],
+            size: 8pt,
+          )
           content((rel: (angle: 55deg, radius: 0.4), to: D), [$y$], size: 8pt)
           content((rel: (angle: 225deg, radius: 0.4), to: B), [$x$], size: 8pt)
         })
